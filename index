@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Sol de Occidente</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #0d1a3a;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .logo {
+      max-width: 150px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+
+    .video {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .galeria {
+      padding: 2rem 1rem;
+      background-color: white;
+      text-align: center;
+    }
+
+    .carousel {
+      position: relative;
+      max-width: 720px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .carousel-images {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-images img {
+      width: 100%;
+      flex-shrink: 0;
+    }
+
+    .carousel-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .carousel-buttons button {
+      margin: 0 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #0d1a3a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #0d1a3a;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Portal Sol de Occidente" class="logo">
+    <h1>Bienvenido a Portal Sol de Occidente</h1>
+    <p>Confortable y privado, tu nuevo hogar te espera</p>
+  </header>
+
+  <section class="video">
+    <h2>Conoce el proyecto</h2>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UJKqewleNxg" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section class="galeria">
+    <h2>Galería</h2>
+    <div class="carousel">
+      <div class="carousel-images" id="carousel-images">
+        <img src="C1.jpg" alt="Imagen 1">
+        <img src="C2.jpg" alt="Imagen 2">
+        <img src="C3.jpg" alt="Imagen 3">
+        <img src="C4.jpg" alt="Imagen 4">
+        <img src="C5.jpg" alt="Imagen 5">
+        <img src="C6.jpg" alt="Imagen 6">
+      </div>
+    </div>
+    <div class="carousel-buttons">
+      <button onclick="moveSlide(-1)">&#8592;</button>
+      <button onclick="moveSlide(1)">&#8594;</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contáctanos: WhatsApp +57 313 3954816</p>
+  </footer>
+
+  <script>
+    let index = 0;
+    const images = document.getElementById('carousel-images');
+    const total = images.children.length;
+
+    function moveSlide(step) {
+      index = (index + step + total) % total;
+      images.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    // Transición automática cada 4 segundos
+    setInterval(() => moveSlide(1), 4000);
+  </script>
+</body>
+</html>

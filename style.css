@@ -18,34 +18,6 @@ html {
   padding: 8px 20px;
 }
 
-/* ===== NAVBAR ===== */
-.navbar {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 70px 20px 20px; /* espacio para logo */
-  background: #e6e6e6;
-}
-
-/* ===== LOGO ===== */
-.logo-container {
-  position: absolute;
-  top: -80px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-}
-
-.logo-circle {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 6px solid #FFD700;
-  background: black;
-  object-fit: cover;
-}
-
 /* ===== MENU ===== */
 .menu {
   list-style: none;

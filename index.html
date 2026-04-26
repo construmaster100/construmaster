@@ -105,14 +105,23 @@
     <p>Casas modulares y proyectos de construccíon.</p>
   </header>
 
-  <section class="video">
-    <h2>Conoce el proyecto</h2>
-    <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UJKqewleNxg" 
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<section class="video">
+  <h2>Videos del proyecto</h2>
+
+  <div class="video-slider">
+    <button class="prev" onclick="cambiarVideo(-1)">❮</button>
+
+    <div class="video-frame">
+      <iframe id="videoPlayer"
+        src="https://www.youtube.com/embed/UJKqewleNxg"
+        frameborder="0"
+        allowfullscreen>
       </iframe>
     </div>
-  </section>
+
+    <button class="next" onclick="cambiarVideo(1)">❯</button>
+  </div>
+</section>
 
   <section class="galeria">
     <h2>Galería</h2>
@@ -148,6 +157,20 @@
 
     // Transición automática cada 4 segundos
     setInterval(() => moveSlide(1), 4000);
+   const videos = [
+    "UJKqewleNxg",
+    "VIDEO2",
+    "VIDEO3"
+  ];
+
+  let indice = 0;
+
+  function cambiarVideo(direccion) {
+    indice = (indice + direccion + videos.length) % videos.length;
+
+    document.getElementById("videoPlayer").src =
+      "https://www.youtube.com/embed/" + videos[indice];
+  }
   </script>
 </body>
 </html>

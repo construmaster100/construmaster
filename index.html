@@ -4,165 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Construmaster</title>
-
-<style>
-/* ===== BASE ===== */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #FFD700;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-/* ===== TOP BAR ===== */
-.topbar {
-  background: black;
-  color: white;
-  text-align: right;
-  padding: 8px 20px;
-}
-
-/* ===== NAVBAR ===== */
-.navbar {
-  background: #e6e6e6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 20px 20px; /* espacio arriba para logo */
-  position: relative;
-  overflow: visible;
-}
-
-/* ===== LOGO ===== */
-.logo-container {
-  position: absolute;
-  top: -70px;
-  left: 40px;
-  z-index: 10;
-}
-
-.logo-circle {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 6px solid #FFD700;
-  background: black;
-  object-fit: cover;
-}
-
-/* ===== MENU ===== */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  position: relative;
-}
-
-.menu a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  padding: 10px;
-  display: block;
-}
-
-/* SUBMENU */
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: black;
-  list-style: none;
-  padding: 0;
-  min-width: 150px;
-}
-
-.submenu li a {
-  color: white;
-  padding: 10px;
-}
-
-.menu li:hover .submenu {
-  display: block;
-}
-
-.submenu li a:hover {
-  background: #FFD700;
-  color: black;
-}
-
-/* ===== CONTENIDO ===== */
-main {
-  background: black;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 40px 0;
-  color: white;
-  text-align: center;
-  overflow: visible;
-}
-
-/* VIDEO */
-.video-slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-.video-frame {
-  border: 8px solid #FFD700;
-  border-radius: 12px;
-}
-
-.video-frame iframe {
-  width: 720px;
-  max-width: 100%;
-  height: 400px;
-  display: block;
-}
-
-.prev, .next {
-  background: transparent;
-  color: white;
-  font-size: 40px;
-  border: none;
-  cursor: pointer;
-}
-
-/* FOOTER */
-footer {
-  background: black;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-</style>
-
+<link rel="stylesheet" href="style.css"> <!-- tu CSS -->
 </head>
 
 <body>
 
-<!-- TOP -->
-<header class="topbar">
+<!-- TOP BAR -->
+<div class="topbar">
   Contacto: construmaster@gmail.com
-</header>
+</div>
 
-<!-- NAV -->
+<!-- NAVBAR -->
 <nav class="navbar">
+
+  <!-- LOGO -->
   <div class="logo-container">
     <img src="logo.png" class="logo-circle">
   </div>
 
+  <!-- MENU -->
   <ul class="menu">
     <li>
       <a href="#inicio">INICIO</a>
@@ -174,7 +34,7 @@ footer {
     </li>
 
     <li>
-      <a href="#">Proyectos</a>
+      <a href="#proyectos">Proyectos</a>
       <ul class="submenu">
         <li><a href="#">Opción 1</a></li>
         <li><a href="#">Opción 2</a></li>
@@ -183,7 +43,7 @@ footer {
     </li>
 
     <li>
-      <a href="#">Licencias</a>
+      <a href="#licencias">Licencias</a>
       <ul class="submenu">
         <li><a href="#">Opción 1</a></li>
         <li><a href="#">Opción 2</a></li>
@@ -192,7 +52,7 @@ footer {
     </li>
 
     <li>
-      <a href="#">Cotizar</a>
+      <a href="#cotizar">Cotizar</a>
       <ul class="submenu">
         <li><a href="#">Opción 1</a></li>
         <li><a href="#">Opción 2</a></li>
@@ -205,28 +65,61 @@ footer {
 <!-- CONTENIDO -->
 <main>
 
-<h2 id="inicio">Inicio</h2>
+  <!-- INICIO -->
+  <section id="inicio" class="video">
+    <h2>Inicio</h2>
 
-<div class="video-slider">
-  <button class="prev" onclick="cambiarVideo(-1)">❮</button>
+    <div class="video-slider">
+      <button class="prev" onclick="cambiarVideo(-1)">❮</button>
 
-  <div class="video-frame">
-    <iframe id="videoPlayer"
-      src="https://www.youtube.com/embed/UJKqewleNxg"
-      allowfullscreen>
-    </iframe>
-  </div>
+      <div class="video-frame">
+        <iframe id="videoPlayer"
+          src="https://www.youtube.com/embed/UJKqewleNxg"
+          allowfullscreen>
+        </iframe>
+      </div>
 
-  <button class="next" onclick="cambiarVideo(1)">❯</button>
-</div>
+      <button class="next" onclick="cambiarVideo(1)">❯</button>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="proyectos" class="galeria">
+    <h2>Galería</h2>
+
+    <div class="carousel">
+      <div class="carousel-images" id="carousel">
+        <img src="C1.jpg">
+        <img src="C2.jpg">
+        <img src="C3.jpg">
+      </div>
+    </div>
+
+    <div class="carousel-buttons">
+      <button onclick="moveSlide(-1)">⬅</button>
+      <button onclick="moveSlide(1)">➡</button>
+    </div>
+  </section>
+
+  <!-- LICENCIAS -->
+  <section id="licencias">
+    <h2>Licencias</h2>
+  </section>
+
+  <!-- COTIZAR -->
+  <section id="cotizar">
+    <h2>Cotizar</h2>
+  </section>
 
 </main>
 
+<!-- FOOTER -->
 <footer>
   WhatsApp: +57 313 3954816
 </footer>
 
 <script>
+/* VIDEO */
 const videos = ["UJKqewleNxg"];
 let i = 0;
 
@@ -234,6 +127,15 @@ function cambiarVideo(dir) {
   i = (i + dir + videos.length) % videos.length;
   document.getElementById("videoPlayer").src =
     "https://www.youtube.com/embed/" + videos[i];
+}
+
+/* GALERIA */
+let index = 0;
+function moveSlide(step) {
+  const carousel = document.getElementById("carousel");
+  const total = carousel.children.length;
+  index = (index + step + total) % total;
+  carousel.style.transform = `translateX(-${index * 100}%)`;
 }
 </script>
 

@@ -1,176 +1,241 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CONSTRUMASTER</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #FFD700; /* amarillo */
-  color: black;}
-    header  {
-  background-color: #FFD700; /* amarillo */
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construmaster</title>
+
+<style>
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #FFD700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== TOP BAR ===== */
+.topbar {
+  background: black;
+  color: white;
+  text-align: right;
+  padding: 8px 20px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px 20px; /* espacio arriba para logo */
+  position: relative;
+  overflow: visible;
+}
+
+/* ===== LOGO ===== */
+.logo-container {
+  position: absolute;
+  top: -70px;
+  left: 40px;
+  z-index: 10;
+}
+
+.logo-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid #FFD700;
+  background: black;
+  object-fit: cover;
+}
+
+/* ===== MENU ===== */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+}
+
+/* SUBMENU */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: black;
+  list-style: none;
+  padding: 0;
+  min-width: 150px;
+}
+
+.submenu li a {
+  color: white;
+  padding: 10px;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu li a:hover {
+  background: #FFD700;
   color: black;
 }
-      text-align: center;
-      padding: 2rem 1rem;
-    }
 
-    .logo {
-      max-width: 150px;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin: 0.5rem 0;
-    }
-
-    p {
-      font-size: 1rem;
-      margin: 0.5rem 0;
-    }
-
-    .video {
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-
-    .video-container iframe {
-      width: 100%;
-      max-width: 720px;
-      height: 400px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-
-    .galeria {
-      padding: 2rem 1rem;
-      background-color: white;
-      text-align: center;
-    }
-
-    .carousel {
-      position: relative;
-      max-width: 720px;
-      margin: 0 auto;
-      overflow: hidden;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .carousel-images {
-      display: flex;
-      transition: transform 0.5s ease-in-out;
-    }
-
-    .carousel-images img {
-      width: 100%;
-      flex-shrink: 0;
-    }
-
-    .carousel-buttons {
-      display: flex;
-      justify-content: center;
-      margin-top: 1rem;
-    }
-
-    .carousel-buttons button {
-      margin: 0 0.5rem;
-      padding: 0.5rem 1rem;
-      background-color: #0d1a3a;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    footer {
-      text-align: center;
-      {
-  background-color: #FFD700;
-  color: black;
+/* ===== CONTENIDO ===== */
+main {
+  background: black;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+  color: white;
+  text-align: center;
+  overflow: visible;
 }
-      padding: 1rem;
-    }
-  </style>
+
+/* VIDEO */
+.video-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.video-frame {
+  border: 8px solid #FFD700;
+  border-radius: 12px;
+}
+
+.video-frame iframe {
+  width: 720px;
+  max-width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.prev, .next {
+  background: transparent;
+  color: white;
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
+
 </head>
+
 <body>
-  <header>
-    <img src="logo.png" alt="" class="logo">
-    <h1>Construmaster</h1>
-    <p>Casas modulares y proyectos de construccíon.</p>
-  </header>
 
-<section class="video">
-  <h2>Videos del proyecto</h2>
+<!-- TOP -->
+<header class="topbar">
+  Contacto: construmaster@gmail.com
+</header>
 
-  <div class="video-slider">
-    <button class="prev" onclick="cambiarVideo(-1)">❮</button>
-
-    <div class="video-frame">
-      <iframe id="videoPlayer"
-        src="https://www.youtube.com/embed/UJKqewleNxg"
-        frameborder="0"
-        allowfullscreen>
-      </iframe>
-    </div>
-
-    <button class="next" onclick="cambiarVideo(1)">❯</button>
+<!-- NAV -->
+<nav class="navbar">
+  <div class="logo-container">
+    <img src="logo.png" class="logo-circle">
   </div>
-</section>
 
-  <section class="galeria">
-    <h2>Galería</h2>
-    <div class="carousel">
-      <div class="carousel-images" id="carousel-images">
-        <img src="C1.jpg" alt="Imagen 1">
-        <img src="C2.jpg" alt="Imagen 2">
-        <img src="C3.jpg" alt="Imagen 3">
-        <img src="C4.jpg" alt="Imagen 4">
-        <img src="C5.jpg" alt="Imagen 5">
-        <img src="C6.jpg" alt="Imagen 6">
-      </div>
-    </div>
-    <div class="carousel-buttons">
-      <button onclick="moveSlide(-1)">&#8592;</button>
-      <button onclick="moveSlide(1)">&#8594;</button>
-    </div>
-  </section>
+  <ul class="menu">
+    <li>
+      <a href="#inicio">INICIO</a>
+      <ul class="submenu">
+        <li><a href="#">Opción 1</a></li>
+        <li><a href="#">Opción 2</a></li>
+        <li><a href="#">Opción 3</a></li>
+      </ul>
+    </li>
 
-  <footer>
-    <p>Contáctanos: WhatsApp +57 313 3954816</p>
-  </footer>
+    <li>
+      <a href="#">Proyectos</a>
+      <ul class="submenu">
+        <li><a href="#">Opción 1</a></li>
+        <li><a href="#">Opción 2</a></li>
+        <li><a href="#">Opción 3</a></li>
+      </ul>
+    </li>
 
-  <script>
-    let index = 0;
-    const images = document.getElementById('carousel-images');
-    const total = images.children.length;
+    <li>
+      <a href="#">Licencias</a>
+      <ul class="submenu">
+        <li><a href="#">Opción 1</a></li>
+        <li><a href="#">Opción 2</a></li>
+        <li><a href="#">Opción 3</a></li>
+      </ul>
+    </li>
 
-    function moveSlide(step) {
-      index = (index + step + total) % total;
-      images.style.transform = `translateX(-${index * 100}%)`;
-    }
+    <li>
+      <a href="#">Cotizar</a>
+      <ul class="submenu">
+        <li><a href="#">Opción 1</a></li>
+        <li><a href="#">Opción 2</a></li>
+        <li><a href="#">Opción 3</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
-    // Transición automática cada 4 segundos
-    setInterval(() => moveSlide(1), 4000);
-   const videos = [
-    "UJKqewleNxg",
-    "VIDEO2",
-    "VIDEO3"
-  ];
+<!-- CONTENIDO -->
+<main>
 
-  let indice = 0;
+<h2 id="inicio">Inicio</h2>
 
-  function cambiarVideo(direccion) {
-    indice = (indice + direccion + videos.length) % videos.length;
+<div class="video-slider">
+  <button class="prev" onclick="cambiarVideo(-1)">❮</button>
 
-    document.getElementById("videoPlayer").src =
-      "https://www.youtube.com/embed/" + videos[indice];
-  }
-  </script>
+  <div class="video-frame">
+    <iframe id="videoPlayer"
+      src="https://www.youtube.com/embed/UJKqewleNxg"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <button class="next" onclick="cambiarVideo(1)">❯</button>
+</div>
+
+</main>
+
+<footer>
+  WhatsApp: +57 313 3954816
+</footer>
+
+<script>
+const videos = ["UJKqewleNxg"];
+let i = 0;
+
+function cambiarVideo(dir) {
+  i = (i + dir + videos.length) % videos.length;
+  document.getElementById("videoPlayer").src =
+    "https://www.youtube.com/embed/" + videos[i];
+}
+</script>
+
 </body>
 </html>

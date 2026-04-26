@@ -74,7 +74,7 @@
 
       <div class="video-frame">
         <iframe id="videoPlayer"
-          src="https://www.youtube.com/embed/UJKqewleNxg","https://www.youtube.com/watch?v=okYBe2YB1sk","https://youtu.be/skr-vwGVKH8?si=atwDaKaa7DQDkYJS"
+          src="https://www.youtube.com/embed/UJKqewleNxg"
           allowfullscreen>
         </iframe>
       </div>
@@ -125,8 +125,10 @@ let i = 0;
 
 function cambiarVideo(dir) {
   i = (i + dir + videos.length) % videos.length;
-  document.getElementById("videoPlayer").src =
-    "https://www.youtube.com/embed/" + videos[i];
+
+  const player = document.getElementById("videoPlayer");
+  player.src = ""; // limpia primero
+  player.src = "https://www.youtube.com/embed/" + videos[i];
 }
 
 /* GALERIA */

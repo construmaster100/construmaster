@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construmaster – Documentación del Proyecto</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --naranja: #E8610A;
+    --naranja-oscuro: #B84C06;
+    --gris-oscuro: #1A1A1A;
+    --gris-medio: #2C2C2C;
+    --gris-panel: #242424;
+    --gris-borde: #3A3A3A;
+    --blanco: #F5F2EE;
+    --texto-suave: #A0998E;
+    --sidebar-w: 310px;
+    --topbar-h: 38px;
+    --navbar-h: 64px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--gris-oscuro);
+    color: var(--blanco);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── TOP BAR ── */
+  .topbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    height: var(--topbar-h);
+    background: var(--naranja);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px; letter-spacing: 0.08em;
+    color: #fff;
+  }
+
+  /* ── NAVBAR ── */
+  .navbar {
+    position: fixed;
+    top: var(--topbar-h); left: 0; right: 0; z-index: 99;
+    height: var(--navbar-h);
+    background: var(--gris-oscuro);
+    border-bottom: 1px solid var(--gris-borde);
+    display: flex; align-items: center;
+    padding: 0 28px;
+    gap: 24px;
+  }
+
+  .logo-container { display: flex; align-items: center; gap: 12px; }
+  .logo-circle {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    border: 2px solid var(--naranja);
+    object-fit: cover;
+    background: var(--naranja);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+  }
+  .logo-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    color: var(--blanco);
+  }
+  .logo-text span { color: var(--naranja); }
+
+  .nav-right {
+    margin-left: auto;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .nav-btn {
+    padding: 7px 18px;
+    border-radius: 4px;
+    font-size: 13px; font-weight: 500;
+    cursor: pointer; border: none;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+  .nav-btn-ghost {
+    background: transparent;
+    color: var(--texto-suave);
+    border: 1px solid var(--gris-borde);
+  }
+  .nav-btn-ghost:hover { color: var(--blanco); border-color: #666; }
+  .nav-btn-solid {
+    background: var(--naranja);
+    color: #fff;
+  }
+  .nav-btn-solid:hover { background: var(--naranja-oscuro); }
+
+  /* ── LAYOUT ── */
+  .page-offset {
+    padding-top: calc(var(--topbar-h) + var(--navbar-h));
+    display: flex;
+    min-height: 100vh;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    position: fixed;
+    top: calc(var(--topbar-h) + var(--navbar-h));
+    left: 0;
+    width: var(--sidebar-w);
+    height: calc(100vh - var(--topbar-h) - var(--navbar-h));
+    background: var(--gris-panel);
+    border-right: 1px solid var(--gris-borde);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gris-borde) transparent;
+    transition: transform 0.3s ease;
+    z-index: 90;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--gris-borde); border-radius: 4px; }
+
+  .sidebar-header {
+    padding: 20px 20px 12px;
+    border-bottom: 1px solid var(--gris-borde);
+  }
+  .sidebar-header h3 {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 0.12em;
+    color: var(--naranja);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .sidebar-header p {
+    font-size: 11px;
+    color: var(--texto-suave);
+  }
+
+  .nav-tree { padding: 12px 0; }
+
+  .avance-group { margin-bottom: 4px; }
+
+  .avance-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.15s;
+    user-select: none;
+  }
+  .avance-header:hover { background: rgba(232,97,10,0.08); }
+  .avance-header.active { background: rgba(232,97,10,0.12); }
+
+  .avance-badge {
+    min-width: 22px; height: 22px;
+    border-radius: 4px;
+    background: var(--naranja);
+    color: #fff;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; font-weight: 500;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .avance-badge.a2 { background: #2E7D32; }
+  .avance-badge.a3 { background: #1565C0; }
+
+  .avance-label {
+    font-size: 12px; font-weight: 600;
+    color: var(--blanco);
+    flex: 1;
+    line-height: 1.3;
+  }
+
+  .avance-arrow {
+    color: var(--texto-suave);
+    font-size: 10px;
+    transition: transform 0.2s;
+  }
+  .avance-group.open .avance-arrow { transform: rotate(90deg); }
+
+  .avance-children { display: none; }
+  .avance-group.open .avance-children { display: block; }
+
+  .nav-item {
+    display: flex; align-items: flex-start; gap: 8px;
+    padding: 7px 20px 7px 32px;
+    cursor: pointer;
+    transition: background 0.15s;
+    text-decoration: none;
+  }
+  .nav-item:hover { background: rgba(255,255,255,0.04); }
+  .nav-item.active { background: rgba(232,97,10,0.1); }
+  .nav-item.active .nav-item-num { color: var(--naranja); }
+  .nav-item.active .nav-item-text { color: var(--blanco); }
+
+  .nav-item-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; font-weight: 500;
+    color: var(--texto-suave);
+    min-width: 28px;
+    padding-top: 2px;
+    flex-shrink: 0;
+  }
+  .nav-item-text {
+    font-size: 12px; font-weight: 400;
+    color: #C0B8B0;
+    line-height: 1.4;
+  }
+
+  .nav-sub-item {
+    display: flex; align-items: flex-start; gap: 8px;
+    padding: 5px 20px 5px 48px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .nav-sub-item:hover { background: rgba(255,255,255,0.03); }
+  .nav-sub-item.active .nav-item-text { color: var(--naranja); }
+
+  .nav-divider {
+    height: 1px;
+    background: var(--gris-borde);
+    margin: 8px 20px;
+  }
+
+  /* ── MAIN CONTENT ── */
+  .main-content {
+    margin-left: var(--sidebar-w);
+    flex: 1;
+    min-height: calc(100vh - var(--topbar-h) - var(--navbar-h));
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── WELCOME HERO ── */
+  .hero {
+    background: var(--gris-medio);
+    border-bottom: 1px solid var(--gris-borde);
+    padding: 60px 64px 52px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; top: -80px; right: -60px;
+    width: 400px; height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(232,97,10,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: 'CONSTRUMASTER';
+    position: absolute;
+    bottom: -20px; right: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 120px;
+    color: rgba(255,255,255,0.03);
+    letter-spacing: 0.04em;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .hero-tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: rgba(232,97,10,0.15);
+    border: 1px solid rgba(232,97,10,0.3);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px; font-weight: 500;
+    color: var(--naranja);
+    letter-spacing: 0.06em;
+    margin-bottom: 20px;
+  }
+  .hero-tag::before { content: '●'; font-size: 7px; }
+
+  .hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 52px;
+    letter-spacing: 0.04em;
+    color: var(--blanco);
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+  .hero h1 span { color: var(--naranja); }
+
+  .hero p {
+    font-size: 15px;
+    color: var(--texto-suave);
+    max-width: 520px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+
+  .hero-stats {
+    display: flex; gap: 32px;
+  }
+  .stat-item { }
+  .stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    color: var(--naranja);
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 11px;
+    color: var(--texto-suave);
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* ── PROGRESS AVANCES ── */
+  .avances-bar {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-bottom: 1px solid var(--gris-borde);
+  }
+  .avance-card {
+    padding: 20px 28px;
+    border-right: 1px solid var(--gris-borde);
+    cursor: pointer;
+    transition: background 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+  .avance-card:last-child { border-right: none; }
+  .avance-card:hover { background: rgba(255,255,255,0.02); }
+  .avance-card.done::after {
+    content: '';
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--naranja);
+  }
+  .avance-card.partial::after {
+    content: '';
+    position: absolute; bottom: 0; left: 0;
+    width: 50%; height: 2px;
+    background: #2E7D32;
+  }
+
+  .ac-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; font-weight: 500;
+    color: var(--texto-suave);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 4px;
+  }
+  .ac-title {
+    font-size: 13px; font-weight: 600;
+    color: var(--blanco);
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+  .ac-count {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--texto-suave);
+  }
+
+  /* ── SECTION CONTENT ── */
+  .content-area {
+    flex: 1;
+    padding: 48px 64px;
+  }
+
+  .section-block {
+    display: none;
+    animation: fadeIn 0.3s ease;
+  }
+  .section-block.visible { display: block; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .section-block.default-view { display: block; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 8px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--texto-suave);
+    margin-bottom: 24px;
+  }
+  .breadcrumb span { color: var(--naranja); }
+  .breadcrumb-sep { opacity: 0.4; }
+
+  .section-title-area {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--gris-borde);
+  }
+  .section-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px; font-weight: 500;
+    color: var(--naranja);
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .section-h {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    color: var(--blanco);
+    margin-bottom: 8px;
+  }
+  .section-desc {
+    font-size: 14px;
+    color: var(--texto-suave);
+    line-height: 1.6;
+    max-width: 600px;
+  }
+
+  /* ── CONTENT CARDS ── */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .info-card {
+    background: var(--gris-panel);
+    border: 1px solid var(--gris-borde);
+    border-radius: 8px;
+    padding: 20px;
+    transition: border-color 0.2s, transform 0.15s;
+    cursor: default;
+  }
+  .info-card:hover {
+    border-color: rgba(232,97,10,0.4);
+    transform: translateY(-1px);
+  }
+  .ic-icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .ic-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--texto-suave);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+  .ic-title {
+    font-size: 14px; font-weight: 600;
+    color: var(--blanco);
+    margin-bottom: 6px;
+  }
+  .ic-value {
+    font-size: 13px;
+    color: var(--texto-suave);
+    line-height: 1.5;
+  }
+
+  /* ── PLACEHOLDER DIAGRAMS ── */
+  .diagram-placeholder {
+    background: var(--gris-panel);
+    border: 1px dashed var(--gris-borde);
+    border-radius: 8px;
+    padding: 48px 24px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .dp-icon { font-size: 32px; margin-bottom: 12px; opacity: 0.5; }
+  .dp-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--texto-suave);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+  .dp-title {
+    font-size: 14px;
+    color: #7A7268;
+  }
+
+  /* ── SUBSECTION LIST ── */
+  .sub-list {
+    display: flex; flex-direction: column; gap: 8px;
+    margin-bottom: 28px;
+  }
+  .sub-item {
+    background: var(--gris-panel);
+    border: 1px solid var(--gris-borde);
+    border-radius: 6px;
+    padding: 14px 18px;
+    display: flex; align-items: center; gap: 14px;
+    transition: border-color 0.2s;
+    cursor: pointer;
+  }
+  .sub-item:hover { border-color: rgba(232,97,10,0.35); }
+  .si-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--naranja);
+    min-width: 36px;
+  }
+  .si-text {
+    font-size: 13px;
+    color: var(--blanco);
+    flex: 1;
+  }
+  .si-arrow { color: var(--texto-suave); font-size: 12px; }
+
+  /* ── TABLE ── */
+  .req-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    font-size: 12px;
+  }
+  .req-table th {
+    background: var(--gris-panel);
+    padding: 10px 14px;
+    text-align: left;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--naranja);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid var(--gris-borde);
+  }
+  .req-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(58,58,58,0.5);
+    color: var(--texto-suave);
+    line-height: 1.4;
+  }
+  .req-table tr:hover td { background: rgba(255,255,255,0.02); color: var(--blanco); }
+
+  /* ── TAG PILLS ── */
+  .tag { display: inline-flex; align-items: center;
+    padding: 3px 10px; border-radius: 20px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+  .tag-rf { background: rgba(232,97,10,0.15); color: var(--naranja); border: 1px solid rgba(232,97,10,0.25); }
+  .tag-rnf { background: rgba(46,125,50,0.15); color: #81C784; border: 1px solid rgba(46,125,50,0.25); }
+  .tag-cu { background: rgba(21,101,192,0.2); color: #90CAF9; border: 1px solid rgba(21,101,192,0.3); }
+
+  /* ── TOGGLE SIDEBAR BTN (mobile) ── */
+  .sidebar-toggle {
+    display: none;
+    position: fixed;
+    bottom: 20px; right: 20px; z-index: 200;
+    width: 48px; height: 48px;
+    border-radius: 50%;
+    background: var(--naranja);
+    border: none;
+    color: #fff; font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(232,97,10,0.4);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--gris-borde);
+    padding: 16px 64px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--texto-suave);
+  }
+  footer span { color: var(--naranja); }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    :root { --sidebar-w: 280px; }
+    .sidebar { transform: translateX(-100%); }
+    .sidebar.open { transform: translateX(0); }
+    .main-content { margin-left: 0; }
+    .hero { padding: 36px 24px 32px; }
+    .hero h1 { font-size: 36px; }
+    .hero-stats { gap: 20px; }
+    .avances-bar { grid-template-columns: 1fr; }
+    .content-area { padding: 32px 24px; }
+    footer { padding: 16px 24px; flex-direction: column; gap: 4px; }
+    .sidebar-toggle { display: flex; align-items: center; justify-content: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">📧 Contacto: construmaster@gmail.com &nbsp;|&nbsp; 📱 WhatsApp: +57 313 3954816</div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo-container">
+    <div class="logo-circle" style="background: var(--naranja); display:flex; align-items:center; justify-content:center; font-family:'Bebas Neue',sans-serif; font-size:18px; color:#fff; letter-spacing:0.05em;">CM</div>
+    <span class="logo-text">CONSTRU<span>MASTER</span></span>
+  </div>
+  <div class="nav-right">
+    <a href="#inicio" class="nav-btn nav-btn-ghost" onclick="showSection('inicio')">Sitio Web</a>
+    <a href="#" class="nav-btn nav-btn-solid">Ver Proyecto</a>
+  </div>
+</nav>
+
+<div class="page-offset">
+
+  <!-- ── SIDEBAR ── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h3>Documentación</h3>
+      <p>Ingeniería de Software – 2024</p>
+    </div>
+
+    <nav class="nav-tree">
+
+      <!-- AVANCE 1 -->
+      <div class="avance-group open" id="g-a1">
+        <div class="avance-header active" onclick="toggleGroup('g-a1')">
+          <div class="avance-badge">A1</div>
+          <div class="avance-label">Análisis de Negocio</div>
+          <div class="avance-arrow">▶</div>
+        </div>
+        <div class="avance-children">
+          <a class="nav-item" onclick="showSection('s-1')">
+            <span class="nav-item-num">1</span>
+            <span class="nav-item-text">Análisis de procesos – Nivel de negocio</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-1')">
+            <span class="nav-item-num">1.1</span>
+            <span class="nav-item-text">Nombre de la empresa</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-2')">
+            <span class="nav-item-num">1.2</span>
+            <span class="nav-item-text">Actividad comercial</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-3')">
+            <span class="nav-item-num">1.3</span>
+            <span class="nav-item-text">Dirección</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-4')">
+            <span class="nav-item-num">1.4</span>
+            <span class="nav-item-text">Misión</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-5')">
+            <span class="nav-item-num">1.5</span>
+            <span class="nav-item-text">Visión</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-6')">
+            <span class="nav-item-num">1.6</span>
+            <span class="nav-item-text">Objetivos estratégicos</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-7')">
+            <span class="nav-item-num">1.7</span>
+            <span class="nav-item-text">Estructura organizacional</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-1-8')">
+            <span class="nav-item-num">1.8</span>
+            <span class="nav-item-text">Infraestructura</span>
+          </a>
+          <div class="nav-sub-item" onclick="showSection('s-1-8-1')">
+            <span class="nav-item-num">1.8.1</span>
+            <span class="nav-item-text">Equipos de cómputo</span>
+          </div>
+          <div class="nav-sub-item" onclick="showSection('s-1-8-2')">
+            <span class="nav-item-num">1.8.2</span>
+            <span class="nav-item-text">Red de comunicaciones</span>
+          </div>
+          <div class="nav-divider"></div>
+          <a class="nav-item" onclick="showSection('s-2')">
+            <span class="nav-item-num">2</span>
+            <span class="nav-item-text">Procesos empresariales</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-2-1')">
+            <span class="nav-item-num">2.1</span>
+            <span class="nav-item-text">Levantamiento de información – SENA</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-2-2')">
+            <span class="nav-item-num">2.2</span>
+            <span class="nav-item-text">Identificación de procesos y actores</span>
+          </a>
+          <div class="nav-divider"></div>
+          <a class="nav-item" onclick="showSection('s-3')">
+            <span class="nav-item-num">3</span>
+            <span class="nav-item-text">Mapa de procesos</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-3-1')">
+            <span class="nav-item-num">3.1</span>
+            <span class="nav-item-text">Diagrama BPMN de cada proceso</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-3-2')">
+            <span class="nav-item-num">3.2</span>
+            <span class="nav-item-text">Diagrama de flujo de cada proceso</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-anexo1')">
+            <span class="nav-item-num">Anexo</span>
+            <span class="nav-item-text">Evidencia fotográfica – Avance 1</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- AVANCE 2 -->
+      <div class="avance-group" id="g-a2">
+        <div class="avance-header" onclick="toggleGroup('g-a2')">
+          <div class="avance-badge a2">A2</div>
+          <div class="avance-label">Elicitación de Requisitos</div>
+          <div class="avance-arrow">▶</div>
+        </div>
+        <div class="avance-children">
+          <a class="nav-item" onclick="showSection('s-e2')">
+            <span class="nav-item-num">2</span>
+            <span class="nav-item-text">Recolección e información del software</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-2-1e')">
+            <span class="nav-item-num">2.1</span>
+            <span class="nav-item-text">Diseño instrumento recolección</span>
+          </a>
+          <div class="nav-sub-item" onclick="showSection('s-2-1-1')">
+            <span class="nav-item-num">2.1.1</span>
+            <span class="nav-item-text">Entrevista</span>
+          </div>
+          <div class="nav-sub-item" onclick="showSection('s-2-1-2')">
+            <span class="nav-item-num">2.1.2</span>
+            <span class="nav-item-text">Encuesta</span>
+          </div>
+          <a class="nav-item" onclick="showSection('s-2-2e')">
+            <span class="nav-item-num">2.2</span>
+            <span class="nav-item-text">Aplicación instrumento recolección</span>
+          </a>
+          <div class="nav-sub-item" onclick="showSection('s-2-2-1')">
+            <span class="nav-item-num">2.2.1</span>
+            <span class="nav-item-text">Aplicación – Entrevista</span>
+          </div>
+          <div class="nav-sub-item" onclick="showSection('s-2-2-2')">
+            <span class="nav-item-num">2.2.2</span>
+            <span class="nav-item-text">Aplicación – Encuesta</span>
+          </div>
+          <div class="nav-sub-item" onclick="showSection('s-2-2-3')">
+            <span class="nav-item-num">2.2.3</span>
+            <span class="nav-item-text">Aplicación – Encuesta Clientes</span>
+          </div>
+          <a class="nav-item" onclick="showSection('s-2-3e')">
+            <span class="nav-item-num">2.3</span>
+            <span class="nav-item-text">Análisis instrumento recolección</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-anexo2')">
+            <span class="nav-item-num">Anexo</span>
+            <span class="nav-item-text">Evidencia fotográfica – Avance 2</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- AVANCE 3 -->
+      <div class="avance-group" id="g-a3">
+        <div class="avance-header" onclick="toggleGroup('g-a3')">
+          <div class="avance-badge a3">A3</div>
+          <div class="avance-label">Análisis de Requisitos</div>
+          <div class="avance-arrow">▶</div>
+        </div>
+        <div class="avance-children">
+          <a class="nav-item" onclick="showSection('s-3r')">
+            <span class="nav-item-num">3</span>
+            <span class="nav-item-text">Análisis de requisitos</span>
+          </a>
+          <a class="nav-item" onclick="showSection('s-3-1r')"><span class="nav-item-num">3.1</span><span class="nav-item-text">Propósito</span></a>
+          <a class="nav-item" onclick="showSection('s-3-2r')"><span class="nav-item-num">3.2</span><span class="nav-item-text">Ámbito del sistema</span></a>
+          <a class="nav-item" onclick="showSection('s-3-3r')"><span class="nav-item-num">3.3</span><span class="nav-item-text">Definiciones, acrónimos y abreviaturas</span></a>
+          <a class="nav-item" onclick="showSection('s-3-4r')"><span class="nav-item-num">3.4</span><span class="nav-item-text">Referencias</span></a>
+          <a class="nav-item" onclick="showSection('s-3-5r')"><span class="nav-item-num">3.5</span><span class="nav-item-text">Descripción general</span></a>
+          <div class="nav-sub-item" onclick="showSection('s-3-5-1')"><span class="nav-item-num">3.5.1</span><span class="nav-item-text">Localización geográfica</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-3-5-2')"><span class="nav-item-num">3.5.2</span><span class="nav-item-text">Descripción del sistema actual</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-3-5-3')"><span class="nav-item-num">3.5.3</span><span class="nav-item-text">Mapeo sistema actual – BPMN</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-3-5-4')"><span class="nav-item-num">3.5.4</span><span class="nav-item-text">Descripción del sistema a desarrollar</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-3-5-5')"><span class="nav-item-num">3.5.5</span><span class="nav-item-text">Mapeo sistema a desarrollar – BPMN</span></div>
+          <a class="nav-item" onclick="showSection('s-3-6r')"><span class="nav-item-num">3.6</span><span class="nav-item-text">Perspectiva del producto</span></a>
+          <a class="nav-item" onclick="showSection('s-3-7r')"><span class="nav-item-num">3.7</span><span class="nav-item-text">Funciones del producto</span></a>
+          <div class="nav-sub-item" onclick="showSection('s-3-7-1')"><span class="nav-item-num">3.7.1</span><span class="nav-item-text">Funcionalidades del sistema</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-3-7-2')"><span class="nav-item-num">3.7.2</span><span class="nav-item-text">Mapa visual trazabilidad</span></div>
+          <a class="nav-item" onclick="showSection('s-3-8r')"><span class="nav-item-num">3.8</span><span class="nav-item-text">Características de los usuarios</span></a>
+          <a class="nav-item" onclick="showSection('s-3-9r')"><span class="nav-item-num">3.9</span><span class="nav-item-text">Restricciones</span></a>
+          <a class="nav-item" onclick="showSection('s-3-10r')"><span class="nav-item-num">3.10</span><span class="nav-item-text">Suposiciones y dependencias</span></a>
+          <a class="nav-item" onclick="showSection('s-3-11r')"><span class="nav-item-num">3.11</span><span class="nav-item-text">Requisitos de usuario</span></a>
+          <div class="nav-sub-item" onclick="showSection('s-3-11-1')"><span class="nav-item-num">3.11.1</span><span class="nav-item-text">Lista de requerimientos</span></div>
+          <a class="nav-item" onclick="showSection('s-3-12r')"><span class="nav-item-num">3.12</span><span class="nav-item-text">Requerimientos del sistema</span></a>
+          <div class="nav-sub-item" onclick="showSection('s-3-12-1')"><span class="nav-item-num">3.12.1</span><span class="nav-item-text">Requisitos funcionales</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-3-12-2')"><span class="nav-item-num">3.12.2</span><span class="nav-item-text">Requisitos no funcionales</span></div>
+          <div class="nav-divider"></div>
+          <a class="nav-item" onclick="showSection('s-4r')"><span class="nav-item-num">4</span><span class="nav-item-text">Especificación de requisitos</span></a>
+          <a class="nav-item" onclick="showSection('s-4-1r')"><span class="nav-item-num">4.1</span><span class="nav-item-text">Especificación de requisitos funcionales</span></a>
+          <a class="nav-item" onclick="showSection('s-4-2r')"><span class="nav-item-num">4.2</span><span class="nav-item-text">Prototipos – Sketch de pantallas</span></a>
+          <a class="nav-item" onclick="showSection('s-4-3r')"><span class="nav-item-num">4.3</span><span class="nav-item-text">Mapa de navegación</span></a>
+          <a class="nav-item" onclick="showSection('s-4-4r')"><span class="nav-item-num">4.4</span><span class="nav-item-text">Prototipos – Wireframe</span></a>
+          <a class="nav-item" onclick="showSection('s-4-5r')"><span class="nav-item-num">4.5</span><span class="nav-item-text">Definición de roles</span></a>
+          <a class="nav-item" onclick="showSection('s-4-6r')"><span class="nav-item-num">4.6</span><span class="nav-item-text">Casos de uso</span></a>
+          <div class="nav-sub-item" onclick="showSection('s-4-6-1')"><span class="nav-item-num">4.6.1</span><span class="nav-item-text">Identificar actores</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-4-6-2')"><span class="nav-item-num">4.6.2</span><span class="nav-item-text">Identificar casos de uso</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-4-6-3')"><span class="nav-item-num">4.6.3</span><span class="nav-item-text">Diagrama caso de uso general</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-4-6-4')"><span class="nav-item-num">4.6.4</span><span class="nav-item-text">Descripción de casos de uso</span></div>
+          <div class="nav-sub-item" onclick="showSection('s-4-6-5')"><span class="nav-item-num">4.6.5</span><span class="nav-item-text">Diagramas de casos de uso</span></div>
+          <a class="nav-item" onclick="showSection('s-4-7r')"><span class="nav-item-num">4.7</span><span class="nav-item-text">Diagramas de actividades</span></a>
+          <a class="nav-item" onclick="showSection('s-4-8r')"><span class="nav-item-num">4.8</span><span class="nav-item-text">Diagramas de secuencia</span></a>
+        </div>
+      </div>
+
+    </nav>
+  </aside>
+
+  <!-- ── MAIN CONTENT ── -->
+  <main class="main-content">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-tag">Servicio Nacional de Aprendizaje</div>
+      <h1>PROYECTO DE<br><span>SOFTWARE</span></h1>
+      <p>Documentación técnica del sistema de información para Construmaster. Navegá por los avances del proyecto de ingeniería de software.</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Avances</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">48+</div>
+          <div class="stat-label">Secciones</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">RF</div>
+          <div class="stat-label">Req. Funcionales</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AVANCES BAR -->
+    <div class="avances-bar">
+      <div class="avance-card done" onclick="toggleGroup('g-a1'); showSection('s-1')">
+        <div class="ac-label">Avance 01</div>
+        <div class="ac-title">Análisis de Procesos de Negocio</div>
+        <div class="ac-count">3 secciones · 10 subsecciones</div>
+      </div>
+      <div class="avance-card" onclick="toggleGroup('g-a2'); showSection('s-e2')">
+        <div class="ac-label">Avance 02</div>
+        <div class="ac-title">Elicitación de Requisitos</div>
+        <div class="ac-count">3 secciones · 7 subsecciones</div>
+      </div>
+      <div class="avance-card" onclick="toggleGroup('g-a3'); showSection('s-3r')">
+        <div class="ac-label">Avance 03</div>
+        <div class="ac-title">Análisis de Requisitos</div>
+        <div class="ac-count">8 secciones · 30+ subsecciones</div>
+      </div>
+    </div>
+
+    <!-- ══ CONTENT SECTIONS ══ -->
+    <div class="content-area">
+
+      <!-- DEFAULT / INICIO -->
+      <div class="section-block default-view" id="sec-inicio">
+        <div class="breadcrumb">INICIO</div>
+        <div class="section-title-area">
+          <span class="section-num">BIENVENIDO AL PROYECTO</span>
+          <h2 class="section-h">DOCUMENTACIÓN CONSTRUMASTER</h2>
+          <p class="section-desc">Seleccioná un avance en el panel izquierdo o hacé clic en una de las tarjetas de arriba para comenzar a explorar el contenido.</p>
+        </div>
+        <div class="cards-grid">
+          <div class="info-card" onclick="toggleGroup('g-a1');showSection('s-1-1')">
+            <div class="ic-icon">🏢</div>
+            <div class="ic-label">Avance 1</div>
+            <div class="ic-title">Información de la empresa</div>
+            <div class="ic-value">Misión, visión, estructura organizacional e infraestructura tecnológica.</div>
+          </div>
+          <div class="info-card" onclick="toggleGroup('g-a2');showSection('s-2-1e')">
+            <div class="ic-icon">📋</div>
+            <div class="ic-label">Avance 2</div>
+            <div class="ic-title">Instrumentos de recolección</div>
+            <div class="ic-value">Diseño y aplicación de entrevistas y encuestas para elicitar requisitos.</div>
+          </div>
+          <div class="info-card" onclick="toggleGroup('g-a3');showSection('s-3-12-1')">
+            <div class="ic-icon">⚙️</div>
+            <div class="ic-label">Avance 3</div>
+            <div class="ic-title">Requisitos funcionales</div>
+            <div class="ic-value">Especificación completa de requisitos funcionales y no funcionales del sistema.</div>
+          </div>
+          <div class="info-card" onclick="toggleGroup('g-a3');showSection('s-4-6r')">
+            <div class="ic-icon">📐</div>
+            <div class="ic-label">Avance 3</div>
+            <div class="ic-title">Casos de uso</div>
+            <div class="ic-value">Actores, diagramas y descripciones de los casos de uso del sistema.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─ 1. ANÁLISIS NEGOCIO ─ -->
+      <div class="section-block" id="sec-s-1">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> <span>1</span></div>
+        <div class="section-title-area">
+          <span class="section-num">SECCIÓN 1</span>
+          <h2 class="section-h">ANÁLISIS DE PROCESOS – NIVEL DE NEGOCIO</h2>
+          <p class="section-desc">Levantamiento y análisis de la información general de la empresa, su estructura y su infraestructura tecnológica.</p>
+        </div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-1-1')"><span class="si-num">1.1</span><span class="si-text">Nombre de la empresa</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-2')"><span class="si-num">1.2</span><span class="si-text">Actividad comercial</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-3')"><span class="si-num">1.3</span><span class="si-text">Dirección</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-4')"><span class="si-num">1.4</span><span class="si-text">Misión</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-5')"><span class="si-num">1.5</span><span class="si-text">Visión</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-6')"><span class="si-num">1.6</span><span class="si-text">Objetivos estratégicos</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-7')"><span class="si-num">1.7</span><span class="si-text">Estructura organizacional</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-8')"><span class="si-num">1.8</span><span class="si-text">Infraestructura</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+
+      <!-- 1.1 Nombre -->
+      <div class="section-block" id="sec-s-1-1">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.1</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.1</span>
+          <h2 class="section-h">NOMBRE DE LA EMPRESA</h2>
+        </div>
+        <div class="cards-grid">
+          <div class="info-card"><div class="ic-label">Razón Social</div><div class="ic-title">/Servicio Nacional de Aprendizaje/div><div class="ic-value">Nombre comercial: Construmaster</div></div>
+          <div class="info-card"><div class="ic-label">NIT</div><div class="ic-title">[NIT de la empresa]</div><div class="ic-value">Registrada ante Cámara de Comercio</div></div>
+        </div>
+      </div>
+
+      <!-- 1.2 Actividad -->
+      <div class="section-block" id="sec-s-1-2">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.2</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.2</span>
+          <h2 class="section-h">ACTIVIDAD COMERCIAL</h2>
+        </div>
+        <div class="info-card"><div class="ic-label">Sector</div><div class="ic-title">Construcción y obras civiles</div><div class="ic-value">La empresa se dedica a la construcción, remodelación y gestión de proyectos de obra civil y arquitectónica. Presta servicios de asesoría en licencias de construcción y cotización de proyectos a clientes naturales y jurídicos.</div></div>
+      </div>
+
+      <!-- 1.3 Dirección -->
+      <div class="section-block" id="sec-s-1-3">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.3</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.3</span>
+          <h2 class="section-h">DIRECCIÓN</h2>
+        </div>
+        <div class="cards-grid">
+          <div class="info-card"><div class="ic-icon">📍</div><div class="ic-label">Ciudad</div><div class="ic-title">[Ciudad de operación]</div></div>
+          <div class="info-card"><div class="ic-icon">🏠</div><div class="ic-label">Dirección</div><div class="ic-title">[Dirección de la empresa]</div></div>
+          <div class="info-card"><div class="ic-icon">📞</div><div class="ic-label">Teléfono</div><div class="ic-title">+57 313 3954816</div></div>
+        </div>
+      </div>
+
+      <!-- 1.4 Misión -->
+      <div class="section-block" id="sec-s-1-4">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.4</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.4</span>
+          <h2 class="section-h">MISIÓN</h2>
+        </div>
+        <div class="info-card"><div class="ic-icon">🎯</div><div class="ic-label">Declaración de misión</div><div class="ic-value" style="font-size:14px; color: var(--blanco); line-height: 1.7;">[Completar con la misión de la empresa Construmaster – Sociedad Puentes Saavedra S.A.S]</div></div>
+      </div>
+
+      <!-- 1.5 Visión -->
+      <div class="section-block" id="sec-s-1-5">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.5</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.5</span>
+          <h2 class="section-h">VISIÓN</h2>
+        </div>
+        <div class="info-card"><div class="ic-icon">🔭</div><div class="ic-label">Declaración de visión</div><div class="ic-value" style="font-size:14px; color: var(--blanco); line-height: 1.7;">[Completar con la visión de la empresa Construmaster – Sociedad Puentes Saavedra S.A.S]</div></div>
+      </div>
+
+      <!-- 1.6 Objetivos -->
+      <div class="section-block" id="sec-s-1-6">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.6</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.6</span>
+          <h2 class="section-h">OBJETIVOS ESTRATÉGICOS</h2>
+        </div>
+        <div class="sub-list">
+          <div class="sub-item"><span class="si-num">OE-01</span><span class="si-text">[Objetivo estratégico 1]</span></div>
+          <div class="sub-item"><span class="si-num">OE-02</span><span class="si-text">[Objetivo estratégico 2]</span></div>
+          <div class="sub-item"><span class="si-num">OE-03</span><span class="si-text">[Objetivo estratégico 3]</span></div>
+        </div>
+      </div>
+
+      <!-- 1.7 Estructura -->
+      <div class="section-block" id="sec-s-1-7">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.7</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.7</span>
+          <h2 class="section-h">ESTRUCTURA ORGANIZACIONAL</h2>
+        </div>
+        <div class="diagram-placeholder"><div class="dp-icon">🏗️</div><div class="dp-label">Organigrama</div><div class="dp-title">Insertar diagrama de estructura organizacional</div></div>
+      </div>
+
+      <!-- 1.8 Infraestructura -->
+      <div class="section-block" id="sec-s-1-8">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1 <span class="breadcrumb-sep">/</span> <span>1.8</span></div>
+        <div class="section-title-area">
+          <span class="section-num">1.8</span>
+          <h2 class="section-h">INFRAESTRUCTURA</h2>
+        </div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-1-8-1')"><span class="si-num">1.8.1</span><span class="si-text">Equipos de cómputo</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-1-8-2')"><span class="si-num">1.8.2</span><span class="si-text">Red de comunicaciones</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+
+      <!-- 1.8.1 -->
+      <div class="section-block" id="sec-s-1-8-1">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1.8 <span class="breadcrumb-sep">/</span> <span>1.8.1</span></div>
+        <div class="section-title-area"><span class="section-num">1.8.1</span><h2 class="section-h">EQUIPOS DE CÓMPUTO</h2></div>
+        <table class="req-table"><thead><tr><th>Equipo</th><th>Cantidad</th><th>Características</th><th>Uso</th></tr></thead><tbody>
+          <tr><td>[Equipo 1]</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td>[Equipo 2]</td><td>—</td><td>—</td><td>—</td></tr>
+        </tbody></table>
+      </div>
+
+      <!-- 1.8.2 -->
+      <div class="section-block" id="sec-s-1-8-2">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 1.8 <span class="breadcrumb-sep">/</span> <span>1.8.2</span></div>
+        <div class="section-title-area"><span class="section-num">1.8.2</span><h2 class="section-h">RED DE COMUNICACIONES</h2></div>
+        <div class="diagram-placeholder"><div class="dp-icon">🌐</div><div class="dp-label">Diagrama de Red</div><div class="dp-title">Insertar diagrama de red de comunicaciones</div></div>
+      </div>
+
+      <!-- 2 Procesos -->
+      <div class="section-block" id="sec-s-2">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> <span>2</span></div>
+        <div class="section-title-area"><span class="section-num">SECCIÓN 2</span><h2 class="section-h">PROCESOS EMPRESARIALES</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-2-1')"><span class="si-num">2.1</span><span class="si-text">Levantamiento de información – /Servicio Nacional de Aprendizaje/span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-2-2')"><span class="si-num">2.2</span><span class="si-text">Identificación de procesos y actores responsables</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+
+      <div class="section-block" id="sec-s-2-1">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 2 <span class="breadcrumb-sep">/</span> <span>2.1</span></div>
+        <div class="section-title-area"><span class="section-num">2.1</span><h2 class="section-h">LEVANTAMIENTO DE INFORMACIÓN</h2><p class="section-desc">/Servicio Nacional de Aprendizaje/p></div>
+        <div class="info-card"><div class="ic-label">Método de recolección</div><div class="ic-value">[Describir el proceso de levantamiento de información: observación, entrevistas, revisión documental, etc.]</div></div>
+      </div>
+
+      <div class="section-block" id="sec-s-2-2">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 2 <span class="breadcrumb-sep">/</span> <span>2.2</span></div>
+        <div class="section-title-area"><span class="section-num">2.2</span><h2 class="section-h">IDENTIFICACIÓN DE PROCESOS Y ACTORES</h2></div>
+        <table class="req-table"><thead><tr><th>Proceso</th><th>Actor Responsable</th><th>Descripción</th></tr></thead><tbody>
+          <tr><td>[Proceso 1]</td><td>[Cargo]</td><td>—</td></tr>
+          <tr><td>[Proceso 2]</td><td>[Cargo]</td><td>—</td></tr>
+        </tbody></table>
+      </div>
+
+      <!-- 3 Mapa procesos -->
+      <div class="section-block" id="sec-s-3">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> <span>3</span></div>
+        <div class="section-title-area"><span class="section-num">SECCIÓN 3</span><h2 class="section-h">MAPA DE PROCESOS</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-3-1')"><span class="si-num">3.1</span><span class="si-text">Diagrama BPMN de cada proceso</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-3-2')"><span class="si-num">3.2</span><span class="si-text">Diagrama de flujo de cada proceso</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-3-1">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 3 <span class="breadcrumb-sep">/</span> <span>3.1</span></div>
+        <div class="section-title-area"><span class="section-num">3.1</span><h2 class="section-h">DIAGRAMAS BPMN</h2></div>
+        <div class="diagram-placeholder"><div class="dp-icon">📊</div><div class="dp-label">BPMN – Proceso 1</div><div class="dp-title">Insertar diagrama BPMN del proceso principal</div></div>
+      </div>
+      <div class="section-block" id="sec-s-3-2">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> 3 <span class="breadcrumb-sep">/</span> <span>3.2</span></div>
+        <div class="section-title-area"><span class="section-num">3.2</span><h2 class="section-h">DIAGRAMAS DE FLUJO</h2></div>
+        <div class="diagram-placeholder"><div class="dp-icon">🔀</div><div class="dp-label">Diagrama de flujo</div><div class="dp-title">Insertar diagrama de flujo del proceso</div></div>
+      </div>
+      <div class="section-block" id="sec-s-anexo1">
+        <div class="breadcrumb">A1 <span class="breadcrumb-sep">/</span> <span>Anexo 1</span></div>
+        <div class="section-title-area"><span class="section-num">ANEXO 1</span><h2 class="section-h">EVIDENCIA FOTOGRÁFICA</h2><p class="section-desc">Fotografías tomadas durante el análisis de los procesos a nivel de negocio.</p></div>
+        <div class="diagram-placeholder"><div class="dp-icon">📷</div><div class="dp-label">Galería fotográfica</div><div class="dp-title">Insertar fotografías de evidencia</div></div>
+      </div>
+
+      <!-- ═══ AVANCE 2 ═══ -->
+      <div class="section-block" id="sec-s-e2">
+        <div class="breadcrumb">A2 <span class="breadcrumb-sep">/</span> <span>2</span></div>
+        <div class="section-title-area"><span class="section-num">AVANCE 2 – SECCIÓN 2</span><h2 class="section-h">ELICITACIÓN DE REQUISITOS</h2><p class="section-desc">Recolección e información del software a construir para Construmaster.</p></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-2-1e')"><span class="si-num">2.1</span><span class="si-text">Diseño instrumento recolección de información</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-2-2e')"><span class="si-num">2.2</span><span class="si-text">Aplicación instrumento recolección</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-2-3e')"><span class="si-num">2.3</span><span class="si-text">Análisis instrumento recolección</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+
+      <div class="section-block" id="sec-s-2-1e">
+        <div class="breadcrumb">A2 <span class="breadcrumb-sep">/</span> 2 <span class="breadcrumb-sep">/</span> <span>2.1</span></div>
+        <div class="section-title-area"><span class="section-num">2.1</span><h2 class="section-h">DISEÑO INSTRUMENTO DE RECOLECCIÓN</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-2-1-1')"><span class="si-num">2.1.1</span><span class="si-text">Diseño – Entrevista</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-2-1-2')"><span class="si-num">2.1.2</span><span class="si-text">Diseño – Encuesta</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-2-1-1">
+        <div class="breadcrumb">A2 <span class="breadcrumb-sep">/</span> 2.1 <span class="breadcrumb-sep">/</span> <span>2.1.1</span></div>
+        <div class="section-title-area"><span class="section-num">2.1.1</span><h2 class="section-h">DISEÑO – ENTREVISTA</h2></div>
+        <div class="info-card"><div class="ic-label">Tipo de instrumento</div><div class="ic-title">Entrevista semiestructurada</div><div class="ic-value">[Describir el diseño de la entrevista: objetivos, público objetivo, preguntas guía, duración estimada]</div></div>
+      </div>
+      <div class="section-block" id="sec-s-2-1-2">
+        <div class="breadcrumb">A2 <span class="breadcrumb-sep">/</span> 2.1 <span class="breadcrumb-sep">/</span> <span>2.1.2</span></div>
+        <div class="section-title-area"><span class="section-num">2.1.2</span><h2 class="section-h">DISEÑO – ENCUESTA</h2></div>
+        <div class="info-card"><div class="ic-label">Tipo de instrumento</div><div class="ic-title">Encuesta estructurada</div><div class="ic-value">[Describir el diseño de la encuesta: escala utilizada, número de preguntas, plataforma de aplicación]</div></div>
+      </div>
+      <div class="section-block" id="sec-s-2-2e">
+        <div class="breadcrumb">A2 <span class="breadcrumb-sep">/</span> 2 <span class="breadcrumb-sep">/</span> <span>2.2</span></div>
+        <div class="section-title-area"><span class="section-num">2.2</span><h2 class="section-h">APLICACIÓN DEL INSTRUMENTO</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-2-2-1')"><span class="si-num">2.2.1</span><span class="si-text">Aplicación – Entrevista</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-2-2-2')"><span class="si-num">2.2.2</span><span class="si-text">Aplicación – Encuesta</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-2-2-3')"><span class="si-num">2.2.3</span><span class="si-text">Aplicación – Encuesta Clientes</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-2-2-1"><div class="breadcrumb">A2 / 2.2 / <span>2.2.1</span></div><div class="section-title-area"><span class="section-num">2.2.1</span><h2 class="section-h">APLICACIÓN – ENTREVISTA</h2></div><div class="info-card"><div class="ic-label">Resultados</div><div class="ic-value">[Transcripción o resumen de la entrevista aplicada al personal de Construmaster]</div></div></div>
+      <div class="section-block" id="sec-s-2-2-2"><div class="breadcrumb">A2 / 2.2 / <span>2.2.2</span></div><div class="section-title-area"><span class="section-num">2.2.2</span><h2 class="section-h">APLICACIÓN – ENCUESTA</h2></div><div class="diagram-placeholder"><div class="dp-icon">📊</div><div class="dp-label">Gráficos de resultados</div><div class="dp-title">Insertar gráficos de resultados de la encuesta</div></div></div>
+      <div class="section-block" id="sec-s-2-2-3"><div class="breadcrumb">A2 / 2.2 / <span>2.2.3</span></div><div class="section-title-area"><span class="section-num">2.2.3</span><h2 class="section-h">APLICACIÓN – ENCUESTA CLIENTES</h2></div><div class="diagram-placeholder"><div class="dp-icon">👥</div><div class="dp-label">Resultados encuesta clientes</div><div class="dp-title">Insertar gráficos y análisis de la encuesta a clientes</div></div></div>
+      <div class="section-block" id="sec-s-2-3e"><div class="breadcrumb">A2 / 2 / <span>2.3</span></div><div class="section-title-area"><span class="section-num">2.3</span><h2 class="section-h">ANÁLISIS DEL INSTRUMENTO</h2></div><div class="info-card"><div class="ic-label">Conclusiones del análisis</div><div class="ic-value">[Describir las conclusiones obtenidas del análisis de los instrumentos de recolección de información]</div></div></div>
+      <div class="section-block" id="sec-s-anexo2"><div class="breadcrumb">A2 / <span>Anexo 2</span></div><div class="section-title-area"><span class="section-num">ANEXO 2</span><h2 class="section-h">EVIDENCIA FOTOGRÁFICA</h2></div><div class="diagram-placeholder"><div class="dp-icon">📷</div><div class="dp-label">Galería</div><div class="dp-title">Evidencia fotográfica – Elicitación de Requisitos</div></div></div>
+
+      <!-- ═══ AVANCE 3 ═══ -->
+      <div class="section-block" id="sec-s-3r">
+        <div class="breadcrumb">A3 <span class="breadcrumb-sep">/</span> <span>3</span></div>
+        <div class="section-title-area"><span class="section-num">AVANCE 3 – SECCIÓN 3</span><h2 class="section-h">ANÁLISIS DE REQUISITOS</h2><p class="section-desc">Especificación completa de los requisitos del sistema de información para Construmaster.</p></div>
+        <div class="cards-grid">
+          <div class="info-card" onclick="showSection('s-3-1r')"><div class="ic-label">3.1</div><div class="ic-title">Propósito</div></div>
+          <div class="info-card" onclick="showSection('s-3-2r')"><div class="ic-label">3.2</div><div class="ic-title">Ámbito del sistema</div></div>
+          <div class="info-card" onclick="showSection('s-3-5r')"><div class="ic-label">3.5</div><div class="ic-title">Descripción general</div></div>
+          <div class="info-card" onclick="showSection('s-3-7r')"><div class="ic-label">3.7</div><div class="ic-title">Funciones del producto</div></div>
+          <div class="info-card" onclick="showSection('s-3-11r')"><div class="ic-label">3.11</div><div class="ic-title">Requisitos de usuario</div></div>
+          <div class="info-card" onclick="showSection('s-3-12-1')"><div class="ic-label">3.12.1</div><div class="ic-title">Requisitos funcionales</div></div>
+        </div>
+      </div>
+
+      <div class="section-block" id="sec-s-3-1r"><div class="breadcrumb">A3 / 3 / <span>3.1</span></div><div class="section-title-area"><span class="section-num">3.1</span><h2 class="section-h">PROPÓSITO</h2></div><div class="info-card"><div class="ic-label">Propósito del documento</div><div class="ic-value">[Describir el propósito del documento de análisis de requisitos para el sistema Construmaster]</div></div></div>
+      <div class="section-block" id="sec-s-3-2r"><div class="breadcrumb">A3 / 3 / <span>3.2</span></div><div class="section-title-area"><span class="section-num">3.2</span><h2 class="section-h">ÁMBITO DEL SISTEMA</h2></div><div class="info-card"><div class="ic-label">Alcance</div><div class="ic-value">[Definir el alcance del sistema: módulos incluidos, usuarios objetivo, límites del sistema]</div></div></div>
+      <div class="section-block" id="sec-s-3-3r"><div class="breadcrumb">A3 / 3 / <span>3.3</span></div><div class="section-title-area"><span class="section-num">3.3</span><h2 class="section-h">DEFINICIONES, ACRÓNIMOS Y ABREVIATURAS</h2></div>
+        <table class="req-table"><thead><tr><th>Término</th><th>Definición</th></tr></thead><tbody>
+          <tr><td>RF</td><td>Requisito Funcional</td></tr>
+          <tr><td>RNF</td><td>Requisito No Funcional</td></tr>
+          <tr><td>CU</td><td>Caso de Uso</td></tr>
+          <tr><td>BPMN</td><td>Business Process Model and Notation</td></tr>
+          <tr><td>[Término]</td><td>[Definición]</td></tr>
+        </tbody></table>
+      </div>
+      <div class="section-block" id="sec-s-3-4r"><div class="breadcrumb">A3 / 3 / <span>3.4</span></div><div class="section-title-area"><span class="section-num">3.4</span><h2 class="section-h">REFERENCIAS</h2></div><div class="info-card"><div class="ic-label">Documentos de referencia</div><div class="ic-value">[Listar normas, estándares y documentos de referencia utilizados. Ej: IEEE 830, ISO 9001, etc.]</div></div></div>
+
+      <div class="section-block" id="sec-s-3-5r">
+        <div class="breadcrumb">A3 / 3 / <span>3.5</span></div>
+        <div class="section-title-area"><span class="section-num">3.5</span><h2 class="section-h">DESCRIPCIÓN GENERAL</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-3-5-1')"><span class="si-num">3.5.1</span><span class="si-text">Localización geográfica</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-3-5-2')"><span class="si-num">3.5.2</span><span class="si-text">Descripción del sistema actual</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-3-5-3')"><span class="si-num">3.5.3</span><span class="si-text">Mapeo sistema actual – BPMN</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-3-5-4')"><span class="si-num">3.5.4</span><span class="si-text">Descripción del sistema a desarrollar</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-3-5-5')"><span class="si-num">3.5.5</span><span class="si-text">Mapeo sistema a desarrollar – BPMN</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-3-5-1"><div class="breadcrumb">A3 / 3.5 / <span>3.5.1</span></div><div class="section-title-area"><span class="section-num">3.5.1</span><h2 class="section-h">LOCALIZACIÓN GEOGRÁFICA</h2></div><div class="diagram-placeholder"><div class="dp-icon">🗺️</div><div class="dp-label">Mapa de ubicación</div><div class="dp-title">Insertar mapa o descripción de la localización geográfica de la empresa</div></div></div>
+      <div class="section-block" id="sec-s-3-5-2"><div class="breadcrumb">A3 / 3.5 / <span>3.5.2</span></div><div class="section-title-area"><span class="section-num">3.5.2</span><h2 class="section-h">DESCRIPCIÓN DEL SISTEMA ACTUAL</h2></div><div class="info-card"><div class="ic-label">Estado actual</div><div class="ic-value">[Describir cómo gestiona actualmente sus procesos Construmaster (manual, hojas de cálculo, sistemas legacy, etc.)]</div></div></div>
+      <div class="section-block" id="sec-s-3-5-3"><div class="breadcrumb">A3 / 3.5 / <span>3.5.3</span></div><div class="section-title-area"><span class="section-num">3.5.3</span><h2 class="section-h">MAPEO SISTEMA ACTUAL – BPMN</h2></div><div class="diagram-placeholder"><div class="dp-icon">📊</div><div class="dp-label">BPMN – Sistema Actual</div><div class="dp-title">Insertar diagrama BPMN del sistema actual</div></div></div>
+      <div class="section-block" id="sec-s-3-5-4"><div class="breadcrumb">A3 / 3.5 / <span>3.5.4</span></div><div class="section-title-area"><span class="section-num">3.5.4</span><h2 class="section-h">DESCRIPCIÓN DEL SISTEMA A DESARROLLAR</h2></div><div class="info-card"><div class="ic-label">Propuesta de solución</div><div class="ic-value">[Describir el sistema de información propuesto: módulos, tecnología, arquitectura general]</div></div></div>
+      <div class="section-block" id="sec-s-3-5-5"><div class="breadcrumb">A3 / 3.5 / <span>3.5.5</span></div><div class="section-title-area"><span class="section-num">3.5.5</span><h2 class="section-h">MAPEO SISTEMA A DESARROLLAR – BPMN</h2></div><div class="diagram-placeholder"><div class="dp-icon">📊</div><div class="dp-label">BPMN – Sistema Propuesto</div><div class="dp-title">Insertar diagrama BPMN del sistema a desarrollar</div></div></div>
+
+      <div class="section-block" id="sec-s-3-6r"><div class="breadcrumb">A3 / 3 / <span>3.6</span></div><div class="section-title-area"><span class="section-num">3.6</span><h2 class="section-h">PERSPECTIVA DEL PRODUCTO</h2></div><div class="info-card"><div class="ic-value">[Describir cómo el sistema se relaciona con otros sistemas y el entorno general del producto]</div></div></div>
+
+      <div class="section-block" id="sec-s-3-7r">
+        <div class="breadcrumb">A3 / 3 / <span>3.7</span></div>
+        <div class="section-title-area"><span class="section-num">3.7</span><h2 class="section-h">FUNCIONES DEL PRODUCTO</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-3-7-1')"><span class="si-num">3.7.1</span><span class="si-text">Funcionalidades del sistema</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-3-7-2')"><span class="si-num">3.7.2</span><span class="si-text">Mapa visual trazabilidad funcionalidades</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-3-7-1"><div class="breadcrumb">A3 / 3.7 / <span>3.7.1</span></div><div class="section-title-area"><span class="section-num">3.7.1</span><h2 class="section-h">FUNCIONALIDADES DEL SISTEMA</h2></div><div class="info-card"><div class="ic-value">[Listar las funcionalidades principales del sistema: gestión de proyectos, cotizaciones, licencias, galería, etc.]</div></div></div>
+      <div class="section-block" id="sec-s-3-7-2"><div class="breadcrumb">A3 / 3.7 / <span>3.7.2</span></div><div class="section-title-area"><span class="section-num">3.7.2</span><h2 class="section-h">MAPA VISUAL TRAZABILIDAD</h2></div><div class="diagram-placeholder"><div class="dp-icon">🗺️</div><div class="dp-label">Mapa de trazabilidad</div><div class="dp-title">Insertar mapa visual de trazabilidad de funcionalidades</div></div></div>
+
+      <div class="section-block" id="sec-s-3-8r"><div class="breadcrumb">A3 / 3 / <span>3.8</span></div><div class="section-title-area"><span class="section-num">3.8</span><h2 class="section-h">CARACTERÍSTICAS DE LOS USUARIOS</h2></div>
+        <table class="req-table"><thead><tr><th>Tipo de usuario</th><th>Descripción</th><th>Nivel técnico</th></tr></thead><tbody>
+          <tr><td>Administrador</td><td>—</td><td>—</td></tr>
+          <tr><td>Cliente</td><td>—</td><td>—</td></tr>
+          <tr><td>[Otro]</td><td>—</td><td>—</td></tr>
+        </tbody></table>
+      </div>
+      <div class="section-block" id="sec-s-3-9r"><div class="breadcrumb">A3 / 3 / <span>3.9</span></div><div class="section-title-area"><span class="section-num">3.9</span><h2 class="section-h">RESTRICCIONES</h2></div><div class="info-card"><div class="ic-value">[Listar restricciones del sistema: plataforma, lenguaje de programación, compatibilidad, normatividad, presupuesto, tiempo]</div></div></div>
+      <div class="section-block" id="sec-s-3-10r"><div class="breadcrumb">A3 / 3 / <span>3.10</span></div><div class="section-title-area"><span class="section-num">3.10</span><h2 class="section-h">SUPOSICIONES Y DEPENDENCIAS</h2></div><div class="info-card"><div class="ic-value">[Listar suposiciones del proyecto (ej: disponibilidad del cliente para reuniones) y dependencias externas (APIs, servicios de terceros)]</div></div></div>
+
+      <div class="section-block" id="sec-s-3-11r">
+        <div class="breadcrumb">A3 / 3 / <span>3.11</span></div>
+        <div class="section-title-area"><span class="section-num">3.11</span><h2 class="section-h">REQUISITOS DE USUARIO</h2></div>
+        <div class="sub-list"><div class="sub-item" onclick="showSection('s-3-11-1')"><span class="si-num">3.11.1</span><span class="si-text">Lista de requerimientos</span><span class="si-arrow">→</span></div></div>
+      </div>
+      <div class="section-block" id="sec-s-3-11-1">
+        <div class="breadcrumb">A3 / 3.11 / <span>3.11.1</span></div>
+        <div class="section-title-area"><span class="section-num">3.11.1</span><h2 class="section-h">LISTA DE REQUERIMIENTOS</h2></div>
+        <table class="req-table"><thead><tr><th>ID</th><th>Tipo</th><th>Descripción</th><th>Prioridad</th></tr></thead><tbody>
+          <tr><td>RU-01</td><td><span class="tag tag-rf">Usuario</span></td><td>[Requerimiento de usuario 1]</td><td>Alta</td></tr>
+          <tr><td>RU-02</td><td><span class="tag tag-rf">Usuario</span></td><td>[Requerimiento de usuario 2]</td><td>Media</td></tr>
+          <tr><td>RU-03</td><td><span class="tag tag-rf">Usuario</span></td><td>[Requerimiento de usuario 3]</td><td>Baja</td></tr>
+        </tbody></table>
+      </div>
+
+      <div class="section-block" id="sec-s-3-12r">
+        <div class="breadcrumb">A3 / 3 / <span>3.12</span></div>
+        <div class="section-title-area"><span class="section-num">3.12</span><h2 class="section-h">REQUERIMIENTOS DEL SISTEMA</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-3-12-1')"><span class="si-num">3.12.1</span><span class="si-text">Requisitos funcionales</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-3-12-2')"><span class="si-num">3.12.2</span><span class="si-text">Requisitos no funcionales</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-3-12-1">
+        <div class="breadcrumb">A3 / 3.12 / <span>3.12.1</span></div>
+        <div class="section-title-area"><span class="section-num">3.12.1</span><h2 class="section-h">REQUISITOS FUNCIONALES</h2></div>
+        <table class="req-table"><thead><tr><th>ID</th><th>Nombre</th><th>Descripción</th><th>Prioridad</th></tr></thead><tbody>
+          <tr><td>RF-01</td><td><span class="tag tag-rf">RF</span> [Nombre]</td><td>[Descripción del requisito funcional]</td><td>Alta</td></tr>
+          <tr><td>RF-02</td><td><span class="tag tag-rf">RF</span> [Nombre]</td><td>[Descripción del requisito funcional]</td><td>Alta</td></tr>
+          <tr><td>RF-03</td><td><span class="tag tag-rf">RF</span> [Nombre]</td><td>[Descripción del requisito funcional]</td><td>Media</td></tr>
+        </tbody></table>
+      </div>
+      <div class="section-block" id="sec-s-3-12-2">
+        <div class="breadcrumb">A3 / 3.12 / <span>3.12.2</span></div>
+        <div class="section-title-area"><span class="section-num">3.12.2</span><h2 class="section-h">REQUISITOS NO FUNCIONALES</h2></div>
+        <table class="req-table"><thead><tr><th>ID</th><th>Categoría</th><th>Descripción</th></tr></thead><tbody>
+          <tr><td>RNF-01</td><td><span class="tag tag-rnf">Rendimiento</span></td><td>[El sistema deberá responder en menos de X segundos]</td></tr>
+          <tr><td>RNF-02</td><td><span class="tag tag-rnf">Seguridad</span></td><td>[Los datos de usuarios deberán estar cifrados]</td></tr>
+          <tr><td>RNF-03</td><td><span class="tag tag-rnf">Usabilidad</span></td><td>[El sistema debe ser responsivo y funcionar en móviles]</td></tr>
+        </tbody></table>
+      </div>
+
+      <!-- ═══ SECCIÓN 4 ═══ -->
+      <div class="section-block" id="sec-s-4r">
+        <div class="breadcrumb">A3 / <span>4</span></div>
+        <div class="section-title-area"><span class="section-num">SECCIÓN 4</span><h2 class="section-h">ESPECIFICACIÓN DE REQUISITOS</h2></div>
+        <div class="cards-grid">
+          <div class="info-card" onclick="showSection('s-4-1r')"><div class="ic-label">4.1</div><div class="ic-title">Requisitos funcionales</div></div>
+          <div class="info-card" onclick="showSection('s-4-2r')"><div class="ic-label">4.2</div><div class="ic-title">Prototipos – Sketches</div></div>
+          <div class="info-card" onclick="showSection('s-4-3r')"><div class="ic-label">4.3</div><div class="ic-title">Mapa de navegación</div></div>
+          <div class="info-card" onclick="showSection('s-4-4r')"><div class="ic-label">4.4</div><div class="ic-title">Wireframes</div></div>
+          <div class="info-card" onclick="showSection('s-4-5r')"><div class="ic-label">4.5</div><div class="ic-title">Roles</div></div>
+          <div class="info-card" onclick="showSection('s-4-6r')"><div class="ic-label">4.6</div><div class="ic-title">Casos de uso</div></div>
+          <div class="info-card" onclick="showSection('s-4-7r')"><div class="ic-label">4.7</div><div class="ic-title">Diagramas de actividades</div></div>
+          <div class="info-card" onclick="showSection('s-4-8r')"><div class="ic-label">4.8</div><div class="ic-title">Diagramas de secuencia</div></div>
+        </div>
+      </div>
+
+      <div class="section-block" id="sec-s-4-1r">
+        <div class="breadcrumb">A3 / 4 / <span>4.1</span></div>
+        <div class="section-title-area"><span class="section-num">4.1</span><h2 class="section-h">ESPECIFICACIÓN DE REQUISITOS FUNCIONALES</h2></div>
+        <div class="sub-list">
+          <div class="sub-item"><span class="si-num">RF-01</span><span class="si-text">[Nombre del requisito funcional 1]</span></div>
+          <div class="sub-item"><span class="si-num">RF-02</span><span class="si-text">[Nombre del requisito funcional 2]</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-4-2r">
+        <div class="breadcrumb">A3 / 4 / <span>4.2</span></div>
+        <div class="section-title-area"><span class="section-num">4.2</span><h2 class="section-h">PROTOTIPOS – SKETCH DE PANTALLAS</h2></div>
+        <div class="diagram-placeholder"><div class="dp-icon">✏️</div><div class="dp-label">Sketch RF-01</div><div class="dp-title">Insertar sketch de la pantalla RF-01</div></div>
+        <div class="diagram-placeholder"><div class="dp-icon">✏️</div><div class="dp-label">Sketch RF-02</div><div class="dp-title">Insertar sketch de la pantalla RF-02</div></div>
+      </div>
+      <div class="section-block" id="sec-s-4-3r"><div class="breadcrumb">A3 / 4 / <span>4.3</span></div><div class="section-title-area"><span class="section-num">4.3</span><h2 class="section-h">MAPA DE NAVEGACIÓN</h2></div><div class="diagram-placeholder"><div class="dp-icon">🗺️</div><div class="dp-label">Mapa de navegación</div><div class="dp-title">Insertar mapa de navegación del sistema</div></div></div>
+      <div class="section-block" id="sec-s-4-4r"><div class="breadcrumb">A3 / 4 / <span>4.4</span></div><div class="section-title-area"><span class="section-num">4.4</span><h2 class="section-h">PROTOTIPOS – WIREFRAME</h2></div><div class="diagram-placeholder"><div class="dp-icon">🖼️</div><div class="dp-label">Wireframes</div><div class="dp-title">Insertar wireframes del sistema</div></div></div>
+      <div class="section-block" id="sec-s-4-5r">
+        <div class="breadcrumb">A3 / 4 / <span>4.5</span></div>
+        <div class="section-title-area"><span class="section-num">4.5</span><h2 class="section-h">DEFINICIÓN DE ROLES</h2></div>
+        <table class="req-table"><thead><tr><th>Rol</th><th>Descripción</th><th>Permisos</th></tr></thead><tbody>
+          <tr><td>Administrador</td><td>—</td><td>Acceso total</td></tr>
+          <tr><td>Empleado</td><td>—</td><td>Acceso limitado</td></tr>
+          <tr><td>Cliente</td><td>—</td><td>Solo lectura / solicitudes</td></tr>
+        </tbody></table>
+      </div>
+
+      <div class="section-block" id="sec-s-4-6r">
+        <div class="breadcrumb">A3 / 4 / <span>4.6</span></div>
+        <div class="section-title-area"><span class="section-num">4.6</span><h2 class="section-h">CASOS DE USO</h2></div>
+        <div class="sub-list">
+          <div class="sub-item" onclick="showSection('s-4-6-1')"><span class="si-num">4.6.1</span><span class="si-text">Identificar actores del sistema</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-4-6-2')"><span class="si-num">4.6.2</span><span class="si-text">Identificar los casos de uso</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-4-6-3')"><span class="si-num">4.6.3</span><span class="si-text">Diagrama caso de uso general</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-4-6-4')"><span class="si-num">4.6.4</span><span class="si-text">Descripción de los casos de uso</span><span class="si-arrow">→</span></div>
+          <div class="sub-item" onclick="showSection('s-4-6-5')"><span class="si-num">4.6.5</span><span class="si-text">Diagramas de casos de uso</span><span class="si-arrow">→</span></div>
+        </div>
+      </div>
+      <div class="section-block" id="sec-s-4-6-1"><div class="breadcrumb">A3 / 4.6 / <span>4.6.1</span></div><div class="section-title-area"><span class="section-num">4.6.1</span><h2 class="section-h">ACTORES DEL SISTEMA</h2></div><div class="cards-grid"><div class="info-card"><div class="ic-icon">👤</div><div class="ic-title">Administrador</div><div class="ic-value">Actor principal con acceso completo al sistema</div></div><div class="info-card"><div class="ic-icon">👥</div><div class="ic-title">Cliente</div><div class="ic-value">Actor externo que solicita cotizaciones y consulta proyectos</div></div><div class="info-card"><div class="ic-icon">🔧</div><div class="ic-title">[Otro actor]</div><div class="ic-value">—</div></div></div></div>
+      <div class="section-block" id="sec-s-4-6-2">
+        <div class="breadcrumb">A3 / 4.6 / <span>4.6.2</span></div>
+        <div class="section-title-area"><span class="section-num">4.6.2</span><h2 class="section-h">CASOS DE USO</h2></div>
+        <table class="req-table"><thead><tr><th>ID</th><th>Nombre</th><th>Actor</th></tr></thead><tbody>
+          <tr><td><span class="tag tag-cu">CU-RF01</span></td><td>[Nombre del caso de uso]</td><td>Administrador</td></tr>
+          <tr><td><span class="tag tag-cu">CU-RF02</span></td><td>[Nombre del caso de uso]</td><td>Cliente</td></tr>
+        </tbody></table>
+      </div>
+      <div class="section-block" id="sec-s-4-6-3"><div class="breadcrumb">A3 / 4.6 / <span>4.6.3</span></div><div class="section-title-area"><span class="section-num">4.6.3</span><h2 class="section-h">DIAGRAMA CASO DE USO GENERAL</h2></div><div class="diagram-placeholder"><div class="dp-icon">📐</div><div class="dp-label">Diagrama UML</div><div class="dp-title">Insertar diagrama de caso de uso general del sistema</div></div></div>
+      <div class="section-block" id="sec-s-4-6-4"><div class="breadcrumb">A3 / 4.6 / <span>4.6.4</span></div><div class="section-title-area"><span class="section-num">4.6.4</span><h2 class="section-h">DESCRIPCIÓN DE CASOS DE USO</h2></div><div class="info-card"><div class="ic-label">CU-RF01</div><div class="ic-title">[Nombre del caso de uso]</div><div class="ic-value">Actor: — · Precondición: — · Postcondición: — · Flujo principal: —</div></div></div>
+      <div class="section-block" id="sec-s-4-6-5"><div class="breadcrumb">A3 / 4.6 / <span>4.6.5</span></div><div class="section-title-area"><span class="section-num">4.6.5</span><h2 class="section-h">DIAGRAMAS DE CASOS DE USO</h2></div><div class="diagram-placeholder"><div class="dp-icon">📐</div><div class="dp-label">Diagramas individuales</div><div class="dp-title">Insertar diagramas de casos de uso por módulo</div></div></div>
+
+      <div class="section-block" id="sec-s-4-7r">
+        <div class="breadcrumb">A3 / 4 / <span>4.7</span></div>
+        <div class="section-title-area"><span class="section-num">4.7</span><h2 class="section-h">DIAGRAMAS DE ACTIVIDADES</h2></div>
+        <div class="diagram-placeholder"><div class="dp-icon">🔀</div><div class="dp-label">CU-RF01 – Actividades</div><div class="dp-title">Insertar diagrama de actividades para CU-RF01</div></div>
+        <div class="diagram-placeholder"><div class="dp-icon">🔀</div><div class="dp-label">CU-RF02 – Actividades</div><div class="dp-title">Insertar diagrama de actividades para CU-RF02</div></div>
+      </div>
+      <div class="section-block" id="sec-s-4-8r">
+        <div class="breadcrumb">A3 / 4 / <span>4.8</span></div>
+        <div class="section-title-area"><span class="section-num">4.8</span><h2 class="section-h">DIAGRAMAS DE SECUENCIA</h2></div>
+        <div class="diagram-placeholder"><div class="dp-icon">📡</div><div class="dp-label">CU-RF01 – Secuencia</div><div class="dp-title">Insertar diagrama de secuencia para CU-RF01</div></div>
+        <div class="diagram-placeholder"><div class="dp-icon">📡</div><div class="dp-label">CU-RF02 – Secuencia</div><div class="dp-title">Insertar diagrama de secuencia para CU-RF02</div></div>
+      </div>
+
+    </div><!-- /content-area -->
+
+    <footer>
+      <span>Construmaster</span> – Sociedad Puentes Saavedra S.A.S &nbsp;|&nbsp; construmaster@gmail.com
+      <span style="color: var(--texto-suave);">Ingeniería de Software · 2024</span>
+    </footer>
+
+  </main>
+</div>
+
+<!-- SIDEBAR TOGGLE MOBILE -->
+<button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">☰</button>
+
+<script>
+// ── SECTION NAVIGATION ──
+function showSection(id) {
+  // hide all
+  document.querySelectorAll('.section-block').forEach(el => {
+    el.classList.remove('visible', 'default-view');
+    el.style.display = 'none';
+  });
+  // show target
+  const target = document.getElementById('sec-' + id);
+  if (target) {
+    target.style.display = 'block';
+    target.classList.add('visible');
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  // update active nav items
+  document.querySelectorAll('.nav-item, .nav-sub-item').forEach(el => el.classList.remove('active'));
+  // close sidebar on mobile
+  if (window.innerWidth <= 768) {
+    document.getElementById('sidebar').classList.remove('open');
+  }
+}
+
+// ── GROUP TOGGLE ──
+function toggleGroup(id) {
+  const group = document.getElementById(id);
+  if (!group) return;
+  const isOpen = group.classList.contains('open');
+  // Close all
+  document.querySelectorAll('.avance-group').forEach(g => g.classList.remove('open'));
+  document.querySelectorAll('.avance-header').forEach(h => h.classList.remove('active'));
+  // Open clicked if it was closed
+  if (!isOpen) {
+    group.classList.add('open');
+    group.querySelector('.avance-header').classList.add('active');
+  }
+}
+
+// ── MOBILE SIDEBAR ──
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+
+// ── INIT ──
+document.getElementById('sec-inicio').style.display = 'block';
+</script>
+
+</body>
+</html>

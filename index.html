@@ -6,7 +6,6 @@
 <title>Construmaster</title>
 
 <style>
-/* ===== BASE ===== */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -17,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ===== TOP BAR ===== */
+/* TOP BAR */
 .topbar {
   background: black;
   color: white;
@@ -25,7 +24,7 @@ html {
   padding: 8px 20px;
 }
 
-/* ===== NAVBAR ===== */
+/* NAVBAR */
 .navbar {
   background: #e6e6e6;
   display: flex;
@@ -48,9 +47,10 @@ html {
   border-radius: 50%;
   border: 6px solid #FFD700;
   background: black;
+  object-fit: cover;
 }
 
-/* ===== MENU ===== */
+/* MENU */
 .menu {
   list-style: none;
   display: flex;
@@ -97,7 +97,7 @@ html {
   color: black;
 }
 
-/* ===== CONTENIDO ===== */
+/* CONTENIDO */
 main {
   background: black;
   max-width: 1000px;
@@ -149,6 +149,7 @@ main {
 
 .carousel-images img {
   width: 100%;
+  flex-shrink: 0;
 }
 
 /* FOOTER */
@@ -163,15 +164,13 @@ footer {
 
 <body>
 
-<!-- TOP -->
 <header class="topbar">
   Contacto: construmaster@gmail.com
 </header>
 
-<!-- NAV -->
 <nav class="navbar">
   <div class="logo-container">
-    <img src="logo.png" class="logo-circle">
+    <img src="logo.png" class="logo-circle" alt="logo">
   </div>
 
   <ul class="menu">
@@ -213,7 +212,6 @@ footer {
   </ul>
 </nav>
 
-<!-- CONTENIDO -->
 <main>
 
 <section id="inicio">
@@ -224,7 +222,7 @@ footer {
 
     <div class="video-frame">
       <iframe id="videoPlayer"
-        src="https://www.youtube.com/watch?v=okYBe2YB1sk"
+        src="https://www.youtube.com/embed/okYBe2YB1sk"
         allowfullscreen>
       </iframe>
     </div>
@@ -272,14 +270,20 @@ function moveSlide(step) {
   carousel.style.transform = `translateX(-${index * 100}%)`;
 }
 
-/* VIDEO */
-const videos = ["UJKqewleNxg","VIDEO2","VIDEO3"];
+/* VIDEOS */
+const videos = [
+  "okYBe2YB1sk",
+  "skr-vwGVKH8",
+  "Y46OdJmuZIw",
+  "S7ogV_J_Nsg"
+];
+
 let i = 0;
 
 function cambiarVideo(dir) {
   i = (i + dir + videos.length) % videos.length;
   document.getElementById("videoPlayer").src =
-    "https://www.youtube.com/watch?v=okYBe2YB1sk" + videos[i];
+    "https://www.youtube.com/embed/" + videos[i];
 }
 </script>
 

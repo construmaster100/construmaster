@@ -127,14 +127,15 @@ body {
   text-align: center;
 }
 
-/* Video slider — ocupa todo el espacio disponible */
+/* Video slider — ocupa el ancho del navbar*/
 .video-slider {
   flex: 1;
   display: flex;
   align-items: stretch;
   justify-content: center;
   width: 100%;
-  overflow: hidden;
+  max-width: 900px;   /* ← mismo ancho que tus secciones */
+  margin: 0 auto;     /* ← lo centra */
 }
 
 .video-frame {

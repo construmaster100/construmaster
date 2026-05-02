@@ -11,10 +11,10 @@
   --gold: #FF6B00;
   --gold-dark: #cc5500;
   --black: #0a0a0a;
-  --gray-dark: #1a1a1a;
-  --gray-mid: #2a2a2a;
-  --gray-light: #e0e0e0;
-  --white: #f5f5f5;
+  --gray-dark: #1a3a5c;
+  --gray-mid: #e8f0f8;
+  --gray-light: #1a3a5c;
+  --white: #ffffff;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -23,8 +23,8 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Barlow', sans-serif;
-  background: var(--black);
-  color: var(--white);
+  background: #ffffff;
+  color: #1a1a1a;
   overflow-x: hidden;
 }
 
@@ -111,7 +111,7 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background: #1a1a1a;
+  background: #1a3a5c;
   border-top: 2px solid var(--gold);
   list-style: none;
   min-width: 180px;
@@ -122,7 +122,7 @@ body {
 
 .submenu li a {
   display: block;
-  color: var(--gray-light);
+  color: #1a3a5c;
   text-decoration: none;
   padding: 12px 18px;
   font-size: 13px;
@@ -156,7 +156,7 @@ body {
 }
 
 .section-header p {
-  color: var(--gray-light);
+  color: #1a3a5c;
   opacity: 0.7;
   margin-top: 8px;
   font-size: 14px;
@@ -165,7 +165,7 @@ body {
 }
 
 /* ─── COTIZAR ─── */
-#cotizar { background: var(--gray-dark); padding-bottom: 80px; }
+#cotizar { background: #ffffff; padding-bottom: 80px; }
 
 .cotizar-options {
   display: grid;
@@ -216,7 +216,7 @@ body {
 .cotizar-card p {
   font-size: 13px;
   line-height: 1.6;
-  color: var(--gray-light);
+  color: #1a3a5c;
   opacity: 0.8;
 }
 
@@ -231,7 +231,7 @@ body {
 .cotizar-panel.active { display: block; }
 
 .quote-form {
-  background: var(--black);
+  background: #ffffff;
   border: 2px solid var(--gold);
   border-radius: 6px;
   padding: 40px;
@@ -263,11 +263,11 @@ body {
 .form-group input,
 .form-group select,
 .form-group textarea {
-  background: var(--gray-mid);
+  background: #e8f0f8;
   border: 1px solid #444;
   border-radius: 4px;
   padding: 12px 14px;
-  color: var(--white);
+  color: #1a1a1a;
   font-family: 'Barlow', sans-serif;
   font-size: 15px;
   transition: border-color 0.2s;
@@ -280,7 +280,7 @@ body {
   border-color: var(--gold);
 }
 
-.form-group select option { background: var(--gray-mid); }
+.form-group select option { background: #e8f0f8; }
 .form-group textarea { resize: vertical; min-height: 100px; }
 
 .btn-submit {
@@ -321,7 +321,7 @@ body {
 }
 
 /* ─── PROYECTOS ─── */
-#proyectos { background: var(--black); padding-bottom: 60px; }
+#proyectos { background: #ffffff; padding-bottom: 60px; }
 
 .carousel-wrap {
   max-width: 900px;
@@ -346,7 +346,7 @@ body {
   flex-shrink: 0;
   height: 420px;
   object-fit: cover;
-  background: var(--gray-mid);
+  background: #e8f0f8;
 }
 
 .carousel-controls {
@@ -382,7 +382,7 @@ body {
 }
 
 /* ─── SOLICITAR COTIZACIÓN ─── */
-#solicitar { background: var(--black); padding-bottom: 80px; }
+#solicitar { background: #f0f6ff; padding-bottom: 80px; }
 
 .quote-container {
   max-width: 680px;
@@ -392,7 +392,7 @@ body {
 
 /* ─── FOOTER ─── */
 footer {
-  background: var(--black);
+  background: #ffffff;
   border-top: 3px solid var(--gold);
   padding: 40px 40px 24px;
   text-align: center;
@@ -417,7 +417,7 @@ footer {
 
 .footer-col p, .footer-col a {
   font-size: 14px;
-  color: var(--gray-light);
+  color: #1a3a5c;
   opacity: 0.7;
   line-height: 2;
   display: block;
@@ -431,7 +431,7 @@ footer {
   border-top: 1px solid var(--gray-mid);
   padding-top: 20px;
   font-size: 12px;
-  color: var(--gray-light);
+  color: #1a3a5c;
   opacity: 0.4;
   letter-spacing: 1px;
 }

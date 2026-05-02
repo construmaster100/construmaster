@@ -99,35 +99,13 @@ body { font-family: 'Barlow', sans-serif; background: #ffffff; color: #1a1a1a; o
 
 /* No dropdown arrow */
 
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #1a3a5c;
-  border-top: 2px solid var(--gold);
-  list-style: none;
-  min-width: 180px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-}
 
-.menu > li:hover .submenu { display: block; }
 
-.submenu li a {
-  display: block;
-  color: #1a3a5c;
-  text-decoration: none;
-  padding: 12px 18px;
-  font-size: 13px;
-  letter-spacing: 1px;
-  border-bottom: 1px solid var(--gray-mid);
-  transition: background 0.2s, color 0.2s;
-}
+.menu > li:hover 
 
-.submenu li a:hover {
-  background: var(--gold);
-  color: #ffffff;
-}
+
+
+
 
 /* ─── HERO BANNER ─── */
 #inicio {
@@ -246,42 +224,17 @@ footer { background: #ffffff; border-top: 3px solid var(--gold); padding: 40px 4
 <nav class="navbar">
   <div class="navbar-center">
     <ul class="menu">
-      <li class="has-sub">
+      <li>
         <a href="index_final.html">Inicio</a>
-        <ul class="submenu">
-          <li><a href="index_final.html">Inicio</a></li>
-          <li><a href="pagina 2.html">Nosotros</a></li>
-          <li><a href="index_final.html#inicio">Soy Cliente</a></li>
-          <li><a href="index_final.html#inicio">Registrarme</a></li>
-        </ul>
       </li>
-      <li class="has-sub">
+      <li>
         <a href="pagina 3.html">Proyectos</a>
-        <ul class="submenu">
-          <li><a href="pagina 3.html#casa1">Vivienda Personal</a></li>
-          <li><a href="pagina 3.html#casa2">Vivienda Familiar</a></li>
-          <li><a href="pagina 3.html#casa3">Cabaña Andina</a></li>
-          <li><a href="pagina 3.html#disenar">Diseñar</a></li>
-        </ul>
       </li>
-      <li class="has-sub">
+      <li>
         <a href="pagina 4.html">Licencias</a>
-        <ul class="submenu">
-          <li><a href="pagina 4.html#construccion">Construcción</a></li>
-          <li><a href="pagina 4.html#remodelacion">Remodelación</a></li>
-          <li><a href="pagina 4.html#reconocimiento">Reconocimiento</a></li>
-          <li><a href="pagina 4.html#diseno">Diseño</a></li>
-        </ul>
       </li>
-      <li class="has-sub">
+      <li>
         <a href="pagina 5.html">Cotizar</a>
-        <ul class="submenu">
-          <li><a href="pagina 5.html#plano">Digitación de plano</a></li>
-          <li><a href="pagina 5.html#presupuesto">Solicitar Presupuesto</a></li>
-          <li><a href="pagina 5.html#tecnica">Consulta Técnica</a></li>
-          <li><a href="pagina 5.html#visita">Visita al predio</a></li>
-          <li><a href="pagina 5.html#contacto">Contacto</a></li>
-        </ul>
       </li>
     </ul>
   </div>

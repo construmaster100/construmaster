@@ -11,15 +11,15 @@
   --gold: #FF6B00;
   --gold-dark: #cc5500;
   --black: #0a0a0a;
-  --gray-dark: #1a1a1a;
-  --gray-mid: #2a2a2a;
-  --gray-light: #e0e0e0;
-  --white: #f5f5f5;
+  --gray-dark: #1a3a5c;
+  --gray-mid: #e8f0f8;
+  --gray-light: #1a3a5c;
+  --white: #ffffff;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(--white); overflow-x: hidden; }
+body { font-family: 'Barlow', sans-serif; background: #ffffff; color: #1a1a1a; overflow-x: hidden; }
 
 /* ─── TOPBAR (logo) ─── */
 .topbar {
@@ -104,7 +104,7 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
   position: absolute;
   top: 100%;
   left: 0;
-  background: #1a1a1a;
+  background: #1a3a5c;
   border-top: 2px solid var(--gold);
   list-style: none;
   min-width: 180px;
@@ -115,7 +115,7 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
 
 .submenu li a {
   display: block;
-  color: var(--gray-light);
+  color: #1a3a5c;
   text-decoration: none;
   padding: 12px 18px;
   font-size: 13px;
@@ -131,7 +131,7 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
 
 /* ─── HERO BANNER ─── */
 #inicio {
-  background: var(--black);
+  background: #ffffff;
   padding: 60px 40px 20px;
   text-align: center;
 }
@@ -143,7 +143,7 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
   margin-bottom: 6px;
 }
 #inicio .subtitle {
-  color: var(--gray-light);
+  color: #1a3a5c;
   font-size: 14px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -157,10 +157,10 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
 /* ─── SECTION HEADER ─── */
 .section-header { text-align: center; padding: 50px 40px 30px; }
 .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 5vw, 58px); letter-spacing: 5px; color: var(--gold); }
-.section-header p { color: var(--gray-light); opacity: 0.7; margin-top: 8px; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; }
+.section-header p { color: #1a3a5c; opacity: 0.7; margin-top: 8px; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; }
 
 /* ─── PROYECTOS ─── */
-#proyectos { background: var(--gray-dark); padding-bottom: 70px; }
+#proyectos { background: #f0f6ff; padding-bottom: 70px; }
 
 .projects-grid {
   display: grid;
@@ -172,7 +172,7 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
 }
 
 .project-card {
-  background: var(--black);
+  background: #ffffff;
   border: 2px solid var(--gold);
   border-radius: 8px;
   overflow: hidden;
@@ -181,10 +181,10 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
 .project-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(255,215,0,0.15); }
 
 /* Carrusel individual */
-.card-carousel { position: relative; overflow: hidden; height: 220px; background: var(--gray-mid); }
+.card-carousel { position: relative; overflow: hidden; height: 220px; background: #e8f0f8; }
 .card-carousel-images { display: flex; height: 100%; transition: transform 0.5s cubic-bezier(.77,0,.175,1); }
 .card-carousel-images img { width: 100%; flex-shrink: 0; height: 220px; object-fit: cover; }
-.card-img-placeholder { width: 100%; flex-shrink: 0; height: 220px; background: var(--gray-mid); display: flex; align-items: center; justify-content: center; font-size: 48px; opacity: 0.3; }
+.card-img-placeholder { width: 100%; flex-shrink: 0; height: 220px; background: #e8f0f8; display: flex; align-items: center; justify-content: center; font-size: 48px; opacity: 0.3; }
 .card-carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); color: var(--gold); border: 1px solid var(--gold); border-radius: 3px; width: 34px; height: 34px; font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s; z-index: 2; }
 .card-carousel-btn:hover { background: rgba(255,215,0,0.25); }
 .card-carousel-btn.prev { left: 8px; }
@@ -195,23 +195,23 @@ body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(-
 
 .card-info { padding: 18px 22px; border-top: 2px solid var(--gold); }
 .card-info h3 { font-family: 'Bebas Neue', sans-serif; font-size: 19px; letter-spacing: 2px; color: var(--gold); margin-bottom: 4px; }
-.card-info .card-specs { font-size: 12px; color: var(--gray-light); opacity: 0.75; letter-spacing: 1px; }
-.card-info .card-price { font-family: 'Bebas Neue', sans-serif; font-size: 21px; color: var(--white); letter-spacing: 2px; margin-top: 6px; }
+.card-info .card-specs { font-size: 12px; color: #1a3a5c; opacity: 0.75; letter-spacing: 1px; }
+.card-info .card-price { font-family: 'Bebas Neue', sans-serif; font-size: 21px; color: #1a1a1a; letter-spacing: 2px; margin-top: 6px; }
 
 /* Tarjeta Diseñar */
 .project-card.card-design { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 300px; cursor: pointer; background: linear-gradient(135deg, var(--gray-dark) 0%, var(--black) 100%); text-align: center; padding: 30px 20px; }
 .project-card.card-design:hover .design-icon { transform: scale(1.15) rotate(5deg); }
 .design-icon { font-size: 60px; margin-bottom: 14px; transition: transform 0.3s; }
 .project-card.card-design h3 { font-family: 'Bebas Neue', sans-serif; font-size: 30px; letter-spacing: 4px; color: var(--gold); margin-bottom: 8px; }
-.project-card.card-design p { font-size: 13px; color: var(--gray-light); opacity: 0.7; padding: 0 10px; }
+.project-card.card-design p { font-size: 13px; color: #1a3a5c; opacity: 0.7; padding: 0 10px; }
 
 /* ─── FOOTER ─── */
-footer { background: var(--black); border-top: 3px solid var(--gold); padding: 40px 40px 24px; text-align: center; }
+footer { background: #ffffff; border-top: 3px solid var(--gold); padding: 40px 40px 24px; text-align: center; }
 .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; max-width: 900px; margin: 0 auto 32px; text-align: left; }
 .footer-col h4 { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 2px; color: var(--gold); margin-bottom: 14px; }
-.footer-col p, .footer-col a { font-size: 14px; color: var(--gray-light); opacity: 0.7; line-height: 2; display: block; text-decoration: none; transition: color 0.2s, opacity 0.2s; }
+.footer-col p, .footer-col a { font-size: 14px; color: #1a3a5c; opacity: 0.7; line-height: 2; display: block; text-decoration: none; transition: color 0.2s, opacity 0.2s; }
 .footer-col a:hover { color: var(--gold); opacity: 1; }
-.footer-bottom { border-top: 1px solid var(--gray-mid); padding-top: 20px; font-size: 12px; color: var(--gray-light); opacity: 0.4; letter-spacing: 1px; }
+.footer-bottom { border-top: 1px solid var(--gray-mid); padding-top: 20px; font-size: 12px; color: #1a3a5c; opacity: 0.4; letter-spacing: 1px; }
 
 /* WhatsApp float */
 .whatsapp-float { position: fixed; bottom: 24px; right: 24px; background: #25d366; color: white; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 4px 20px rgba(37,211,102,0.4); text-decoration: none; z-index: 999; transition: transform 0.2s; }

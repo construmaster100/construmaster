@@ -1,0 +1,39 @@
+=== Plomería > Accesorios PVC ===
+  encontrados: 45 (total reportado: 45)
+  sin imagen (omitidos): 4
+  agregados: 41
+=== Plomería > Tubos de Cobre y Accesorios ===
+  encontrados: 77 (total reportado: 77)
+  sin imagen (omitidos): 12
+  agregados: 65
+=== Plomería > Tubos Polipropileno y Termofusión ===
+  encontrados: 33 (total reportado: null)
+  agregados: 33
+=== Plomería > Tanques de Agua y Accesorios ===
+  encontrados: 176 (total reportado: 184)
+  sin imagen (omitidos): 9
+  agregados: 167
+=== Plomería > Pozos Sépticos y Accesorios ===
+  encontrados: 84 (total reportado: 86)
+  sin imagen (omitidos): 4
+  agregados: 80
+=== Plomería > Bombas y Motobombas ===
+  encontrados: 466 (total reportado: 655)
+  agregados: 145
+=== Plomería > Repuestos y Accesorios para Sanitario, Ducha y Lavamanos ===
+  encontrados: 227 (total reportado: 240)
+  sin imagen (omitidos): 16
+  agregados: 211
+=== Plomería > Válvulas y Medidores de Agua ===
+  encontrados: 276 (total reportado: 350)
+  sin imagen (omitidos): 12
+  agregados: 264
+=== Plomería > Válvulas y Reguladores de Gas ===
+  encontrados: 328 (total reportado: 402)
+  sin imagen (omitidos): 23
+  agregados: 305
+=== Plomería > Rejillas y Sifones ===
+  encontrados: 373 (total reportado: 495)
+  sin imagen (omitidos): 26
+  agregados: 346
+TOTAL AGREGADOS: 1657

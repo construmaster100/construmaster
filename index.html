@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ConstruMaster: materiales, presupuesto, diseño y seguimiento de proyectos de construcción.">
+  <title>ConstruMaster | Construcción que avanza</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="barra-servicio">
+    <span>Construcción, remodelación y mejoras en un solo lugar</span>
+    <span>Atención a proyectos y presupuestos</span>
+  </div>
+
+  <header class="cabecera">
+    <a class="marca" href="#inicio" aria-label="Ir al inicio">
+      <span class="marca-simbolo">CM</span>
+      <span><strong>CONSTRU</strong><em>MASTER</em><small>proyectos que toman forma</small></span>
+    </a>
+    <button class="boton-menu" id="boton-menu" type="button" aria-label="Abrir menú">☰</button>
+    <nav class="navbar" id="navbar" aria-label="Navegación principal">
+      <a class="activo" href="#inicio">Inicio</a>
+      <a href="#categorias">Construcción</a>
+      <a href="#remodelacion">Remodelación</a>
+      <a href="#mejoras">Mejoras</a>
+      <a href="pages/presupuesto y seguimiento de obra/index.html#materiales">Presupuestos</a>
+      <a href="#diseno">Diseño</a>
+      <a href="#proyecto">Proyecto</a>
+    </nav>
+    <div class="acciones-cabecera">
+      <button class="icono-boton" type="button" id="boton-busqueda" aria-label="Buscar">⌕</button>
+      <button class="boton-ingresar" type="button" id="boton-ingresar">Ingresar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-contenido">
+        <p class="eyebrow">EL ESPACIO QUE IMAGINAS</p>
+        <h1>Construir bien<br><span>empieza aquí.</span></h1>
+        <p class="hero-texto">Encuentra materiales, organiza tu presupuesto y sigue cada avance de tu obra desde una experiencia unificada.</p>
+        <div class="hero-acciones">
+          <a class="boton-principal" href="#categorias">Explorar soluciones <span>→</span></a>
+          <a class="boton-secundario" href="pages/presupuesto y seguimiento de obra/index.html#materiales">Ver presupuestos</a>
+        </div>
+      </div>
+      <div class="hero-datos">
+        <span>01</span><i></i><span>Construcción integral</span>
+      </div>
+    </section>
+
+    <section class="seccion categorias" id="categorias">
+      <div class="encabezado-seccion"><div><p class="eyebrow">ENCUENTRA TU RUTA</p><h2>Compra por categoría</h2></div><a href="#presupuesto">Ver todas <span>→</span></a></div>
+      <div class="rejilla-categorias">
+        <a class="tarjeta-categoria categoria-construccion" href="#presupuesto"><span class="numero">01</span><span class="icono-categoria">▦</span><h3>Construcción</h3><p>Materiales y soluciones para levantar desde la base.</p><span class="flecha">↗</span></a>
+        <a class="tarjeta-categoria categoria-remodelacion" id="remodelacion" href="#diseno"><span class="numero">02</span><span class="icono-categoria">◒</span><h3>Remodelación</h3><p>Transforma espacios existentes con intención.</p><span class="flecha">↗</span></a>
+        <a class="tarjeta-categoria categoria-mejoras" id="mejoras" href="#presupuesto"><span class="numero">03</span><span class="icono-categoria">＋</span><h3>Mejoras</h3><p>Pequeños cambios que elevan tu proyecto.</p><span class="flecha">↗</span></a>
+      </div>
+    </section>
+
+    <section class="franja-acceso" id="presupuesto">
+      <div><p class="eyebrow">CENTRO DE TRABAJO</p><h2>Todo tu proyecto,<br><span>en un solo documento.</span></h2></div>
+      <div class="accesos-trabajo">
+        <a href="pages/presupuesto y seguimiento de obra/index.html"><span>01</span><strong>Presupuesto y seguimiento</strong><small>Consulta capítulos, costos y avance de obra</small><b>↗</b></a>
+        <a href="pages/presupuesto y seguimiento de obra/index.html#materiales"><span>02</span><strong>Presupuestos</strong><small>Modelos y materiales para tomar decisiones</small><b>↗</b></a>
+        <a href="#diseno"><span>03</span><strong>Diseño</strong><small>Define la dirección visual de tu espacio</small><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="seccion diseno" id="diseno">
+      <div class="diseno-copy"><p class="eyebrow">DISEÑO CON PROPÓSITO</p><h2>Ideas que se convierten en espacios.</h2><p>Ordena referencias, define materiales y conecta tus decisiones de diseño con el presupuesto real de la obra.</p><a class="boton-principal oscuro" href="#proyecto">Ver inspiración <span>→</span></a></div>
+      <div class="muestra-diseno"><div class="muestra-linea"></div><span>materiales<br>que cuentan<br>una historia</span></div>
+    </section>
+
+    <section class="seccion proyecto" id="proyecto">
+      <div class="encabezado-seccion"><div><p class="eyebrow">ÁREA DEL CLIENTE</p><h2>Proyecto en imágenes</h2></div><p class="texto-proyecto">Ingresa para consultar el avance visual de tu obra.</p></div>
+      <div class="carrusel" id="carrusel">
+        <button class="control-carrusel anterior" type="button" aria-label="Imagen anterior">←</button>
+        <div class="diapositivas" id="diapositivas"></div>
+        <button class="control-carrusel siguiente" type="button" aria-label="Imagen siguiente">→</button>
+        <div class="indicadores" id="indicadores"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie"><div class="marca-pie"><strong>CONSTRU</strong><em>MASTER</em></div><p>Construcción que avanza contigo.</p><span>© 2026 ConstruMaster</span></footer>
+
+  <dialog class="modal" id="modal-login">
+    <form method="dialog" class="formulario-login" id="formulario-login">
+      <button class="cerrar-modal" type="button" id="cerrar-modal" aria-label="Cerrar">×</button>
+      <p class="eyebrow">ÁREA DEL CLIENTE</p><h2>Bienvenido a tu proyecto</h2><p class="subtexto">Ingresa para consultar tus imágenes y avances.</p>
+      <label for="usuario">Usuario</label><input id="usuario" name="usuario" autocomplete="username" required>
+      <label for="contrasena">Contraseña</label><input id="contrasena" name="contrasena" type="password" autocomplete="current-password" required>
+      <p class="mensaje-login" id="mensaje-login" role="alert"></p><button class="boton-principal boton-login" type="submit">Ingresar <span>→</span></button>
+      <small class="nota-seguridad">Acceso de cliente ConstruMaster</small>
+    </form>
+  </dialog>
+  <script src="index.js"></script>
+</body>
+</html>

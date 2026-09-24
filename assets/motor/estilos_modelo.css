@@ -1,0 +1,359 @@
+:root {
+  --color-negra: #2b2d34;
+  --color-gris: #6b7280;
+  --color-blanca: #c9a24b;
+  --color-fondo: #f5f6f8;
+  --color-panel: #ffffff;
+  --color-borde: #e2e4e9;
+  --color-texto: #1f2330;
+  --color-texto-suave: #5b616e;
+  --radio: 10px;
+  --ancho-sidebar: 250px;
+  --alto-navbar: 64px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+/* ---- Navbar ---- */
+header.navbar {
+  min-height: var(--alto-navbar);
+  background: var(--color-negra);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.marca {
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 10px 0;
+}
+
+.marca span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.72rem;
+  color: #c7c9d1;
+}
+
+nav.navtabs {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+nav.navtabs button, nav.navtabs a {
+  background: none;
+  border: none;
+  color: #d3d5db;
+  padding: 10px 16px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  display: inline-block;
+}
+
+nav.navtabs button:hover, nav.navtabs a:hover { color: #fff; background: rgba(255,255,255,0.06); }
+nav.navtabs button.activo { color: #fff; border-bottom-color: var(--color-blanca); font-weight: 600; }
+
+.acciones {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nombre-archivo {
+  font-size: 0.8rem;
+  color: #c7c9d1;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.paneles-materiales { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:18px 0 22px; }
+.panel-carrito { background:var(--color-panel); border:1px solid var(--color-borde); padding:14px 16px; }
+.titulo-panel, .total-carrito { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.titulo-panel { padding-bottom:10px; border-bottom:1px solid var(--color-borde); }
+.titulo-panel span, .total-carrito span { color:var(--color-texto-suave); font-size:.78rem; }
+.lista-carrito { max-height:150px; overflow:auto; }
+.fila-carrito { display:grid; grid-template-columns:1fr auto 24px; gap:8px; align-items:center; padding:8px 0; border-bottom:1px solid var(--color-borde); font-size:.78rem; }
+.fila-carrito strong { font-size:.75rem; }
+.fila-carrito button { border:0; background:none; color:#9b3b31; cursor:pointer; font-size:1.1rem; }
+.total-carrito { padding-top:12px; margin-top:4px; border-top:2px solid var(--color-negra); }
+.tabla-materiales td:last-child { min-width:180px; }
+.control-cantidad { display:flex; align-items:center; gap:8px; }
+.control-cantidad button { width:26px; height:26px; border:1px solid var(--color-borde); background:var(--color-panel); cursor:pointer; font-size:1rem; }
+.control-cantidad output { min-width:18px; text-align:center; font-size:.8rem; }
+.boton-carrito, .boton-comparar { padding:6px 8px; border:1px solid var(--color-negra); background:var(--color-negra); color:#fff; cursor:pointer; font-size:.72rem; }
+.boton-comparar { margin-left:5px; color:var(--color-negra); background:transparent; }
+.boton-comparar.activo { color:#fff; background:var(--color-blanca); border-color:var(--color-blanca); }
+.etiquetas-material { display:flex; gap:4px; margin-top:5px; flex-wrap:wrap; }
+.etiquetas-material span { padding:2px 5px; color:var(--color-texto-suave); background:#eef0f4; font-size:.63rem; }
+.tabla-comparacion { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; padding-top:12px; }
+.tabla-comparacion div { display:flex; flex-direction:column; gap:8px; padding:8px; border:1px solid var(--color-borde); font-size:.75rem; }
+.tabla-comparacion span { font-weight:700; }
+.tabla-comparacion button { align-self:flex-start; border:0; padding:0; color:#9b3b31; background:none; cursor:pointer; font-size:.7rem; }
+.tabla-materiales-scroll { overflow-x:auto; }
+
+.boton-cargar {
+  background: var(--color-blanca);
+  color: #2b2d34;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.boton-cargar:hover { filter: brightness(1.05); }
+
+.boton-cargar input[type="file"] {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
+/* ---- Layout ---- */
+div.cuerpo {
+  display: flex;
+  align-items: flex-start;
+}
+
+aside.sidebar {
+  width: var(--ancho-sidebar);
+  flex: 0 0 var(--ancho-sidebar);
+  background: var(--color-panel);
+  border-right: 1px solid var(--color-borde);
+  min-height: calc(100vh - var(--alto-navbar));
+  padding: 10px 0;
+}
+
+button.item-sidebar {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--color-borde);
+  padding: 12px 18px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--color-texto);
+}
+
+button.item-sidebar:hover { background: #f0f1f4; }
+button.item-sidebar.activo { background: #eef0f4; color: var(--color-negra); }
+
+details.grupo-etapa { border-bottom: 1px solid var(--color-borde); }
+
+details.grupo-etapa summary {
+  cursor: pointer;
+  padding: 12px 18px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-texto-suave);
+  border-left: 4px solid transparent;
+  list-style: none;
+}
+
+details.grupo-etapa summary::-webkit-details-marker { display: none; }
+details.grupo-etapa summary::before { content: '▸ '; }
+details.grupo-etapa[open] summary::before { content: '▾ '; }
+
+button.item-capitulo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 8px 18px 8px 30px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--color-texto-suave);
+}
+
+button.item-capitulo:hover { background: #f0f1f4; }
+button.item-capitulo.activo { background: #eef0f4; color: var(--color-negra); font-weight: 600; }
+button.item-capitulo .num {
+  display: inline-block;
+  width: 18px; height: 18px; line-height: 18px;
+  text-align: center; border-radius: 50%;
+  background: var(--color-borde); font-size: 0.68rem;
+}
+
+main.contenido {
+  flex: 1;
+  padding: 28px 36px;
+  max-width: 1100px;
+}
+
+main.contenido h2 { margin-top: 0; }
+
+.fuente-hoja {
+  font-size: 0.78rem;
+  color: var(--color-texto-suave);
+  margin-top: -8px;
+}
+
+section.datos-proyecto {
+  background: var(--color-panel);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px 24px;
+}
+
+section.datos-proyecto div.campo label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-texto-suave);
+  margin-bottom: 4px;
+}
+
+section.datos-proyecto div.campo span {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+h3.titulo-etapa {
+  border-left: 4px solid var(--color-negra);
+  padding-left: 10px;
+  font-size: 1.05rem;
+  margin: 24px 0 12px;
+}
+
+.grilla-capitulos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+button.tarjeta-capitulo {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--color-panel);
+  border: 1px solid var(--color-borde);
+  border-left: 4px solid var(--borde-etapa, var(--color-negra));
+  border-radius: var(--radio);
+  padding: 14px 16px;
+  cursor: pointer;
+  color: var(--color-texto);
+}
+
+button.tarjeta-capitulo:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+button.tarjeta-capitulo .num { font-size: 0.75rem; color: var(--color-texto-suave); font-weight: 600; }
+button.tarjeta-capitulo .nombre { display: block; margin: 2px 0 6px; font-weight: 600; }
+button.tarjeta-capitulo .subtotal { font-size: 0.85rem; color: var(--color-texto-suave); }
+
+table.tabla-presupuesto {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-panel);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+}
+
+table.tabla-presupuesto th, table.tabla-presupuesto td {
+  border-bottom: 1px solid var(--color-borde);
+  padding: 10px 12px;
+  font-size: 0.88rem;
+  text-align: left;
+}
+
+table.tabla-presupuesto th {
+  background: #f0f1f4;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-texto-suave);
+}
+
+table.tabla-presupuesto tbody tr:last-child td { border-bottom: none; }
+table.tabla-presupuesto tfoot td { font-weight: 700; background: #f8f8fa; }
+
+.vacio { color: #9aa0ab; font-style: italic; }
+
+.grilla-imagenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+figure.tarjeta-imagen {
+  margin: 0;
+  background: var(--color-panel);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+}
+
+figure.tarjeta-imagen img { width: 100%; height: 140px; object-fit: cover; display: block; }
+figure.tarjeta-imagen figcaption { padding: 8px 10px; font-size: 0.75rem; color: var(--color-texto-suave); word-break: break-all; }
+
+/* ---- Materiales ---- */
+input.buscador-materiales {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 14px;
+  border: 1px solid var(--color-borde);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  margin-bottom: 14px;
+}
+
+.chips-etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+button.chip-etiqueta {
+  background: var(--color-panel);
+  border: 1px solid var(--color-borde);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.76rem;
+  cursor: pointer;
+  color: var(--color-texto-suave);
+}
+
+button.chip-etiqueta:hover { border-color: var(--color-negra); }
+button.chip-etiqueta.activo { background: var(--color-negra); color: #fff; border-color: var(--color-negra); }
+
+table.tabla-materiales td { vertical-align: middle; }
+span.etiqueta-mini {
+  display: inline-block;
+  background: #eef0f4;
+  color: var(--color-texto-suave);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  margin: 2px 3px 2px 0;
+}

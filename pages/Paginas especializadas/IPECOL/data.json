@@ -1,0 +1,90 @@
+[
+  {
+    "nombre": "Pintura tipo 2: ESENCIAL",
+    "precio": "Consultar",
+    "categoria": "Pinturas",
+    "imagen": "img/pinturas--pintura-tipo-2-esencial--0.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_esencial.png"
+  },
+  {
+    "nombre": "Pintura tipo1: SUPERIOR",
+    "precio": "Consultar",
+    "categoria": "Pinturas",
+    "imagen": "img/pinturas--pintura-tipo1-superior--1.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_superior.png"
+  },
+  {
+    "nombre": "Pintura DRYWALL",
+    "precio": "Consultar",
+    "categoria": "Pinturas",
+    "imagen": "img/pinturas--pintura-drywall--2.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_drywall.png"
+  },
+  {
+    "nombre": "GYPSUMASTIC 90 MINUTOS",
+    "precio": "Consultar",
+    "categoria": "Masillas",
+    "imagen": "img/masillas--gypsumastic-90-minutos--3.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_drywall.png"
+  },
+  {
+    "nombre": "Gypsumastic MASILLA MULTIUSOS Drywall",
+    "precio": "Consultar",
+    "categoria": "Masillas",
+    "imagen": "img/masillas--gypsumastic-masilla-multiusos-drywall--4.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_drywall.png"
+  },
+  {
+    "nombre": "PANELACABADOS",
+    "precio": "Consultar",
+    "categoria": "Paneles",
+    "imagen": "img/paneles--panelacabados--5.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_panelacabados.png"
+  },
+  {
+    "nombre": "PANELJUNTAS",
+    "precio": "Consultar",
+    "categoria": "Paneles",
+    "imagen": "img/paneles--paneljuntas--6.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_paneljuntas.png"
+  },
+  {
+    "nombre": "TUCCOL ESTUCO PLÁSTICO",
+    "precio": "Consultar",
+    "categoria": "Estucos y Pañetes",
+    "imagen": "img/estucos-y-panetes--tuccol-estuco-plastico--7.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_paneljuntas.png"
+  },
+  {
+    "nombre": "TUCCOL PAÑETE",
+    "precio": "Consultar",
+    "categoria": "Estucos y Pañetes",
+    "imagen": "img/estucos-y-panetes--tuccol-panete--8.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_paneljuntas.png"
+  },
+  {
+    "nombre": "TUCCOL ESTUCO",
+    "precio": "Consultar",
+    "categoria": "Estucos y Pañetes",
+    "imagen": "img/estucos-y-panetes--tuccol-estuco--9.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_tuccolpol.png"
+  },
+  {
+    "nombre": "PEGAGYP",
+    "precio": "Consultar",
+    "categoria": "Pegantes",
+    "imagen": "img/pegantes--pegagyp--10.jpg",
+    "url": "https://www.ipecol.com/productos.php",
+    "imagenOriginal": "https://www.ipecol.com/img/imagenes_pegagyp.png"
+  }
+]

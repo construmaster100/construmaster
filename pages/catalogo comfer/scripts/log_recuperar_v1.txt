@@ -1,0 +1,11 @@
+a buscar en comfer.co: 804 de 1580
+  procesados: 100 / 804
+  procesados: 200 / 804
+  procesados: 300 / 804
+  procesados: 400 / 804
+  procesados: 500 / 804
+  procesados: 600 / 804
+  procesados: 700 / 804
+  procesados: 800 / 804
+recuperados con foto real: 373
+sin match confiable (quedan como placeholder en V1): 431

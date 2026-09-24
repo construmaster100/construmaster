@@ -1,0 +1,9 @@
+{
+  "name": "construmaster-tools",
+  "private": true,
+  "description": "Scripts para regenerar docs/Matriz/*/js/datos.js a partir de los Excel fuente. Correr 'npm install' aqui una vez, y luego 'node generar_datos_boulevard.js' / 'node generar_datos_construmaster.js' cada vez que cambie el Excel correspondiente.",
+  "dependencies": {
+    "xlsx": "^0.18.5",
+    "jszip": "^3.10.2"
+  }
+}

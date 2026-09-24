@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//santafe.com.co/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://santafe.com.co/productos/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/" />
+		<lastmod>2026-07-09T16:20:06+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/products/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/products/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/products/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/products/" />
+		<lastmod>2026-07-09T16:20:06+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re/" />
+		<lastmod>2025-02-07T13:38:10+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/divisorios/bloque-n-5/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/bloque-n-5-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n-5/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n-5/" />
+		<lastmod>2025-11-03T07:21:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/BL5-Bloque-N%C2%B0-5.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/divisorios/bloque-n-4-perforacion-vertical/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/block-no-4-vertical-perforation/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n-4-perforacion-vertical/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n-4-perforacion-vertical/" />
+		<lastmod>2025-11-03T07:22:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Bloque-4-vertical.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/divisorios/bloque-n4-ladrillera-santafe/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/bloque-n-4/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n4-ladrillera-santafe/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n4-ladrillera-santafe/" />
+		<lastmod>2025-11-03T07:23:37+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/BL4-Bloque-N%C2%B0-4.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/divisorios/bloque-n-5-perforacion-vertical/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/block-no-5-vertical-perforation/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n-5-perforacion-vertical/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n-5-perforacion-vertical/" />
+		<lastmod>2025-11-03T07:29:08+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/12/Bloque-No.-5-Perforacion-Vertical-BL5PV.-v1-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/pieza-media-de-traba/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/pieza-media-de-traba-2-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba/" />
+		<lastmod>2025-11-03T07:40:43+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical-Pieza-Media-traba..jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera/" />
+		<lastmod>2025-11-03T07:46:32+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Estructural-Perf.Vertical-2pared.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/ladrillo-portante-30-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-terracota/" />
+		<lastmod>2025-11-03T07:52:38+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30-terracota-.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-tolete-fino-liviano-tierra/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-tolete-fino-liviano-tierra-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-tolete-fino-liviano-tierra/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-tolete-fino-liviano-tierra/" />
+		<lastmod>2025-11-03T07:59:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Tolete-Fino-Liviano-Tierra.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-tierra/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-tierra-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-tierra/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-tierra/" />
+		<lastmod>2025-11-03T08:05:04+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Tierra.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-terracota/" />
+		<lastmod>2025-11-03T08:06:13+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Terracota.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cocoa/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cocoa-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cocoa/" />
+		<lastmod>2025-11-03T08:07:24+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Cocoa.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-coral-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-coral-h/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-coral-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-coral-h/" />
+		<lastmod>2025-11-03T08:32:09+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Coral-H.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-cocoa-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-cocoa-h/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-cocoa-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-cocoa-h/" />
+		<lastmod>2025-11-03T08:40:17+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Cocoa.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-prensado-macizo-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-prensado-macizo-terracota/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-macizo-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-macizo-terracota/" />
+		<lastmod>2025-11-03T08:57:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Macizo-Terracota..jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/partition/block-no-4-vertical-perforation/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/block-no-4-vertical-perforation/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n-4-perforacion-vertical/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n-4-perforacion-vertical/" />
+		<lastmod>2025-11-03T09:41:33+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Bloque-4-vertical.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/partition/block-no-5-vertical-perforation/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/block-no-5-vertical-perforation/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n-5-perforacion-vertical/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n-5-perforacion-vertical/" />
+		<lastmod>2025-11-03T09:44:15+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/12/Bloque-No.-5-Perforacion-Vertical-BL5PV.-v1-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/a3ant/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/a3ant/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a3ant/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a3ant/" />
+		<lastmod>2025-11-03T10:00:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-tres-agua.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/a4ant/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/a4ant/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a4ant/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a4ant/" />
+		<lastmod>2025-11-03T10:02:38+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-cuatro-aguas.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/abmnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/abmnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abmnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abmnt/" />
+		<lastmod>2025-11-03T10:06:05+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-colonial-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/abrnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/abrnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abrnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abrnt/" />
+		<lastmod>2025-11-03T10:07:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-imperial.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/achnt-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/achnt-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-2/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-2/" />
+		<lastmod>2025-11-03T10:08:59+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Cuello-chimenea.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/achnt-3/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/achnt-3/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-3/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-3/" />
+		<lastmod>2025-11-03T10:10:19+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-chimenea.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/achnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/achnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt/" />
+		<lastmod>2025-11-03T10:12:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Base-de-chimenea.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/arcnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/arcnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arcnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arcnt/" />
+		<lastmod>2025-11-03T10:14:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/ARCNT-Remate-de-cumbrera.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/arlnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/arlnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arlnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arlnt/" />
+		<lastmod>2025-11-03T10:16:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/ARLNT-Remate-de-limatesa.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/atcnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/atcnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/atcnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/atcnt/" />
+		<lastmod>2025-11-03T10:19:12+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-cumbrera.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/tant/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/tant/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tant/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tant/" />
+		<lastmod>2025-11-03T10:20:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-accesorio.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/taplnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/taplnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/taplnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/taplnt/" />
+		<lastmod>2025-11-03T10:22:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-caballete-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/tapon-de-alero-tejas/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/tapon-de-alero-tejas/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/absnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/absnt/" />
+		<lastmod>2025-11-03T10:24:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-alero-tejas-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs-accessories/teja-acc-plana-14-remate-lateral/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/teja-acc-plana-14-remate-lateral/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tarpl14nt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tarpl14nt/" />
+		<lastmod>2025-11-03T10:26:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-14-remate-lateral-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/arcnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/arcnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arcnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arcnt/" />
+		<lastmod>2025-11-03T14:07:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/ARCNT-Remate-de-cumbrera.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/arlnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/arlnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arlnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/arlnt/" />
+		<lastmod>2025-11-03T14:09:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/ARLNT-Remate-de-limatesa.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-cocoa/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-cocoa-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-cocoa/" />
+		<lastmod>2025-11-03T14:43:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-cocoa-.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-terracota/" />
+		<lastmod>2025-11-03T14:51:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-terracota-.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/cubiertas/teja-s-natural-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs/spanish-s-terracota/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/cubiertas/teja-s-natural-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/cubiertas/teja-s-natural-terracota/" />
+		<lastmod>2025-11-03T14:55:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-terracota-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/cubiertas/teja-s-cocoa/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs/spanish-s-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/cubiertas/teja-s-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/cubiertas/teja-s-cocoa/" />
+		<lastmod>2025-11-03T15:48:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-cocoa-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-titanio-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-titanio-h-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-titanio-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-titanio-h/" />
+		<lastmod>2025-11-03T19:40:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2025/08/Titanio-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-duna/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-duna/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-duna/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-duna/" />
+		<lastmod>2025-11-03T19:53:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2025/08/Ladrillo-Gran-Formato-Duna-Ladrillera-Santafe.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-duna/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-duna/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-duna/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-duna/" />
+		<lastmod>2025-11-03T19:55:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2025/08/Ladrillo-Gran-Formato-Duna-Ladrillera-Santafe.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-cm-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-terracota/" />
+		<lastmod>2025-12-16T17:22:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Terracota.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/placafacil/bloquelon/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/placafacil/bloquelon-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/placafacil/bloquelon/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/placafacil/bloquelon/" />
+		<lastmod>2026-02-25T21:07:37+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Bloquelon-LSF.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/cappuccino-h-half-6-cm-light-pressed-brick/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/cappuccino-h-half-6-cm-light-pressed-brick/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-capuchino-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-capuchino-h/" />
+		<lastmod>2026-02-25T21:32:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Capuchino-H.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-capuchino-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/cappuccino-h-half-6-cm-light-pressed-brick/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-capuchino-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-capuchino-h/" />
+		<lastmod>2026-02-25T21:32:31+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Capuchino-H.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cobrizo/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cobrizo-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cobrizo/" />
+		<lastmod>2026-02-25T21:34:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Gran-formato-Cobrizo..jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/pieza-media-de-traba-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/half-bond-piece/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba-2/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba-2/" />
+		<lastmod>2026-02-26T15:16:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Pieza-Media-de-Traba.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/a4ant/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/a4ant/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a4ant/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a4ant/" />
+		<lastmod>2026-03-02T23:20:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-cuatro-aguas.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/achnt-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-2/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-2/" />
+		<lastmod>2026-03-02T23:22:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Cuello-chimenea.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/achnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/achnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt/" />
+		<lastmod>2026-03-02T23:22:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Base-de-chimenea.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/a3ant/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/a3ant/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a3ant/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/a3ant/" />
+		<lastmod>2026-03-02T23:23:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-tres-agua.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-3/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/achnt-3/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-3/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-3/" />
+		<lastmod>2026-03-02T23:28:44+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-chimenea.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/abmnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/abmnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abmnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abmnt/" />
+		<lastmod>2026-03-02T23:31:08+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-colonial-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/abrnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/abrnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abrnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/abrnt/" />
+		<lastmod>2026-03-02T23:32:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-imperial.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/absnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/tapon-de-alero-tejas/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/absnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/absnt/" />
+		<lastmod>2026-03-02T23:36:43+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-alero-tejas-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/atcnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/atcnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/atcnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/atcnt/" />
+		<lastmod>2026-03-02T23:37:55+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-cumbrera.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/taplnt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/taplnt/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/taplnt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/taplnt/" />
+		<lastmod>2026-03-02T23:39:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-caballete-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/tant/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/tant/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tant/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tant/" />
+		<lastmod>2026-03-02T23:40:27+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-accesorio.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/accesorios-de-cubiertas/tarpl14nt/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs-accessories/teja-acc-plana-14-remate-lateral/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tarpl14nt/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/accesorios-de-cubiertas/tarpl14nt/" />
+		<lastmod>2026-03-02T23:41:29+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-14-remate-lateral-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo/" />
+		<lastmod>2026-03-13T18:14:44+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perforacion-Vertical-Doble-Pared-Medio-Fachada-Rojo.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/adoquines/adoquin-espanol-cobrizo/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/adoquin-espanol-cobrizo-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-cobrizo/" />
+		<lastmod>2026-03-13T18:22:04+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Cobrizo-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-cobrizo/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-cobrizo/" />
+		<lastmod>2026-03-13T18:22:35+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Cobrizo-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-cobrizo/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-cobrizo/" />
+		<lastmod>2026-03-13T18:22:37+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Cobrizo.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/adoquines/adoquin-espanol-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/adoquin-espanol-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-terracota/" />
+		<lastmod>2026-03-18T20:43:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Terracota.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/adoquines/adoquin-espanol-trafico-pesado/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/adoquin-espanol-trafico-pesado/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-trafico-pesado/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-trafico-pesado/" />
+		<lastmod>2026-03-18T20:43:54+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/02/Adoqui-Espaniol-Trafico-Pesado.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-terracota/" />
+		<lastmod>2026-03-18T20:44:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Terracota.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-liso-duna/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-liso-duna/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-liso-duna/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-liso-duna/" />
+		<lastmod>2026-04-11T01:05:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/02/Ladrillo-Gran-Formato-Duna-Liso.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-liso-duna/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-liso-duna/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-liso-duna/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-liso-duna/" />
+		<lastmod>2026-04-11T01:05:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/02/Ladrillo-Gran-Formato-Duna-Liso.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-capuchino-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-capuchino-h/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-capuchino-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-capuchino-h/" />
+		<lastmod>2026-04-11T01:27:02+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/01/Ladrillo-Portante-30-x-12-Capuchino.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/pavers/adoquin-espanol-trafico-pesado/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/adoquin-espanol-trafico-pesado/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-trafico-pesado/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-trafico-pesado/" />
+		<lastmod>2026-04-11T02:11:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/02/Adoqui-Espaniol-Trafico-Pesado.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-terracota-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-terracota/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Terracota-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-cm-terracota-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-cm-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-terracota/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Terracota-600x600-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cobrizo-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cobrizo-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cobrizo/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Gran-formato-Cobrizo.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-terracota-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-terracota/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Terracota-2.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/pavers/adoquin-espanol-terracota-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/adoquin-espanol-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-terracota/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Terracota-2.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/pavers/adoquin-espanol-cobrizo-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/pavers/adoquin-espanol-cobrizo-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-cobrizo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/adoquines/adoquin-espanol-cobrizo/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Cobrizo-1-2.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/ladrillo-portante-30-terracota-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-terracota/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30-terracota-1-1.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-terracota-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-terracota-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-terracota/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-terracota-.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-cocoa-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-cocoa-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-cocoa/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-cocoa-1-1.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Estructural-Perf.Vertical-2pared-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/pieza-media-de-traba-2-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/pieza-media-de-traba-2-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical-Pieza-Media-traba.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/partition/bloque-n-5-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/bloque-n-5-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n-5/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n-5/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/BL4-Bloque-N%C2%B0-4-2.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/partition/bloque-n-4/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/partition/bloque-n-4/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/divisorios/bloque-n4-ladrillera-santafe/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/divisorios/bloque-n4-ladrillera-santafe/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/BL4-Bloque-N%C2%B0-4-2.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perforacion-Vertical-Doble-Pared-Medio-Fachada-Rojo-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-tolete-fino-liviano-tierra-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-tolete-fino-liviano-tierra-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-tolete-fino-liviano-tierra/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-tolete-fino-liviano-tierra/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Tolete-Fino-Liviano-Tierra-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-tierra-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-tierra-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-tierra/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-tierra/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Tierra-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cocoa-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cocoa-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cocoa/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Cocoa-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/placafacil/bloquelon-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/placafacil/bloquelon-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/placafacil/bloquelon/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/placafacil/bloquelon/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Bloquelon-LSF-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re/" />
+		<lastmod>2026-06-22T12:30:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/half-bond-piece/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/half-bond-piece/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba-2/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/pieza-media-de-traba-2/" />
+		<lastmod>2026-06-22T12:36:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Pieza-Media-de-Traba.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-capuchino-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-capuchino-h/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-capuchino-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-capuchino-h/" />
+		<lastmod>2026-06-22T12:36:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/01/Ladrillo-Portante-30-x-12-Capuchino.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-titanio-h-2/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-titanio-h-2/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-titanio-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-titanio-h/" />
+		<lastmod>2026-06-22T13:32:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2025/08/Titanio-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/ladrillo-prensado-macizo-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/ladrillo-prensado-macizo-terracota/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-macizo-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-macizo-terracota/" />
+		<lastmod>2026-06-22T13:32:17+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Macizo-Terracota..jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs/spanish-s-terracota/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs/spanish-s-terracota/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/cubiertas/teja-s-natural-terracota/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/cubiertas/teja-s-natural-terracota/" />
+		<lastmod>2026-07-05T16:01:16+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-terracota-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/roofs/spanish-s-cocoa/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/roofs/spanish-s-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/cubiertas/teja-s-cocoa/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/cubiertas/teja-s-cocoa/" />
+		<lastmod>2026-07-05T16:01:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-cocoa-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-cocoa-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-cocoa-h/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-cocoa-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-cocoa-h/" />
+		<lastmod>2026-07-05T16:02:07+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Cocoa.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-coral-h/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-coral-h/" />
+		<xhtml:link rel="alternate" hreflang="es" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-coral-h/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-coral-h/" />
+		<lastmod>2026-07-09T16:20:06+00:00</lastmod>
+		<image:image>
+			<image:loc>https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Coral-H.jpg</image:loc>
+		</image:image>
+	</url>
+</urlset>
+<!-- XML Sitemap generated by Yoast SEO -->

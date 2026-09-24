@@ -1,0 +1,17 @@
+=== Plomería > Tubos Polietileno y Galvanizado ===
+  encontrados: 268 (total reportado: 323)
+  sin imagen (omitidos): 4
+  agregados: 263
+=== Plomería > Herramientas de Plomería y Soldadura ===
+  encontrados: 232 (total reportado: 294)
+  sin imagen (omitidos): 22
+  agregados: 210
+=== Electricidad > Alambres y Cables Eléctricos ===
+  encontrados: 315 (total reportado: 380)
+  sin imagen (omitidos): 23
+  agregados: 292
+=== Electricidad > Breakers y Tableros Eléctricos ===
+  encontrados: 332 (total reportado: 398)
+  sin imagen (omitidos): 17
+  agregados: 315
+=== Electricidad > Interruptores y Tomacorrientes ===

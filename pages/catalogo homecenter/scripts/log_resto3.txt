@@ -1,0 +1,110 @@
+=== Construcción y Ferretería > Tornillos y Adhesivos ===
+  encontrados: 2766 (total reportado: 4111)
+  sin imagen (omitidos): 148
+  agregados: 2615
+=== Construcción y Ferretería > Elementos de Protección Personal (EPP) y Señalización ===
+  encontrados: 2503 (total reportado: 3797)
+  sin imagen (omitidos): 127
+  agregados: 2375
+=== Construcción y Ferretería > Escaleras y Mudanzas ===
+  encontrados: 1354 (total reportado: 2005)
+  sin imagen (omitidos): 117
+  agregados: 1236
+=== Construcción y Ferretería > Maderas, Tableros y Herrajes ===
+  encontrados: 996 (total reportado: 1366)
+  sin imagen (omitidos): 64
+  agregados: 932
+=== Construcción y Ferretería > Drywall y Techos en PVC ===
+  encontrados: 473 (total reportado: 641)
+  sin imagen (omitidos): 25
+  agregados: 444
+=== Baños > Griferías para Baños ===
+  encontrados: 1338 (total reportado: 1936)
+  sin imagen (omitidos): 80
+  agregados: 1244
+=== Baños > Lavamanos ===
+  encontrados: 787 (total reportado: 1095)
+  sin imagen (omitidos): 16
+  agregados: 771
+=== Baños > Muebles de Baño ===
+  encontrados: 440 (total reportado: 549)
+  sin imagen (omitidos): 8
+  agregados: 347
+=== Baños > Extractores de Aire ===
+  encontrados: 321 (total reportado: 427)
+  sin imagen (omitidos): 23
+  agregados: 298
+=== Baños > Sanitarios y Combos Sanitarios ===
+  encontrados: 172 (total reportado: 177)
+  sin imagen (omitidos): 7
+  agregados: 145
+=== Baños > Calentadores de Agua a Gas y Eléctricos ===
+  encontrados: 146 (total reportado: 148)
+  sin imagen (omitidos): 4
+  agregados: 134
+=== Baños > Duchas Eléctricas ===
+  encontrados: 124 (total reportado: 129)
+  sin imagen (omitidos): 16
+  agregados: 108
+=== Pinturas > Rodillos, Brochas y Accesorios para Pintar ===
+  encontrados: 1442 (total reportado: 2187)
+  sin imagen (omitidos): 75
+  agregados: 1212
+=== Pinturas > Pintura para Maderas ===
+  encontrados: 275 (total reportado: 328)
+  sin imagen (omitidos): 10
+  agregados: 265
+=== Pinturas > Masillas, Wash Primer y Anticorrosivos para Metal ===
+  encontrados: 208 (total reportado: 243)
+  agregados: 24
+=== Pinturas > Pinturas para Metales ===
+  encontrados: 225 (total reportado: 238)
+  sin imagen (omitidos): 19
+  agregados: 204
+=== Pinturas > Pinturas en Aerosol ===
+  encontrados: 216 (total reportado: 223)
+  sin imagen (omitidos): 19
+  agregados: 196
+=== Pinturas > Estucos y Preparación de Superficies ===
+  encontrados: 172 (total reportado: 184)
+  sin imagen (omitidos): 9
+  agregados: 163
+=== Pinturas > Pinturas Industriales y Especializadas ===
+  encontrados: 168 (total reportado: 172)
+  sin imagen (omitidos): 12
+  agregados: 119
+=== Pinturas > Pinturas para Piso y Demarcación Vial ===
+  encontrados: 163 (total reportado: 169)
+  sin imagen (omitidos): 5
+  agregados: 82
+=== Pinturas > Pintura Para Interior ===
+  encontrados: 104 (total reportado: 104)
+  sin imagen (omitidos): 1
+  agregados: 101
+=== Pinturas > Pinturas Texturizadas ===
+  encontrados: 84 (total reportado: 85)
+  agregados: 21
+=== Pinturas > Pintura de Exterior ===
+  encontrados: 49 (total reportado: 49)
+  sin imagen (omitidos): 1
+  agregados: 43
+=== Pinturas > Inmunizantes, Selladores y Masillas para Maderas ===
+  encontrados: 29 (total reportado: null)
+  sin imagen (omitidos): 4
+  agregados: 25
+=== Pinturas > Pinturas Antihongos y Ecológicas para Baños y Cocinas ===
+  encontrados: 16 (total reportado: null)
+  agregados: 3
+=== Pinturas > Diluyentes, disolventes y removedores para Pinturas ===
+  encontrados: 6 (total reportado: null)
+  agregados: 6
+=== Pinturas > Pinturas para Piscinas y Tanques ===
+  encontrados: 4 (total reportado: null)
+  agregados: 0
+=== Pinturas > pinturas blancas ===
+  encontrados: 78 (total reportado: 80)
+  agregados: 1
+=== Pinturas > pinturas de color ===
+  encontrados: 40 (total reportado: 104)
+  agregados: 0
+=== Pinturas > pinturas institucionales y para zonas de lavado ===

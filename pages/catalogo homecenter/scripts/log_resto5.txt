@@ -1,0 +1,111 @@
+=== Pinturas > pinturas institucionales y para zonas de lavado ===
+  OMITIDA: la categoría redirigió a https://www.homecenter.com.co/homecenter-co/category/cat940033/pisos-pinturas-y-terminaciones/ (dada de baja, no se scrapea)
+=== Pinturas > pinturas para arte ===
+  encontrados: 950 (total reportado: 1374)
+  sin imagen (omitidos): 19
+  agregados: 931
+=== Pisos y Paredes > Pisos Cerámicos ===
+  encontrados: 358 (total reportado: 398)
+  sin imagen (omitidos): 18
+  agregados: 340
+=== Pisos y Paredes > Pisos Vinílicos ===
+  encontrados: 185 (total reportado: 211)
+  sin imagen (omitidos): 9
+  agregados: 176
+=== Pisos y Paredes > Revestimientos Especiales de Pared ===
+  encontrados: 50 (total reportado: 50)
+  agregados: 50
+=== Pisos y Paredes > Paredes y Pisos Porcelánicos ===
+  encontrados: 241 (total reportado: 271)
+  sin imagen (omitidos): 16
+  agregados: 225
+=== Pisos y Paredes > Papel de Colgadura y Fotomurales Decorativos ===
+  encontrados: 1096 (total reportado: 1511)
+  sin imagen (omitidos): 53
+  agregados: 1043
+=== Pisos y Paredes > Decorados y Mosaicos ===
+  encontrados: 526 (total reportado: 661)
+  sin imagen (omitidos): 20
+  agregados: 488
+=== Pisos y Paredes > Herramientas y Accesorios para Instalación de Pisos ===
+  encontrados: 433 (total reportado: 579)
+  sin imagen (omitidos): 2
+  agregados: 108
+=== Pisos y Paredes > Pegantes y Adhesivos para Pisos ===
+  encontrados: 343 (total reportado: 412)
+  sin imagen (omitidos): 25
+  agregados: 289
+=== Pisos y Paredes > Paredes Cerámicas ===
+  encontrados: 135 (total reportado: 135)
+  sin imagen (omitidos): 2
+  agregados: 59
+=== Pisos y Paredes > Paredes en Piedra ===
+  encontrados: 127 (total reportado: 129)
+  sin imagen (omitidos): 12
+  agregados: 109
+=== Pisos y Paredes > Gramas y Pisos Sintéticos de Exterior ===
+  encontrados: 59 (total reportado: 61)
+  sin imagen (omitidos): 4
+  agregados: 55
+=== Pisos y Paredes > Pisos Laminados ===
+  encontrados: 44 (total reportado: 44)
+  sin imagen (omitidos): 4
+  agregados: 35
+=== Pisos y Paredes > Pisos de Madera ===
+  encontrados: 43 (total reportado: 43)
+  agregados: 18
+=== Pisos y Paredes > Pisos Alfombrados ===
+  encontrados: 6 (total reportado: null)
+  agregados: 6
+=== Pisos y Paredes > Pisos Deck Exterior ===
+  encontrados: 4 (total reportado: null)
+  agregados: 0
+=== Tejas y Drywall > Drywall, Láminas de Fibrocemento ===
+  encontrados: 339 (total reportado: 453)
+  sin imagen (omitidos): 3
+  agregados: 97
+=== Tejas y Drywall > Teja Termoacústica Tipo Sándwich ===
+  encontrados: 180 (total reportado: 210)
+  agregados: 180
+=== Tejas y Drywall > Tejas Plásticas ===
+  encontrados: 188 (total reportado: 205)
+  sin imagen (omitidos): 14
+  agregados: 174
+=== Tejas y Drywall > Tejas de Zinc y Metálicas ===
+  encontrados: 170 (total reportado: 197)
+  sin imagen (omitidos): 10
+  agregados: 158
+=== Tejas y Drywall > Láminas y Tejas Policarbonato ===
+  encontrados: 164 (total reportado: 190)
+  sin imagen (omitidos): 1
+  agregados: 163
+=== Tejas y Drywall > Cielo Raso y Techos en PVC ===
+  encontrados: 174 (total reportado: 188)
+  agregados: 43
+=== Tejas y Drywall > Aislantes Térmico ===
+  encontrados: 115 (total reportado: 121)
+  sin imagen (omitidos): 12
+  agregados: 102
+=== Tejas y Drywall > Bajantes y Canales para Aguas Lluvias ===
+  encontrados: 62 (total reportado: 62)
+  agregados: 62
+=== Tejas y Drywall > Tejas Fibrocemento ===
+  encontrados: 56 (total reportado: 56)
+  agregados: 56
+=== Tejas y Drywall > Cintas y Sellos de Reparación ===
+  encontrados: 49 (total reportado: 49)
+  agregados: 8
+=== Tejas y Drywall > Tejas Asfálticas ===
+  encontrados: 14 (total reportado: null)
+  agregados: 14
+=== Tejas y Drywall > Tejas Termoacústicas UPVC ===
+  encontrados: 14 (total reportado: null)
+  agregados: 14
+=== Tejas y Drywall > Tejas Traslúcidas ===
+  encontrados: 13 (total reportado: null)
+  sin imagen (omitidos): 2
+  agregados: 11
+=== Tejas y Drywall > Tejas de Barro y Coloniales ===
+  encontrados: 4 (total reportado: null)
+  agregados: 4
+TOTAL AGREGADOS: 5018

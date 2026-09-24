@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo Construmaster · ConstruMaster</title>
+  <link rel="stylesheet" href="../../../assets/motor/estilos_modelo.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="marca">ConstruMaster<span>V1 Construmaster</span></div>
+    <div class="acciones">
+      <span id="nombre-archivo" class="nombre-archivo">V1 Construmaster.xlsm</span>
+      <label class="boton-cargar">
+        Cargar Excel
+        <input type="file" id="input-excel" accept=".xlsx,.xlsm">
+      </label>
+    </div>
+  </header>
+  <div class="cuerpo">
+    <aside class="sidebar" id="sidebar-contenido"></aside>
+    <main class="contenido" id="main-contenido"></main>
+  </div>
+  <script src="../../../assets/motor/jszip.min.js"></script>
+  <script src="../../../assets/motor/xlsx.full.min.js"></script>
+  <script src="../../../assets/motor/motor.js"></script>
+  <script src="js/datos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

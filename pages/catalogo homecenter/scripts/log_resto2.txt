@@ -1,0 +1,44 @@
+=== Electricidad > Interruptores y Tomacorrientes ===
+  encontrados: 754 (total reportado: 1034)
+  sin imagen (omitidos): 37
+  agregados: 717
+=== Electricidad > Tubería Eléctrica EMT y PVC ===
+  encontrados: 240 (total reportado: 264)
+  sin imagen (omitidos): 1
+  agregados: 239
+=== Electricidad > Canaletas Para Cables y Accesorios ===
+  encontrados: 204 (total reportado: 225)
+  sin imagen (omitidos): 8
+  agregados: 195
+=== Electricidad > Herramientas Para Electricistas ===
+  encontrados: 426 (total reportado: 596)
+  sin imagen (omitidos): 9
+  agregados: 123
+=== Electricidad > Cintas Aislantes y Terminales Eléctricos ===
+  encontrados: 465 (total reportado: 659)
+  sin imagen (omitidos): 6
+  agregados: 459
+=== Electricidad > Energía Solar ===
+  encontrados: 196 (total reportado: 207)
+  sin imagen (omitidos): 16
+  agregados: 180
+=== Electricidad > Multitomas y Extensiones Eléctricas ===
+  encontrados: 153 (total reportado: 153)
+  sin imagen (omitidos): 6
+  agregados: 141
+=== Electricidad > Sensores de Movimiento y Temporizadores ===
+  encontrados: 6 (total reportado: null)
+  agregados: 6
+=== Electricidad > Regulador de Voltaje, Transformador de Corriente y Batería UPS ===
+  encontrados: 116 (total reportado: 119)
+  sin imagen (omitidos): 3
+  agregados: 113
+=== Electricidad > Pilas Recargables, Alcalinas, Especiales y Cargadores ===
+  encontrados: 92 (total reportado: 93)
+  sin imagen (omitidos): 2
+  agregados: 90
+=== Electricidad > Linternas y Lámparas Recargables ===
+  encontrados: 208 (total reportado: 218)
+  sin imagen (omitidos): 18
+  agregados: 190
+=== Construcción y Ferretería > Tornillos y Adhesivos ===

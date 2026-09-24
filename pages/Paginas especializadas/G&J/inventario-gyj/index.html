@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>G&amp;J Inventario - Catálogo de Productos</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <a href="../../index.html" class="back-link">&#8249; Todos los sitios</a>
+        <span class="brand">G&amp;J</span>
+        <span class="brand-sub">Inventario</span>
+      </div>
+
+      <input
+        type="search"
+        id="searchInput"
+        class="search-box"
+        placeholder="Buscar producto..."
+      />
+
+      <nav class="category-nav" id="categoryNav" aria-label="Categorías de productos"></nav>
+    </aside>
+
+    <main class="content">
+      <header class="content-header">
+        <h1 id="categoryTitle">Todos los productos</h1>
+        <span class="product-count" id="productCount"></span>
+      </header>
+
+      <section class="product-grid" id="productGrid"></section>
+
+      <p class="empty-state" id="emptyState" hidden>No se encontraron productos.</p>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

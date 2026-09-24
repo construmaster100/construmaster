@@ -1,0 +1,766 @@
+[
+  {
+    "nombre": "Ladrillo Estructural de Perforación Vertical Medio fachada Rojo RE",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re--0.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical.jpg"
+  },
+  {
+    "nombre": "Bloque N° 5",
+    "precio": "Consultar",
+    "categoria": "Divisorios",
+    "imagen": "https://santafe.com.co/wp-content/uploads/2021/11/BL5-Bloque-N°-5.jpg",
+    "url": "https://santafe.com.co/productos/divisorios/bloque-n-5/"
+  },
+  {
+    "nombre": "Bloque N° 4 Perforación Vertical",
+    "precio": "Consultar",
+    "categoria": "Divisorios",
+    "imagen": "img/divisorios--bloque-n-4-perforacion-vertical--2.jpg",
+    "url": "https://santafe.com.co/productos/divisorios/bloque-n-4-perforacion-vertical/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Bloque-4-vertical.jpg"
+  },
+  {
+    "nombre": "Bloque N° 4",
+    "precio": "Consultar",
+    "categoria": "Divisorios",
+    "imagen": "https://santafe.com.co/wp-content/uploads/2021/11/BL4-Bloque-N°-4.jpg",
+    "url": "https://santafe.com.co/productos/divisorios/bloque-n4-ladrillera-santafe/"
+  },
+  {
+    "nombre": "Bloque N° 5 Perforación Vertical",
+    "precio": "Consultar",
+    "categoria": "Divisorios",
+    "imagen": "img/divisorios--bloque-n-5-perforacion-vertical--4.jpg",
+    "url": "https://santafe.com.co/productos/divisorios/bloque-n-5-perforacion-vertical/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/12/Bloque-No.-5-Perforacion-Vertical-BL5PV.-v1-scaled.jpg"
+  },
+  {
+    "nombre": "Pieza Media de Traba",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--pieza-media-de-traba--5.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/pieza-media-de-traba/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical-Pieza-Media-traba..jpg"
+  },
+  {
+    "nombre": "Ladrillo Estructural de Perforación Vertical Doble Pared Pieza Entera",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera--6.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Estructural-Perf.Vertical-2pared.jpg"
+  },
+  {
+    "nombre": "Ladrillo Portante 30 Terracota",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--ladrillo-portante-30-terracota--7.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/ladrillo-portante-30-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30-terracota-.webp"
+  },
+  {
+    "nombre": "Ladrillo Tolete Fino Liviano Tierra",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-tolete-fino-liviano-tierra--8.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-tolete-fino-liviano-tierra/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Tolete-Fino-Liviano-Tierra.jpg"
+  },
+  {
+    "nombre": "Ladrillo Gran Formato Tierra",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-gran-formato-tierra--9.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-tierra/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Tierra.jpg"
+  },
+  {
+    "nombre": "Ladrillo Gran Formato Terracota",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-gran-formato-terracota--10.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Terracota.jpg"
+  },
+  {
+    "nombre": "Ladrillo Gran Formato Cocoa",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-gran-formato-cocoa--11.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cocoa/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Cocoa.jpg"
+  },
+  {
+    "nombre": "Ladrillo Prensado Liviano 6 cm Coral H",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-prensado-liviano-6-cm-coral-h--12.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-coral-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Coral-H.jpg"
+  },
+  {
+    "nombre": "Ladrillo Prensado Liviano 6 cm Cocoa H",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-prensado-liviano-6-cm-cocoa-h--13.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-cocoa-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Cocoa.jpg"
+  },
+  {
+    "nombre": "Ladrillo Prensado Macizo Terracota",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-prensado-macizo-terracota--14.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-prensado-macizo-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Macizo-Terracota..jpg"
+  },
+  {
+    "nombre": "Block No. 4 Vertical Perforation",
+    "precio": "Consultar",
+    "categoria": "Partition",
+    "imagen": "img/partition--block-no-4-vertical-perforation--15.jpg",
+    "url": "https://santafe.com.co/en/productos/partition/block-no-4-vertical-perforation/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Bloque-4-vertical.jpg"
+  },
+  {
+    "nombre": "Block No. 5 Vertical Perforation",
+    "precio": "Consultar",
+    "categoria": "Partition",
+    "imagen": "img/partition--block-no-5-vertical-perforation--16.jpg",
+    "url": "https://santafe.com.co/en/productos/partition/block-no-5-vertical-perforation/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/12/Bloque-No.-5-Perforacion-Vertical-BL5PV.-v1-scaled.jpg"
+  },
+  {
+    "nombre": "Three-sided Angular Roof",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--three-sided-angular-roof--17.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/a3ant/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-tres-agua.png"
+  },
+  {
+    "nombre": "Four-sided Angular Roof",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--four-sided-angular-roof--18.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/a4ant/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-cuatro-aguas.png"
+  },
+  {
+    "nombre": "Colonial Eaves Tile Cap",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--colonial-eaves-tile-cap--19.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/abmnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-colonial-1.png"
+  },
+  {
+    "nombre": "Imperial Eaves Tile Cap",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--imperial-eaves-tile-cap--20.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/abrnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-imperial.png"
+  },
+  {
+    "nombre": "Chimney Collar",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--chimney-collar--21.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/achnt-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Cuello-chimenea.png"
+  },
+  {
+    "nombre": "Chimney",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--chimney--22.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/achnt-3/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-chimenea.png"
+  },
+  {
+    "nombre": "Chimney Base",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--chimney-base--23.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/achnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Base-de-chimenea.png"
+  },
+  {
+    "nombre": "Ridge Cap",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--ridge-cap--24.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/arcnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/ARCNT-Remate-de-cumbrera.jpeg"
+  },
+  {
+    "nombre": "Valley Cap",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--valley-cap--25.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/arlnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/ARLNT-Remate-de-limatesa.jpeg"
+  },
+  {
+    "nombre": "Ridge Cap",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--ridge-cap--26.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/atcnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-cumbrera.png"
+  },
+  {
+    "nombre": "Tile Accessory",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--tile-accessory--27.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/tant/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-accesorio.png"
+  },
+  {
+    "nombre": "acc Flat Ridge Tile",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--acc-flat-ridge-tile--28.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/taplnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-caballete-1.png"
+  },
+  {
+    "nombre": "Tile Eaves Cap",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--tile-eaves-cap--29.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/tapon-de-alero-tejas/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-alero-tejas-1.png"
+  },
+  {
+    "nombre": "acc Flat Tile 14 Lateral Edge Cap",
+    "precio": "Consultar",
+    "categoria": "Roofs Accessories",
+    "imagen": "img/roofs-accessories--acc-flat-tile-14-lateral-edge-cap--30.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs-accessories/teja-acc-plana-14-remate-lateral/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-14-remate-lateral-1.png"
+  },
+  {
+    "nombre": "Remate de cumbrera",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--remate-de-cumbrera--31.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/arcnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/ARCNT-Remate-de-cumbrera.jpeg"
+  },
+  {
+    "nombre": "Remate de limatesa",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--remate-de-limatesa--32.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/arlnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/ARLNT-Remate-de-limatesa.jpeg"
+  },
+  {
+    "nombre": "Ladrillo Portante 30 x 12 Cocoa",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--ladrillo-portante-30-x-12-cocoa--33.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-cocoa/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-cocoa-.webp"
+  },
+  {
+    "nombre": "Ladrillo Portante 30 x 12 Terracota",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--ladrillo-portante-30-x-12-terracota--34.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-terracota-.webp"
+  },
+  {
+    "nombre": "Teja S Natural Terracota",
+    "precio": "Consultar",
+    "categoria": "Cubiertas",
+    "imagen": "img/cubiertas--teja-s-natural-terracota--35.jpg",
+    "url": "https://santafe.com.co/productos/cubiertas/teja-s-natural-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-terracota-1.jpg"
+  },
+  {
+    "nombre": "Teja S Cocoa",
+    "precio": "Consultar",
+    "categoria": "Cubiertas",
+    "imagen": "img/cubiertas--teja-s-cocoa--36.jpg",
+    "url": "https://santafe.com.co/productos/cubiertas/teja-s-cocoa/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-cocoa-1.jpg"
+  },
+  {
+    "nombre": "Ladrillo Prensado Liviano 6 Titanio H",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-prensado-liviano-6-titanio-h--37.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-titanio-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2025/08/Titanio-scaled.jpg"
+  },
+  {
+    "nombre": "Ladrillo Gran Formato Duna",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-gran-formato-duna--38.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-duna/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2025/08/Ladrillo-Gran-Formato-Duna-Ladrillera-Santafe.jpg"
+  },
+  {
+    "nombre": "Large Format Dune Brick",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--large-format-dune-brick--39.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-duna/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2025/08/Ladrillo-Gran-Formato-Duna-Ladrillera-Santafe.jpg"
+  },
+  {
+    "nombre": "Ladrillo Prensado Liviano 6 cm Terracota",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-prensado-liviano-6-cm-terracota--40.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Terracota.jpg"
+  },
+  {
+    "nombre": "Bloquelón",
+    "precio": "Consultar",
+    "categoria": "Placafacil",
+    "imagen": "img/placafacil--bloquelon--41.jpg",
+    "url": "https://santafe.com.co/productos/placafacil/bloquelon/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Bloquelon-LSF.jpg"
+  },
+  {
+    "nombre": "6 cm Lightweight Pressed Brick Medium Cappuccino H",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--6-cm-lightweight-pressed-brick-medium-cappuccino-h--42.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/cappuccino-h-half-6-cm-light-pressed-brick/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Capuchino-H.jpg"
+  },
+  {
+    "nombre": "Ladrillo Prensado Liviano 6 cm Capuchino H",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-prensado-liviano-6-cm-capuchino-h--43.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-prensado-liviano-6-cm-capuchino-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Capuchino-H.jpg"
+  },
+  {
+    "nombre": "Ladrillo Gran Formato Cobrizo",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-gran-formato-cobrizo--44.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-cobrizo/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Gran-formato-Cobrizo..jpg"
+  },
+  {
+    "nombre": "Pieza Media de Traba",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--pieza-media-de-traba--45.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/pieza-media-de-traba-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Pieza-Media-de-Traba.jpg"
+  },
+  {
+    "nombre": "Angular cuatro aguas",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--angular-cuatro-aguas--46.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/a4ant/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-cuatro-aguas.png"
+  },
+  {
+    "nombre": "Cuello chimenea",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--cuello-chimenea--47.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Cuello-chimenea.png"
+  },
+  {
+    "nombre": "Base de chimenea",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--base-de-chimenea--48.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/achnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Base-de-chimenea.png"
+  },
+  {
+    "nombre": "Angular 3 aguas",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--angular-3-aguas--49.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/a3ant/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Angular-tres-agua.png"
+  },
+  {
+    "nombre": "Chimenea",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--chimenea--50.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/achnt-3/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-chimenea.png"
+  },
+  {
+    "nombre": "Tapón de alero teja colonial",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--tapon-de-alero-teja-colonial--51.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/abmnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-colonial-1.png"
+  },
+  {
+    "nombre": "Tapón de alero teja imperial",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--tapon-de-alero-teja-imperial--52.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/abrnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Tapon-de-alero-teja-imperial.png"
+  },
+  {
+    "nombre": "Tapón de alero tejas",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--tapon-de-alero-tejas--53.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/absnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-alero-tejas-1.png"
+  },
+  {
+    "nombre": "Tapón de cumbrera",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--tapon-de-cumbrera--54.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/atcnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Tapon-de-cumbrera.png"
+  },
+  {
+    "nombre": "Teja acc plana caballete",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--teja-acc-plana-caballete--55.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/taplnt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-caballete-1.png"
+  },
+  {
+    "nombre": "Teja accesorio",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--teja-accesorio--56.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/tant/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-accesorio.png"
+  },
+  {
+    "nombre": "Teja acc plana 14 remate lateral",
+    "precio": "Consultar",
+    "categoria": "Accesorios De Cubiertas",
+    "imagen": "img/accesorios-de-cubiertas--teja-acc-plana-14-remate-lateral--57.jpg",
+    "url": "https://santafe.com.co/productos/accesorios-de-cubiertas/tarpl14nt/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2024/06/Ladrillera-Santafe-Teja-acc-plana-14-remate-lateral-1.png"
+  },
+  {
+    "nombre": "Ladrillo Estructural de Perforación Vertical Doble Pared Medio Fachada Rojo",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo--58.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perforacion-Vertical-Doble-Pared-Medio-Fachada-Rojo.jpg"
+  },
+  {
+    "nombre": "Adoquín Español Cobrizo",
+    "precio": "Consultar",
+    "categoria": "Adoquines",
+    "imagen": "img/adoquines--adoquin-espanol-cobrizo--59.jpg",
+    "url": "https://santafe.com.co/productos/adoquines/adoquin-espanol-cobrizo/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Cobrizo-1.jpg"
+  },
+  {
+    "nombre": "Quarter Paver 26 Copper",
+    "precio": "Consultar",
+    "categoria": "Pavers",
+    "imagen": "img/pavers--quarter-paver-26-copper--60.jpg",
+    "url": "https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-cobrizo/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Cobrizo-1.jpg"
+  },
+  {
+    "nombre": "Adoquín Cuarto 26 Cobrizo",
+    "precio": "Consultar",
+    "categoria": "Adoquines",
+    "imagen": "img/adoquines--adoquin-cuarto-26-cobrizo--61.jpg",
+    "url": "https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-cobrizo/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Cobrizo.jpg"
+  },
+  {
+    "nombre": "Adoquín Español Terracota",
+    "precio": "Consultar",
+    "categoria": "Adoquines",
+    "imagen": "img/adoquines--adoquin-espanol-terracota--62.jpg",
+    "url": "https://santafe.com.co/productos/adoquines/adoquin-espanol-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Terracota.jpg"
+  },
+  {
+    "nombre": "Adoquín Español Tráfico Pesado",
+    "precio": "Consultar",
+    "categoria": "Adoquines",
+    "imagen": "img/adoquines--adoquin-espanol-trafico-pesado--63.jpg",
+    "url": "https://santafe.com.co/productos/adoquines/adoquin-espanol-trafico-pesado/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/02/Adoqui-Espaniol-Trafico-Pesado.jpg"
+  },
+  {
+    "nombre": "Adoquín Cuarto 26 Terracota",
+    "precio": "Consultar",
+    "categoria": "Adoquines",
+    "imagen": "img/adoquines--adoquin-cuarto-26-terracota--64.jpg",
+    "url": "https://santafe.com.co/productos/adoquines/cuarto-26/adoquin-cuarto-26-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Terracota.jpg"
+  },
+  {
+    "nombre": "Ladrillo Gran Formato Liso Duna",
+    "precio": "Consultar",
+    "categoria": "Fachadas",
+    "imagen": "img/fachadas--ladrillo-gran-formato-liso-duna--65.jpg",
+    "url": "https://santafe.com.co/productos/fachadas/ladrillo-gran-formato-liso-duna/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/02/Ladrillo-Gran-Formato-Duna-Liso.png"
+  },
+  {
+    "nombre": "Large Format Smooth Dune Brick",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--large-format-smooth-dune-brick--66.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-liso-duna/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/02/Ladrillo-Gran-Formato-Duna-Liso.png"
+  },
+  {
+    "nombre": "Ladrillo Portante 30 x 12 Capuchino H",
+    "precio": "Consultar",
+    "categoria": "Estructurales",
+    "imagen": "img/estructurales--ladrillo-portante-30-x-12-capuchino-h--67.jpg",
+    "url": "https://santafe.com.co/productos/estructurales/ladrillo-portante-30-x-12-capuchino-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/01/Ladrillo-Portante-30-x-12-Capuchino.png"
+  },
+  {
+    "nombre": "Heavy Traffic Spanish Paver",
+    "precio": "Consultar",
+    "categoria": "Pavers",
+    "imagen": "img/pavers--heavy-traffic-spanish-paver--68.jpg",
+    "url": "https://santafe.com.co/en/productos/pavers/adoquin-espanol-trafico-pesado/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/02/Adoqui-Espaniol-Trafico-Pesado.jpg"
+  },
+  {
+    "nombre": "Large Format Terracotta Brick",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--large-format-terracotta-brick--69.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-terracota-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Terracota-1.jpg"
+  },
+  {
+    "nombre": "6 cm Lightweight Pressed Brick Terracotta",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--6-cm-lightweight-pressed-brick-terracotta--70.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-cm-terracota-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Terracota-600x600-1.jpg"
+  },
+  {
+    "nombre": "Large Format Copper Brick",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--large-format-copper-brick--71.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cobrizo-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Gran-formato-Cobrizo.jpg"
+  },
+  {
+    "nombre": "Quarter Paver 26 Terracotta",
+    "precio": "Consultar",
+    "categoria": "Pavers",
+    "imagen": "img/pavers--quarter-paver-26-terracotta--72.jpg",
+    "url": "https://santafe.com.co/en/productos/pavers/quarter-26/adoquin-cuarto-26-terracota-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Cuarto-26-Terracota-2.jpg"
+  },
+  {
+    "nombre": "Spanish Paver Terracotta",
+    "precio": "Consultar",
+    "categoria": "Pavers",
+    "imagen": "img/pavers--spanish-paver-terracotta--73.jpg",
+    "url": "https://santafe.com.co/en/productos/pavers/adoquin-espanol-terracota-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Terracota-2.jpg"
+  },
+  {
+    "nombre": "Spanish Paver Copper",
+    "precio": "Consultar",
+    "categoria": "Pavers",
+    "imagen": "img/pavers--spanish-paver-copper--74.jpg",
+    "url": "https://santafe.com.co/en/productos/pavers/adoquin-espanol-cobrizo-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Adoquin-Espanol-Cobrizo-1-2.jpg"
+  },
+  {
+    "nombre": "30 Load-Bearing Brick, Terracotta",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--30-load-bearing-brick-terracotta--75.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/ladrillo-portante-30-terracota-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30-terracota-1-1.webp"
+  },
+  {
+    "nombre": "30 x 12 Load-Bearing Brick, Terracotta",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--30-x-12-load-bearing-brick-terracotta--76.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-terracota-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-terracota-.webp"
+  },
+  {
+    "nombre": "30 x 12 Load-Bearing Brick, Cocoa",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--30-x-12-load-bearing-brick-cocoa--77.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-cocoa-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-portante-30x12-cocoa-1-1.webp"
+  },
+  {
+    "nombre": "Structural Brick with Double Vertical Perforations, Full-Size Piece",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--structural-brick-with-double-vertical-perforations-full-size-piece--78.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-pieza-entera-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Estructural-Perf.Vertical-2pared-1.jpg"
+  },
+  {
+    "nombre": "Half Block",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--half-block--79.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/pieza-media-de-traba-2-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical-Pieza-Media-traba.jpg"
+  },
+  {
+    "nombre": "Block N° 5",
+    "precio": "Consultar",
+    "categoria": "Partition",
+    "imagen": "https://santafe.com.co/wp-content/uploads/2021/11/BL4-Bloque-N°-4-2.jpg",
+    "url": "https://santafe.com.co/en/productos/partition/bloque-n-5-2/"
+  },
+  {
+    "nombre": "Block N° 4",
+    "precio": "Consultar",
+    "categoria": "Partition",
+    "imagen": "https://santafe.com.co/wp-content/uploads/2021/11/BL4-Bloque-N°-4-2.jpg",
+    "url": "https://santafe.com.co/en/productos/partition/bloque-n-4/"
+  },
+  {
+    "nombre": "Structural Brick with Vertical Double-Row Perforations, Medium Facade, Red",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--structural-brick-with-vertical-double-row-perforations-medium-facade-red--82.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-doble-pared-medio-fachada-rojo-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perforacion-Vertical-Doble-Pared-Medio-Fachada-Rojo-1.jpg"
+  },
+  {
+    "nombre": "Lightweight Fine Tolete Brick, Earth",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--lightweight-fine-tolete-brick-earth--83.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-tolete-fino-liviano-tierra-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Tolete-Fino-Liviano-Tierra-1.jpg"
+  },
+  {
+    "nombre": "Large Format Earth Brick",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--large-format-earth-brick--84.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-tierra-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Tierra-1.jpg"
+  },
+  {
+    "nombre": "Large Format Cocoa Brick",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--large-format-cocoa-brick--85.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-gran-formato-cocoa-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Gran-Formato-Cocoa-1.jpg"
+  },
+  {
+    "nombre": "Large Concrete Block",
+    "precio": "Consultar",
+    "categoria": "Placafacil",
+    "imagen": "img/placafacil--large-concrete-block--86.jpg",
+    "url": "https://santafe.com.co/en/productos/placafacil/bloquelon-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Bloquelon-LSF-1.jpg"
+  },
+  {
+    "nombre": "Structural Brick with Medium Vertical Perforations, Red Facade, RE",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--structural-brick-with-medium-vertical-perforations-red-facade-re--87.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/ladrillo-estructural-de-perforacion-vertical-medio-fachada-rojo-re-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Estructural-de-Perf.-Vertical-1.jpg"
+  },
+  {
+    "nombre": "Half Bond Piece",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--half-bond-piece--88.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/half-bond-piece/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Pieza-Media-de-Traba.jpg"
+  },
+  {
+    "nombre": "30 x 12 Load-Bearing Brick, Cappuccino H",
+    "precio": "Consultar",
+    "categoria": "Structural",
+    "imagen": "img/structural--30-x-12-load-bearing-brick-cappuccino-h--89.jpg",
+    "url": "https://santafe.com.co/en/productos/structural/ladrillo-portante-30-x-12-capuchino-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/01/Ladrillo-Portante-30-x-12-Capuchino.png"
+  },
+  {
+    "nombre": "6 cm Lightweight Pressed Brick Titanium H",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--6-cm-lightweight-pressed-brick-titanium-h--90.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-prensado-liviano-6-titanio-h-2/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2025/08/Titanio-scaled.jpg"
+  },
+  {
+    "nombre": "Solid Pressed Brick Terracotta",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--solid-pressed-brick-terracotta--91.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/ladrillo-prensado-macizo-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Macizo-Terracota..jpg"
+  },
+  {
+    "nombre": "Spanish S Terracota",
+    "precio": "Consultar",
+    "categoria": "Roofs",
+    "imagen": "img/roofs--spanish-s-terracota--92.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs/spanish-s-terracota/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-terracota-1.jpg"
+  },
+  {
+    "nombre": "Spanish S Cocoa",
+    "precio": "Consultar",
+    "categoria": "Roofs",
+    "imagen": "img/roofs--spanish-s-cocoa--93.jpg",
+    "url": "https://santafe.com.co/en/productos/roofs/spanish-s-cocoa/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2026/07/spanish-s-cocoa-1.jpg"
+  },
+  {
+    "nombre": "6 cm Lightweight Pressed Brick Cocoa H",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--6-cm-lightweight-pressed-brick-cocoa-h--94.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-cocoa-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Cocoa.jpg"
+  },
+  {
+    "nombre": "6 cm Lightweight Pressed Brick Coral H",
+    "precio": "Consultar",
+    "categoria": "Facades",
+    "imagen": "img/facades--6-cm-lightweight-pressed-brick-coral-h--95.jpg",
+    "url": "https://santafe.com.co/en/productos/facades/6-cm-lightweight-pressed-brick-coral-h/",
+    "imagenOriginal": "https://santafe.com.co/wp-content/uploads/2021/11/Ladrillo-Prensado-Liviano-6-cm-Coral-H.jpg"
+  }
+]

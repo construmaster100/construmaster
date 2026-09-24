@@ -1,0 +1,77 @@
+=== Accesorios de Baño > Accesorios de Baño (accesorios-de-bano-140) ===
+  encontrados: 158 | agregados: 154 | sin imagen: 4
+=== Combos de Baño > Combos de Baño (combos-de-bano-116) ===
+  encontrados: 23 | agregados: 22 | sin imagen: 1
+=== Cemento > Cemento Estructural (construccion-cemento-estructural-63) ===
+  encontrados: 1 | agregados: 0 | sin imagen: 1
+=== Cemento > Cemento Mampostero (construccion-cemento-mampostero-64) ===
+  encontrados: 0 | agregados: 0
+=== Cemento > Cemento Uso General (construccion-cemento-uso-general-62) ===
+  encontrados: 1 | agregados: 1
+=== Materiales > Geotextil No Tejido (construccion-geotextil-geotextil-no-tejido-79) ===
+  encontrados: 0 | agregados: 0
+=== Materiales > Geotextil Tejido (construccion-geotextil-geotextil-tejido-80) ===
+  encontrados: 0 | agregados: 0
+=== Hierro > Alambre (construccion-hierro-alambre-52) ===
+  encontrados: 1 | agregados: 1
+=== Hierro > Mallas Electrosoldadas (construccion-hierro-mallas-electrosoldadas-53) ===
+  encontrados: 4 | agregados: 3 | sin imagen: 1
+=== Hierro > Perfilería Estructural (construccion-hierro-perfileria-estructural-54) ===
+  encontrados: 1 | agregados: 1
+=== Hierro > Varilla (construccion-hierro-varilla-51) ===
+  encontrados: 12 | agregados: 12
+=== Materiales > Aseo y Mantenimiento (construccion-materiales-aseo-y-mantenimiento-57) ===
+  encontrados: 11 | agregados: 11
+=== Materiales > Boquilla para Cerámica y Porcelanato (construccion-materiales-boquilla-para-ceramica-y-porcelanato-104) ===
+  encontrados: 43 | agregados: 43
+=== Materiales > Estucos (construccion-materiales-estucos-56) ===
+  encontrados: 8 | agregados: 8
+=== Materiales > Pegantes para Cerámica y Porcelanato (construccion-materiales-pegantes-para-ceramica-y-porcelanato-55) ===
+  encontrados: 16 | agregados: 16
+=== Pinturas > Pinturas Especiales (construccion-pinturas-especiales-101) ===
+  encontrados: 5 | agregados: 5
+=== Pinturas > Herramientas para Pintar (construccion-pinturas-herramientas-85) ===
+  encontrados: 9 | agregados: 9
+=== Pinturas > Pinturas Tipo 1 (construccion-pinturas-tipo-1-76) ===
+  encontrados: 6 | agregados: 6
+=== Pinturas > Pinturas Tipo 2 (construccion-pinturas-tipo-2-77) ===
+  encontrados: 2 | agregados: 2
+=== Placa Fácil > Bloquelón (construccion-placa-facil-bloquelon-69) ===
+  encontrados: 2 | agregados: 0 | sin imagen: 2
+=== Placa Fácil > Mallas Electrosoldadas (construccion-placa-facil-mallas-electrosoldadas-81) ===
+  encontrados: 0 | agregados: 0
+=== Placa Fácil > Perfil (construccion-placa-facil-perfil-70) ===
+  encontrados: 0 | agregados: 0
+=== PVC > Aditivos y Limpiadores (construccion-pvc-aditivos-y-limpiadores-86) ===
+  encontrados: 11 | agregados: 11
+=== PVC > Alcantarillado (construccion-pvc-alcantarillado-58) ===
+  encontrados: 2 | agregados: 2
+=== PVC > Conduit (construccion-pvc-conduit-87) ===
+  encontrados: 20 | agregados: 20
+=== PVC > Presión (construccion-pvc-presion-60) ===
+  encontrados: 53 | agregados: 53
+=== PVC > Sanitario (construccion-pvc-sanitario-59) ===
+  encontrados: 53 | agregados: 53
+=== PVC > Ventilación (construccion-pvc-ventilacion-61) ===
+  encontrados: 6 | agregados: 6
+=== Duchas > Duchas de Baño (duchas-de-bano-125) ===
+  encontrados: 129 | agregados: 124 | sin imagen: 5
+=== Griferías > Griferías (griferias-119) ===
+  encontrados: 360 | agregados: 354 | sin imagen: 5
+=== Jacuzzis > Jacuzzis (jacuzzis-167) ===
+  encontrados: 3 | agregados: 3
+=== Lavamanos > Lavamanos (lavamanos-111) ===
+  encontrados: 51 | agregados: 48 | sin imagen: 3
+=== Muebles de Baño > Muebles de Baño (muebles-para-bano-144) ===
+  encontrados: 52 | agregados: 43 | sin imagen: 9
+=== Cocinas Integrales > Muebles para Cocina Integral (muebles-para-cocina-integral-132) ===
+  encontrados: 42 | agregados: 41 | sin imagen: 1
+=== Paredes > Paredes (paredes-162) ===
+  encontrados: 429 | agregados: 426 | sin imagen: 3
+=== Pinturas > Pinturas (listado general) (pinturas-149) ===
+  encontrados: 21 | agregados: 8
+=== Pisos > Pisos (pisos-153) ===
+  encontrados: 358 | agregados: 102 | sin imagen: 3
+=== Sanitarios > Sanitarios (sanitarios-106) ===
+  encontrados: 56 | agregados: 55 | sin imagen: 1
+TOTAL AGREGADOS: 1643

@@ -1,0 +1,11 @@
+PROYECTO 23: TINY HOUSE 23M2
+Empresa: Woodpecker
+Área: 23 m²
+Precio Casa kit (placa): $28.848.290 (m²: $1.254.273)
+Precio Casa kit (palafitos): $37.082.114 (m²: $1.612.266)
+Ficha en el sitio: https://woodpecker.com.co/casas-kit/tiny-house-23m2/
+
+FACHADA: FACHADA.jpg  <- https://woodpecker.com.co/wp-content/uploads/tiny23d-1.jpg
+PLANO: PLANO.png  <- https://woodpecker.com.co/wp-content/uploads/PLANO-1-TINY-HOUSES.png
+INTERIOR: la empresa no publica una imagen interior identificable de este modelo
+PRESUPUESTO.xlsm: copia del modelo V1 Construmaster.xlsm (mismo formato, macros y 13 capítulos) con la ficha INICIO de esta casa: nombre, ID, ubicación, sistema constructivo, área construida, valor m² y valor total (= área x valor m²). Los capítulos conservan el contenido del modelo como referencia.

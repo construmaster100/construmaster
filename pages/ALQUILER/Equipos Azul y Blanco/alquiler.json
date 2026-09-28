@@ -1,0 +1,80 @@
+{
+  "empresa": "Equipos Azul y Blanco",
+  "fecha": "2026-09-28T04:19:28.993Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 3,
+    "total": 3,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Alquiler de Andamios y Equipos en Tunja",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "♦ Parales - Rodachines - Escaleras",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "♦ Rana - Vibro - Compactador",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Formaletas - Cerchas - Camillas",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.misamarillas.com.co/alquiler-de-andamios-y-equipos-en-tunja/anuncios/16-equipos-azul-blanco",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Parales - Rodachines - Escaleras",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.misamarillas.com.co/alquiler-de-andamios-y-equipos-en-tunja/anuncios/16-equipos-azul-blanco",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Columnas Graduables - Mezcladora",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.misamarillas.com.co/alquiler-de-andamios-y-equipos-en-tunja/anuncios/16-equipos-azul-blanco",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Rana - Vibro - Compactador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.misamarillas.com.co/alquiler-de-andamios-y-equipos-en-tunja/anuncios/16-equipos-azul-blanco",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Alquiler y Venta de Containers",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.misamarillas.com.co/alquiler-de-andamios-y-equipos-en-tunja/anuncios/16-equipos-azul-blanco",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Servicio de Cama Baja",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.misamarillas.com.co/alquiler-de-andamios-y-equipos-en-tunja/anuncios/16-equipos-azul-blanco",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    }
+  ]
+}

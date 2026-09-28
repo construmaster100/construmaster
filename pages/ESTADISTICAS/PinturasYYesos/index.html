@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PinturasYYesos Inventario - Catálogo de Productos</title>
+<link rel="stylesheet" href="../../../assets/motor/identidad_navbar.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-logo" href="../../../index.html" title="Volver a ConstruMaster">
+      <span class="logo-emblema">CM<small>construmaster</small></span>
+    </a>
+    <div class="site-banner" role="img" aria-label="Pinturas y Yesos · Catálogo"></div>
+  </header>
+  <nav class="topnav" aria-label="Navegación">
+    <div class="navtabs">
+      <a href="../../../index.html">Inicio</a>
+      <a href="../../presupuesto y seguimiento de obra/index.html">Presupuesto</a>
+      <a href="../../catalogo homecenter/index.html">Catálogo Homecenter</a>
+      <a href="../../catalogo comfer/index.html">Catálogo COMFER</a>
+      <a href="../../etapas de obra/index.html">Etapas de Obra</a>
+    </div>
+  </nav>
+<div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <a href="../index.html" class="back-link">&#8249; Todos los sitios</a>
+        <span class="brand">PinturasYYesos</span>
+        <span class="brand-sub">Inventario</span>
+      </div>
+
+      <input
+        type="search"
+        id="searchInput"
+        class="search-box"
+        placeholder="Buscar producto..."
+      />
+
+      <nav class="category-nav" id="categoryNav" aria-label="Categorías de productos"></nav>
+    </aside>
+
+    <main class="content">
+      <header class="content-header">
+        <span class="product-count" id="productCount"></span>
+      </header>
+
+      <div class="accordion" id="accordion"></div>
+
+      <p class="empty-state" id="emptyState" hidden>No se encontraron productos.</p>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

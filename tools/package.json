@@ -1,9 +1,11 @@
 {
   "name": "construmaster-tools",
   "private": true,
-  "description": "Scripts para regenerar docs/Matriz/*/js/datos.js a partir de los Excel fuente. Correr 'npm install' aqui una vez, y luego 'node generar_datos_boulevard.js' / 'node generar_datos_construmaster.js' cada vez que cambie el Excel correspondiente.",
+  "description": "Scripts Node de ConstruMaster (inventario, marcas, APU, contenido, Excel con formulas, scraping de marcas). npm install aqui una vez; ver docs/RETOMAR_PROYECTO.md seccion 6. Para pruebas: npm install puppeteer-core@23 --no-save y node probar_pagina.js",
   "dependencies": {
-    "xlsx": "^0.18.5",
-    "jszip": "^3.10.2"
+    "exceljs": "^4.4.0",
+    "jszip": "^3.10.2",
+    "sharp": "^0.34.5",
+    "xlsx": "^0.18.5"
   }
 }

@@ -1,0 +1,194 @@
+{
+  "ALC": {
+    "nombre": "Automatic Logic Construction",
+    "version": "1.1",
+    "fecha": "2026-09-28",
+    "unidad_area": "m2",
+    "moneda": "COP",
+    "fuente": "ALC 1.0 del usuario (respaldos/2026-09-27/ALC.docx y code.docx) + revision docs/REVISION_MODELO_ALC.md + programacion PERT (28/09/2026)",
+    "implementacion": {
+      "pagina": "index.js: motorVivienda, calcularProgramacion, herramientasProgramacion, descargarExcelV1",
+      "python": "pages/administrador/ALC/alc.py"
+    },
+
+    "vivienda": {
+      "variables": {
+        "area_total": 80,
+        "numero_pisos": 1,
+        "area_por_piso": "AUTO",
+        "altura_muro": 2.4,
+        "area_puerta": 1.8,
+        "garaje": false,
+        "cubierta": true,
+        "hidrosanitario": false,
+        "tipologia": 0
+      }
+    },
+
+    "reglas_globales": [
+      { "id": "R001", "descripcion": "Toda vivienda debe tener un área total en metros cuadrados.", "if": "area_total <= 0", "then": "aviso" },
+      { "id": "R002", "if": "numero_pisos > 0", "then": "area_por_piso = area_total / numero_pisos" },
+      { "id": "R003", "descripcion": "Todo espacio debe registrar primero su área antes de crear componentes.", "if": "espacio.cantidad > 0 and espacio.area <= 0", "then": "aviso; el espacio no genera componentes" },
+      { "id": "R004", "descripcion": "La cubierta cubre la huella construida.", "formula": "cubierta.area = area_por_piso * factor_cubierta" },
+      { "id": "R005", "descripcion": "Todo cuarto lleva mampostería en su perímetro; los muros comunes se cuentan una vez.", "formula": "longitud_muro = (suma(perimetro_espacio * cantidad) + perimetro_exterior) / 2" }
+    ],
+
+    "validaciones": [
+      "La suma de las áreas de los espacios no puede superar el área total.",
+      "Toda tipología debe tener al menos una puerta.",
+      "Toda ventana genera automáticamente su área de vidrio (ancho x alto).",
+      "Alcoba y salón deben tener ventana.",
+      "Baño sin ventana: extractor (ventilación mecánica).",
+      "Cada espacio respeta su área mínima."
+    ],
+
+    "constantes": {
+      "perimetro_espacio": "4 * raiz(area)  (espacio cuadrado)",
+      "perimetro_exterior": "4 * raiz(area_por_piso) * numero_pisos",
+      "bloques_por_m2": 15.5,
+      "desperdicio_pct": 5,
+      "factor_cubierta": 1.15,
+      "perfil_cubierta_ml_por_m2": 1,
+      "placa_espesor_m": 0.10,
+      "lamina_drywall_m2": 2.98,
+      "tomas_cada_ml_perimetro": 3.6,
+      "tomas_minimas_cocina": 3,
+      "concreto_por_m3": { "cemento_bultos_50kg": 7, "arena_m3": 0.56, "gravilla_m3": 0.84 },
+      "vidrio_artesanal_m2": 25000,
+      "retroexcavadora_hora": 130000
+    },
+
+    "tipologias": [
+      { "categoria": 1, "nombre": "Campamento", "area_minima": 15, "meses": 1, "descripcion": "Salón libre para herramientas y apoyo de obra.", "espacios": { "salon": [1, 9], "bano": [1, 2.5] } },
+      { "categoria": 2, "nombre": "Vivienda Básica", "area_minima": 30, "meses": 2, "espacios": { "alcoba": [1, 9], "sala": [1, 9], "cocina": [1, 9], "bano": [1, 2.5] } },
+      { "categoria": 3, "nombre": "Vivienda Familiar", "area_minima": 50, "meses": 3, "espacios": { "alcoba": [2, 9], "sala": [1, 9], "comedor": [1, 9], "cocina": [1, 9], "bano": [2, 2.5], "cuarto_ropas": [1, 2] } },
+      { "categoria": 4, "nombre": "Vivienda Completa", "area_minima": 70, "area_maxima": 90, "meses": 4, "espacios": { "alcoba": [3, 9], "sala_comedor": [1, 20], "cocina_ropas": [1, 11], "bano": [2, 2.5] } },
+      { "categoria": 5, "nombre": "Casa Cómoda", "area_desde": 90, "area_hasta": 150, "meses": 5 },
+      { "categoria": 6, "nombre": "Residencia de Lujo", "area_desde": 151, "meses": 6 }
+    ],
+
+    "espacios": {
+      "salon":        { "tipo": "salon",   "area_minima": null, "max1": false, "obligatorio": ["mamposteria", "puerta", "ventana", "placa_concreto", "cubierta", "toma", "luminaria"], "opcional": ["closet", "enchape_piso", "drywall", "cerrajeria", "punto_agua", "hidrosanitario"] },
+      "sala":         { "tipo": "sala",    "area_minima": 9,    "max1": true,  "obligatorio": ["toma", "luminaria"], "acabados": ["estuco", "pintura", "enchape_piso"] },
+      "comedor":      { "tipo": "sala",    "area_minima": 9,    "max1": true,  "obligatorio": ["toma", "luminaria"], "acabados": ["estuco", "pintura", "enchape_piso"] },
+      "sala_comedor": { "tipo": "sala",    "area_minima": null, "max1": true,  "obligatorio": ["toma", "luminaria"], "acabados": ["estuco", "pintura", "enchape_piso"] },
+      "cocina":       { "tipo": "cocina",  "area_minima": 9,    "max1": true,  "obligatorio": ["agua", "desague", "lavaplatos", "enchape_piso", "estuco", "pintura", "tomas", "luminaria", "meson"] },
+      "cuarto_ropas": { "tipo": "ropas",   "area_minima": 2,    "max1": true,  "obligatorio": ["lavadero", "agua", "desague", "toma", "luminaria", "enchape_piso"] },
+      "cocina_ropas": { "tipo": "cocina_ropas", "area_minima": 11, "max1": true, "obligatorio": ["agua", "desague", "lavaplatos", "lavadero", "meson", "enchape_piso", "estuco", "pintura", "tomas", "luminaria"] },
+      "alcoba":       { "tipo": "alcoba",  "area_minima": 9,    "max1": false, "obligatorio": ["puerta", "closet", "ventana", "mamposteria", "estuco", "pintura", "enchape_piso", "toma", "luminaria"], "opcional": ["falso_techo"] },
+      "bano": {
+        "tipo": "bano", "area_minima": 2.5, "max1": false,
+        "dimensiones_minimas": { "ancho": 1.15, "largo": 2.30, "area": 2.5 },
+        "niveles": { "1": ["Sifón"], "2": ["Sanitario", "Lavamanos", "Sifón de piso"], "3": ["Sanitario", "Lavamanos", "Ducha", "Sifón de piso"] },
+        "accesorios": ["División de baño", "Espejo", "Porta papel", "Jabonera", "Toallero"],
+        "acabados": ["enchape_piso", "enchape_muro_100", "estuco_techo", "pintura_techo"],
+        "electrico": ["toma_gfci"]
+      },
+      "garaje":       { "tipo": "garaje",  "area_minima": null, "max1": true,  "obligatorio": ["placa_concreto", "porton"] }
+    },
+
+    "ventanas": { "formula": "vidrio = ancho * alto * ventanas * cantidad_espacio" },
+
+    "hidrosanitario": {
+      "opcional": true,
+      "componentes": ["pozo_septico", "caja_inspeccion", "excavacion", "tuberia_pvc", "tapa_concreto", "salida_sifon"],
+      "formulas": { "pozo_septico": 1, "tapa_concreto": "cajas + 1", "salida_sifon": "banos + cocina + ropas" }
+    },
+
+    "instalaciones": {
+      "electricas": {
+        "norma": "NTC 2050 210-52 / RETIE",
+        "tomas": "max(minimo, redondear(perimetro / 3.6)); cocina minimo 3; ropas 1",
+        "toma_gfci": "1 por baño",
+        "interruptores": "1 por espacio",
+        "luminarias": "1 por espacio",
+        "cajas": "tomas + tomas_gfci + extractores + interruptores + luminarias",
+        "fijos": ["Acometida eléctrica", "Tablero de circuitos", "Puesta a tierra (varilla de cobre)"],
+        "diligenciar": ["Breaker", "Tubería conduit PVC 1/2\"", "Cable THHN No 12"]
+      },
+      "hidraulicas": { "cocina": ["agua_fria", "desague"], "bano": ["agua_fria por aparato", "agua_caliente por ducha", "desague por aparato"], "ropas": ["agua_fria", "desague"] }
+    },
+
+    "capitulos": [
+      { "n": 1, "nombre": "Preliminares", "etapa": "negra" },
+      { "n": 2, "nombre": "Estructura", "etapa": "negra" },
+      { "n": 3, "nombre": "Hidrosanitario", "etapa": "negra" },
+      { "n": 4, "nombre": "Instalaciones eléctricas", "etapa": "negra" },
+      { "n": 5, "nombre": "Mampostería", "etapa": "gris" },
+      { "n": 6, "nombre": "Pañetes, bordes y filos", "etapa": "gris" },
+      { "n": 7, "nombre": "Carpintería metálica", "etapa": "blanca" },
+      { "n": 8, "nombre": "Vidrios y ventanas", "etapa": "blanca" },
+      { "n": 9, "nombre": "Estucado y pintura de muros", "etapa": "blanca" },
+      { "n": 10, "nombre": "Techo en drywall", "etapa": "blanca" },
+      { "n": 11, "nombre": "Pisos y enchapes", "etapa": "blanca" },
+      { "n": 12, "nombre": "Aparatos hidrosanitarios", "etapa": "blanca" },
+      { "n": 13, "nombre": "Muebles de armario y cocina", "etapa": "blanca" },
+      { "n": 14, "nombre": "Aseo y entrega", "etapa": "blanca" }
+    ],
+
+    "programacion": {
+      "modelo": "PERT / CPM",
+      "constante_tiempo": "K = meses_categoria * semanas_por_mes * dias_habiles_semana  (dias habiles, redondeado)",
+      "semanas_por_mes": 4.33,
+      "dias_habiles_semana": 6,
+      "rendimiento_m2_dia_por_espacio": 1.25,
+      "personas_minimo": 2,
+      "personas_maximo": 5,
+      "dias_rendimiento": "suma(area_espacio * cantidad) / rendimiento   (con la cuadrilla minima)",
+      "personas": "min(maximo, max(minimo, redondear_arriba(minimo * dias_rendimiento / K)))",
+      "duracion": "max(K, dias_rendimiento * minimo / personas)",
+      "pert": { "optimista": 0.75, "pesimista": 1.5, "te": "(O + 4M + P) / 6", "sigma": "(P - O) / 6" },
+      "escala": "M_capitulo = peso * duracion / ruta_critica(pesos)",
+      "pesos": { "1": 4, "2": 22, "3": 6, "4": 6, "5": 14, "6": 9, "7": 5, "8": 2, "9": 8, "10": 3, "11": 10, "12": 4, "13": 4, "14": 3 },
+      "precedencias": { "1": [], "2": [1], "3": [2], "4": [2], "5": [2], "6": [3, 4, 5], "7": [6], "8": [7], "9": [6], "10": [6], "11": [6], "12": [11], "13": [9, 11], "14": [8, 10, 12, 13] },
+      "calendario": "dias habiles desde la fecha de inicio; domingo libre (y sabado si se trabajan 5 dias); sin festivos"
+    },
+
+    "mano_de_obra": {
+      "fuente": "assets/motor/salario_minimo.js",
+      "SMMLV": 1750905,
+      "salud_pct": 0.085,
+      "arl_pct": 0.0696,
+      "transporte_dia": 5000,
+      "dias_trabajados_mes": 26,
+      "costo_mes": "SMMLV * (1 + salud_pct + arl_pct) + transporte_dia * dias_trabajados_mes",
+      "costo_dia": "costo_mes / dias_trabajados_mes",
+      "total": "personas * duracion * costo_dia",
+      "por_tarea": "total * te_tarea / suma(te)"
+    },
+
+    "herramientas_alquiler": {
+      "fuente": "assets/datos/alquiler.js (mediana de las tarifas por dia que coinciden; foto del 28/09/2026)",
+      "dias_alquiler": "max(1, redondear_arriba(te_tarea * fraccion_uso))",
+      "costo": "cantidad * dias_alquiler * tarifa_dia",
+      "por_capitulo": {
+        "1":  [{ "herramienta": "Apisonador tipo canguro", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 90000 }],
+        "2":  [{ "herramienta": "Mezcladora de concreto", "cantidad": 1, "fraccion_uso": 1, "tarifa_dia": 87000 },
+               { "herramienta": "Vibrador de concreto", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 65000 },
+               { "herramienta": "Formaleta (tablero)", "cantidad": 40, "fraccion_uso": 1, "tarifa_dia": 1440 },
+               { "herramienta": "Paral / taco metálico", "cantidad": 30, "fraccion_uso": 1, "tarifa_dia": 250 },
+               { "herramienta": "Cercha metálica", "cantidad": 20, "fraccion_uso": 1, "tarifa_dia": 140 },
+               { "herramienta": "Apisonador tipo canguro", "cantidad": 1, "fraccion_uso": 0.3, "tarifa_dia": 90000 }],
+        "3":  [{ "herramienta": "Rotomartillo", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 77000 }],
+        "4":  [{ "herramienta": "Rotomartillo", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 77000 }],
+        "5":  [{ "herramienta": "Andamio tubular (sección)", "cantidad": 8, "fraccion_uso": 1, "tarifa_dia": 5000 },
+               { "herramienta": "Mezcladora de concreto", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 87000 },
+               { "herramienta": "Cortadora", "cantidad": 1, "fraccion_uso": 0.3, "tarifa_dia": 130000 }],
+        "6":  [{ "herramienta": "Andamio tubular (sección)", "cantidad": 8, "fraccion_uso": 1, "tarifa_dia": 5000 },
+               { "herramienta": "Mezcladora de concreto", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 87000 }],
+        "7":  [{ "herramienta": "Equipo de soldadura", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 150000 },
+               { "herramienta": "Taladro", "cantidad": 1, "fraccion_uso": 0.3, "tarifa_dia": 35000 }],
+        "9":  [{ "herramienta": "Andamio tubular (sección)", "cantidad": 6, "fraccion_uso": 1, "tarifa_dia": 5000 },
+               { "herramienta": "Compresor / equipo de pintura", "cantidad": 1, "fraccion_uso": 0.3, "tarifa_dia": 60000 }],
+        "10": [{ "herramienta": "Andamio tubular (sección)", "cantidad": 4, "fraccion_uso": 1, "tarifa_dia": 5000 },
+               { "herramienta": "Atornillador", "cantidad": 1, "fraccion_uso": 1, "tarifa_dia": 108000 }],
+        "11": [{ "herramienta": "Cortadora", "cantidad": 1, "fraccion_uso": 1, "tarifa_dia": 130000 },
+               { "herramienta": "Pulidora", "cantidad": 1, "fraccion_uso": 0.5, "tarifa_dia": 57000 }],
+        "12": [{ "herramienta": "Taladro", "cantidad": 1, "fraccion_uso": 0.3, "tarifa_dia": 35000 }],
+        "13": [{ "herramienta": "Taladro", "cantidad": 1, "fraccion_uso": 0.3, "tarifa_dia": 35000 }],
+        "14": [{ "herramienta": "Hidrolavadora", "cantidad": 1, "fraccion_uso": 1, "tarifa_dia": 87000 },
+               { "herramienta": "Aspiradora", "cantidad": 1, "fraccion_uso": 1, "tarifa_dia": 64000 }]
+      }
+    }
+  }
+}

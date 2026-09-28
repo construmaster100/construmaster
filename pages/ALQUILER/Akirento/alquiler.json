@@ -1,0 +1,254 @@
+{
+  "empresa": "Akirento",
+  "fecha": "2026-09-28T04:19:29.483Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 4,
+    "total": 4,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "horno para perros calientes",
+        "precio": 200000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Juego del Laberinto Gigante Akirento",
+        "precio": 87000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Mesa Mediana de Hockey",
+        "precio": 87000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Vibrocompactador Tipo Canguro",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Rotomartillo Demoledor DEWALT",
+      "precio": 100000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-rotomartillo-picador/",
+      "imagen": "https://akirento.com/wp-content/uploads/1_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Bomba Sumergible 2\"",
+      "precio": 87000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-bomba-sumergible-2/",
+      "imagen": "https://akirento.com/wp-content/uploads/5_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Benitin Doble Rodillo",
+      "precio": 360000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-benitin-doble-rodillo/",
+      "imagen": "https://akirento.com/wp-content/uploads/6_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Vibrador De Concreto Eléctrico/Gasolina",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://akirento.com/product/vibrador-de-concreto/",
+      "imagen": "https://akirento.com/wp-content/uploads/19_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Benitin Diesel 3600 RPM",
+      "precio": 180000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-benitin/",
+      "imagen": "https://akirento.com/wp-content/uploads/18_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Hidrolavadora Industrial Gasolina",
+      "precio": 87000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-hidrolavadora-industrial-a-gasolina/",
+      "imagen": "https://akirento.com/wp-content/uploads/17_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Motobomba a Gasolina 2\"",
+      "precio": 87000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-motobomba-a-gasolina-2/",
+      "imagen": "https://akirento.com/wp-content/uploads/63_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Pluma Grúa Akirento",
+      "precio": 87000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-pluma-grua/",
+      "imagen": "https://akirento.com/wp-content/uploads/14_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Allanadora 36 Para Concreto",
+      "precio": 220000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/allanadora-36-para-concreto/",
+      "imagen": "https://akirento.com/wp-content/uploads/66_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Martillo Demoledor",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://akirento.com/product/martillo-demoledor/",
+      "imagen": "https://akirento.com/wp-content/uploads/23_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Compresor De Aire 170 Litros",
+      "precio": 63000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/compresor-de-aire/",
+      "imagen": "https://akirento.com/wp-content/uploads/70_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Brilladora Industrial",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/brilladora-industrial/",
+      "imagen": "https://akirento.com/wp-content/uploads/36_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Bomba Sumergible 3\"",
+      "precio": 87000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/bomba-sumergible/",
+      "imagen": "https://akirento.com/wp-content/uploads/5_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Vibrocompactador Tipo Canguro",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://akirento.com/product/vibrocompactador-tipo-canguro/",
+      "imagen": "https://akirento.com/wp-content/uploads/15_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Mezcladora De Concreto",
+      "precio": 87000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/mezcladora-de-concreto/",
+      "imagen": "https://akirento.com/wp-content/uploads/12_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Aspiradora Semindustrial",
+      "precio": 69000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/aspiradora-semiindustrial/",
+      "imagen": "https://akirento.com/wp-content/uploads/34_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Vibrocompactadora Tipo Rana",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://akirento.com/product/vibrocompactador-tipo-rana-50x56/",
+      "imagen": "https://akirento.com/wp-content/uploads/26_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Cortadora de Pavimento",
+      "precio": 220000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/alquiler-de-cortadora-de-pavimento/",
+      "imagen": "https://akirento.com/wp-content/uploads/72_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Escalera Multipropósito Aluminio 16 Pasos",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://akirento.com/product/escalera-de-aluminio-16-pasos/",
+      "imagen": "https://akirento.com/wp-content/uploads/40_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas"
+    },
+    {
+      "nombre": "Pulidora Makita M0901B",
+      "precio": 57000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/pulidora-makita/",
+      "imagen": "https://akirento.com/wp-content/uploads/75_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    },
+    {
+      "nombre": "Bomba Sumergible Gorman",
+      "precio": 900000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/bomba-sumergible-gorman/",
+      "imagen": "https://akirento.com/wp-content/uploads/76_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Compresor de Aire de 125 CFM",
+      "precio": 180000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/compresor-de-aire-kaeser-de-125-cfm/",
+      "imagen": "https://akirento.com/wp-content/uploads/78_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Bomba Neumática Wilder 3\"",
+      "precio": 87000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/bomba-neumatica-wilder-3/",
+      "imagen": "https://akirento.com/wp-content/uploads/16_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Bomba Neumática Wilder 2\"",
+      "precio": 63000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/bomba-neumatica-wilder-2/",
+      "imagen": "https://akirento.com/wp-content/uploads/8_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Contenedor para Oficina",
+      "precio": 150000,
+      "unidad": "día",
+      "url": "https://akirento.com/product/contenedor-para-oficina/",
+      "imagen": "https://akirento.com/wp-content/uploads/44_Mesa-de-trabajo-1.png",
+      "detalle": "Industria"
+    },
+    {
+      "nombre": "Pulidora Angular DeWalt",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://akirento.com/product/pulidora-angular/",
+      "imagen": "https://akirento.com/wp-content/uploads/84_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas"
+    },
+    {
+      "nombre": "Escalera de Aluminio Plegable 12 Pasos",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://akirento.com/product/escalera-en-aluminio-plegable-multiproposito-12-pasos/",
+      "imagen": "https://akirento.com/wp-content/uploads/47_Mesa-de-trabajo-1.png",
+      "detalle": "Herramientas · Industria"
+    }
+  ]
+}

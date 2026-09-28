@@ -1,0 +1,12 @@
+{
+  "empresa": "Andamio Certificado (GCM)",
+  "fecha": "2026-09-28T04:19:29.572Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 0,
+    "total": 0,
+    "precision": 1,
+    "filas": []
+  },
+  "equipos": []
+}

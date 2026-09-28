@@ -1,0 +1,12 @@
+{
+  "empresa": "Maquiequipos Rionegro",
+  "fecha": "2026-09-28T04:19:30.224Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 0,
+    "total": 0,
+    "precision": 1,
+    "filas": []
+  },
+  "equipos": []
+}

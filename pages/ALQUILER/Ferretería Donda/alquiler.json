@@ -1,0 +1,128 @@
+{
+  "empresa": "Ferretería Donda",
+  "fecha": "2026-09-28T04:19:27.375Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 3,
+    "total": 3,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "TALADRO PERCUTOR",
+        "precio": 10000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "ATORNILLADOR INALÁMBRICO DE IMPACTO",
+        "precio": 20000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "ANDAMIOS",
+        "precio": 3000,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "TALADRO PERCUTOR",
+      "precio": 10000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "800w · depósito $150.000"
+    },
+    {
+      "nombre": "TALADRO ROTOMARTILLO",
+      "precio": 20000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "850W · depósito $600.000"
+    },
+    {
+      "nombre": "PULIDORA 4 1/2",
+      "precio": 10000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "1250W · depósito $360.000"
+    },
+    {
+      "nombre": "TALADRO INALÁMBRICO PERCUTOR",
+      "precio": 20000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "800W · depósito $1.500.000"
+    },
+    {
+      "nombre": "ATORNILLADOR INALÁMBRICO DE IMPACTO",
+      "precio": 20000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "800W · depósito $1.500.000"
+    },
+    {
+      "nombre": "SIERRA CIRCULAR 7 1/4",
+      "precio": 10000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "2 1/8 HP · depósito $400.000"
+    },
+    {
+      "nombre": "COMPRESOR SILENCIOSO",
+      "precio": 50000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "42 L / 2 HP · depósito $1.600.000"
+    },
+    {
+      "nombre": "MAQUINA PINTURA",
+      "precio": 50000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-herramienta-electrica/",
+      "imagen": "",
+      "detalle": "2 HP · depósito $200.000"
+    },
+    {
+      "nombre": "ANDAMIOS",
+      "precio": 3000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-equipos-de-construccion/",
+      "imagen": "",
+      "detalle": "2 alas · depósito $250.000"
+    },
+    {
+      "nombre": "CANES DE MADERA",
+      "precio": 1500,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-equipos-de-construccion/",
+      "imagen": "",
+      "detalle": "Madera · depósito $30.000"
+    },
+    {
+      "nombre": "ESCALERA TIJERA ALUMINIO 2M",
+      "precio": 10000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-equipos-de-construccion/",
+      "imagen": "",
+      "detalle": "7 peldaños · depósito $600.000"
+    },
+    {
+      "nombre": "ESCALERA TIJERA ALUMINIO 4M",
+      "precio": 20000,
+      "unidad": "día",
+      "url": "https://ferreteriadonda.com/servicios/alquiler-de-equipos-de-construccion/",
+      "imagen": "",
+      "detalle": "14 peldaños · depósito $1.200.000"
+    }
+  ]
+}

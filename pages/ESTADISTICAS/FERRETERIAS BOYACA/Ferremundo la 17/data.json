@@ -1,0 +1,70 @@
+{
+ "meta": {
+  "etapa": "completo",
+  "Tienda": "Ferremundo la 17",
+  "Grupo": "Ferreterias Boyaca",
+  "Sitio": "https://ferreteriatunja.com/",
+  "Adaptador": "woo",
+  "Productos estimados en el sitio": 4,
+  "Piloto (10 %)": 1,
+  "Piloto con precio": 0,
+  "Piloto con foto": 1,
+  "Auditados (5 %)": 1,
+  "Correctos": 1,
+  "Precision": "100.0 %",
+  "Margen (z=1,96)": "± 0.0 %",
+  "Resultado": "APROBADO",
+  "Semilla": 20260927,
+  "Fecha": "26/9/2026, 11:43:28 p. m.",
+  "Productos capturados": 4,
+  "Con precio": 0,
+  "Con foto": 3,
+  "Minutos": 0
+ },
+ "productos": [
+  {
+   "nombre": "teja alveolar policarbonato antigranizo superplast",
+   "precio": null,
+   "categoria": "TEJAS ANTIGRANIZO",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "",
+   "url": "https://ferreteriatunja.com/producto/teja-alveolar-policarbonato-antigranizo-superplast/",
+   "sku": "4cf3f64e3c07",
+   "disponibilidad": "Disponible"
+  },
+  {
+   "nombre": "Teja translúcida policarbonato ajover",
+   "precio": null,
+   "categoria": "TEJAS PLÁSTICAS",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferreteriatunja.com/wp-content/uploads/2026/03/TEJA-AJOVER-10-8-6-5-4.png",
+   "url": "https://ferreteriatunja.com/producto/teja-translucida-policarbonato-ajover/",
+   "sku": "338868380685",
+   "disponibilidad": "Disponible"
+  },
+  {
+   "nombre": "Teja plástica gerfor",
+   "precio": null,
+   "categoria": "TEJAS PLÁSTICAS",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferreteriatunja.com/wp-content/uploads/2026/03/TEJA-GERFOR-10-8-6-5-4.png",
+   "url": "https://ferreteriatunja.com/producto/teja-plastica-gerfor/",
+   "sku": "09dc006e592a",
+   "disponibilidad": "Disponible"
+  },
+  {
+   "nombre": "Teja fibrocemento Eternit",
+   "precio": null,
+   "categoria": "TEJAS FIBROCEMENTO",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferreteriatunja.com/wp-content/uploads/2026/03/TEJA-ETERNIT-10-8-6-5-4.png",
+   "url": "https://ferreteriatunja.com/producto/teja-fibrocemento-eternit/",
+   "sku": "77b957a390eb",
+   "disponibilidad": "Disponible"
+  }
+ ]
+}

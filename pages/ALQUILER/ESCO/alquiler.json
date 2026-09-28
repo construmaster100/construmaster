@@ -1,0 +1,1462 @@
+{
+  "empresa": "ESCO",
+  "fecha": "2026-09-28T04:19:28.574Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 181,
+    "total": 181,
+    "precision": 1,
+    "filas": [],
+    "nota": "Fuente unica: el PDF publicado (sin ficha por equipo)"
+  },
+  "equipos": [
+    {
+      "nombre": "Pluma grua con cable de 60 Mts",
+      "precio": 16500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Pluma grua con cable de 80 Mts",
+      "precio": 21000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma o Balde para pluma grua",
+      "precio": 2000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Molinete con base",
+      "precio": 1400,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Manila para molinete x metros",
+      "precio": 55,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Poleas de canal",
+      "precio": 3000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Diferencial de 1 tonelada",
+      "precio": 18000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Diferencial de 2 toneladas",
+      "precio": 18000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taladro rotopercutor hasta 1\"",
+      "precio": 28000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taladro demoledor de piso (sin punta)",
+      "precio": 45000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taladro demoledor de muro (sin punta)",
+      "precio": 35000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taladro de 1/2",
+      "precio": 19000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Punta o cincel taladro demoledor de piso",
+      "precio": 4000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Punta o cincel taladro demoledor de muro",
+      "precio": 4000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Pala demoledor de piso",
+      "precio": 10000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Bascula de 500 kilos",
+      "precio": 10000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Coche de llanta neomatica",
+      "precio": 2100,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera de Fibra de Vidrio 2 cuerpos",
+      "precio": 11000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera de madera x cuerpos",
+      "precio": 1650,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera de Tijera 2.00 mts",
+      "precio": 4000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera de Tijera 3.00 mts",
+      "precio": 5000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Extencion encauchetada x metro lineal",
+      "precio": 150,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "dia de arriendo Dia Torre de iluminacion",
+      "precio": 100000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Apisonador tipo canguro",
+      "precio": 40000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Rodillo 1 tonelada minimo 6 horas dia con operador y combustible",
+      "precio": 35000,
+      "unidad": "hora",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Rodillo de compactacion de 1 tonelada sin operador y sin combustible",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Vibrador electrico para concreto",
+      "precio": 22000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Vibrador electrico para concreto tipo aguja",
+      "precio": 25000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Vibrocompactador a gasolina tipo Rana",
+      "precio": 29000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "del dia constructor mientras este a su cargo. Rinconera de 0,10 x 0,10 x 0,60 Mx",
+      "precio": 135,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Rinconera de 0,10 x 0,10 x 1,20 Mx",
+      "precio": 270,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tensor Mx",
+      "precio": 100,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tubo Mx",
+      "precio": 78,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "U\\361a Mx",
+      "precio": 62,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,20 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,25 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,30 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,35 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,40 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,45 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,50 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,60 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de columna de 0,70 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cu\\361as perforadas",
+      "precio": 35,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cu\\361a lisa",
+      "precio": 35,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta circular de 0,30 x 2,40 Mts (Juego)",
+      "precio": 15500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta circular de 0,40 x 2,40 Mts (Juego)",
+      "precio": 16500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cu\\361a lisa",
+      "precio": 35,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cu\\361a perforada",
+      "precio": 35,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taco metalico Enano",
+      "precio": 250,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taco metalico 3,30 Mts",
+      "precio": 140,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taco metalico 3,60 Mts",
+      "precio": 210,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taco metalico 4,20Mts",
+      "precio": 310,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Taco metalico 5,50Mts",
+      "precio": 420,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cercha metalica de 1,50 Mts",
+      "precio": 125,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cercha metalica de 3,00 Mts",
+      "precio": 140,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Medio Tablero 0,45 x 1,40",
+      "precio": 250,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tablero de 0,70 x 1,40 (Camilla)",
+      "precio": 300,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta cilindro de prueba",
+      "precio": 950,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta cono Slump",
+      "precio": 950,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Varilla de 5/8",
+      "precio": 50,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Can de madera",
+      "precio": 400,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,15 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,20 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,25 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,30 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,40 x 1,20",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,40 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,50 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta de muro de 0,60 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Esquinero Int 0,15 x 0,20 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Esquinero Int 0,20 x 0,20 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Esquinero Int 0,25 x 0,25 x 2,40 Mts",
+      "precio": 1440,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Gato tensor",
+      "precio": 900,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tensores de 3/8",
+      "precio": 120,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Chapetas",
+      "precio": 120,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador formaleta de muro x Metro lineal",
+      "precio": 400,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Angulo esquinero x 2,40",
+      "precio": 400,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cu\\361a lisa",
+      "precio": 35,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cu\\361a perforada",
+      "precio": 35,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma de Tijera JLG 2630 (Ancho 76 cm x Altura 8.00 mts)",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma de Tijera JLG 3246 ES (Ancho 116 cm x Altura 10 Mts)",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Pluma grua con cable de 40 Mts",
+      "precio": 15000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tornillo con chapola",
+      "precio": 12,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tornillo nivelador base plana",
+      "precio": 380,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tornillo nivelador tipo cercha",
+      "precio": 380,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tuberia dalmine para unir varias torres, valor metro lineal",
+      "precio": 120,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Union para barandas interna",
+      "precio": 25,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Vertical de 1.00 Mts sin espigo",
+      "precio": 145,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Vertical de 2.00 Mts con espigo",
+      "precio": 275,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Vertical de 2.00 Mts sin espigo",
+      "precio": 275,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "io se cobra po metro cubico (Volumen) 1,800 Mt3 Andamio de tijera 1,20 x 1,50 Mts",
+      "precio": 185,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Andamio modular 1,00 x 1,50 Mts",
+      "precio": 195,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Baranda escalera de andamio",
+      "precio": 280,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Can de madera 2,80 Mts",
+      "precio": 400,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cruzeta para andamio de tijera",
+      "precio": 55,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera para andamio (Tramo)",
+      "precio": 2900,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Ruedas giratorias para andamio",
+      "precio": 580,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Bomba hidrostatica",
+      "precio": 22000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Compresor 1 martillo 1 operador/combus. (Valor Hora)",
+      "precio": 44000,
+      "unidad": "hora",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Compresor 2 martillos 1 operador/combus. (Valor Hora)",
+      "precio": 65000,
+      "unidad": "hora",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Compresor 2 martillos 2 operadores/combus. (Valor Hora)",
+      "precio": 84000,
+      "unidad": "hora",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Concretadora de 1,0 sacos electrica",
+      "precio": 22000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Concretadora de 1,5 sacos electrica",
+      "precio": 23000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Concretadora de 2,0 sacos electrica",
+      "precio": 28000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Concretadora de 1,5 sacos a gasolina",
+      "precio": 30000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Circular cortadora de madera con disco",
+      "precio": 12000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cortadora de adobe sin disco",
+      "precio": 14000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Cortadora de Baldocin",
+      "precio": 12000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "co/operador 5 cm de profundidad (metro line 4,000 Metro Pulidora manual electrica",
+      "precio": 19000,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador de 1,00 Mx",
+      "precio": 135,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador de 1,50 Mx",
+      "precio": 135,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador de 2,00 Mx",
+      "precio": 220,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador de 3,00 Mx",
+      "precio": 245,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador de 4,00 Mx",
+      "precio": 320,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador de 5,00 Mx",
+      "precio": 450,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Alineador de 6,00 Mx",
+      "precio": 490,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Angulo 0,60 Mx",
+      "precio": 90,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Angulo 1,20 Mx",
+      "precio": 135,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Distanciador 0,30 - 0,40 - 0,50",
+      "precio": 40,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,10 x 1,20 Mx",
+      "precio": 520,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,20 x 1,20 Mx",
+      "precio": 520,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,25 x 1,20 Mx",
+      "precio": 720,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,30 x 1,20 Mx",
+      "precio": 720,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,35 x 1,20 Mx",
+      "precio": 720,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,40 x 1.20 Mx",
+      "precio": 770,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,45 x 1,20 Mx",
+      "precio": 770,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,50 x 1,20 Mx",
+      "precio": 880,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Formaleta Tablero de 0,60 x 1,20 Mx",
+      "precio": 990,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Grapa Mx",
+      "precio": 28,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Martillo Extractor Mx",
+      "precio": 980,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Pin Largo Mx",
+      "precio": 33,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Pin Sencillo Mx",
+      "precio": 22,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Andamio colgante cable hasta 60 Mts",
+      "precio": 1400,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Andamio colgante cable hasta 80 Mts",
+      "precio": 2200,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Pescante andamio colgante",
+      "precio": 500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma metalica de 0,30 x 1,00 mts",
+      "precio": 2500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma metalica de 0,30 x 2,00 mts",
+      "precio": 2500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Baranda para andamio colgante de 1,00 mts",
+      "precio": 1500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Baranda para andamio colgante de 2,00 mts",
+      "precio": 1500,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Abrazadera dalmine fija",
+      "precio": 250,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Andamio de carga triangular de 0,50 x 1,50 Mts",
+      "precio": 290,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Andamio de carga triangular de 1,00 x 1,50 Mts",
+      "precio": 350,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Base andamio de carga",
+      "precio": 310,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Diagonal Andamio de Carga",
+      "precio": 240,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Riostra Superior Andamio de Carga",
+      "precio": 280,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Riostra Inferior Andamio de Carga",
+      "precio": 460,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tornillo nivelador",
+      "precio": 410,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tubo dalmine de 3 Mts",
+      "precio": 360,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Tubo dalmine de 6 Mts",
+      "precio": 720,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Viga PTS de 3,00 Mts",
+      "precio": 360,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Viga PTS de 6,00 Mts",
+      "precio": 720,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Abrazadera dalmine de empalme",
+      "precio": 250,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Acople para plataforma 0.60 (Para unir dos plataformas)",
+      "precio": 50,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Acople para plataforma 0.80 (para unir tres plataformas)",
+      "precio": 50,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Baranda para escalera de 1.34",
+      "precio": 220,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Base collar para inicio de torre",
+      "precio": 230,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Diagonales para 0,70 Mts",
+      "precio": 290,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Diagonales para 1.40 Mts",
+      "precio": 310,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Diagonales para 3.00 Mts",
+      "precio": 400,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera de 1.34 x 0.59 Mts (peatonal)",
+      "precio": 2200,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera de acceso de 1.34 x 0.59 Mts",
+      "precio": 2200,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera vertical de 2,00 Mts",
+      "precio": 980,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Escalera vertical de 2,80 Mts",
+      "precio": 1300,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Espigo para baranda de escalera",
+      "precio": 60,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Ganchos horizontales (Pico Loro) final plataforma",
+      "precio": 30,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Herramienta para baranda",
+      "precio": 40,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Horizontal de 0.70 Mts",
+      "precio": 140,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Horizontal de 1,40 con espigo",
+      "precio": 290,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Horizontal Reforzada de 1,40 con espigo",
+      "precio": 290,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Horizontal reforzada de 3,00 Mts",
+      "precio": 350,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Horizontal reforzada de 3,00 Mts con espigo",
+      "precio": 370,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Horizontales de 1.40 Mts",
+      "precio": 260,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Horizontales de 3.00 Mts",
+      "precio": 300,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma de 0.25 x 0.59 (Ajuste)",
+      "precio": 135,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma de 1.34 x 0.59 con escotilla",
+      "precio": 880,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Plataforma de 1.34 x 0.59 sin escotilla",
+      "precio": 770,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Puerta Abatible de 0,70",
+      "precio": 1450,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Rodapie de 1.40 mts",
+      "precio": 135,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Rodapie de 3.00 mts (2unidades)",
+      "precio": 270,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    },
+    {
+      "nombre": "Ruedas para andamio ADM",
+      "precio": 950,
+      "unidad": "día",
+      "url": "https://www.esco.com.co/wp-content/uploads/2019/05/precios-apartado.pdf",
+      "imagen": "",
+      "detalle": "Lista ESCO 2019 (antes de IVA) · referencia"
+    }
+  ]
+}

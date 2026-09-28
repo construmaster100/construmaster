@@ -1,0 +1,456 @@
+{
+  "empresa": "García Vega",
+  "fecha": "2026-09-28T04:19:29.727Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 3,
+    "total": 3,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Rodillo Compactador Dynapac",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Andamio de Aluminio MI TOWER",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Martillo Demoledor TE 500-AVR",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Rodillo Compactador Dynapac",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://garciavega.co/producto/rodillo-compactador-dynapac/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2026/05/ChatGPT-Image-13-may-2026-10_02_22-a.m.jpg",
+      "detalle": "Maquinaria para compactación de suelos · Usados"
+    },
+    {
+      "nombre": "Sierra sin fin COSEN MH - 916JRP",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://garciavega.co/producto/sierra-sin-fin-cosen-mh-916jrp/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2026/03/Sierra-3.jpg",
+      "detalle": "Usados"
+    },
+    {
+      "nombre": "Andamio Multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-multidireccional-2/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-multidireccional.jpg",
+      "detalle": "Venta de equipos · Nuevos · Tienda Acceso GV · Venta Andamios Certificados"
+    },
+    {
+      "nombre": "Andamio colgante manual",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-colgante-manual-2/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-colgante-manual.jpg",
+      "detalle": "Venta de equipos · Nuevos · Tienda Alba · Venta Andamios Certificados"
+    },
+    {
+      "nombre": "Andamio certificado eléctrico",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-certificado-electrico-2/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-certificado-electrico.jpg",
+      "detalle": "Venta de equipos · Nuevos · Tienda Alba · Venta Andamios Certificados"
+    },
+    {
+      "nombre": "Elevador PT 1200",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/elevador-pt-1200-2/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Elevador-PT-1200.jpg",
+      "detalle": "Venta de equipos · Nuevos · Tienda Acceso GV"
+    },
+    {
+      "nombre": "Andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-andamio-multidireccional/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-multidireccional.jpg",
+      "detalle": "Alquiler · Andamios · Andamios · Andamios certificados · Andamios Certificados · Etapa 2 – Fachadas, Redes y Acabados · Por familia de producto"
+    },
+    {
+      "nombre": "Andamio certificado eléctrico",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-andamio-certificado-electrico/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-certificado-electrico.jpg",
+      "detalle": "Alquiler · Andamio Colgante · Andamios · Andamios certificados · Andamios Certificados · Colgantes · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Andamio colgante manual",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-andamio-colgante-manual/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-colgante-manual.jpg",
+      "detalle": "Alquiler · Andamio Colgante · Andamios · Andamios · Andamios certificados · Andamios Certificados · Colgantes · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Andamio de carga",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-carga-alquiler-andamio-de-carga/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-de-Carga.jpg",
+      "detalle": "Alquiler · Andamios · Andamios · Andamios tradicionales · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Plancha Vibradora CF 2 Hd",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://garciavega.co/producto/plancha-vibradora-cf-2-hd-2/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Plancha-Vibradora-CF-2-Hd.jpg",
+      "detalle": "Planchas reversibles · Nuevos · Tienda Weber MT · Venta de equipos"
+    },
+    {
+      "nombre": "Apisonador SRV 660 Hd: Alto Impacto",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://garciavega.co/producto/apisonador-srv-660-hd-alto-impacto/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Apisonador-SRV-660-Hd.jpg",
+      "detalle": "Apisonadores · Nuevos · Tienda Weber MT · Venta de equipos"
+    },
+    {
+      "nombre": "Apisonador Diésel SRX 750",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://garciavega.co/producto/apisonador-diesel-srx-750-autonomia/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Apisonador-Diesel-SRX-750-D.jpg",
+      "detalle": "Apisonadores · Nuevos · Tienda Weber MT · Venta de equipos"
+    },
+    {
+      "nombre": "Elevador PT 1200",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-elevador-pt-1200/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Elevador-PT-1200.jpg",
+      "detalle": "Alquiler · Elevación · Elevadores · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Escalera plegable Altrex Velocity",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-escalera-altrex-velocity/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Escalera-plegable-Altrex-Velocity.png",
+      "detalle": "Alquiler · Elevación · Escaleras · Escaleras · Escaleras · Etapa 1 – Estructura · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Escalera combinada Altrex Mounter",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-escalera-combinada-altrex-mounter/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Escalera-combinada-Altrex-Mounter.png",
+      "detalle": "Alquiler · Elevación · Escaleras · Escaleras · Escaleras · Etapa 1 – Estructura · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Andamio de Aluminio RS TOWER 53",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-de-aluminio-rs-tower-53-copia/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-de-Aluminio-RS-TOWER-53.jpg",
+      "detalle": "Alquiler · Andamios · Andamios · Andamios de Aluminio · Andamios de Aluminio · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Andamio de Aluminio RS TOWER 52",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-andamio-de-aluminio-rs-tower-52-2/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/rs-tower-52.jpg",
+      "detalle": "Andamios de Aluminio · Alquiler · Andamios · Andamios · Andamios de Aluminio · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Andamio de Aluminio MI TOWER",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-andamio-de-aluminio-mi-tower/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/MiTOWER.png",
+      "detalle": "Alquiler · Andamios · Andamios · Andamios de Aluminio · Andamios de Aluminio · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Escalera plegable Altrex Velocity",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/escalera-plegable-altrex-velocity/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Escalera-plegable-Altrex-Velocity.png",
+      "detalle": "Tienda Altrex · Nuevos · Venta de equipos"
+    },
+    {
+      "nombre": "Escalera combinada Altrex Mounter",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/escalera-combinada-altrex-mounter/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Escalera-combinada-Altrex-Mounter.png",
+      "detalle": "Tienda Altrex · Nuevos · Venta de equipos"
+    },
+    {
+      "nombre": "Escalera Altrex Double Decker",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/escalera-altrex-double-decker/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/escalera-altrex-double-decker.png",
+      "detalle": "Tienda Altrex · Nuevos · Venta de equipos"
+    },
+    {
+      "nombre": "Andamio de Aluminio RS TOWER 53",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-de-aluminio-rs-tower-53/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-de-Aluminio-RS-TOWER-53.jpg",
+      "detalle": "Tienda Altrex · Nuevos · Venta de equipos"
+    },
+    {
+      "nombre": "Andamio de Aluminio RS TOWER 52",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-de-aluminio-rs-tower-52/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/rs-tower-52.jpg",
+      "detalle": "Tienda Altrex · Nuevos · Venta de equipos"
+    },
+    {
+      "nombre": "Andamio de Aluminio MI TOWER",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/andamio-de-aluminio-mi-tower/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/MiTOWER.png",
+      "detalle": "Tienda Altrex · Nuevos · Venta de equipos"
+    },
+    {
+      "nombre": "Electrobomba Barnes AE1510-1",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-electrobomba-barnes-ae1510-1/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Electrobomba-Barnes-AE1510-1.jpg",
+      "detalle": "Alquiler · Etapa 0 – Demolición y Movimiento de Tierra · Motobombas · Por etapas de construcción"
+    },
+    {
+      "nombre": "Cortadora de Ladrillo Husqvarna TS 350 E",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-cortadora-de-ladrillo-husqvarna/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Cortadora-de-Ladrillo-Husqvarna-TS-350-E.jpg",
+      "detalle": "Alquiler · Cortadora de Ladrillo · Etapa 1 – Estructura · Maquinaria · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Cortadora de Pavimento Wacker Neuson BFS",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-cortadora-de-pavimento-wacker/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Screenshot_10.jpg",
+      "detalle": "Alquiler · Cortadora de Piso · Cortadora de Piso/Concreto/Asfalto · Etapa 1 – Estructura · Maquinaria · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Saca Núcleos Milwaukee CAT 4120",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-saca-nucleos-milwaukee-cat-4120/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Saca-Nucleos-Milwaukee-CAT-4120.png",
+      "detalle": "Alquiler · Etapa 0 – Demolición y Movimiento de Tierra · Etapa 2 – Fachadas, Redes y Acabados · Maquinaria · Por etapas de construcción · Por familia de producto · Saca Núcleos · Saca Núcleos"
+    },
+    {
+      "nombre": "Saca Núcleos Hilti DD 200",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-saca-nucleos-hilti-dd-200/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Saca-Nucleos-Hilti-DD-200.png",
+      "detalle": "Alquiler · Equipo Hilti · Etapa 0 – Demolición y Movimiento de Tierra · Etapa 2 – Fachadas, Redes y Acabados · Hilti · Maquinaria · Por etapas de construcción · Por familia de producto · Saca Núcleos · Saca Núcleos"
+    },
+    {
+      "nombre": "Vibrador de Concreto Diesel Warrior",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-vibrador-concreto-diesel-warrior/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Vibrador-de-Concreto-Diesel-Warrior.jpg",
+      "detalle": "Alquiler · Concretos y Agua · Etapa 1 – Estructura · Por etapas de construcción · Vibradores · Vibradores de Concreto"
+    },
+    {
+      "nombre": "Vibrador Concreto Eléctrico Northrock",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/vibrador-de-concreto-electrico-northrock/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Vibrador-de-Concreto-Electrico-Northrock.jpg",
+      "detalle": "Alquiler · Concretos y Agua · Etapa 1 – Estructura · Por etapas de construcción · Vibradores · Vibradores de Concreto"
+    },
+    {
+      "nombre": "Martillo Demoledor TE 800-AVR",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-martillo-demoledor-te-800-avr/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Martillo-Demoledor-TE-800-AVR.png",
+      "detalle": "Alquiler · Equipo Hilti · Etapa 0 – Demolición y Movimiento de Tierra · Hilti · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Martillo Demoledor TE 3000-AVR",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-martillo-demoledor-te-3000-avr/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Martillo-Demoledor-TE-3000-AVR.jpg",
+      "detalle": "Alquiler · Equipo Hilti · Etapa 0 – Demolición y Movimiento de Tierra · Hilti · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Martillo Demoledor TE 2000-AVR",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-martillo-demoledor-te-2000-avr/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Martillo-Demoledor-TE-2000-AVR.jpg",
+      "detalle": "Alquiler · Equipo Hilti · Etapa 0 – Demolición y Movimiento de Tierra · Hilti · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Martillo Demoledor TE 500-AVR",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-martillo-demoledor-te-500-avr/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Martillo-Demoledor-TE-500-AVR.jpg",
+      "detalle": "Alquiler · Equipo Hilti · Etapa 0 – Demolición y Movimiento de Tierra · Hilti · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Rodillo Wacker Neuson RD 12",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-rodillo-wacker-neuson-rd-12/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/RCE_CC1200_full_800_615_75.jpg",
+      "detalle": "Alquiler · Compactación · Compactadores · Etapa 0 – Demolición y Movimiento de Tierra · Maquinaria · Por etapas de construcción · Por familia de producto · Rodillo · Rodillos"
+    },
+    {
+      "nombre": "Rodillo de 7 Ton. Dynapac",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-rodillo-de-7-ton-dynapac/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Rodillo-de-7-TN-Dynapac.jpg",
+      "detalle": "Alquiler · Compactación · Compactadores · Etapa 0 – Demolición y Movimiento de Tierra · Maquinaria · Por etapas de construcción · Por familia de producto · Rodillo · Rodillos"
+    },
+    {
+      "nombre": "Rodillo 2.7 Ton. Dynapac",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-rodillo-2-7-ton-dynapac/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Rodillo-2.7-TN-Dynapac.jpg",
+      "detalle": "Alquiler · Compactación · Compactadores · Maquinaria · Por etapas de construcción · Por familia de producto · Rodillo · Rodillos"
+    },
+    {
+      "nombre": "Rodillo Manual 780 Kg Wacker Neuson",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-rodillo-manual-780-kg-wacker-neuson/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Rodillo-Manual-780-KG-Wacker-Neuson.jpg",
+      "detalle": "Alquiler · Compactación · Compactadores · Etapa 0 – Demolición y Movimiento de Tierra · Maquinaria · Por etapas de construcción · Por familia de producto · Rodillo · Rodillos"
+    },
+    {
+      "nombre": "Andamio estándar tubular o convencional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-andamio-estandar-tubular-o-convencional/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Andamio-estandar-tubular-o-convencional.jpg",
+      "detalle": "Alquiler · Andamios · Andamios tradicionales · Etapa 2 – Fachadas, Redes y Acabados · Por etapas de construcción"
+    },
+    {
+      "nombre": "Mezcladora de concreto",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/mezcladora-de-concreto/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Mezcladora-de-concreto.jpg",
+      "detalle": "Alquiler · Concretos y Agua · Etapa 1 – Estructura · Mezcladoras · Mezcladoras · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Paral + Cercha Metálica",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-paral-cercha-metalica/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Apuntalamiento.jpg",
+      "detalle": "Alquiler · Apuntalamiento · Apuntalamiento y encofrados · Encofrados · Etapa 1 – Estructura · Formaleta Metálica · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Encofrados",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-encofrados-soluciones-proyecto/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Encofrados.jpg",
+      "detalle": "Alquiler · Apuntalamiento y encofrados · Encofrados · Etapa 1 – Estructura · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Bomba de Agua",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-bomba-de-agua/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Bomba-de-Agua.jpg",
+      "detalle": "Alquiler · Concretos y Agua · Etapa 0 – Demolición y Movimiento de Tierra · Maquinaria · Motobombas · Motobombas · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Apisonador Diésel SRX 750 D",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-apisonador-diesel-srx-750-d/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Apisonador-Diesel-SRX-750-D.jpg",
+      "detalle": "Apisonadores · Alquiler · Compactación · Compactadores · Concretos y Agua · Equipos Weber MT · Etapa 0 – Demolición y Movimiento de Tierra · Etapa 1 – Estructura · Maquinaria · Por etapas de construcción · Por familia de producto · Vibradores · Vibradores de Concreto · Weber MT"
+    },
+    {
+      "nombre": "Apisonador SRV 660 Hd",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-apisonador-srv-660-hd-garcia-vega/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Apisonador-SRV-660-Hd.jpg",
+      "detalle": "Apisonadores · Alquiler · Compactación · Compactadores · Concretos y Agua · Equipos Weber MT · Etapa 0 – Demolición y Movimiento de Tierra · Etapa 1 – Estructura · Maquinaria · Por etapas de construcción · Por familia de producto · Vibradores · Vibradores de Concreto · Weber MT"
+    },
+    {
+      "nombre": "Plancha reversible CR 6",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-plancha-reversible-cr-6/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Plancha-reversible-CR-6.jpg",
+      "detalle": "Planchas reversibles · Alquiler · Compactación · Compactadores · Concretos y Agua · Equipos Weber MT · Etapa 0 – Demolición y Movimiento de Tierra · Etapa 1 – Estructura · Maquinaria · Por etapas de construcción · Por familia de producto · Vibradores · Vibradores de Concreto · Weber MT"
+    },
+    {
+      "nombre": "Plancha reversible CR 3",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-plancha-reversible-cr-3/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Plancha-Reversible-CR-3.jpg",
+      "detalle": "Alquiler · Compactación · Compactadores · Concretos y Agua · Equipos Weber MT · Etapa 0 – Demolición y Movimiento de Tierra · Etapa 1 – Estructura · Planchas reversibles · Por etapas de construcción · Por familia de producto · Vibradores · Vibradores de Concreto · Weber MT"
+    },
+    {
+      "nombre": "Plancha Vibradora CF 2 Hd",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-plancha-vibradora-cf-2-hd-solucion-garcia-vega/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Plancha-Vibradora-CF-2-Hd.jpg",
+      "detalle": "Planchas reversibles · Alquiler · Compactación · Compactadores · Concretos y Agua · Equipos Weber MT · Etapa 0 – Demolición y Movimiento de Tierra · Etapa 1 – Estructura · Maquinaria · Por etapas de construcción · Por familia de producto · Vibradores · Vibradores de Concreto · Weber MT"
+    },
+    {
+      "nombre": "Rodillo Dynapac",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-rodillo-dynapac-impresionante-eficiencia/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Rodillo-de-7-TN-Dynapac.jpg",
+      "detalle": "Alquiler · Compactadores · Etapa 0 – Demolición y Movimiento de Tierra · Por etapas de construcción · Rodillos"
+    },
+    {
+      "nombre": "Minicargador Caterpillar 236 B2",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-minicargador-caterpillar-236-b2/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Minicargador-Caterpillar-236-B2.jpg",
+      "detalle": "Alquiler · Etapa 0 – Demolición y Movimiento de Tierra · Maquinaria · Minicargadores · Minicargadores · Movimiento de Tierra · Por etapas de construcción · Por familia de producto"
+    },
+    {
+      "nombre": "Sacanúcleos Hilti",
+      "precio": null,
+      "unidad": "",
+      "url": "https://garciavega.co/producto/alquiler-sacanucleos-hilti-garcia-vega/",
+      "imagen": "https://garciavega.co/wp-content/uploads/2024/11/Sacanucleos-Hilti.jpg",
+      "detalle": "Alquiler · Equipo Hilti · Etapa 0 – Demolición y Movimiento de Tierra · Por etapas de construcción"
+    }
+  ]
+}

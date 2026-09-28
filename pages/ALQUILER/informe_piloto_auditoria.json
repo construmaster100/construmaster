@@ -1,0 +1,607 @@
+[
+  {
+    "empresa": "Renty Herramientas",
+    "equipos": 89,
+    "piloto": 9,
+    "auditoria": "5/5",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Martillo Demoledor de Piso Einhel 50J TC-DH",
+        "precio": 150000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Escalera Plegable Multiusos",
+        "precio": 46000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Ruteadora Alambrica 5615-20 Milwaukee",
+        "precio": 80000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Extractor de Aire Industrial 12",
+        "precio": 149600,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Planta Electrica Diesel - ECOHORSE- KDF8500XE",
+        "precio": 160000,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Ferretería Donda",
+    "equipos": 12,
+    "piloto": 2,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "TALADRO PERCUTOR",
+        "precio": 10000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "ATORNILLADOR INALÁMBRICO DE IMPACTO",
+        "precio": 20000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "ANDAMIOS",
+        "precio": 3000,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Consicon",
+    "equipos": 43,
+    "piloto": 5,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Formaleta Sardinel",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Balde para Pluma 80 litros",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Pescante para Gancho Colgante",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Homecenter · Alquiler de herramientas",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Dimacro",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "ESCO",
+    "equipos": 181,
+    "piloto": 19,
+    "auditoria": "181/181",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Proconstructores",
+    "equipos": 12,
+    "piloto": 2,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Rana compactadora",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Trompo mezclador",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Rana Compactadora con Depósito de Agua",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Arrendaequipos",
+    "equipos": 1,
+    "piloto": 1,
+    "auditoria": "2/2",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Alquiler de maquinaria, andamios y plantas el&eacute;ctricas en Medell&iacute;n",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Escaleras El&eacute;ctricas",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "ALNASAN S.A.S",
+    "equipos": 4,
+    "piloto": 1,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Ranas, canguros, mezcladoras con motor a gasolina y eléctrico",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Cortadora de ladrillo y plumas con motor eléctrico",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Andamios metálicos y taladros demoledores",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Equipos Azul y Blanco",
+    "equipos": 6,
+    "piloto": 1,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Alquiler de Andamios y Equipos en Tunja",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "♦ Parales - Rodachines - Escaleras",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "♦ Rana - Vibro - Compactador",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "TuMaquinaYa",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": " estándar, soporte preventivo Flete Logístico Cama Baja (Ida + Vuelta)",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Sabana (Villeta, Girardot, Villavicencio) suma el flete en cama baja (",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "M Volqueta doble troque",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Ingeniería y Alquiler",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "1/1",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "er&iacute;sticas de la hidrolavadora Makita HW1200 Precio de alquiler:",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Destapes y Plomería (alquiler)",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "CentralQuipos",
+    "equipos": 82,
+    "piloto": 9,
+    "auditoria": "5/5",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Planta Eléctrica 750 KVA",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Plataforma Elevadora Mástil 11m- Brazo Articulado",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Escalera Extensible 40 Pies (12 Mts)",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Planta Eléctrica 75 KVA",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Sierra Manual",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "ACG Equipos",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Akirento",
+    "equipos": 27,
+    "piloto": 3,
+    "auditoria": "4/4",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "horno para perros calientes",
+        "precio": 200000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Juego del Laberinto Gigante Akirento",
+        "precio": 87000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Mesa Mediana de Hockey",
+        "precio": 87000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Vibrocompactador Tipo Canguro",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "AFB Equipos",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Andamio Certificado (GCM)",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Distriandamios",
+    "equipos": 20,
+    "piloto": 2,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Ménsula de 70.5 cm para andamio certificado",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Horizontal de 70.5 cm para andamio certificado",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Diagonal de 2.12 mts para andamio multidireccional",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "AFEC",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "García Vega",
+    "equipos": 53,
+    "piloto": 6,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Rodillo Compactador Dynapac",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Andamio de Aluminio MI TOWER",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Martillo Demoledor TE 500-AVR",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Conalquipo",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Equinorte",
+    "equipos": 96,
+    "piloto": 10,
+    "auditoria": "5/5",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Allanadora para concreto de 36&#8243;",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Generadores de 20 KVA (16 kW)",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Contenedores para oficina de 20”",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Bulldozer D6R",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Rotomartillo SDS MAX",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Piraján Andamios y Formaletas",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Formavillas",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Gaviequipos",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "1/1",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "0 VOLTIOS MANGUERA BOTADORA POR MTS PLANA PLATO PROTECOR DE ALLANADORA",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Andamios Colora",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Ranas y Canguros",
+    "equipos": 46,
+    "piloto": 5,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Motosoldador Diesel Abierto Yorking 45 kW 110 240V 1F 160AMP YDE6500EWn vista ppal",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Cortadora de Ladrillo Nacional 18",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Planta Eléctrica Gasolina KTC 6 kW 110/220V 1F, 463-GG60E",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  {
+    "empresa": "Maquiequipos Rionegro",
+    "equipos": 0,
+    "piloto": 0,
+    "auditoria": "0/0",
+    "precision": 1,
+    "aprobado": true,
+    "filas": []
+  },
+  {
+    "empresa": "Beca Andamios",
+    "equipos": 5,
+    "piloto": 1,
+    "auditoria": "3/3",
+    "precision": 1,
+    "aprobado": true,
+    "filas": [
+      {
+        "nombre": "Andamio Tubular Galvanizado de 1&#8243; 1/4 Pulgada",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Bases Niveladoras para Andamios - Usadas",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Plataforma para Andamio",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  }
+]

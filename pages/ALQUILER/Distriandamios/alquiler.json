@@ -1,0 +1,192 @@
+{
+  "empresa": "Distriandamios",
+  "fecha": "2026-09-28T04:19:29.628Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 3,
+    "total": 3,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Ménsula de 70.5 cm para andamio certificado",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Horizontal de 70.5 cm para andamio certificado",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Diagonal de 2.12 mts para andamio multidireccional",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Ménsula de 70.5 cm para andamio certificado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/mensula-de-70-5-cm-para-andamio-certificado/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/03/Mensula-de-70.5-cm.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Pasador de seguridad para andamio",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/pasador-de-seguridad-para-andamio/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/03/pasador-de-seguridad-para-andamios.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Horizontal de 2.95 mts para andamio certificado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/horizontal-de-2-95-mts-para-andamio-certificado/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/03/horizontal-de-2.95-mts-andamios-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Horizontal de 1.96 mts para andamio certificado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/horizontal-de-1-96-mts-para-andamio-certificado/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/03/horizontal-de-1.96-mts-andamios-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Horizontal de 1.38 mts para andamio certificado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/horizontal-de-1-38-mts-para-andamio-certificado/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/03/horizontal-de-1.05-mts-andamios-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Horizontal de 1.05 mts para andamio certificado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/horizontal-de-1-05-mts-para-andamio-certificado/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/03/horizontal-de-1.05-mts-andamios-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Horizontal de 70.5 cm para andamio certificado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/horizontal-de-70-5-cm-para-andamio-certificado/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/03/horizontal-de-0.70-cm-andamios-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 4.91 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-4-91-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-4.91-mts-para-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 3.53 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-3-53-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-2.83-mts-para-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 2.83 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-2-83-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-2.83-mts-para-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 2.77 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-2-77-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-2.41-mts-para-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 2.41 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-2-41-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-2.41-mts-para-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 2.12 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-2-12-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-2.12-mts-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 2.02 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-2-02-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-2.02-mts-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Diagonal de 1.80 mts para andamio multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/diagonal-de-1-80-mts-para-andamio-multidireccional/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/diagonal-de-1.80-mts-andamio-certificado.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Base collar andamio certificado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/base-collar-andamio-certificado/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/base-collar-andamios-certificados-i.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Vertical de Andamio Certificado de 1 mts",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/vertical-de-andamio-certificado-de-1-mts/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/vertical-andamio-certificado-de-1-mts.webp",
+      "detalle": "Accesorios · Andamios Certificados"
+    },
+    {
+      "nombre": "Escalera de acceso de 2.10 mts para andamios certificados",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/escalera-de-acceso-de-2-10-mts-para-andamios-certificados/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/02/escalera-de-acceso-para-andamios-certificados.webp",
+      "detalle": "Andamios Certificados · Escaleras"
+    },
+    {
+      "nombre": "Andamio Tubular de 0,80×1,50 mts",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/andamio-tubular-de-080x150-mts/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/01/andamio-tubular-de-1.50-x-1.50-mts.webp",
+      "detalle": "Andamio convencional"
+    },
+    {
+      "nombre": "Andamio Tubular de 1,50×1,50 mts",
+      "precio": null,
+      "unidad": "",
+      "url": "https://distriandamios.com/producto/andamio-tubular-de-150x150-mts/",
+      "imagen": "https://distriandamios.com/wp-content/uploads/2025/01/andamio-tubular-de-1.50-x-1.50-mts.webp",
+      "detalle": "Andamio convencional"
+    }
+  ]
+}

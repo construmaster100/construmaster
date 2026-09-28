@@ -1,0 +1,33 @@
+[26/9/2026, 11:43:44 p. m.] esperando: pages\ESTADISTICAS\FERRETERIAS BOGOTA\registro_scraping.log | pages\ESTADISTICAS\FERRETERIAS BOGOTA\registro_marcas_ferricentro.log | pages\PROVEEDORES\verificacion\registro_scraping_marcas.log
+[27/9/2026, 1:38:45 a. m.] registro_scraping.log -> Easy: piloto NO aprobado | Ferricentro: 7068 productos | Ferreco: 4629 productos | Luis Penagos: 4062 productos | Rhino: 3589 productos
+[27/9/2026, 1:38:45 a. m.] registro_marcas_ferricentro.log -> Ferropaz: 8 productos | Grupo Ferropaz: 14 productos | Ferremundo la 17: 4 productos | Ferricentro: 7068 productos
+[27/9/2026, 1:38:45 a. m.] registro_scraping_marcas.log -> Bosch: 2758 productos | Keltec Technolab: 5409 productos
+[27/9/2026, 1:39:01 a. m.] generar_inventario.js:
+Inventario: 112228 productos de 43 archivos Excel -> assets/datos/inventario.js (18.7 MB)
+  pages/ESTADISTICAS/FERRETERIAS BOGOTA/Ferreco/inventario_ferreco.xlsx: 4604 incluidos, 25 duplicados, 0 sin precio [Inventario]
+  pages/ESTADISTICAS/FERRETERIAS BOGOTA/Ferricentro/inventario_ferricentro.xlsx: 7062 incluidos, 6 duplicados, 0 sin precio [Inventario]
+  pages/ESTADISTICAS/FERRETERIAS BOGOTA/Luis Penagos/inventario_luispenagos.xlsx: 4060 incluidos, 2 duplicados, 0 sin precio [Inventario]
+  pages/ESTADISTICAS/FERRETERIAS BOGOTA/Rhino/inventario_rhino.xlsx: 3578 incluidos, 11 duplicados, 0 sin precio [Inventario]
+  pages/ESTADISTICAS/FERRETERIAS BOYACA/Ferremundo la 17/inventario_ferremundola17.xlsx: 4 incluidos, 0 duplicados, 4 sin precio [Inventario]
+  pages/ESTADISTICAS/FERRETERIAS BOYACA/Ferropaz/inventario_ferropaz.xlsx: 8 incluidos, 0 duplicados, 0 sin precio [Inventario]
+  pages/ESTADISTICAS/FERRETERIAS BOYACA/Grupo Ferropaz/inventario_grupoferropaz.xlsx: 14 incluidos, 0 duplicados, 0 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo A/02 - Corona/Inventario_corona.xlsx: 3050 incluidos, 243 duplicados, 241 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo A/03 - Urrea/Inventario_urrea.xlsx: 4604 incluidos, 3 duplicados, 0 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo A/04 - Surtek/Inventario_surtek.xlsx: 2308 incluidos, 3 duplicados, 0 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo A/08 - Dewalt/Inventario_dewalt.xlsx: 173 incluidos, 8 duplicados, 173 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo A/09 - Stanley/Inventario_stanley.xlsx: 870 incluidos, 24 duplicados, 870 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo A/10 - Hikvision/Inventario_hikvision.xlsx: 3358 incluidos, 184 duplicados, 3358 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo B/11 - Diablo/Inventario_diablo.xlsx: 1682 incluidos, 5 duplicados, 0 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo B/12 - Bosch/Inventario_bosch.xlsx: 2466 incluidos, 292 duplicados, 2466 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo B/13 - Keltec Technolab/Inventario_keltectechnolab.xlsx: 5408 incluidos, 1 duplicados, 1 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo B/20 - Uyustools/Inventario_uyustools.xlsx: 299 incluidos, 4 duplicados, 299 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo C/21 - Gricol/Inventario_gricol.xlsx: 353 incluidos, 0 duplicados, 0 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo C/22 - Stretto/Inventario_stretto.xlsx: 420 incluidos, 0 duplicados, 0 sin precio [Inventario]
+  pages/PROVEEDORES/Grupo C/27 - Makita/Inventario_makita.xlsx: 1393 incluidos, 115 duplicados, 1393 sin precio [Inventario]
+  pages/PROVEEDORES/Presencia/P01 - Toxement/Inventario_toxement.xlsx: 134 incluidos, 0 duplicados, 134 sin precio [Inventario]
+  pages/PROVEEDORES/Presencia/P03 - Pintuco/Inventario_pintuco.xlsx: 366 incluidos, 2 duplicados, 366 sin precio [Inventario]
+  pages/PROVEEDORES/Presencia/P04 - Argos/Inventario_argos.xlsx: 54 incluidos, 0 duplicados, 54 sin precio [Inventario]
+[27/9/2026, 1:39:55 a. m.] probar_pagina.js:
+Sin errores de JavaScript ni archivos faltantes
+RESULTADO: todo correcto
+[27/9/2026, 1:39:55 a. m.] integracion terminada

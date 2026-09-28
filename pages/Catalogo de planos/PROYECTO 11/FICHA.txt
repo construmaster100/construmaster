@@ -1,0 +1,12 @@
+PROYECTO 11: Casa Modular 88 m²
+Empresa: Modular Colombia
+Área: 88 m²
+Precio Estructura metalica (obra gris): $79.199.912 (m²: $899.999)
+Precio Estructura metalica (obra blanca): $123.200.000 (m²: $1.400.000)
+Precio Estructura metalica (acabados full): $202.400.000 (m²: $2.300.000)
+Ficha en el sitio: https://modularcolombia.com.co/#casas
+
+FACHADA: FACHADA.webp  <- https://modularcolombia.com.co/imagenes/casa-en-metal-prefabricada-88-m2.webp
+PLANO: PLANO.webp  <- https://modularcolombia.com.co/imagenes/casa-en-metal-prefabricada-88-m2-plano.webp
+INTERIOR: la empresa no publica una imagen interior identificable de este modelo
+PRESUPUESTO.xlsm: copia del modelo V1 Construmaster.xlsm (mismo formato, macros y 13 capítulos) con la ficha INICIO de esta casa: nombre, ID, ubicación, sistema constructivo, área construida, valor m² y valor total (= área x valor m²). Los capítulos conservan el contenido del modelo como referencia.

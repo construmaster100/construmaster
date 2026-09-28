@@ -1,0 +1,376 @@
+{
+  "empresa": "Consicon",
+  "fecha": "2026-09-28T04:19:27.451Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 3,
+    "total": 3,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Formaleta Sardinel",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Balde para Pluma 80 litros",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Pescante para Gancho Colgante",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Formaleta Sardinel",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/formaleta-sardinel/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Formaleta-Sardinel-Portada.jpg",
+      "detalle": "Alquiler Armado Estructural · Venta Armado Estructural"
+    },
+    {
+      "nombre": "Accesorios",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/accesorios/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Accesorios-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Tornillo Nivelador en U",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/tornillo-nivelador-en-u/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Tornillo-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Rodapié",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/rodapie/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Rodapie-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Barandas",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/barandas/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Barandas-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Escaleras",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/escaleras/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Escaleras-P1.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Diagonales",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/diagonales/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Diagonales-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Horizontal Reforzada",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/horizontal-reforzada/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Horizontal-reforzada-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Horizontales",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/horizontales/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Horizontales-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Verticales",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/verticales/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Verticales-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Bases",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/bases/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/Bases-P.jpg",
+      "detalle": "Alquiler Andamio Multidireccional"
+    },
+    {
+      "nombre": "Vibrocompactadora Eléctrica / Gasolina",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/vibrocompactadora-electrica-gasolina/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/07/vibrocompactadora_2100px.jpeg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Vibrador Gasolina 35 mm / Monofásico 27-35mm",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/vibrador-gasolina-35-mm-monofasico-27-35mm/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Vibrador-gasolina-35-mm-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Pulidora de 9\" y ½\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/pulidora-de-9-y-1-2/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Pulidora-de-9-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Balde para Pluma 80 litros",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/balde-para-pluma-80-litros/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Balde-para-pluma-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Testero",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/testero/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Testero-Portada.jpg",
+      "detalle": "Alquiler Armado Estructural · Venta Armado Estructural"
+    },
+    {
+      "nombre": "Pluma Grúa",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/pluma-grua/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Pluma-grua-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Motobomba Auto Abacente de 3\" Eléctrica - Gasolina",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/motobomba-auto-abacente-de-3-electrica-gasolina/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Motobomba-Auto-abacente-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Motobomba Sumergible 2\" y 3\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/motobomba-sumergible-2-y-3/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Motobomba-Sumergible-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Mezcladora Eléctrica - Gasolina (1.5 y 2 bultos)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/mezcladora-electrica-gasolina-1-5-y-2-bultos/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Mezcladora-electrica-gasolina-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Martillo Demoledor (TE 2000)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/martillo-demoledor-te-2000/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Martillo-Demoledor-T2000-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Martillo Demoledor (TE 60)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/martillo-demoledor-te-60/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Martillo-Demoledor-T60-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Martillo Demoledor (TE 800)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/martillo-demoledor-te-800/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Martillo-Demoledor-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Cortadora de Concreto",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/cortadora-de-concreto/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Cortadora-Concreto-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Cortadora de Ladrillo",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/cortadora-de-ladrillo/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Cortadora-Ladrillo-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Allanadora de Concreto con Aspas y Plato",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/allanadora-de-concreto-con-aspas-y-plato/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/06/Allanadora-P.jpg",
+      "detalle": "Alquiler Maquinaria Liviana · Venta Maquinaria Liviana"
+    },
+    {
+      "nombre": "Plataforma para Ganchos Colgantes",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/plataforma-para-ganchos-colgantes/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Plataforma-Gancho-Colgante-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Rodapié para Gancho Colgante",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/rodapie-para-gancho-colgante/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Rodapie-gancho-colgante-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Pescante para Gancho Colgante",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/pescante-para-gancho-colgante/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Pescante-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Barandas para Gancho Colgante",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/barandas-para-gancho-colgante/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Untitled-design-28.png",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Gancho Colgante",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/gancho-colgante/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Diseno-sin-titulo.png-2.png",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Tornillo Nivelador para Andamio Tubular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/tornillo-nivelador-para-andamio-tubular/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Tornillo-Nivelador-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Rueda Fija con Tornillo Nivelador para Andamio Tubular de 6\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/rueda-fija-con-tornillo-nivelador-para-andamio-tubular-de-6/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Rueda-Fija-Tornillo-6-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Rueda Fija para Andamio Tubular 6\" (Goma o caucho)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/rueda-fija-para-andamio-tubular-6-goma-o-caucho/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Ruedas-fijas-para-andamio-tubular-6-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Corral Seguridad para Andamio Tubular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/corral-seguridad-para-andamio-tubular/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Corral-de-Seguridad-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Escalera Andamio Tubular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/escalera-andamio-tubular/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Escalera-Andamio-Tubular-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Plataforma Andamio Tubular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/plataforma-andamio-tubular/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Plataforma-Andamios-P.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Cruceta Andamio Tubular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/cruceta-andamio-tubular/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Cruceta-Portada.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Andamio Tubular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/andamio-tubular/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Andamio-Tubular-Portada.jpg",
+      "detalle": "Alquiler Andamios Tubulares y Colgantes · Venta Andamios Tubulares y Colgantes"
+    },
+    {
+      "nombre": "Camillas",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/camillas/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Camillas-Portada.jpg",
+      "detalle": "Alquiler Armado Estructural · Venta Armado Estructural"
+    },
+    {
+      "nombre": "Parales",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/parales/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Parales-Portada.jpg",
+      "detalle": "Alquiler Armado Estructural · Venta Armado Estructural"
+    },
+    {
+      "nombre": "Cruceta",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/cruceta/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Cruceta-Portada.jpg",
+      "detalle": "Alquiler Armado Estructural · Venta Armado Estructural"
+    },
+    {
+      "nombre": "Cercha",
+      "precio": null,
+      "unidad": "",
+      "url": "https://www.consicon.com/producto/cercha/",
+      "imagen": "https://www.consicon.com/wp-content/uploads/2024/05/Cercha-1.jpg",
+      "detalle": "Alquiler Armado Estructural · Venta Armado Estructural"
+    }
+  ]
+}

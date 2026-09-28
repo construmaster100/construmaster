@@ -1,0 +1,19 @@
+{
+  "empresa": "Ingeniería y Alquiler",
+  "fecha": "2026-09-28T04:19:29.170Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 1,
+    "total": 1,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "er&iacute;sticas de la hidrolavadora Makita HW1200 Precio de alquiler:",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": []
+}

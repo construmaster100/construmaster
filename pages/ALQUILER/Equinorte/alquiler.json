@@ -1,0 +1,812 @@
+{
+  "empresa": "Equinorte",
+  "fecha": "2026-09-28T04:19:29.828Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 5,
+    "total": 5,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Allanadora para concreto de 36&#8243;",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Generadores de 20 KVA (16 kW)",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Contenedores para oficina de 20”",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Bulldozer D6R",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Rotomartillo SDS MAX",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Allanadora para concreto de 36\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/allanadora-para-concreto-de-36/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/Allanadora_36.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Motobomba diesel de 3\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/motobomba-diesel-de-3/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motobomba_diesel_3.jpg",
+      "detalle": "Motobombas"
+    },
+    {
+      "nombre": "Generadores de 6.5 KVA (5 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-6-5-kva-5-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_6.5kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Vibrocompactador de 1.5 ton",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactador-de-1-5-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrocompactador_1.5ton.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Martillo hidráulico para Excavadora",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-hidraulico-para-excavadora/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/martillo_excavadora.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Allanadora para concreto de 48\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/allanadora-para-concreto-de-48/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/allanadora_48.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Motobomba diesel de 4\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/motobomba-diesel-de-4/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motobomba_diesel_4.jpg",
+      "detalle": "Motobombas"
+    },
+    {
+      "nombre": "Retrocargador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-retrocargador/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/retrocargador.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Generadores de 11.5 KVA (9 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-11-5-kva-9-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_11.5kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Vibrocompactador de 3 ton",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactador-de-3-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrocompactador_3ton.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Martillo hidráulico para retrocargador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-hidraulico-para-retrocargador/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/martillo_retrocargador.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Mezcladora eléctrica de 1.5 bultos",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/mezcladora-electrica-de-1-5-bultos/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/mezcladora_electrica_1.5bultos.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Motobomba diesel de 6” x 6”",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/motobomba-diesel-de-6-x-6/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motobomba_6x6.jpg",
+      "detalle": "Motobombas"
+    },
+    {
+      "nombre": "Generadores de 16 KVA (13 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-16-kva-13-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_16kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Vibrocompactador de 8 ton",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactador-de-8-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrocompactador_8ton.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Martillo hidráulico para minicargador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-hidraulico-para-minicargador/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/martillo_minicargador.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Excavadora de oruga de 20 ton",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-excavadora-de-oruga-de-20-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/excavadora_oruga.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Mezcladora a gasolina de 1.5 bultos",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/mezcladora-a-gasolina-de-1-5-bultos/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/mezcladora_gasolina_1.5bultos.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Motobomba a gasolina de 3\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/motobomba-a-gasolina-de-3/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motobomba_3.jpg",
+      "detalle": "Motobombas"
+    },
+    {
+      "nombre": "Generadores de 20 KVA (16 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-20-kva-16-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_20kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Vibrocompactador de 10 ton",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactador-de-10-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrocompactador_10ton.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Martillo hidráulico para miniexcavadora",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-hidraulico-para-miniexcavadora/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/martillo_miniexcavadora.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Motoniveladora",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-motoniveladora/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/moto_niveladora.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Mezcladora a diesel de 2 bultos",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/mezcladora-a-diesel-de-2-bultos/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/mezcladora_diesel_2bultos.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Motobomba a gasolina de 4\"",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/motobomba-a-gasolina-de-4/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motobomba_4.jpg",
+      "detalle": "Motobombas"
+    },
+    {
+      "nombre": "Generadores de 25 KVA (20 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-25-kva-20-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_25kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Vibrocompactador de 12 ton",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactador-de-12-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/cibrocompactdor_12ton.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Martillo demoledor eléctrico HILTI TE- 50",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-demoledor-electrico-hilti-te-50/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/50.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Miniexcavadora de oruga de 3.5 ton.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-miniexcavadora-de-oruga-de-3-5-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/mini_excavadora.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Equi Light SP",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-light-sp/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/03.EQUILIGHT_SP_11.jpg",
+      "detalle": "Encofrado horizontal"
+    },
+    {
+      "nombre": "Contenedores para bodega de 20”",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/contenedores-para-bodega-de-20/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/contenedor_bodega_20.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Vibrador a gasolina con manguera",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/vibrador-a-gasolina-con-manguera-2/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrador_gasolina_manguera.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Motobomba sumergible de 2\" a 110V",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/motobomba-sumergible-de-2-a-110v-2/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motobomba_110v.jpg",
+      "detalle": "Motobombas"
+    },
+    {
+      "nombre": "Generadores de 35 KVA (28 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-35-kva-28-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_35kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Vibrocompactadora tipo rana",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactadora-tipo-rana/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrocompactadora_tipo_rana.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Martillo demoledor eléctrico HILTI TE- 60",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-demoledor-electrico-hilti-te-60/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/60.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Miniexcavadora de oruga de 5.5 ton.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-miniexcavadora-de-oruga-de-5-5-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/mini_excavadora.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Andamio de fachada",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-andamio-de-fachada/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/01.ANDAMIO_FACHADA.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Contenedores para oficina de 20”",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/contenedores-para-oficina-de-20/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/contenedor_oficina_20.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Vibrador eléctrico con manguera",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/vibrador-electrico-con-manguera-2/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/cibrador_electrico_manguera.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Motobomba sumergible de 3\" a 220V",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/motobomba-sumergible-de-3-a-220v-2/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motobomba_220v.jpg",
+      "detalle": "Motobombas"
+    },
+    {
+      "nombre": "Generadores de 45 KVA (36 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-45-kva-36-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_45kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Martillo demoledor eléctrico HILTI TE- 700",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-demoledor-electrico-hilti-te-700/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/700.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Apisionador vertical o canguro.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-apisionador-vertical-o-canguro/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/apisionador_vertical_canguro.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Minicargador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-minicargador/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/minicargador.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Torres de acceso fijas o móviles",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-torres-de-acceso-fijas-o-moviles/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/02.TORRE_ACCESO_FIJA_MOVIL.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Equi Steel ply",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-steel-ply/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/00.STEL_PLY_1.jpg",
+      "detalle": "Encofrado vertical"
+    },
+    {
+      "nombre": "Vibrador eléctrico punta de aguja con manguera",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/vibrador-electrico-punta-de-aguja-con-manguera-2/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrador_electrico_aguja_manguera.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Generadores de 60 KVA (48 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-60-kva-48-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_60kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Martillo demoledor eléctrico HILTI TE- 800",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-demoledor-electrico-hilti-te-800/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/800.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Compactador de un rodillo de empuje 500 kg.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-compactador-de-un-rodillo-de-empuje-500-kg/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/compactador_empuje500.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Bulldozer D5G",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-bulldozer-d5g/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/bulldozer.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Acceso Descolgado",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-acceso-descolgado/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/03.ANDAMIO_TIPO_DESCOLGADO.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Equi Cercha fácil",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-cercha-facil/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/04.EQUI_CERCHA_FACIL.jpg",
+      "detalle": "Encofrado horizontal"
+    },
+    {
+      "nombre": "Cortadora de adobe (sin disco)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/cortadora-de-adobe-sin-disco/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/cortadora_adobe_sindisco.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Generadores de 75 KVA (60 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-75-kva-60-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_75kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Martillo demoledor eléctrico HILTI TE- 1000",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-demoledor-electrico-hilti-te-1000/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/1000.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Bulldozer D6R",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-bulldozer-d6r/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/bulldozer.jpg",
+      "detalle": "Movimiento de tierra"
+    },
+    {
+      "nombre": "Compactador de doble rodillo de empuje 860 kg.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-compactador-de-doble-rodillo-de-empuje-860-kg/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/compactador_empuje860kg.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Acceso Tipo puente",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-acceso-tipo-puente/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/04.ANDAMIO_PUENTE.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Equi Light plus",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-light-plus/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/05.EQUI_LIGHT_PLUS.jpg",
+      "detalle": "Encofrado horizontal"
+    },
+    {
+      "nombre": "Cortadora de pavimento (sin disco)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/cortadora-de-pavimento-sin-disco/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/cortadora_pavimento_sindisco.jpg",
+      "detalle": "Vaciado de concreto"
+    },
+    {
+      "nombre": "Generadores de 100 KVA (80 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-100-kva-80-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_100kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Martillo demoledor eléctrico HILTI TE- 2000",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-demoledor-electrico-hilti-te-2000/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/2000.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Compactador micky WACKER de 1 ton.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-compactador-micky-wacker-de-1-ton/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/Compactador_acker_1ton.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Acceso en voladizo",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-acceso-en-voladizo/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/05.ANDAMIO_VOLADIZO.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Equi Tradicional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-tradicional/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/06.EQUI_TRADICIONAL_CAM.jpg",
+      "detalle": "Encofrado horizontal"
+    },
+    {
+      "nombre": "Equi Formaleta metálica",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-formaleta-metalica/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/02.1_FORMALETA_METALICA_2.jpg",
+      "detalle": "Encofrado vertical"
+    },
+    {
+      "nombre": "Generadores de 130 KVA (110 kW)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-130-kva-110-kw/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_130kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Apisionador canguro BOMAG BT 65",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-apisionador-canguro-bomag-bt-65/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/apisionador_bomag_bt65.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Martillo demoledor eléctrico HILTI TE- 3000",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-martillo-demoledor-electrico-hilti-te-3000/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/3000.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Andamio tipo tarima (montaje para eventos)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-andamio-tipo-tarima-montaje-para-eventos/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/06.ANDAMIO_TARIMA.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Equi Mix",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-mix/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/07.EQUI_MIX.jpg",
+      "detalle": "Encofrado horizontal"
+    },
+    {
+      "nombre": "Generadores de 150 KVA a 600 KVA",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-generadores-de-150-kva-a-600-kva/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/generador_0kva_600kva.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Vibrocompactadora Rana Bomag BVP 12/50",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactadora-rana-bomag-bvp-12-50/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/cibrocompactador_bomag_bvp1250.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Hidrolavadora a gasolina 3.000 PSI",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/hidrolavadora-a-gasolina-3-000-psi/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/hidrolavadora_gas_3000.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Rotomartillo SDS MAX",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/rotomartillo-sds-max/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/sds_max.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Andamios colgantes",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-andamios-colgantes/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/07.ANDAMIO_COLGANTE.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Equi Flexi",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-flexi/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/08.EQUI_FLEXI.jpg",
+      "detalle": "Encofrado horizontal"
+    },
+    {
+      "nombre": "Balde Pluma Grúa",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/balde-pluma-grua/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/balde_pluma_grua.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Vibrocompactadora Rana Bomag BVP 18/45",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactadora-rana-bomag-bvp-18-45/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrocompactador_bomag_vbp1845.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Torre de iluminación portátil.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-torre-de-iluminacion-portatil/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/iluminacion_portatil.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Rotomartillo SDS PLUS",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/rotomartillo-sds-plus/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/rotomartillo_sds_plus.jpg",
+      "detalle": "Demolición y perforación"
+    },
+    {
+      "nombre": "Andamios de tijeras",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-andamios-de-tijeras/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/08.DE_TIJERAS.jpg",
+      "detalle": ""
+    },
+    {
+      "nombre": "Equi Symons torre de carga",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-equi-symons-torre-de-carga/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/03/09.EQUI_ANDAMIO_CARGA_ALU.jpg",
+      "detalle": "Encofrado horizontal"
+    },
+    {
+      "nombre": "Plataforma Pluma Grúa",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/plataforma-pluma-grua/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/plataforma_pluma_grua.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Montacarga de 3 ton",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/montacarga-de-3-ton-2/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/montacarga_3ton.jpg",
+      "detalle": "Elevación y manipulación de carga"
+    },
+    {
+      "nombre": "Motosoldador 300 AMP",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-motosoldador-300-amp/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motosoldador_300amp.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Rodillo vibratorio sencillo Bomag BW55",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-rodillo-vibratorio-sencillo-bomag-bw55/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/rodillo_bomag_bw55.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Pulidora de 4”",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/pulidora-de-4/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/pulidora_4.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Pallets para minicargador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/pallets-para-minicargador-2/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/pallets_minicargador.jpg",
+      "detalle": "Elevación y manipulación de carga"
+    },
+    {
+      "nombre": "Motosoldador 400 AMP",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-motosoldador-400-amp/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/motosoldador_400amp.jpg",
+      "detalle": "Generación e iluminación"
+    },
+    {
+      "nombre": "Rodillo vibratorio doble Bomag BW75h",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-rodillo-vibratorio-doble-bomag-bw75h/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/rodillo_bomag_bw75h.jpg",
+      "detalle": "Compactación"
+    },
+    {
+      "nombre": "Pulidora de 9”",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/pulidora-de-9/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/pulidora_9.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Pluma Grúas con Guaya de 60 m (Máx 200kg)",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/pluma-gruas-con-guaya-de-60-m-max-200kg/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/pluma_grua_guaya.jpg",
+      "detalle": "Elevación y manipulación de carga"
+    },
+    {
+      "nombre": "Vibrocompactadora rana reversible Bomag BPR 35/60",
+      "precio": null,
+      "unidad": "",
+      "url": "https://equinorte.co/producto/alquiler-de-vibrocompactadora-rana-reversible-bomag-bpr-35-60/",
+      "imagen": "https://equinorte.co/wp-content/uploads/2022/02/vibrocompactador_bomag35_60.jpg",
+      "detalle": "Compactación"
+    }
+  ]
+}

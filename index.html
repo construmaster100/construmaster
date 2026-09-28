@@ -5,97 +5,171 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ConstruMaster: materiales, presupuesto, diseño y seguimiento de proyectos de construcción.">
   <title>ConstruMaster | Construcción que avanza</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css?v=230936">
 </head>
 <body>
-  <div class="barra-servicio">
-    <span>Construcción, remodelación y mejoras en un solo lugar</span>
-    <span>Atención a proyectos y presupuestos</span>
-  </div>
 
-  <header class="cabecera">
-    <a class="marca" href="#inicio" aria-label="Ir al inicio">
-      <span class="marca-simbolo">CM</span>
-      <span><strong>CONSTRU</strong><em>MASTER</em><small>proyectos que toman forma</small></span>
+  <!-- Encabezado, navbar y sidebar: fijos e identicos en todas las secciones. Solo cambia <main>. -->
+  <header class="site-header">
+    <a class="site-logo" href="#inicio" aria-label="Ir al inicio" title="Inicio">
+      <span class="logo-texto"><strong>CM</strong><small>CONSTRUMASTER</small></span>
     </a>
-    <button class="boton-menu" id="boton-menu" type="button" aria-label="Abrir menú">☰</button>
-    <nav class="navbar" id="navbar" aria-label="Navegación principal">
-      <a class="activo" href="#inicio">Inicio</a>
-      <a href="#categorias">Construcción</a>
-      <a href="#remodelacion">Remodelación</a>
-      <a href="#mejoras">Mejoras</a>
-      <a href="pages/presupuesto y seguimiento de obra/index.html#materiales">Presupuestos</a>
-      <a href="#diseno">Diseño</a>
-      <a href="#proyecto">Proyecto</a>
-    </nav>
-    <div class="acciones-cabecera">
-      <button class="icono-boton" type="button" id="boton-busqueda" aria-label="Buscar">⌕</button>
-      <button class="boton-ingresar" type="button" id="boton-ingresar">Ingresar</button>
+    <div class="site-banner" role="img" aria-label="ConstruMaster: construcción, remodelación y mejoras en un solo lugar">
+      <div class="banner-carrusel" aria-hidden="true">
+        <img class="banner-carrusel-slide activo" src="img/corporativo/sec1.png" alt="">
+        <img class="banner-carrusel-slide" src="img/corporativo/sec2.png" alt="">
+        <img class="banner-carrusel-slide" src="img/corporativo/sec3.png" alt="">
+        <img class="banner-carrusel-slide" src="img/corporativo/sec4.png" alt="">
+        <img class="banner-carrusel-slide" src="img/corporativo/sec5.png" alt="">
+        <img class="banner-carrusel-slide" src="img/corporativo/sec10.png" alt="">
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero-contenido">
-        <p class="eyebrow">EL ESPACIO QUE IMAGINAS</p>
-        <h1>Construir bien<br><span>empieza aquí.</span></h1>
-        <p class="hero-texto">Encuentra materiales, organiza tu presupuesto y sigue cada avance de tu obra desde una experiencia unificada.</p>
-        <div class="hero-acciones">
-          <a class="boton-principal" href="#categorias">Explorar soluciones <span>→</span></a>
-          <a class="boton-secundario" href="pages/presupuesto y seguimiento de obra/index.html#materiales">Ver presupuestos</a>
+  <nav class="topnav" aria-label="Navegación principal">
+    <button class="boton-menu" id="boton-menu" type="button" aria-label="Abrir menú">☰</button>
+    <div class="topnav-links" id="navbar">
+      <a href="#inicio" data-ir="inicio">Inicio</a>
+      <a href="#proyectos" data-ir="proyectos">Proyectos</a>
+      <a href="#herramientas" data-ir="herramientas">Herramientas</a>
+      <!-- Catalogo: Materiales, Marcas, Ferreterias, Casas prefabricadas y abajo Estadisticas -->
+      <span class="menu-desplegable"><a href="#proveedores" data-ir="proveedores">Catálogo<button type="button" class="flecha-menu" aria-label="Ver opciones del catálogo">▾</button></a><span class="menu-planos menu-catalogo"><a href="#materiales">Materiales</a><a href="#proveedores">Marcas</a><a href="#proveedores/ferreterias">Ferreterías</a><a href="#proveedores/casas-prefabricadas">Casas prefabricadas</a><a href="#proveedores/alquiler">Herramientas de alquiler</a><a href="#estadisticas" class="separado">Estadísticas</a></span></span>
+      <a href="#presupuesto" data-ir="presupuesto">Presupuesto</a>
+      <a href="#construccion" data-ir="construccion">Construcción</a>
+      <a href="#diseno" data-ir="diseno">Diseño</a>
+      <!-- Acceso a la pagina para el cliente (usuario.html, generada con tools/generar_pagina_usuario.js) -->
+      <a href="usuario.html" class="nav-usuario">Usuario</a>
+    </div>
+  </nav>
+
+  <aside class="site-sidebar" aria-label="Accesos">
+    <!-- Reloj fijo bajo el logo: fecha y hora al segundo; al pulsar abre el calendario del mes -->
+    <button type="button" class="reloj" id="reloj" aria-haspopup="dialog" aria-expanded="false" aria-controls="calendario-mes" title="Calendario">
+      <span class="reloj-hora" id="reloj-hora">--:--:--</span>
+      <span class="reloj-fecha" id="reloj-fecha">&nbsp;</span>
+      <span class="reloj-accion">Calendario ▾</span>
+    </button>
+    <nav class="sidebar-menu" id="sidebar-menu"></nav>
+  </aside>
+
+  <!-- Sidebar derecho (solo index.html): resumen de datos, accesos rapidos y descargas -->
+  <aside class="site-sidebar site-sidebar-derecho" aria-label="Resumen y accesos"><nav class="sidebar-menu" id="sidebar-derecho"></nav></aside>
+
+  <main id="main">
+    <div class="vista" data-vista="inicio">
+      <section class="hero">
+        <div class="hero-contenido">
+          <h1>Construir bien<br><span>empieza aquí.</span></h1>
+          <p class="hero-texto">Encuentra materiales, organiza tu presupuesto y sigue cada avance de tu obra desde una experiencia unificada.</p>
+          <div class="hero-acciones">
+            <a class="boton-principal" href="#materiales">Explorar materiales <span>→</span></a>
+            <a class="boton-secundario" href="#presupuesto">Ver presupuesto</a>
+          </div>
         </div>
-      </div>
-      <div class="hero-datos">
-        <span>01</span><i></i><span>Construcción integral</span>
-      </div>
+        <div class="hero-datos"><span>01</span><i></i><span>Construcción integral</span></div>
+      </section>
+
+      <!-- Indice de toda la pagina: una fila por pestana del navbar, en el mismo orden, con su proposito -->
+      <section class="indice-pagina" aria-labelledby="titulo-indice">
+        <ol>
+          <li><a href="#inicio"><span>01</span><strong>Inicio</strong></a><p>Portada e índice general de la página.</p></li>
+          <li><a href="#proyectos"><span>02</span><strong>Proyectos</strong></a><p>Obras organizadas por etapas, con su registro fotográfico y los precios de cada etapa.</p></li>
+          <li><a href="#herramientas"><span>03</span><strong>Herramientas</strong></a><p>Herramientas y maquinaria del inventario, con filtros por categoría y proveedor.</p></li>
+          <li><a href="#materiales"><span>04</span><strong>Catálogo</strong></a><p>Materiales, marcas por categoría constructiva, ferreterías (nacionales, Bogotá y Tunja), casas prefabricadas y estadísticas del inventario.</p></li>
+          <li><a href="#presupuesto"><span>05</span><strong>Presupuesto</strong></a><p>Presupuesto por etapas (obra negra, gris y blanca), modelo proyectado por capítulos y seguimiento de obra.</p></li>
+          <li><a href="#construccion"><span>06</span><strong>Construcción</strong></a><p>Registro de obra: actividades y cantidades por etapa con su precio unitario; catálogo de actividades y Remodelación.</p></li>
+          <li><a href="#diseno"><span>07</span><strong>Diseño</strong></a><p>Servicios de diseño y Biblioteca de proyectos con el formulario Crear proyecto.</p></li>
+          <li><a href="usuario.html"><span>08</span><strong>Usuario</strong></a><p>Página para el cliente: casas prefabricadas, construcción, remodelación, presupuesto e ingreso.</p></li>
+        </ol>
+      </section>
+
+      <section class="seccion">
+        <div class="encabezado-seccion"><div><p class="eyebrow">ENCUENTRA TU RUTA</p><h2>Explora ConstruMaster</h2></div></div>
+        <div class="rejilla-categorias">
+          <a class="tarjeta-categoria categoria-construccion" href="#materiales"><span class="numero">01</span><span class="icono-categoria">▦</span><h3>Materiales</h3><p>Todos los inventarios en Excel, con precios e imágenes.</p><span class="flecha">↗</span></a>
+          <a class="tarjeta-categoria categoria-remodelacion" href="#herramientas"><span class="numero">02</span><span class="icono-categoria">⚒</span><h3>Herramientas</h3><p>Herramientas y maquinaria de todos los proveedores.</p><span class="flecha">↗</span></a>
+          <a class="tarjeta-categoria categoria-mejoras" href="#servicios"><span class="numero">03</span><span class="icono-categoria">◈</span><h3>Servicios</h3><p>Actividades de obra con su unidad, precio e insumos.</p><span class="flecha">↗</span></a>
+          <a class="tarjeta-categoria categoria-proyectos" href="#proyectos"><span class="numero">04</span><span class="icono-categoria">▣</span><h3>Proyectos</h3><p>El registro visual de las obras en curso.</p><span class="flecha">↗</span></a>
+        </div>
+      </section>
+
+      <section class="franja-acceso">
+        <div><p class="eyebrow">CENTRO DE TRABAJO</p><h2>Todo tu proyecto,<br><span>en un solo documento.</span></h2></div>
+        <div class="accesos-trabajo">
+          <a href="#presupuesto"><span>01</span><strong>Presupuesto</strong><small>Modelo proyectado por capítulos y etapas de obra</small><b>↗</b></a>
+          <a href="#presupuesto"><span>02</span><strong>Seguimiento de obra</strong><small>Notas por etapa y subetapa, exportables a Excel</small><b>↗</b></a>
+          <a href="#diseno"><span>03</span><strong>Diseño</strong><small>Define la dirección visual de tu espacio</small><b>↗</b></a>
+        </div>
+      </section>
+    </div>
+
+    <section class="vista vista-contenido" data-vista="materiales">
+      <div class="contenedor contenedor-catalogo"><div id="materiales-contenido"></div><aside class="nota-pagina"><strong>Nota · Materiales</strong><p>Inventario completo de ferreterías y proveedores de productos, con precios, fotos, filtros por familia, categoría y tipo de proveedor, y enlace a la tienda. Sin filtros se muestra la estructura del catálogo (familias → categorías).</p><p class="nota-origen">Origen de los datos: Excel de inventario en <code>pages/ESTADISTICAS</code> y catálogos oficiales en <code>pages/PROVEEDORES</code> → <code>node tools/generar_inventario.js</code> → <code>assets/datos/inventario.js</code>.</p></aside></div>
     </section>
 
-    <section class="seccion categorias" id="categorias">
-      <div class="encabezado-seccion"><div><p class="eyebrow">ENCUENTRA TU RUTA</p><h2>Compra por categoría</h2></div><a href="#presupuesto">Ver todas <span>→</span></a></div>
-      <div class="rejilla-categorias">
-        <a class="tarjeta-categoria categoria-construccion" href="#presupuesto"><span class="numero">01</span><span class="icono-categoria">▦</span><h3>Construcción</h3><p>Materiales y soluciones para levantar desde la base.</p><span class="flecha">↗</span></a>
-        <a class="tarjeta-categoria categoria-remodelacion" id="remodelacion" href="#diseno"><span class="numero">02</span><span class="icono-categoria">◒</span><h3>Remodelación</h3><p>Transforma espacios existentes con intención.</p><span class="flecha">↗</span></a>
-        <a class="tarjeta-categoria categoria-mejoras" id="mejoras" href="#presupuesto"><span class="numero">03</span><span class="icono-categoria">＋</span><h3>Mejoras</h3><p>Pequeños cambios que elevan tu proyecto.</p><span class="flecha">↗</span></a>
-      </div>
+    <section class="vista vista-contenido" data-vista="herramientas">
+      <div class="contenedor contenedor-catalogo"><div id="herramientas-contenido"></div><aside class="nota-pagina"><strong>Nota · Herramientas</strong><p>Solo herramientas y maquinaria del inventario, con los mismos filtros de Materiales.</p><p class="nota-origen">Origen de los datos: Mismo inventario de Materiales (<code>assets/datos/inventario.js</code>), familia Herramientas y maquinaria.</p></aside></div>
     </section>
 
-    <section class="franja-acceso" id="presupuesto">
-      <div><p class="eyebrow">CENTRO DE TRABAJO</p><h2>Todo tu proyecto,<br><span>en un solo documento.</span></h2></div>
-      <div class="accesos-trabajo">
-        <a href="pages/presupuesto y seguimiento de obra/index.html"><span>01</span><strong>Presupuesto y seguimiento</strong><small>Consulta capítulos, costos y avance de obra</small><b>↗</b></a>
-        <a href="pages/presupuesto y seguimiento de obra/index.html#materiales"><span>02</span><strong>Presupuestos</strong><small>Modelos y materiales para tomar decisiones</small><b>↗</b></a>
-        <a href="#diseno"><span>03</span><strong>Diseño</strong><small>Define la dirección visual de tu espacio</small><b>↗</b></a>
-      </div>
+    <section class="vista vista-contenido" data-vista="servicios">
+      <div class="contenedor"><div id="servicios-contenido"></div><aside class="nota-pagina"><strong>Nota · Servicios (clasificación por ejes)</strong><p>Las actividades de obra con su análisis de precio unitario (unidad, insumos y precio), clasificadas en cuatro ejes; la clasificación interna de Edificación y el cálculo del salario mínimo. Se usa desde Construcción.</p><p class="nota-origen">Origen de los datos: Análisis unitario de <code>pages/Servicios</code> (ANEXO 2) → <code>Analisis_Precios_Unitarios.xlsx</code> → <code>node tools/generar_apu.js</code> → <code>assets/datos/apu.js</code>.</p></aside></div>
     </section>
 
-    <section class="seccion diseno" id="diseno">
-      <div class="diseno-copy"><p class="eyebrow">DISEÑO CON PROPÓSITO</p><h2>Ideas que se convierten en espacios.</h2><p>Ordena referencias, define materiales y conecta tus decisiones de diseño con el presupuesto real de la obra.</p><a class="boton-principal oscuro" href="#proyecto">Ver inspiración <span>→</span></a></div>
-      <div class="muestra-diseno"><div class="muestra-linea"></div><span>materiales<br>que cuentan<br>una historia</span></div>
+    <section class="vista vista-contenido" data-vista="proyectos">
+      <div class="contenedor"><div id="proyectos-contenido"></div><aside class="nota-pagina"><strong>Nota · Proyectos</strong><p>Obras organizadas por etapas, con su registro fotográfico y los precios de cada etapa, y estadísticas de casas prefabricadas por área, precio y costo por m².</p><p class="nota-origen">Origen de los datos: Carpetas de obra en <code>pages/Cliente</code> (fotos, etapas, <code>info.txt</code>) → <code>node tools/generar_contenido.js</code> → <code>assets/datos/contenido.js</code>.</p></aside></div>
     </section>
 
-    <section class="seccion proyecto" id="proyecto">
-      <div class="encabezado-seccion"><div><p class="eyebrow">ÁREA DEL CLIENTE</p><h2>Proyecto en imágenes</h2></div><p class="texto-proyecto">Ingresa para consultar el avance visual de tu obra.</p></div>
-      <div class="carrusel" id="carrusel">
-        <button class="control-carrusel anterior" type="button" aria-label="Imagen anterior">←</button>
-        <div class="diapositivas" id="diapositivas"></div>
-        <button class="control-carrusel siguiente" type="button" aria-label="Imagen siguiente">→</button>
-        <div class="indicadores" id="indicadores"></div>
-      </div>
+    <section class="vista vista-contenido" data-vista="presupuesto">
+      <div class="contenedor"><div id="presupuesto-v1"></div><div id="presupuesto-contenido"></div><aside class="nota-pagina"><strong>Nota · Presupuesto</strong><p>Presupuesto con el modelo V1 Construmaster: capítulos de obra negra, gris y blanca, con sus actividades y materiales (unidad, cantidad y valor unitario). Cada material se relaciona con el catálogo: al tocarlo se elige un producto del inventario (material o herramienta) y su precio actualiza el presupuesto; el valor acumulado se ve en el lateral derecho. El seguimiento por etapas y el modelo proyectado siguen en la barra lateral.</p><p class="nota-origen">Origen de los datos: <code>pages/administrador/Matriz/Modelo Construmaster/V1 Construmaster.xlsm</code> → <code>node tools/generar_modelo_v1.js</code> → <code>assets/datos/modelo_v1.js</code>; precios del inventario (<code>assets/datos/inventario.js</code>). Lo diligenciado se guarda en este navegador y se descarga en CSV.</p></aside></div>
+    </section>
+
+
+    <section class="vista vista-contenido" data-vista="construccion">
+      <div class="contenedor"><div id="construccion-registro"></div><div id="construccion-contenido"></div><aside class="nota-pagina"><strong>Nota · Construcción</strong><p>Registro de obra: en la barra lateral, obra negra, gris y blanca con sus etapas y subetapas; en cada etapa se escribe la cantidad de sus actividades y el valor se calcula con el precio unitario. Incluye el catálogo de actividades y Remodelación.</p><p class="nota-origen">Origen de los datos: Actividades y precios del análisis unitario (<code>assets/datos/apu.js</code>); etapas de <code>pages/Cliente/Plantilla Modelo/ETAPAS OBRA/datos.js</code>. Las cantidades se guardan en este navegador y se descargan en CSV.</p></aside></div>
+    </section>
+    <section class="vista vista-contenido" data-vista="diseno">
+      <div class="contenedor">
+        <section class="servicios-diseno" aria-labelledby="titulo-servicios-diseno">
+          
+          <ol class="cards-diseno">
+            <li id="diseno-digitacion"><div class="portada-diseno" style="background-image:url('assets/contenido/proyectos/san-esteban/slide/dg.webp')"></div><span>01</span><strong>Digitación de planos</strong></li>
+            <li id="diseno-licencia"><div class="portada-diseno" style="background-image:url('assets/contenido/proyectos/san-esteban/slide/safr.webp')"></div><span>02</span><strong>Trámite de licencia ante curaduría</strong></li>
+            <li id="diseno-planos"><div class="portada-diseno" style="background-image:url('assets/contenido/proyectos/san-esteban/slide/esructura-completa.webp')"></div><span>03</span><strong>Planos de construcción</strong></li>
+          </ol>
+          <a class="boton-principal oscuro" href="#proyectos">Ver proyectos <span>→</span></a>
+        </section>
+        <div id="diseno-contenido"></div>
+      <aside class="nota-pagina"><strong>Nota · Diseño</strong><p>Servicios de diseño (digitación de planos, trámite de licencia, planos de construcción) y Biblioteca de proyectos con el formulario Crear proyecto.</p><p class="nota-origen">Origen de los datos: Carpetas de <code>pages/Biblioteca de proyectos</code> → <code>node tools/generar_biblioteca.js</code> → <code>assets/datos/biblioteca.js</code>; nuevos proyectos con <code>node tools/crear_proyecto.js</code>.</p></aside></div>
+    </section>
+    <section class="vista vista-contenido" data-vista="estadisticas">
+      <div class="contenedor contenedor-catalogo"><div id="estadisticas-contenido"></div><aside class="nota-pagina"><strong>Nota · Estadísticas</strong><p>Indicadores del catálogo: número total de productos, tipos de producto (gráfico circular), rango de precios, productos presentes en más catálogos y precios por proveedor, con sus descargas.</p><p class="nota-origen">Origen de los datos: Inventario de <code>pages/ESTADISTICAS</code> y <code>pages/PROVEEDORES</code> (<code>assets/datos/inventario.js</code>).</p></aside></div>
+    </section>
+    <section class="vista vista-contenido" data-vista="proveedores">
+      <div class="contenedor contenedor-catalogo"><div id="proveedores-contenido"></div><aside class="nota-pagina"><strong>Nota · Catálogo: marcas, ferreterías y casas prefabricadas</strong><p>Ranking y directorio de marcas por categoría constructiva, ferreterías con sus marcas (nacionales, Bogotá y Tunja), proveedores con catálogo oficial y casas prefabricadas.</p><p class="nota-origen">Origen de los datos: Marcas de <code>pages/PROVEEDORES</code> y clasificación <code>node tools/clasificar_marcas.js</code>; empresas y grupos en <code>tools/grupos_ferreterias.js</code>; casas en <code>assets/datos/prefabricadas.js</code>.</p></aside></div>
     </section>
   </main>
 
+  <!-- Ficha del mes en curso (se abre desde el reloj) -->
+  <div class="calendario-mes" id="calendario-mes" role="dialog" aria-label="Calendario del mes" hidden></div>
+  <!-- Calendario del año en curso -->
+  <div class="calendario-fondo" id="calendario-anio" role="dialog" aria-modal="true" aria-label="Calendario del año" hidden></div>
+
   <footer class="pie"><div class="marca-pie"><strong>CONSTRU</strong><em>MASTER</em></div><p>Construcción que avanza contigo.</p><span>© 2026 ConstruMaster</span></footer>
 
-  <dialog class="modal" id="modal-login">
-    <form method="dialog" class="formulario-login" id="formulario-login">
-      <button class="cerrar-modal" type="button" id="cerrar-modal" aria-label="Cerrar">×</button>
-      <p class="eyebrow">ÁREA DEL CLIENTE</p><h2>Bienvenido a tu proyecto</h2><p class="subtexto">Ingresa para consultar tus imágenes y avances.</p>
-      <label for="usuario">Usuario</label><input id="usuario" name="usuario" autocomplete="username" required>
-      <label for="contrasena">Contraseña</label><input id="contrasena" name="contrasena" type="password" autocomplete="current-password" required>
-      <p class="mensaje-login" id="mensaje-login" role="alert"></p><button class="boton-principal boton-login" type="submit">Ingresar <span>→</span></button>
-      <small class="nota-seguridad">Acceso de cliente ConstruMaster</small>
-    </form>
-  </dialog>
-  <script src="index.js"></script>
+  <script src="assets/motor/motor.js"></script>
+  <script src="pages/administrador/Matriz/Modelo Boulevard/js/datos.js"></script>
+  <script src="pages/Cliente/Plantilla Modelo/ETAPAS OBRA/datos.js"></script>
+  <script src="assets/datos/contenido.js"></script>
+  <script src="assets/datos/prefabricadas.js"></script>
+  <script src="assets/datos/biblioteca.js"></script>
+  <script src="assets/datos/clasificacion_marcas.js"></script>
+  <script src="assets/datos/modelo_v1.js"></script>
+  <script src="assets/datos/alquiler.js"></script>
+  <script src="assets/datos/municipios.js"></script>
+  <script src="assets/motor/formato_etapas.js"></script>
+  <script src="assets/motor/salario_minimo.js"></script>
+  <script src="index.js?v=280101"></script>
+  <script src="assets/motor/banner_carrusel.js?v=145238"></script>
+  <script src="assets/motor/calendario.js"></script>
 </body>
 </html>

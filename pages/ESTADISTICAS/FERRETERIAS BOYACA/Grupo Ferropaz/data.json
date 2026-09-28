@@ -1,0 +1,180 @@
+{
+ "meta": {
+  "etapa": "completo",
+  "Tienda": "Grupo Ferropaz",
+  "Grupo": "Ferreterias Boyaca",
+  "Sitio": "https://grupoferropaz.com/",
+  "Adaptador": "mapa",
+  "Productos estimados en el sitio": 15,
+  "Piloto (10 %)": 2,
+  "Piloto con precio": 2,
+  "Piloto con foto": 2,
+  "Auditados (5 %)": 1,
+  "Correctos": 1,
+  "Precision": "100.0 %",
+  "Margen (z=1,96)": "± 0.0 %",
+  "Resultado": "APROBADO",
+  "Semilla": 20260927,
+  "Fecha": "26/9/2026, 11:43:32 p. m.",
+  "Productos capturados": 14,
+  "Con precio": 14,
+  "Con foto": 14,
+  "Minutos": 0
+ },
+ "productos": [
+  {
+   "nombre": "Cemento Gris Argos Uso General UG x 50 kilos",
+   "precio": 27500,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/argos-general-x-50k.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-gris-argos-uso-general-ug-x-50-kilos/",
+   "sku": "cemargosugx50k",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Gris Alion Uso General 50kg",
+   "precio": 28000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-alion.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-gris-alion-uso-general-50kg/",
+   "sku": "alionx50",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Fuerte Tipo Uso General (UG) Holcim",
+   "precio": 30000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-holcim.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-fuerte-tipo-uso-general-ug-holcim/",
+   "sku": "holcim50k",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Cemex Uso General 50kg",
+   "precio": 30000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-cemex.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-cemex-uso-general-50kg/",
+   "sku": "SKU 220877",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Gris Cemnal x 50 Kilos",
+   "precio": 29000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemnal-x-50k.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-gris-cemnal-x-50-kilos/",
+   "sku": "cemnalx50",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Fortecem Uso General 50kg",
+   "precio": 30000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-fortecem-x-50-kg.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-fortecem-uso-general-50kg/",
+   "sku": "SKU 304465",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Gris Argos Estructural x 42.5 kilos",
+   "precio": 30000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2019/12/argos-estructural.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-gris-argos-estructural-x-42-5-kilos/",
+   "sku": "cemargestru425",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Argos Blanco 20kg",
+   "precio": 55000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/blanco-x-20-kilos.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-argos-blanco-20kg/",
+   "sku": "BLANCOX20",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Mampostero Argos 42.5kg Tipo S",
+   "precio": 23500,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/argos-mamposteria.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-mampostero-argos-42-5kg-tipo-s/",
+   "sku": "SKU 326634",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento San Marcos Gris 50kg",
+   "precio": 30000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-san-marcos-x-50.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-san-marcos-gris-50kg/",
+   "sku": "SKU 218397",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Oriente Uso General 50 Kilos",
+   "precio": 29000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2019/12/cemento-oriente.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-oriente-uso-general-50-kilos/",
+   "sku": "oriente01",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Patriota UG x 50 Kilos.",
+   "precio": 29000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-patriota.png",
+   "url": "https://grupoferropaz.com/producto/cemento-patriota-ug-x-50-kilos/",
+   "sku": "patriota50k",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Tequendama Gris 50kg",
+   "precio": 32000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-tequendama.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-tequendama-gris-50kg/",
+   "sku": "SKU 142750",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Cemento Gris Topex X 50 Kilos",
+   "precio": 29000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://grupoferropaz.com/wp-content/uploads/2020/01/cemento-topex.jpg",
+   "url": "https://grupoferropaz.com/producto/cemento-gris-topex-x-50-kilos/",
+   "sku": "topex50k",
+   "disponibilidad": ""
+  }
+ ]
+}

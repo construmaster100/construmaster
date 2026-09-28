@@ -1,0 +1,400 @@
+{
+  "empresa": "Ranas y Canguros",
+  "fecha": "2026-09-28T04:19:30.182Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 3,
+    "total": 3,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Motosoldador Diesel Abierto Yorking 45 kW 110 240V 1F 160AMP YDE6500EWn vista ppal",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Cortadora de Ladrillo Nacional 18",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Planta Eléctrica Gasolina KTC 6 kW 110/220V 1F, 463-GG60E",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Apisonador Diésel 4.2HP A74D4M",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/apisonador-diesel-maquitec-diesel-4-2hp-a74d4m/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Apisonador-Diesel-4.7HP-002.png",
+      "detalle": "Apisonadores"
+    },
+    {
+      "nombre": "Martillo Demoledor Bosch 62J 2000W Hex GSH 27 VC",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/martillo-demoledor-bosch-62j-2000w-hex-gsh-27-vc/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Martillo-Demoledor-Bosch-62J-GSH-27-VC-061130A0G0-vista-ppal-011.webp",
+      "detalle": "Herramientas Eléctricas"
+    },
+    {
+      "nombre": "Martillo Demoledor Neumático 60Lb MPB-60",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/martillo-demoledor-neumatico-60lb-mpb-60/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Martillo-Demoledor-Neumatico-60Lb-MPB-60-vista-ppal-001.webp",
+      "detalle": "Herramienta Neumática · Otros"
+    },
+    {
+      "nombre": "Martillo Demoledor Neumático 90Lb MPB-90",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/martillo-demoledor-neumatico-90lb-mpb-90/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Martillo-Demoledor-Neumatico-90Lb-MPB-90-vista-ppal.webp",
+      "detalle": "Herramienta Neumática · Otros"
+    },
+    {
+      "nombre": "Compresor neumatico Kaeser",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/compresor-movil-kaeser-m57/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/M57-KAESER-ABIERTO-600x600-1.png",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Eje Flexible y Cabezote Redondo para Vibrador de Concreto.",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/eje-flexible-y-cabezote-redondo-para-vibrador-de-concreto/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Eje-y-Cabezote-Vibrador-de-concreto-4x45-Maquitec.webp",
+      "detalle": "Manejo de Concreto · Otros"
+    },
+    {
+      "nombre": "Vibrador para Concreto Wyco 3.0Hp 18.000rpm",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/vibrador-para-concreto-wyco-903-3-0hp-18-000rpm/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Vibrador-para-concreto-Wyco-993-vista-ppal-001.webp",
+      "detalle": "Herramientas Eléctricas · Manejo de Concreto · Maquinaria Liviana"
+    },
+    {
+      "nombre": "Motor Gasolina RATO 3.6Hp para Apisonador RM120-V",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motor-gasolina-rato-3-6hp-para-apisonador-rm120-v/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Motor-Gasolina-RATO-3.6Hp-para-Apisonador-RM120-V-vista-ppal.webp",
+      "detalle": "Apisonadores · Motores"
+    },
+    {
+      "nombre": "Motor Gasolina 4hp para Apisonador Rocker /Dinking",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motor-gasolina-4hp-para-apisonador-rocker-dinking/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Motor-Rocker-para-Apisonador-4HP.jpg",
+      "detalle": "Apisonadores · Motores"
+    },
+    {
+      "nombre": "Motor Diésel Apisonador 4Hp",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motor-diesel-apisonador-4hp/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Motor-Apisonador-Diesel-4HPvista-ppal.webp",
+      "detalle": "Apisonadores · Motores"
+    },
+    {
+      "nombre": "Regla vibratoria tipo escalera de 3Mts",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/regla-vibratoria-tipo-escalera-de-3mts/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/REGLA_VIBRATORIA_tipo_escalera_4mts_Equipmaster.webp",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Vibrador de concreto diesel",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/vibrador-de-concreto-diesel/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/IMG_2455-removebg-preview.webp",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Mezcladora de Concreto Importada MASALTA MX15, con Motor Electrico",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/mezcladora-de-concreto-importada-masalta-mx15-con-motor-electrico/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/mx15_masalta_mezcladora_equipmaster-1.jpg.webp",
+      "detalle": "Maquinaria Liviana"
+    },
+    {
+      "nombre": "Mezcladora de Concreto 1.5 Bultos",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/mezcladora-de-concreto-1-5-bultos/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Mezcladora-de-Concreto-1-Bulto.png",
+      "detalle": "Maquinaria Liviana"
+    },
+    {
+      "nombre": "Cortadora de Ladrillo Nacional 18",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/cortadora-de-ladrillo-nacional-18/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Cortadora-de-Ladrillo-Nacional-18pulg-vista-ppal-001.webp",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Cortadora de Piso 20\" Nacional Maquitec",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/cortadora-de-piso-20%e2%80%b3-nacional-maquitec/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Cortadora_de_Piso_Nacional_MQ_Vista_Ppal.webp",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Pluma Grúa 250Kg",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/pluma-grua-250kg/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Pluma-Grua-300Kg-FR-Vista-ppal-002.webp",
+      "detalle": "Equipos de Elevación · Grúas"
+    },
+    {
+      "nombre": "Compresor De Aire De 150 Libras Horizontal",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/compresor-de-aire-de-150-libras-horizontal/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/D_NQ_NP_645469-MCO53501653816_012023-O.webp",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Motobomba MASTER Caudal 4\"x4\" Autocebante Aluminio Diesel 10hp",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motobomba-master-mdca4x4-caudal-4%e2%80%b3x4%e2%80%b3-autocebante-aluminio-diesel-10hp/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Motobomba-caudal-MDCA4X4-Diesel-Equipmaster.jpg.webp",
+      "detalle": "Equipo Para Aguas"
+    },
+    {
+      "nombre": "Motobomba MASTER EM80C Caudal 3\"x3\" Autocebante Aluminio Gasolina 5.5hp",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motobomba-master-em80c-caudal-3%e2%80%b3x3%e2%80%b3-autocebante-aluminio-gasolina-5-5hp/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Motobomba-MASTER-caudal-autocebante-aluminio-Equipmaster.jpg.webp",
+      "detalle": "Equipo Para Aguas"
+    },
+    {
+      "nombre": "Motosierra Gasolina Forte 59 cc Espada 22 Pulgadas FM6020",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motosierra-gasolina-forte-59-cc-espada-22-pulgadas-fm6020/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Motosierra-a-Gasolina-Forte-espada-59-c.c-4.0-Hp-FM6020-vista-ppal.webp",
+      "detalle": "Equipo Agricola"
+    },
+    {
+      "nombre": "Motosierra Gasolina Ducati 55 cc Espada 18 Pulgadas DCS5500R",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motosierra-gasolina-ducati-55-cc-espada-18-pulgadas-dcs5500r/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Motosierra-Ducati-Gasolina-DCS5500R-Vista-diagonal-superior.webp",
+      "detalle": "Equipo Agricola"
+    },
+    {
+      "nombre": "Zapata Apisonador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/zapata-apisonador-33-x-28-cm/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Zapata-para-Apisonador-33x28-SG70R036-Vista-ppal.png",
+      "detalle": "Apisonadores"
+    },
+    {
+      "nombre": "Tanque de Combustible Apisonador 3.8Lt SG70R048",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/tanque-de-combustible-apisonador-3-8lt-sg70r048/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Tanque-de-Gasolina-para-Apisonador-3.8Lt-SG70R048-Vista-Contrapicado-003.webp",
+      "detalle": "Apisonadores"
+    },
+    {
+      "nombre": "Embrague Apisonador Gasolina Eje 15mm",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/embrague-apisonador-gasolina-eje-15mm/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Embrague-apisonador-gasolina-SG70R008-1-Detalle-platinas.jpg",
+      "detalle": "Apisonadores"
+    },
+    {
+      "nombre": "Embrague Apisonador Diésel",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/embrague-apisonador-diesel/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Embrague-Apisonador-Diesel-CP4700381962-Detalle-platinas.jpg",
+      "detalle": "Apisonadores"
+    },
+    {
+      "nombre": "Fuelle Apisonador Tipo Dosan Ø Int/Ext 16.5cm/15cm x 20cm",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/fuelle-apisonador-tipo-dosan-o-int-ext-16-5cm-15cm-x-20cm/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Fuelle-Apisonador-5.5-Pulg-RX304H-Vista-Ppal.jpg",
+      "detalle": "Apisonadores"
+    },
+    {
+      "nombre": "Fuelle Apisonador Ø Ext/Int 18.5cm/17cm x 27cm",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/fuelle-apisonador-o-ext-int-18-5cm-17cm-x-27cm/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Fuelle-Apisonador-vista-ppal.png",
+      "detalle": "Apisonadores"
+    },
+    {
+      "nombre": "Planta Eléctrica Diésel Ecohorse 5.5KW 110/220V 1F KDF6700XE",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/planta-electrica-diesel-ecohorse-5-5kw-110-220v-1f-kdf6700xe/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Generador-Diesel-5.5-KW-110V-220V-A-Manual-Electrico-KDF6700XE-2.png",
+      "detalle": "Plantas Eléctricas"
+    },
+    {
+      "nombre": "Planta Eléctrica Gasolina KTC 6 kW 110/220V 1F, 463-GG60E",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/planta-electrica-gasolina-ktc-6-kw-110-220v-1f-463-gg60e/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/Planta-Electrica-Gasolina-KTC-6-kW-110-220V-1F-463-GG60E-vista-ppal.webp",
+      "detalle": "Plantas Eléctricas"
+    },
+    {
+      "nombre": "Apisonador Diesel Kama",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/apisonador-diesel-kama/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2025/04/f30e0507-d5fd-4348-a0c6-5aaee9af80a6.jpg",
+      "detalle": "Apisonadores · Dewalt"
+    },
+    {
+      "nombre": "Vibradores de concreto eléctrico",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/vibradores-de-concreto-electrico/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/07/IMG_1812.jpg",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Puntas para martillos",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/puntas-para-martillos/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/punta_para_martillos.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Aspas y platos para allanadoras",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/aspas-y-platos-para-allanadoras/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/aspas.jpg",
+      "detalle": "Otros"
+    },
+    {
+      "nombre": "Taladro Rotopercutor",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/taladro-rotopercutor-2/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/taladro_rotopercutor_dewalt.jpg",
+      "detalle": "Dewalt · Herramientas Eléctricas"
+    },
+    {
+      "nombre": "Pulidora Angular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/pulidora-angular-2/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/pulidora_angula_dewalt.jpg",
+      "detalle": "Dewalt · Herramientas Eléctricas"
+    },
+    {
+      "nombre": "Sierra Circular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/sierra-circular/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/Sierra_circular_bosh.jpg",
+      "detalle": "Bosh · Herramientas Eléctricas"
+    },
+    {
+      "nombre": "Martillo demoledor",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/martillo-demoledor/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/rotomartillo_bosh.jpg",
+      "detalle": "Bosh · Herramientas Eléctricas"
+    },
+    {
+      "nombre": "Taladro rotopercutor",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/taladro-rotopercutor/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/taladro_rotopercutor_bosh.jpg",
+      "detalle": "Bosh · Herramientas Eléctricas"
+    },
+    {
+      "nombre": "Pulidora Angular",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/pulidora-angular/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/pulidora_angular_bosh.jpg",
+      "detalle": "Bosh · Herramientas Eléctricas · Pulidora"
+    },
+    {
+      "nombre": "Motosoldador King",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/motosoldador-king/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/Motosoldador_king.jpg",
+      "detalle": "Motosoldador"
+    },
+    {
+      "nombre": "Demoledor",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/demoledor/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/Demoledor_azul.jpg",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Cortadora de Pavimento",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/cortadora-de-pavimento/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/Cortadora_de_pavimento.jpg",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Allanadora de concreto",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/allanadora-de-concreto/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/Allanadora_45.jpg",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Vibradores de concreto con motor gasolina",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/vibradores-de-concreto-con-motor-gasolina/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/Vibradores_de_Concreto.png",
+      "detalle": "Manejo de Concreto"
+    },
+    {
+      "nombre": "Vibrocompactador Rana",
+      "precio": null,
+      "unidad": "",
+      "url": "https://ranasycanguros.com/producto/vibrocompactador-rana/",
+      "imagen": "https://ranasycanguros.com/wp-content/uploads/2020/06/Vibrocompactador_rana.png",
+      "detalle": "Compactadores"
+    }
+  ]
+}

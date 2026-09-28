@@ -1,0 +1,11 @@
+PROYECTO 20: TINY HOUSE 15M2B
+Empresa: Woodpecker
+Área: 15 m²
+Precio Casa kit (placa): $17.801.115 (m²: $1.186.741)
+Precio Casa kit (palafitos): $25.845.751 (m²: $1.723.050)
+Ficha en el sitio: https://woodpecker.com.co/casas-kit/tiny-house-15m2b/
+
+FACHADA: FACHADA.jpg  <- https://woodpecker.com.co/wp-content/uploads/t15bc.jpg
+PLANO: la empresa no publica plano de este modelo
+INTERIOR: la empresa no publica una imagen interior identificable de este modelo
+PRESUPUESTO.xlsm: copia del modelo V1 Construmaster.xlsm (mismo formato, macros y 13 capítulos) con la ficha INICIO de esta casa: nombre, ID, ubicación, sistema constructivo, área construida, valor m² y valor total (= área x valor m²). Los capítulos conservan el contenido del modelo como referencia.

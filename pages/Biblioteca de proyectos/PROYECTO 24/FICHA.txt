@@ -1,0 +1,11 @@
+PROYECTO 24: TINY HOUSE 30M2
+Empresa: Woodpecker
+Área: 30 m²
+Precio Casa kit (placa): $30.976.792 (m²: $1.032.560)
+Precio Casa kit (palafitos): $46.518.067 (m²: $1.550.602)
+Ficha en el sitio: https://woodpecker.com.co/casas-kit/tiny-house-30m2/
+
+FACHADA: FACHADA.jpg  <- https://woodpecker.com.co/wp-content/uploads/th30inff-1024x760.jpeg
+PLANO: la empresa no publica plano de este modelo
+INTERIOR: la empresa no publica una imagen interior identificable de este modelo
+PRESUPUESTO.xlsm: copia del modelo V1 Construmaster.xlsm (mismo formato, macros y 13 capítulos) con la ficha INICIO de esta casa: nombre, ID, ubicación, sistema constructivo, área construida, valor m² y valor total (= área x valor m²). Los capítulos conservan el contenido del modelo como referencia.

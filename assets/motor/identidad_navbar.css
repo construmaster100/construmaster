@@ -1,0 +1,55 @@
+/* Identidad compartida de ConstruMaster (banner + logo + navbar) en flujo normal,
+   para paginas que ya tienen su propio layout interno (ej. sidebar sticky de 100vh
+   en las paginas de marca) y no deben usar position:fixed para el encabezado. */
+:root {
+  --tinta: #20211e;
+  --verde: #586c4f;
+  --verde-oscuro: #354b3e;
+  --hueso: #f5f3ed;
+  --arena: #d7c6a5;
+  --linea: #d8d5cb;
+  --logo: 250px;
+  --nav-h: 56px;
+}
+
+.site-header { display: flex; height: var(--logo); background: var(--verde-oscuro); }
+.site-logo { flex: 0 0 var(--logo); width: var(--logo); height: var(--logo); box-sizing: border-box; display: flex; align-items: center; justify-content: center; background: var(--tinta); text-align: center; text-decoration: none; }
+.site-logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.logo-emblema { display: block; font: 700 2.5rem "Segoe UI", Arial, sans-serif; color: var(--hueso); letter-spacing: .03em; }
+.logo-emblema small { display: block; margin-top: 8px; font: 600 .55rem "Segoe UI", Arial, sans-serif; letter-spacing: .2em; color: var(--arena); text-transform: uppercase; }
+.site-banner { flex: 1; min-width: 0; align-self: flex-start; height: calc(var(--logo) - var(--nav-h)); position: relative; overflow: hidden; background: linear-gradient(120deg, var(--verde-oscuro) 0%, var(--verde) 55%, #2f4437 100%); }
+.site-banner::before { content: ''; position: absolute; inset: -20%; background-image: repeating-linear-gradient(115deg, rgba(245,243,237,.07) 0 2px, transparent 2px 64px), repeating-linear-gradient(25deg, rgba(217,196,150,.06) 0 2px, transparent 2px 64px); animation: deriva-banner 24s linear infinite; }
+.site-banner::after { content: 'ConstruMaster'; position: absolute; right: 5%; bottom: 10%; font: 600 clamp(1.1rem,2.4vw,2rem) "Segoe UI", sans-serif; color: rgba(245,243,237,.16); letter-spacing: .02em; pointer-events: none; }
+@keyframes deriva-banner { from { transform: translate3d(0,0,0); } to { transform: translate3d(-64px,-64px,0); } }
+@media (prefers-reduced-motion: reduce) { .site-banner::before { animation: none; } }
+
+nav.topnav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: var(--nav-h);
+  box-sizing: border-box;
+  margin-left: var(--logo);
+  margin-top: calc(-1 * var(--nav-h));
+  padding: 0 20px;
+  background: var(--tinta);
+  position: relative;
+  z-index: 5;
+}
+nav.topnav .navtabs { display: flex; flex: 1 1 auto; flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; gap: 4px; scrollbar-width: none; }
+nav.topnav .navtabs::-webkit-scrollbar { display: none; }
+nav.topnav .navtabs a { white-space: nowrap; flex-shrink: 0; color: #d9d6c9; text-decoration: none; font-family: "Segoe UI", Arial, sans-serif; font-size: 0.85rem; padding: 8px 14px; border-radius: 6px; }
+nav.topnav .navtabs a:hover { color: #fff; background: rgba(255,255,255,.1); }
+
+@media (max-width: 900px) {
+  nav.topnav { gap: 6px; padding: 0 12px; }
+  nav.topnav .navtabs a { font-size: 0.76rem; padding: 7px 10px; }
+}
+@media (max-width: 700px) {
+  :root { --logo: 120px; --nav-h: 52px; }
+  .logo-emblema { font-size: 1.35rem; }
+  .logo-emblema small { display: none; }
+  .site-banner { height: var(--logo); }
+  .site-banner::after { display: none; }
+  nav.topnav { margin-left: 0; margin-top: 0; }
+}

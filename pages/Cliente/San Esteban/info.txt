@@ -1,0 +1,7 @@
+nombre: San Esteban
+tipo: Vivienda urbana
+ubicacion: Carrera 16
+area: 230 m2
+pisos: 3
+inicio: agosto 2026
+propietario: Jeicot Rodriguez

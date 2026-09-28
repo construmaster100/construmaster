@@ -1,0 +1,756 @@
+{
+  "empresa": "Renty Herramientas",
+  "fecha": "2026-09-28T04:19:27.231Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 5,
+    "total": 5,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Martillo Demoledor de Piso Einhel 50J TC-DH",
+        "precio": 150000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Escalera Plegable Multiusos",
+        "precio": 46000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Ruteadora Alambrica 5615-20 Milwaukee",
+        "precio": 80000,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Extractor de Aire Industrial 12",
+        "precio": 149600,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Planta Electrica Diesel - ECOHORSE- KDF8500XE",
+        "precio": 160000,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Martillo Demoledor de Piso Einhel 50J TC-DH",
+      "precio": 150000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-martillo-demoledor-de-piso-einhel-50j-tc-dh/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/w1324h832fwebpfitcontainq85.webp",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Martillo Demoledor · Rotomartillos"
+    },
+    {
+      "nombre": "Aspiradora KARCHER NT70/2",
+      "precio": 64000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-aspiradora-karcher-nt70-2/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Aspiradora_Karcher_NT70-2_Equipmaster_mayo2021-removebg-preview.png",
+      "detalle": "Aspiradoras · Aspiradoras · Herramientas Eléctricas · Lavado y Brillado"
+    },
+    {
+      "nombre": "Hidrolavadora Karcher 2900W 590 Lt HD6/13",
+      "precio": 80000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-hidrolavadora-karcher-2900w-590-lt-hd6-13c/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Motosoldador-Outback-185-6.png",
+      "detalle": "Herramientas Eléctricas · Hidrolavadoras · Hidrolavadoras · Lavado y Brillado"
+    },
+    {
+      "nombre": "Motosoldador Outback 185",
+      "precio": 230000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-motosoldador-outback-185/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Motosoldador-Outback-185.png",
+      "detalle": "Equipos de Construcción · Generadores de Energía · Herramientas de Apoyo en Soldadura · Maquinas de Soldar · Metalistería · Plantas Electricas · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Torre de Iluminación Portatil",
+      "precio": 220000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-torre-de-iluminacion/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Torre_de_Iluminacion_02.png",
+      "detalle": "Electricidad e Iluminación · Equipos de Construcción · Generadores de Energía · Iluminación · Plantas Electricas"
+    },
+    {
+      "nombre": "Hidrolavadora Diésel 3.600 PSI",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-hidrolavadora-diesel-3-600-psi/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Hidro_Danau.png",
+      "detalle": "Equipos de Construcción · Hidrolavadoras · Hidrolavadoras · Lavado y Brillado"
+    },
+    {
+      "nombre": "Bomba Sumergible 2\" BARNES E0926-110v",
+      "precio": 55000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-bomba-sumergible-2%e2%80%b3-barnes-e0926-110v/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Bomba-Sumergible-3-BARNES-E0926-110v-Monofasica.webp",
+      "detalle": "Agro y Jardineria · Bombas de Agua · Bombas de Agua · Bombas de Agua · Equipos de Construcción · Lavado y Brillado"
+    },
+    {
+      "nombre": "Taladro Percutor Ref 3403-22 Milwaukee",
+      "precio": 50000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-taladro-percutor-ref-3403-22-milwaukee/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Atornillador-Milwaukee-1.png",
+      "detalle": "Atornilladores · Carpintería · Demolición y Perforado · Equipos de Construcción · Herramientas Inalámbricas · Inalámbricas · Perforado · Rotomartillo · Rotomartillos · Taladros y Atornilladores"
+    },
+    {
+      "nombre": "Taladro Inalámbrico de ½ Pulgada 18v Bosch",
+      "precio": 50000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-taladro-inalambrico-de-%c2%bd-pulgada-18v-bosch/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/1-5.png",
+      "detalle": "Atornilladores · Atornilladores · Carpintería · Demolición y Perforado · Herramientas Inalámbricas · Inalámbricas · Perforado · Taladros · Taladros y Atornilladores"
+    },
+    {
+      "nombre": "Bomba Sumergible 3\" BARNES E0928 110v",
+      "precio": 60000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-bomba-sumergible-3%e2%80%b3-barnes-e0928-110v/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Bomba-Sumergible-3-BARNES-E0926-110v-Monofasica.webp",
+      "detalle": "Agro y Jardineria · Bombas de Agua · Bombas de Agua · Bombas de Agua · Equipos de Construcción · Lavado y Brillado"
+    },
+    {
+      "nombre": "Planta Eléctrica Gasolina 7500W monofásico 110/220V 25 Lt GD8000E",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/planta-electrica-gasolina-7500w-monofasico-110-220v-25-lt-gd8000e/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/689144_01.jpg",
+      "detalle": "Plantas Electricas"
+    },
+    {
+      "nombre": "Rotomartillo SDS-Plus Bosch GBH 3-28 DRE Profesional",
+      "precio": 77350,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-rotomartillo-sds-plus-bosch-gbh-3-28-dre-profesional/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Rotomartillo-800W-900RPM-Gbh-3-28-1.png",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Herramientas Eléctricas · Perforado · Rotomartillo · Rotomartillos · Rotomartillos"
+    },
+    {
+      "nombre": "Planta Eléctrica a Gasolina",
+      "precio": 160000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-planta-electrica-a-gasolina/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/1.-Planta_Electrica-1.png",
+      "detalle": "Agro y Jardineria · Electricidad e Iluminación · Equipos de Construcción · Generadores · Generadores de Energía · Iluminacion · Plantas Electricas"
+    },
+    {
+      "nombre": "Mezcladora de Concreto",
+      "precio": 70000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-mezcladora-de-concreto/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Diseno-sin-titulo-1.png",
+      "detalle": "Concretadoras · Cortadora de Pavimento · Equipos de Construcción"
+    },
+    {
+      "nombre": "Regla Flota canal",
+      "precio": 65000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-regla-flota-canal/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Regla_Flotacanal_1.png",
+      "detalle": "Concretadoras · Equipos de Construcción · Herramientas Eléctricas · Rotomartillos · Vibradores de Concreto"
+    },
+    {
+      "nombre": "Vibrador de Concreto Bosch (copia)",
+      "precio": 65000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-vibrador-de-concreto-bosch-copia/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Vibrador-Concrto-Bosch-1.png",
+      "detalle": "Equipos de Construcción · Herramientas Eléctricas · Rotomartillos · Vibradores de Concreto"
+    },
+    {
+      "nombre": "Rotomartillo SDS max DEWALT",
+      "precio": 77000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-rotomartillo-sds-max-dewalt/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Rotomartillo-SDS-max-Dewalt.png",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Herramientas Eléctricas · Martillo Demoledor · Perforado · Rotomartillo · Rotomartillos · Rotomartillos"
+    },
+    {
+      "nombre": "Escalera Plegable Multiusos",
+      "precio": 46000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/escalera-plegable-multiusos/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Escalera-Plegable-Multiusos.png",
+      "detalle": "Altura y Elevación · Escalera"
+    },
+    {
+      "nombre": "Andamios Tubulares",
+      "precio": 5000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-andamios-tubulares/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Andamio-Tubular-con-Ruedas.png",
+      "detalle": "Altura y Elevación · Andamios · Andamios y Escaleras · Elevación de Carga"
+    },
+    {
+      "nombre": "Diferencian de Cadena 5 Ton",
+      "precio": 52000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-diferencian-de-cadena-5-ton/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Diferencial-de-Cadena.jpg",
+      "detalle": "Altura y Elevación · Elevación de Carga · Elevación y Carga · Equipos de Construcción · Polipastos y Winches"
+    },
+    {
+      "nombre": "Pluma Grúa 300Kg",
+      "precio": 70000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-pluma-grua-300kg/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Pluma-Grua-300kg.png",
+      "detalle": "Altura y Elevación · Elevación de Carga · Elevación y Carga · Equipos de Construcción · Pluma Gruas"
+    },
+    {
+      "nombre": "Taladro Base magnética Bosch",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-taladro-base-magnetica-bosch/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Taladro-Magnetico-Bosch.png",
+      "detalle": "Demolición y Perforado · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Perforado · Taladro base Magnética · Taladros"
+    },
+    {
+      "nombre": "Cortadora de pavimento CIMAR: CPC18-13WG",
+      "precio": 130000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-cortadora-de-pavimento-cimar-cpc18-13wg/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Cortadora-de-Piso1.png",
+      "detalle": "Cortadora de Pavimento · Equipos de Construcción"
+    },
+    {
+      "nombre": "Careta Soldador Fotosensible",
+      "precio": 25000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-careta-soldador-fotosensible/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Careta-Soldador-ESAB.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Careta Soldador Variomatic",
+      "precio": 25000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-careta-soldador-variomatic/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Careta-soldador-Variomatic.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Esmeril de Banco 8 Pulg. 1 Hp",
+      "precio": 46000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-esmeril-de-banco-8-pulg-1-hp/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Esmeril-Dayton.png",
+      "detalle": "Accesorios de Soldadura · Carpintería · Corte y Pulido · Equipos de Corte · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Ingletadoras · Ingletadoras · Metalistería · Soldadura y Metalistería · Tronzadoras"
+    },
+    {
+      "nombre": "Llave Para Tubos de 36\" Stanley",
+      "precio": 30000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-llave-para-tubos-de-36-stanley/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Llave-Tubos-36-Pulg.1.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Prensa de Banco de 6\" Stanley",
+      "precio": 30000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-prensa-de-banco-de-6-stanley/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Prensa-Banco.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Vibrador de Concreto Bosch",
+      "precio": 65000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-vibrador-de-concreto-bosch/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Vibrador-Concrto-Bosch-1.png",
+      "detalle": "Equipos de Construcción · Herramientas Eléctricas · Rotomartillos · Vibradores de Concreto"
+    },
+    {
+      "nombre": "Antorcha Morrocoyo Oxicorte",
+      "precio": 35000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-antorcha-morrocoyo-oxicorte/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Antorcha-Victor-MT-200.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Riel para Morrocoyo Oxicorte",
+      "precio": 25000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-riel-para-morrocoyo-oxicorte/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Riel-Morrocoya-Victor-VCM-200E.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Silla de Trabajo en Altura",
+      "precio": 80000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-silla-de-trabajo-en-altura/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Silla-de-Trabajo-en-Altura.png",
+      "detalle": "Accesorios de Rescate · Lineas de Vida · Rescate en Alturas · Silleta de trabajo en altura · Trabajo en Altura"
+    },
+    {
+      "nombre": "Horno de Soldadura Black Panther 10 Kg",
+      "precio": 25000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-horno-de-soldadura-black-panther-5-kg/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Horno-Soldadura.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Metalistería · Soldadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Alimentador de Alambre semiautomático LN25 Pro Lincoln Electric",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-alimentador-de-alambre-semiautomatico-ln25-pro-lincoln-electric/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Alimentador-LN25-Pro3.png",
+      "detalle": "Herramientas de Apoyo en Soldadura · Maquinas de Soldar · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Ruteadora Alambrica 5615-20 Milwaukee",
+      "precio": 80000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-ruteadora-alambrica-5615-20-milwaukee/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Router-Milwawkee-Alambrica-5615-20.png",
+      "detalle": "Carpintería · Herramientas Eléctricas · Ruteadoras · Ruteadoras"
+    },
+    {
+      "nombre": "Cortacésped Husqvarna a Gasolina",
+      "precio": 150000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-cortacesped-husqvarna-a-gasolina/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Cortacesped-Husqvarna.png",
+      "detalle": "Agro y Jardineria · Jardineria"
+    },
+    {
+      "nombre": "Cortasetos STIHL HSA 56 a Bateria",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-cortasetos-stihl-hsa-56-a-bateria/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Cortasetos-HSA56.png",
+      "detalle": "Agro y Jardineria · Jardineria"
+    },
+    {
+      "nombre": "Soldador MIG POWER MIG 216",
+      "precio": 144000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-soldador-mig-power-mig-216/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Power-mig-216-1.png",
+      "detalle": "Herramientas de Apoyo en Soldadura · Maquinas de Soldar · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Extractor de Aire Industrial 20",
+      "precio": 187500,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-extractor-de-aire-industrial/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Extractor-20-pulg.png",
+      "detalle": "Extractor de Aire · Extractor Ventilador · Herramientas Eléctricas · Rescate en espacio Confinado"
+    },
+    {
+      "nombre": "Arrestador de Caidas 12.7 -14 m.m. Inoxidable",
+      "precio": 40000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-arrestador-de-caidas-12-7-14-m-m-inoxidable/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Arrestador-Caidas-Inoxidable.png",
+      "detalle": "Kit de Rescate o Alpinismo · Lineas de Vida · Rescate en Alturas · Rescate en espacio Confinado"
+    },
+    {
+      "nombre": "Arnés de Rescate 7 Argollas",
+      "precio": 50000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-arnes-de-rescate-7-argollas/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Arnes-7-Argollas-Blackligh-LF.png",
+      "detalle": "Arnes de Rescate · Arnes y Eslingas · Arnes y Eslingas · Equipo de Seguridad · Protección contra Caídas · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección · Trabajo en Altura"
+    },
+    {
+      "nombre": "Bloqueador de pecho",
+      "precio": 45000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-bloqueador-de-pecho/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Bloqueador-de-Ascenso.png",
+      "detalle": "Accesorios y Complementos · Arnes de Rescate · Arnes y Eslingas · Kit de Rescate o Alpinismo · Linea de Vida Retráctil · Líneas de Vida Portátil · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección · Silleta de trabajo en altura"
+    },
+    {
+      "nombre": "Línea de Vida Retráctil",
+      "precio": 90000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-linea-de-vida-retractil/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Linea-Vida-Retractil-Protecta.png",
+      "detalle": "Linea de Vida Retráctil · Lineas de Vida · Rescate en Alturas · Rescate en espacio Confinado"
+    },
+    {
+      "nombre": "Soldador Inversor Miller Thunderbolt 160 DC STICK 110/220V",
+      "precio": 80000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-soldador-inversor-miller-thunderbolt-160-110-220v/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Inversor-Thunderbolt-160.png",
+      "detalle": "Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Maquinas de Soldar · Metalistería · Soldadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Planta Electrica Diesel - ECOHORSE- KDF6700XE",
+      "precio": 160000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-planta-electrica-diesel-ecohorse-kdf6500xe-copia/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Planta-Electrica-Ecohours-6.png",
+      "detalle": "Agro y Jardineria · Electricidad e Iluminación · Equipos de Construcción · Generadores · Generadores de Energía · Iluminacion · Iluminación · Plantas Electricas"
+    },
+    {
+      "nombre": "Motosierra STIHL MS250 Espada de 50 cm",
+      "precio": 120000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-motosierra-stihl-ms250-espada-de-50-cm/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Motosierra-MS-250-4.jpg",
+      "detalle": "Agro y Jardineria · Jardineria"
+    },
+    {
+      "nombre": "Pulidora Milwaukee 7 Pulgadas 15 Amp",
+      "precio": 46000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-pulidora-milwaukee-7-pulgadas-15-amp/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Pulidora-Milwaukee.png",
+      "detalle": "Carpintería · Corte y Pulido · Equipos de Corte · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Lijadoras · Metalistería · Pulidoras · Pulidoras y Lijadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Lijadora Rotoorbital 5 Pulgadas 275W 12000 Opm",
+      "precio": 47600,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-lijadora-rotoorbital-5-pulgadas-275w-12000-opm/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Lijadora-Orbital-1.png",
+      "detalle": "Carpintería · Corte y Pulido · Herramientas Eléctricas · Lijadoras · Lijadoras · Pulidoras y Lijadoras"
+    },
+    {
+      "nombre": "Martillo Demoledor de Piso Einhel 43J TC-DH",
+      "precio": 132000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-martillo-demoledor-de-piso-einhel-43j-tc-dh-1600-1-ex-bra-127v/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Demoledor-einhel-1.png",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Martillo Demoledor · Rotomartillos"
+    },
+    {
+      "nombre": "Rotomartillo SDS-max Bosch GBH 5-40 DCE Profesional",
+      "precio": 77000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-rotomartillo-sds-max-bosch-gbh-5-40-dce-profesional/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Rotomartillo-GBH-5-40-1.png",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Herramientas Eléctricas · Perforado · Rotomartillo · Rotomartillos · Rotomartillos"
+    },
+    {
+      "nombre": "Kit de Rescate",
+      "precio": 180000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-kit-de-rescate-en-espacio-confinado-climbing-technology/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Kit-rescate-Armado.png",
+      "detalle": "Kit de Rescate o Alpinismo · Lineas de Vida · Rescate en Alturas · Rescate en espacio Confinado"
+    },
+    {
+      "nombre": "Extractor de Aire Industrial 12",
+      "precio": 149600,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-extractor-de-aire-industrial-12/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Extractor-12-pulg.png",
+      "detalle": "Extractor de Aire · Extractor Ventilador · Herramientas Eléctricas · Rescate en espacio Confinado"
+    },
+    {
+      "nombre": "Trípode de Rescate",
+      "precio": 180000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-tripode-rescate-espacio-confinado/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Tripode-de-Rescate-2.png",
+      "detalle": "Rescate en espacio Confinado · Trípode de Rescate"
+    },
+    {
+      "nombre": "Martillo Demoledor de Piso Bosch 62J GSH 27 VC",
+      "precio": 150000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-martillo-demoledor-de-piso-bosch-62j-gsh-27-vc/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Demoledor-Bosch-1.png",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Herramientas Eléctricas · Martillo Demoledor · Rotomartillos"
+    },
+    {
+      "nombre": "Taladro Base Magnética Cap. 4\"",
+      "precio": 96000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-taladro-base-magnetica-cap-4/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/TALADRO_MAGNETICO_EUROBOOR_2.png",
+      "detalle": "Demolición y Perforado · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Perforado · Taladro base Magnética · Taladros"
+    },
+    {
+      "nombre": "Soldador TIG Lincoln Electric 225 Amp.",
+      "precio": 150000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-soldador-tig-lincoln-electric-225-amp/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Categoria-Soldadura-1000-x-1000-2.png",
+      "detalle": "Maquinas de Soldar · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Guadañadora FS 235 – STIHL",
+      "precio": 80000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/pip-class-3-orange-wind-breaker-xl/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Guadana_Sthil-235.png",
+      "detalle": "Agro y Jardineria · Jardineria"
+    },
+    {
+      "nombre": "Descensor ID Trabajo en Altura",
+      "precio": 45000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-descensor-id-trabajo-en-altura/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Descendedor-ID.png",
+      "detalle": "Accesorios y Complementos · Kit de Rescate o Alpinismo · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección"
+    },
+    {
+      "nombre": "Carro para soldador MIG/TIG",
+      "precio": 35000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-carro-para-soldador-mig-tig/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Carro-de-Soldadura.png",
+      "detalle": "Accesorios de Soldadura · Herramientas de Apoyo en Soldadura · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Casco de Seguridad tipo Industrial sin Ventilación",
+      "precio": 5000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/pip-mk8-linesman-hard-hat-type-ii-yellow/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/cat15-p-4.jpg",
+      "detalle": "Equipo de Seguridad · Protección para la cabeza · Seguridad y Protección"
+    },
+    {
+      "nombre": "Casco de Seguridad tipo Industrial sin Ventilación",
+      "precio": 5000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/pip-mk8-linesman-hard-hat-type-ii-white/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/cat15-p-1.jpg",
+      "detalle": "Equipo de Seguridad · Protección para la cabeza · Seguridad y Protección"
+    },
+    {
+      "nombre": "Arnés Dieléctrico 4 Argollas",
+      "precio": 50000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-arnes-dielectrico-4-argollas/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Arnes-Dielectrico-EPI3.png",
+      "detalle": "Arnes de Rescate · Arnes y Eslingas · Arnes y Eslingas · Equipo de Seguridad · Protección contra Caídas · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección · Trabajo en Altura"
+    },
+    {
+      "nombre": "Puño Bloqueador de Ascenso",
+      "precio": 40000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/falltech-7711-heavy-duty-beam-trolley/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Puno-Bloqueador-de-Ascenso-EPI.png",
+      "detalle": "Accesorios de Rescate · Accesorios y Complementos · Kit de Rescate o Alpinismo · Lineas de Vida · Líneas de Vida Portátil · Protección contra Caídas · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección · Trabajo en Altura"
+    },
+    {
+      "nombre": "Línea de vida vertical Portátil de 15 mt. x 16 m.m.",
+      "precio": 60000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/falltech-ft-vertical-lifeline-with-snap-hook-and-braid-end/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Linea-Vida-Cuerda-50-mt-Climbing.png",
+      "detalle": "Equipo de Seguridad · Lineas de Vida · Líneas de Vida Portátil · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección · Trabajo en Altura"
+    },
+    {
+      "nombre": "Tie Off Punto de Anclaje Móvil de 80 cm dos argollas",
+      "precio": 36000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/falltech-3-pass%e2%80%90thru-anchor-sling/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/cat14-p-2.jpg",
+      "detalle": "Accesorios de Rescate · Accesorios y Complementos · Arnes de Rescate · Arnes y Eslingas · Equipo de Seguridad · Kit de Rescate o Alpinismo · Linea de Vida Retráctil · Líneas de Vida Portátil · Rescate en Alturas · Rescate en espacio Confinado · Silleta de trabajo en altura · Trabajo en Altura · Trípode de Rescate"
+    },
+    {
+      "nombre": "Arnés de Posicionamiento A61E (Tamaño grande/extra grande)",
+      "precio": 46000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/falltech-tradesman-plus-belted-harness-dual-size-large-extra-large/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/cat14-p-1.jpg",
+      "detalle": "Arnes de Rescate · Arnes y Eslingas · Arnes y Eslingas · Equipo de Seguridad · Protección contra Caídas · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección · Trabajo en Altura"
+    },
+    {
+      "nombre": "Equipo de Trabajo en Altura",
+      "precio": 450000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-equipo-de-trabajo-en-altura/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Silla-de-Trabajo-en-Altura.png",
+      "detalle": "Accesorios de Rescate · Accesorios y Complementos · Arnes de Rescate · Arnes y Eslingas · Equipo de Seguridad · Kit de Rescate o Alpinismo · Linea de Vida Retráctil · Lineas de Vida · Líneas de Vida Portátil · Rescate en Alturas · Rescate en espacio Confinado · Seguridad y Protección · Silleta de trabajo en altura · Trabajo en Altura"
+    },
+    {
+      "nombre": "Rotomartillo SDS-Plus DEWALT",
+      "precio": 57000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-rotomartillo-sds-plus-dewalt/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Rotomartillo_SDS_Plus_Dewalt.png",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Herramientas Eléctricas · Martillo Demoledor · Perforado · Rotomartillo · Rotomartillos · Rotomartillos"
+    },
+    {
+      "nombre": "Planta Electrica Diesel - ECOHORSE- KDF8500XE",
+      "precio": 160000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/simpson-powershot-portable-3600-watt-generator-spg3645/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Planta-Electrica-Ecohours-KDF8500XE.png",
+      "detalle": "Agro y Jardineria · Electricidad e Iluminación · Equipos de Construcción · Generadores · Generadores de Energía · Herramientas Eléctricas · Iluminación · Plantas Electricas"
+    },
+    {
+      "nombre": "Planta Eléctrica EP2500CX",
+      "precio": 130000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-planta-electrica-ep2500cx/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Honda_EP2500CX_1.png",
+      "detalle": "Agro y Jardineria · Electricidad e Iluminación · Equipos de Construcción · Generadores · Generadores de Energía · Iluminacion · Iluminación · Plantas Electricas"
+    },
+    {
+      "nombre": "Placa Vibro Compactadora tipo Rana",
+      "precio": 85252,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-placa-vibro-compactadora-tipo-rana/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/XCP_CIMAR_CPC95_1-removebg-preview.png",
+      "detalle": "Compactación · Equipos de Construcción"
+    },
+    {
+      "nombre": "Compactador tipo Canguro EH12 4.0 HP",
+      "precio": 90000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-compactador-tipo-canguro-eh12-4-0-hp/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/XCP_CIMAR_CT-73P-2A.png",
+      "detalle": "Compactación · Equipos de Construcción"
+    },
+    {
+      "nombre": "Tronzadora DEWALT 110V 2.200W",
+      "precio": 80000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-tronzadora-dewalt-110v-2-200w/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Tronzadora-1000x1000-1.png",
+      "detalle": "Accesorios de Soldadura · Carpintería · Corte y Pulido · Equipos de Corte · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Ingletadoras · Ingletadoras · Metalistería · Soldadura y Metalistería · Tronzadoras"
+    },
+    {
+      "nombre": "Pulidora Milwaukee 4-1/2 Pulgadas 7.0 Amp",
+      "precio": 35000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/milwaukee-3-5-amp-3-8-close-quarter-angle-drill/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Pulidora-Pequena-Milwaukee-1000x1000-1.png",
+      "detalle": "Accesorios de Soldadura · Carpintería · Corte y Pulido · Equipos de Corte · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Lijadoras · Metalistería · Pulidoras · Pulidoras y Lijadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Taladro Magnum Milwaukee Modelo De 1/2 - 0254001006",
+      "precio": 35000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/milwaukee-10-amp-3-4-super-hole-shooter-drill/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Taladro-Convensional-1.png",
+      "detalle": "Atornilladores · Carpintería · Demolición y Perforado · Herramientas Eléctricas · Perforado · Taladros · Taladros y Atornilladores"
+    },
+    {
+      "nombre": "Aspiradora DeWALT Humedos/Secos 5 Galones DXV05P",
+      "precio": 64000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/milwaukee-8-gallon-dust-extractor/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Aspirador-Dewalt1.png",
+      "detalle": "Aspiradoras · Aspiradoras · Herramientas Eléctricas · Lavado y Brillado"
+    },
+    {
+      "nombre": "Pulidora 60V Brushless de 4-1/2 Pulgadas",
+      "precio": 70000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/dewalt-60v-max-flexvolt-4-1-2-to-6-angle-grinder-bare-tool/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Pulidora_Inalambrica_Dewalt_1.png",
+      "detalle": "Accesorios de Soldadura · Carpintería · Cortadora de Pavimento · Corte y Pulido · Equipos de Corte · Esmeriladoras · Herramientas de Apoyo en Soldadura · Inalámbricas · Lijadoras · Lijadoras · Metalistería · Pulidoras · Pulidoras y Lijadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Rotomartillo Demoledor 2\" - 15 AMP SDS-Max 125-250 RPM (5342-21) Milwaukee",
+      "precio": 96000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/milwaukee-m12-12v-lithium-ion-sub-compact-1-4-driver-drill-kit/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Martillo-Demoledor-Milwaukee-1.png",
+      "detalle": "Demoledores de Concreto · Demolición · Demolición y Perforado · Equipos de Construcción · Herramientas Eléctricas · Martillo Demoledor · Rotomartillo · Rotomartillos · Rotomartillos"
+    },
+    {
+      "nombre": "Luminaria de 50W (1) con soporte tipo Tripode",
+      "precio": 46000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-luminaria-de-50w-1-con-soporte-tipo-tripode/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Tripode_Una_Luminaria.png",
+      "detalle": "Arnes de Rescate · Electricidad e Iluminación · Extractor de Aire · Herramientas Eléctricas · Iluminación · Kit de Rescate o Alpinismo · Luminarias · Rescate en Alturas · Trípode con Luminaria · Trípode de Rescate"
+    },
+    {
+      "nombre": "Kit Atornillador inalámbrico",
+      "precio": 108000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-kit-atornillador-inalambrico/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Kit_Atornillador.png",
+      "detalle": "Atornilladores · Atornilladores · Carpintería · Demolición y Perforado · Herramientas Inalámbricas · Inalámbricas · Perforado · Rotomartillo · Taladros · Taladros y Atornilladores"
+    },
+    {
+      "nombre": "Hidrolavadora Karcher 2100W 140 Bar",
+      "precio": 64000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/hidrolavadora-karcher-2100w-140-bar/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Hidrolavadora_Karcher_2100.png",
+      "detalle": "Herramientas Eléctricas · Hidrolavadoras · Hidrolavadoras · Lavado y Brillado"
+    },
+    {
+      "nombre": "Equipo de Corte Plasma",
+      "precio": 250000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-equipo-de-corte-plasma/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Cortadora_Plasma_Miller.png",
+      "detalle": "Accesorios de Soldadura · Corte y Pulido · Equipos de Corte · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Maquinas de Soldar · Metalistería · Soldadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Pulidora 7” Pulg. 2.200W 8.500RPM. Dewalt Ref. DWE491-B3",
+      "precio": 60000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/bostitch-industrial-60mm-industrial-coil-nailer/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Pulidora_Dewalt_7_Pulgadas.png",
+      "detalle": "Accesorios de Soldadura · Carpintería · Cortadora de Pavimento · Corte y Pulido · Equipos de Construcción · Equipos de Corte · Esmeriladoras · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Lijadoras · Lijadoras · Metalistería · Pulidoras · Pulidoras y Lijadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Mototool Dewalt 2\" 600W 19.000RPM. DW888",
+      "precio": 46000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/dewalt-16-gauge-2-1-2-pnematic-brad-nailer-kit/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Mototool_Dewalt.png",
+      "detalle": "Accesorios de Soldadura · Carpintería · Corte y Pulido · Equipos de Corte · Esmeriladoras · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Lijadoras · Metalistería · Pulidoras · Pulidoras y Lijadoras · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Cortadora de Piso A Gasolina 4T - CIMAR - CFC18",
+      "precio": 130000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/hitachi-metabo-hpt-ec2610em-5-5-hp-8-gallon-gas-powered-wheelbarrow-air-compressor/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Cortadora-Pavimento-2.png",
+      "detalle": "Cortadora de Pavimento · Cortadora de Pavimento · Corte y Pulido · Equipos de Construcción"
+    },
+    {
+      "nombre": "Sierra Circular 7 1/4\" 2000W",
+      "precio": 60000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-sierra-circular-7-1-4-2000w/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Sierra-Circular-Bosch.png",
+      "detalle": "Carpintería · Corte y Pulido · Equipos de Construcción · Herramientas Eléctricas · Sierra Circular · Sierras Eléctricas · Sierras electricas"
+    },
+    {
+      "nombre": "Soldador RX330 220/440V, 300A Lincoln Electric",
+      "precio": 150000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/rol-air-6590hk18-6-1-2-hp-belt-drive-twin-tank-gas-powered-air-compressor/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Soldador-RX330-1.png",
+      "detalle": "Maquinas de Soldar · Metalistería · Soldadura y Metalistería"
+    },
+    {
+      "nombre": "Compresor de Aire 1.6 HP 15Gal",
+      "precio": 60000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-compresor-de-aire-1-6-hp-15gal/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/p2-1.jpg",
+      "detalle": "Aire y Presión · Compresores"
+    },
+    {
+      "nombre": "Morrocoy de Oxicorte",
+      "precio": 180000,
+      "unidad": "día",
+      "url": "https://rentyherramientas.com/product/alquiler-morrocoy-de-oxicorte/",
+      "imagen": "https://rentyherramientas.com/wp-content/uploads/Morrocoyo-Victor-portatil-VCM-200E.png",
+      "detalle": "Equipos de Corte · Herramientas de Apoyo en Soldadura · Herramientas Eléctricas · Metalistería · Soldadoras · Soldadura y Metalistería"
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "empresa": "CentralQuipos",
+  "fecha": "2026-09-28T04:19:29.362Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 5,
+    "total": 5,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Planta Eléctrica 750 KVA",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Plataforma Elevadora Mástil 11m- Brazo Articulado",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Escalera Extensible 40 Pies (12 Mts)",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Planta Eléctrica 75 KVA",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Sierra Manual",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Planta Eléctrica 750 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-750-kva-copia/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Compresor Neumático 425 CFM",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-de-compresor-neumatico-425-cfm/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2026/02/Compresor-Neumatico-265-cfm.jpg",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Compresor Neumático 265 CFM",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-de-compresor-neumatico-265-cfm/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2026/02/Compresor-Neumatico-265-cfm.jpg",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Planta Eléctrica 70 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-70-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/02/planta-3.jpg",
+      "detalle": "Planta Eléctrica 50 a 95 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 132 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-132-kva-2/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/02/planta-3.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 120 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-120-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 550 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-550-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 500 a 1000 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 375 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-375-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/02/planta-5.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 212 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-212-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 250 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/planta-electrica-250-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/02/planta-3.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 180 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-180-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 156 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-156-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/02/planta-3.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 145 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-145-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 90 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-90-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 50 a 95 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 68 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-68-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/02/planta-3.jpg",
+      "detalle": "Planta Eléctrica 50 a 95 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 33 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-33-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/energia-planta-1.png",
+      "detalle": "Planta Eléctrica 8 a 35 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Plataforma Elevadora Mástil 11m- Brazo Articulado",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-plataforma-elevadora-mastil-11mt/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2024/10/Plataforma-vertical-mastil-11mts.jpg",
+      "detalle": "Manlift- Brazo Articulado · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Compresor Neumático con Martillo 60L",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/compresor-neumatico-martillo-60l/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/martillo-compresor.png",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Planta Eléctrica 625 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-625-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 500 a 1000 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Plataforma Elevadora de Tijera Eléctrica 12m",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-plataforma-elevadora-de-tijera-electrica-12m/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/Plataformas-de-Tijeras-Electricas.jpg",
+      "detalle": "Elevadores de Tijera · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Vibrador Eléctrico",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-vibrador-electrico-de-concreto-de-aguja/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/vibrador-electrico.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Motobomba a Gasolina 4 Pulgadas",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-motobomba-a-gasolina-4-pulgadas/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/motobomba-gasolina.jpg",
+      "detalle": "Bombas y Motobombas"
+    },
+    {
+      "nombre": "Planta Eléctrica 35 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-planta-electrica-35-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 8 a 35 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Mezcladora De Concreto 2 sacos Eléctrica o Gasolina",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-mezcladora-de-concreto-2-sacos-electrica/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/concretadora-electrica.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Mezcladora De Concreto 1,5 sacos Gasolina",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-mezcladora-de-concreto-15-sacos-gasolina/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/concretadora-electrica.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Rodillo Compactador XMR35E",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-rodillo-compactador-xmr35e/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/bicilindro-tripulado-.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Rodillo Compactador XMR30E",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-rodillo-compactador-xmr30e/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/bicilindro-tripulado-.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Rodillo Compactador XMR303",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-rodillo-compactador-xmr303/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/bicilindro-tripulado-.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Rodillo Compactador RD11A",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-rodillo-compactador-rd11a/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/bicilindro-tripulado-.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Rodillo Compactador RL 700",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-rodillo-compactador-rl-700/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/bicilindro-operario-a-pie-.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Compresor para pintar 150 Lbs.",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-compresor-para-pintar-150-lbs/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/compressor.jpg",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Hidrolavadora Eléctrica 220v",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-hidrolavadora-electrica-220v/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/hidrolavadora-electrica-220.jpg",
+      "detalle": "Industrial"
+    },
+    {
+      "nombre": "Escalera Extensible 40 Pies (12 Mts)",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-de-escalera-extensible-40-pies-de-6-a-1210-mts/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/escaleras-dialetricas-web-640.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Escalera Extensible 32 Pies (9,5 metros)",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-de-escalera-extensible-32-pies-de-5-10-a-9-57-mts/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/escaleras-dialetricas-web-640.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Escalera Extensible 28 pies (8,5 Metros)",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-de-escalera-extensible-28-pies-de-430-a-850-mt/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/escaleras-dialetricas-web-640.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Escalera Extensible 20 pies- 6 Metros",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-de-escalera-extensible-21-pies/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/escaleras-dialetricas-web-640.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Escalera De Tijera 10 Pies o 3 Mts",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/escalera-de-tijera-10-pies-en-fibra-de-vidrio/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2022/01/Escalera-vibra-de-vidrio-1.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Escalera De Tijera 13 Pies o 4 Mts",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/escalera-de-tijera-13-pies-en-fibra-de-vidrio/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2022/01/Escalera-vibra-de-vidrio-1-1.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Escalera De Tijera en Aluminio 8 pies - 2,40 Metros",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/escalera-de-tijera-en-aluminio-8-pies-240-mt/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/escalera-tijera.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Escalera De Tijera En Aluminio 10 pies - 3 Mst",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/escalera-de-tijera-en-aluminio-10-pies-3-mt/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/escalera-tijera.jpg",
+      "detalle": "Escaleras · Herramienta Menor · Plataformas Elevadoras"
+    },
+    {
+      "nombre": "Plataforma Elevadora Tipo Tijera Eléctrica de 10 metros",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/plataforma-elevadora-tipo-tijera-electrica-de-10-metros/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/tijeras.jpg",
+      "detalle": "Elevadores de Tijera"
+    },
+    {
+      "nombre": "Escalera De Tijera En Aluminio 12 pies - 3 Metros",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/escalera-de-tijera-12-pies-aluminio/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/escalera-tijera.jpg",
+      "detalle": "Escaleras · Herramienta Menor"
+    },
+    {
+      "nombre": "Motobomba a Gasolina 3 pulgadas",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/motobomba-a-gasolina-3/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/motobomba-gasolina.jpg",
+      "detalle": "Bombas y Motobombas"
+    },
+    {
+      "nombre": "Motobomba a Gasolina 2 pulgadas",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/motobomba-a-gasolina-2/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/motobomba-gasolina.jpg",
+      "detalle": "Bombas y Motobombas"
+    },
+    {
+      "nombre": "Soldador MIG 250 Amp",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/soldador-power-mig-255/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/SOLDADOR-POWER-MIG-.jpeg",
+      "detalle": "Soldadores"
+    },
+    {
+      "nombre": "Soldador 600 DC.",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/soldador-electrico-monofasico-ac-dc-250-amp/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/WhatsApp-Image-2025-02-25-at-3.34.42-PM.webp",
+      "detalle": "Soldadores"
+    },
+    {
+      "nombre": "Torre de Iluminación",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/torre-de-iluminacion/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/fdaa039172f09e85ff116b208cde43b4.png",
+      "detalle": "Iluminación"
+    },
+    {
+      "nombre": "Planta Eléctrica 165 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/planta-electrica-165-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 120 a 375 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 75 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/planta-electrica-75-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2023/11/generador-625-kva.jpg",
+      "detalle": "Planta Eléctrica 50 a 95 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 50 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/planta-electrica-50-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/02/planta-3.jpg",
+      "detalle": "Planta Eléctrica 50 a 95 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 20 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/planta-electrica-20-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/energia-planta-1.png",
+      "detalle": "Planta Eléctrica 8 a 35 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 10 KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/planta-electrica-10-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/Planta-e-10KVA-web-.jpg",
+      "detalle": "Planta Eléctrica 8 a 35 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Planta Eléctrica 8KVA",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/planta-electrica-8-kva/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/Planta-e-8KVA.jpg",
+      "detalle": "Planta Eléctrica 8 a 35 KVA · Plantas eléctricas y Generadores"
+    },
+    {
+      "nombre": "Pluma Grúa Cable de 60 a 100 Mts.",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/pluma-grua-cable-de-60-100-mts/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/pluma-grua-web-.jpg",
+      "detalle": "Movimiento de Carga"
+    },
+    {
+      "nombre": "Andamio Multidireccional",
+      "precio": null,
+      "unidad": "",
+      "url": "https://centralquipos.com/producto/andamio-multidireccional/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/Andamio-multidireccional-web-.jpg",
+      "detalle": "Andamios y Encofrados"
+    },
+    {
+      "nombre": "Andamio Colgante",
+      "precio": null,
+      "unidad": "",
+      "url": "https://centralquipos.com/producto/andamio-colgante/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/unnamed-1-1.jpg",
+      "detalle": "Andamios y Encofrados"
+    },
+    {
+      "nombre": "Andamio Colgante Eléctrico",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/andamio-colgante-electrico/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/599a9774ec3f2c74df5d114793aa4ebd.webp",
+      "detalle": "Andamios y Encofrados"
+    },
+    {
+      "nombre": "Andamio de Tijera",
+      "precio": null,
+      "unidad": "",
+      "url": "https://centralquipos.com/producto/andamio-de-tijera/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/andamio-tijera.jpg",
+      "detalle": "Andamios y Encofrados"
+    },
+    {
+      "nombre": "Andamio de Carga",
+      "precio": null,
+      "unidad": "",
+      "url": "https://centralquipos.com/producto/andamio-de-carga/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/b120151022051930-1.jpeg",
+      "detalle": "Andamios y Encofrados"
+    },
+    {
+      "nombre": "Taladro Rotopercutor DW32",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/taladro-rotopercutor-dw32/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/taladro-rotopercutor.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Taladro Rotopercutor DW252",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/alquiler-taladro-rotopercutor-hasta-2/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/taladro-rotopercutor.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Hidrolavadora Eléctrica 110v",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/hidrolavadora-electrica/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/hidrolavadora-electrica-220.jpg",
+      "detalle": "Industrial"
+    },
+    {
+      "nombre": "Pulidora Manual de 9»",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/pulidora-9/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/pulidora-9.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Pulidora Manual de 4 1/2»",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/pulidora-4-1-2/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/Pulidora-4.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Sierra Manual",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/sierra-circular/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/Sierra-circular-web-.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Motosierra Espada 24\"",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/motosierra/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/motosierra.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Cortadora De Ladrillo",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/cortadora-de-ladrillo/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/cortadora-adobe.jpg",
+      "detalle": "Herramientas de Corte"
+    },
+    {
+      "nombre": "Cortadora de concreto",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/cortadora-de-pavimento/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/CORTADORA-DE-PISO.png",
+      "detalle": "Herramientas de Corte"
+    },
+    {
+      "nombre": "Taladro Manual de 1/2\"",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/taladro-manual/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/Taladro-manual-perles-web-.jpg",
+      "detalle": "Demolición"
+    },
+    {
+      "nombre": "Allanadora de Concreto",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/allanadora-de-concreto/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/allanadora.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Vibrador De Concreto a Gasolina",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/vibrador-de-concreto-a-gasolina/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/vibrador-gasolina.jpg",
+      "detalle": "Vaciado de Concreto"
+    },
+    {
+      "nombre": "Compactador Canguro",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/apisonador-canguro/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/apisonador-canguro.jpg",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Rana Compactadora",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/rana-compactadora/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/placa-vibratoria-rana-1.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Rodillo Compactador RZ900G",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/bicilindro-rz900/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/bicilindro-tripulado-.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Vibrocompactador Monocilindro",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/rodillo-vibratorio-sencillo/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/monocilindro.png",
+      "detalle": "Compactación · Compresores y Compactadores"
+    },
+    {
+      "nombre": "Martillo Demoledor Mixto",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/martillo-demoledor-mixto/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/martillo-muro.png",
+      "detalle": "Demolición"
+    },
+    {
+      "nombre": "Demoledor de Concreto",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/martillo-demoledor-de-piso/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/martillo-demoledor-de-piso.png",
+      "detalle": "Demolición"
+    },
+    {
+      "nombre": "Martillo Demoledor de Muro a 110 Volts",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/martillo-demoledor-de-muro/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/demoledor-muro-BOSCH-1.jpg",
+      "detalle": "Demolición"
+    },
+    {
+      "nombre": "Martillo Para Compresor Neumático 90L",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/martillo-para-compresor/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/martillo-compresor.png",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Minicargador",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/minicargador/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2021/11/minicargador-web-1-.jpg",
+      "detalle": "Maquinaria para movimiento de tierras · Minicargador"
+    },
+    {
+      "nombre": "Compresor Neumático",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/compresor-neumatico/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/03/compresor-pag-1.jpg",
+      "detalle": "Compresores"
+    },
+    {
+      "nombre": "Miniretroexcavadora",
+      "precio": null,
+      "unidad": "día",
+      "url": "https://centralquipos.com/producto/miniretroexcavadora/",
+      "imagen": "https://centralquipos.com/wp-content/uploads/2025/03/miniretro-pag-1.jpg",
+      "detalle": "Miniretroexcavadora"
+    }
+  ]
+}

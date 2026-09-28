@@ -1,0 +1,96 @@
+// Relaciona cada actividad del analisis de precios unitarios (APU) con la etapa de obra y las
+// subetapas de pages/Cliente/Plantilla Modelo/ETAPAS OBRA, siguiendo el orden del proceso
+// constructivo. Lo usa tools/generar_apu.js.
+
+const normalizar = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase();
+
+// Capitulo del APU -> etapa. Las funciones permiten repartir un capitulo segun el nombre de la actividad.
+const ETAPA_POR_CAPITULO = {
+  '1.01': '01_PRELIMINARES',
+  '1.02': (n) => (/EXCAVACI|RELLENO|RETIRO|ENTIBADO|BOMBEO/.test(n) ? '02_EXCAVACIONES'
+    : /CAJA.*INSPECCI|TUBER|DESAG|SIFON|POZO|CARCAMO|ALCANTARILL/.test(n) ? '06_INSTALACIONES' : '03_CIMENTACION'),
+  '1.03': '04_ESTRUCTURA', '1.04': '05_MAMPOSTERIA', '1.05': '08_ACABADOS',
+  '1.06': '06_INSTALACIONES', '1.07': '06_INSTALACIONES', '1.08': '06_INSTALACIONES',
+  '1.09': '08_ACABADOS', '1.10': '08_ACABADOS', '1.11': '08_ACABADOS', '1.12': '07_CUBIERTA',
+  '1.13': '08_ACABADOS', '1.14': '08_ACABADOS', '1.15': '08_ACABADOS', '1.16': '08_ACABADOS',
+  '1.17': '08_ACABADOS', '1.18': '09_EXTERIORES', '1.19': '09_EXTERIORES', '1.20': '08_ACABADOS',
+  '1.21': '06_INSTALACIONES', '1.22': '06_INSTALACIONES', '1.23': '09_EXTERIORES',
+  '2.01': (n) => (/EXCAVACI|ENTIBADO|BOMBEO/.test(n) ? '02_EXCAVACIONES' : /REPLANTEO|LOCALIZACI/.test(n) ? '01_PRELIMINARES' : '06_INSTALACIONES'),
+  '2.02': '06_INSTALACIONES', '2.03': '06_INSTALACIONES', '2.04': '06_INSTALACIONES', '2.05': '06_INSTALACIONES',
+  '2.06': '06_INSTALACIONES', '2.07': '03_CIMENTACION', '2.08': '06_INSTALACIONES', '2.09': '09_EXTERIORES',
+  '3.01': '01_PRELIMINARES', '3.02': '02_EXCAVACIONES', '3.03': '09_EXTERIORES', '3.04': '09_EXTERIORES',
+  '3.05': '09_EXTERIORES', '3.06': '09_EXTERIORES', '3.07': '09_EXTERIORES', '3.08': '09_EXTERIORES',
+  '3.09': '09_EXTERIORES', '3.10': '04_ESTRUCTURA', '3.11': '09_EXTERIORES', '3.12': '01_PRELIMINARES',
+  '3.13': '04_ESTRUCTURA', '4.01': '06_INSTALACIONES',
+};
+// Sueldos y analisis basicos (morteros, concretos, hierro) no son una etapa: se aplican a todas.
+const TRANSVERSAL = 'TRANSVERSAL';
+
+// Palabras clave por subetapa (carpeta de la plantilla) para ubicar la actividad dentro de su etapa.
+const SUBETAPAS = {
+  '01_PRELIMINARES': {
+    '01_Limpieza': /LIMPIEZA|DESMONTE|DEMOLICI|CORTE (DE )?ARB|CORTE RAIZ|ROTURA|REGATA|RETIRO|ABERTURA/, '02_Descapote': /DESCAPOTE/,
+    '03_Nivelacion': /NIVELACI|CONFIGURACI|CONFORMACI|EXPLANACI/, '04_Recebado_y_Compactacion': /RECEBO|COMPACTACI|SUBRASANTE|AFIRMADO/,
+    '05_Replanteo': /REPLANTEO|LOCALIZACI|TOPOGRAF/, '06_Cerramiento_Provisional': /CERRAMIENTO|AISLAMIENTO/,
+    '07_Campamento': /CAMPAMENTO|BODEGA|CASETA|VALLA/, '08_Instalaciones_Provisionales': /PROVISIONAL|ACARREO|TRANSPORTE|CARGUE/,
+  },
+  '02_EXCAVACIONES': {
+    '01_Excavacion_Zapatas': /EXCAVACI/, '02_Excavacion_Vigas_Cimentacion': /EXCAVACI.*(VIGA|ZANJA|CANAL)|ZANJA/,
+    '03_Retiro_Material': /RETIRO|BOTADERO|ESCOMBR|RELLENO|ACARREO|TRANSPORTE|PEDRAPLEN|TERRAPLEN|BOMBEO/,
+  },
+  '03_CIMENTACION': {
+    '01_Zapatas': /ZAPATA|DADO|CICLOPEO|SOLADO|CONCRETO POBRE|PILOTE|PEDESTAL|ACERO|MALLA/, '02_Vigas_Cimentacion': /VIGA|MURO DE CONTENCI|GAVION|SOBRECIMIENTO/,
+    '03_Placa_Contrapiso': /PLACA|LOSA|CONTRAPISO|PISO/,
+  },
+  '04_ESTRUCTURA': {
+    '01_Flejes_Columnas_Primer_Piso': /COLUMNA|ACERO|FLEJE|HIERRO|MALLA|REFUERZO/, '02_Flejes_Entrepiso_1_2': /ENTREPISO|PLACA|LOSA|VIGA/,
+    '03_Flejes_Columnas_Entrepiso_2': /COLUMNA|ACERO|FLEJE/, '04_Flejes_Entrepiso_2_3': /ENTREPISO|PLACA|LOSA|VIGA/,
+    '05_Flejes_Columnas_Piso_3': /COLUMNA|ACERO|FLEJE/, '06_Flejes_Vigas_Cubierta': /VIGA.*(CUBIERTA|CANAL)|CANAL/,
+    '07_Flejes_Cubierta': /CUBIERTA|CANAL|ESCALERA/,
+  },
+  '05_MAMPOSTERIA': {
+    '01_Muros_Exteriores': /MURO|MAMPOSTER|BLOQUE|LADRILLO|FACHADA|SOBRECIMIENTO|SOBRERCIMIENTO|SUPERBOARD/, '02_Muros_Interiores': /MURO|MAMPOSTER|BLOQUE|LADRILLO|DIVISI/,
+    '03_Dinteles_y_Antepechos': /DINTEL|ANTEPECHO|ALFAGIA|COLUMNETA|VIGUETA/,
+  },
+  '06_INSTALACIONES': {
+    '01_Hidraulicas': /HIDRAUL|PRESI|CPVC|ACUEDUCTO|AGUA|VALVULA|REGISTRO|H\.?G\.?|POLIETILENO|TANQUE|MEDIDOR|PVC|TUBERI|CODO|TEE|UNION|ADAPTADOR|ACCESORIO|REDUCCI|GALVANIZ|PUNTO|HIDRANTE|CANAL/,
+    '02_Sanitarias': /SANITARI|DESAG|BAJANTE|ALCANTARILL|CAJA.*INSPECCI|POZO|SIFON|SEPTICO|REVENTILACI/,
+    '03_Electricas': /ELECTRIC|SALIDA|TOMA|LAMPARA|LUMINARIA|CABLE (AWG|THW|#)|CONDUIT|TABLERO|ACOMETIDA|BREAKER|INTERRUPTOR|EMT/,
+    '04_Especiales': /GAS|TELEF|VOZ|DATOS|UTP|CABLEADO|BANDEJA|CITOFON|TV/,
+  },
+  '07_CUBIERTA': {
+    '01_Estructura': /CERCHA|CORREA|ESTRUCTURA|MADERA|PERFIL|ALFARDA/, '02_Impermeabilizacion': /IMPERMEAB|MANTO|ALISTADO|AFINADO|SELLO/,
+    '03_Acabado': /TEJA|CANAL|BAJANTE|CABALLETE|LAMINA|FLANCHE|CUBIERTA/,
+  },
+  '08_ACABADOS': {
+    '01_Panetes': /PANETE|FILOS|DILATACI|GOTERA|REPELLO/, '02_Pisos': /PISO|ALISTADO|BALDOSA|TABLETA|GRANITO|LISTON|ZOCALO|GUARDAESCOBA|MADERA LAMINADA/,
+    '03_Enchapes': /ENCHAPE|CERAMIC|PORCELANATO|AZULEJO/, '04_Pintura': /PINTURA|VINILO|ESMALTE|CARBURO|LACA|EPOXIC|KORAZA|TINTILLA|MARMOPLAST|BARNIZ/,
+    '05_Carpinteria_y_Herreria': /CARPINTER|PUERTA|VENTANA|MARCO|BARANDA|REJA|CORREA|DIVISION|CERRADURA|ESPEJO|VIDRIO/,
+    '06_Estuco': /ESTUCO|CIELO|DRYWALL|YESO|MOLDURA|ENTRAMADO|ESPACATO/, '07_Aparatos_Hidrosanitarios': /SANITARIO|LAVAMANOS|DUCHA|GRIFER|ORINAL|LAVAPLATOS|COMBO|INCRUSTACI/,
+    '08_Mueble_Cocina': /COCINA|MESON/, '09_Armarios': /CLOSET|ARMARIO|VESTIER/,
+  },
+  '09_EXTERIORES': {
+    '01_Fachadas': /FACHADA|CORTASOL|REVESTIM|LADRILLO A LA VISTA/, '02_Andenes': /ANDEN|SARDINEL|ADOQUIN|BOLARDO|RAMPA|BORDILLO/,
+    '03_Zonas_Exteriores': /JARDIN|CANCHA|EXTERIOR|PAVIMENT|SETO|ARBOL|GRAMA|CUNETA|GAVION|ASFALT|SENAL|DEMARCACI|PRADIZ|PRADO|MANTENIMIENTO|REFORESTACI|FILTRO|TABLERO|BALONCESTO/,
+    '04_Cerramiento_Definitivo': /CERRAMIENTO|REJA|MALLA|PORTON|MURO|AISLAMIENTO/,
+  },
+  '10_ENTREGA': { '01_Limpieza_Final': /ASEO|LIMPIEZA/, '02_Revision': /PRUEBA|ENSAYO|REVISI/, '03_Registro_Final': /PLANOS RECORD|REGISTRO FINAL/ },
+};
+
+function etapaDe(actividad) {
+  const n = normalizar(actividad.nombre);
+  if (/ASEO GENERAL|LIMPIEZA FINAL|ENTREGA/.test(n)) return '10_ENTREGA';
+  if (/^[56]\./.test(actividad.capitulo)) return TRANSVERSAL;
+  const regla = ETAPA_POR_CAPITULO[actividad.capitulo];
+  if (!regla) return TRANSVERSAL;
+  return typeof regla === 'function' ? regla(n) : regla;
+}
+
+function subetapasDe(etapa, actividad) {
+  const reglas = SUBETAPAS[etapa];
+  if (!reglas) return [];
+  const n = normalizar(actividad.nombre);
+  return Object.keys(reglas).filter((sub) => reglas[sub].test(n));
+}
+
+module.exports = { etapaDe, subetapasDe, TRANSVERSAL, normalizar };

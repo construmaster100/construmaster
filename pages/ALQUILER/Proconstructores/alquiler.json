@@ -1,0 +1,128 @@
+{
+  "empresa": "Proconstructores",
+  "fecha": "2026-09-28T04:19:28.672Z",
+  "aprobado": true,
+  "auditoria": {
+    "buenos": 3,
+    "total": 3,
+    "precision": 1,
+    "filas": [
+      {
+        "nombre": "Rana compactadora",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Trompo mezclador",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      },
+      {
+        "nombre": "Rana Compactadora con Depósito de Agua",
+        "precio": null,
+        "nombreOk": true,
+        "precioOk": true
+      }
+    ]
+  },
+  "equipos": [
+    {
+      "nombre": "Rana compactadora",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Placa vibratoria",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Canguro vibroapisonador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Rotomartillo demoledor",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Trompo mezclador",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Mezcladora de concreto",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "El canguro para construcción",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Placa Compactadora",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Rana Compactadora con Depósito de Agua",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Rotomartillos",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Ranas para construcción",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    },
+    {
+      "nombre": "Trompos para construcción",
+      "precio": null,
+      "unidad": "",
+      "url": "https://proconstructores.com.co/alquiler-de-maquinaria.html",
+      "imagen": "",
+      "detalle": "Precio por cotización"
+    }
+  ]
+}

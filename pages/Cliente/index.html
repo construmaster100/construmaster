@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ConstruMaster: materiales, presupuesto, diseño y seguimiento de proyectos de construcción.">
+  <title>ConstruMaster | Cliente</title>
+  <link rel="stylesheet" href="../../index.css?v=230936">
+</head>
+<body data-pagina="cliente">
+  <header class="site-header">
+    <!-- Ficha del cliente (en lugar del logo): nombre del proyecto, propietario e imagen del usuario -->
+    <a class="ficha-cliente" id="ficha-cliente" href="#proyecto" title="Proyecto"></a>
+    <div class="site-banner" role="img" aria-label="ConstruMaster: construcción, remodelación y mejoras en un solo lugar">
+      <div class="banner-carrusel" aria-hidden="true">
+        <img class="banner-carrusel-slide activo" src="../../img/corporativo/sec1.png" alt="">
+        <img class="banner-carrusel-slide" src="../../img/corporativo/sec2.png" alt="">
+        <img class="banner-carrusel-slide" src="../../img/corporativo/sec3.png" alt="">
+        <img class="banner-carrusel-slide" src="../../img/corporativo/sec4.png" alt="">
+        <img class="banner-carrusel-slide" src="../../img/corporativo/sec5.png" alt="">
+        <img class="banner-carrusel-slide" src="../../img/corporativo/sec10.png" alt="">
+      </div>
+    </div>
+  </header>
+
+  <nav class="topnav" aria-label="Navegación principal">
+    <button class="boton-menu" id="boton-menu" type="button" aria-label="Abrir menú">☰</button>
+    <div class="topnav-links" id="navbar">
+      <a href="#proyecto" data-ir="proyecto">Proyecto</a>
+      <span class="menu-desplegable"><a href="#planos" data-ir="planos">Planos<button type="button" class="flecha-menu" aria-label="Ver planos disponibles">▾</button></a><span class="menu-planos"></span></span>
+      <a href="#programacion" data-ir="programacion">Programación de obra</a>
+      <a href="#presupuesto" data-ir="presupuesto">Presupuesto de obra</a>
+      <a href="#control" data-ir="control">Control de obra</a>
+      <!-- Salir: vuelve a la pagina publica (usuario.html); sin servidor no hay sesion que cerrar -->
+      <a href="../../usuario.html" class="nav-salir">Salir</a>
+    </div>
+  </nav>
+
+  <!-- Pendon: imagen vertical en la columna izquierda (donde el index tiene el sidebar). Archivo: img/banner izq.png -->
+  <aside class="pendon-cliente" aria-hidden="true"><img id="pendon-img" src="../../img/banner izq.png" alt=""></aside>
+
+  <!-- Pendon derecho: img/banner der.png -->
+  <aside class="pendon-cliente pendon-derecho" aria-hidden="true"><img id="pendon-derecho-img" src="../../img/banner der.png" alt=""></aside>
+
+  <main id="main">
+    <section class="vista vista-contenido" data-vista="proyecto">
+      <div class="contenedor contenedor-arriba"><div id="proyecto-contenido"></div></div>
+    </section>
+    <section class="vista vista-contenido" data-vista="planos">
+      <div class="contenedor"><p class="eyebrow">PLANOS DEL PROYECTO</p><h2 class="titulo-vista">Planos</h2><div id="planos-contenido"></div></div>
+    </section>
+    <section class="vista vista-contenido" data-vista="programacion">
+      <div class="contenedor"><p class="eyebrow">ETAPAS Y FECHAS</p><h2 class="titulo-vista">Programación de obra</h2><div id="programacion-contenido"></div></div>
+    </section>
+    <section class="vista vista-contenido" data-vista="presupuesto">
+      <div class="contenedor"><p class="eyebrow">COSTOS DEL PROYECTO</p><h2 class="titulo-vista">Presupuesto de obra</h2><div id="presupuesto-contenido"></div></div>
+    </section>
+    <section class="vista vista-contenido" data-vista="control">
+      <div class="contenedor"><p class="eyebrow">ACTAS · INFORMES · BITÁCORAS</p><h2 class="titulo-vista">Control de obra</h2><div id="control-contenido"></div></div>
+    </section>
+  </main>
+
+  <footer class="pie"><div class="marca-pie"><strong>CONSTRU</strong><em>MASTER</em></div><p>Construcción que avanza contigo.</p><span>© 2026 ConstruMaster</span></footer>
+
+  <script src="../../assets/datos/contenido.js"></script>
+  <script src="planos.js?v=5"></script>
+  <script src="cliente.js?v=213334"></script>
+  <script src="../../assets/motor/banner_carrusel.js?v=145238"></script>
+</body>
+</html>

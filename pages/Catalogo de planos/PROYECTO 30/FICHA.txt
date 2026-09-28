@@ -1,0 +1,11 @@
+PROYECTO 30: CASA 50M2
+Empresa: Woodpecker
+Área: 50 m²
+Precio Casa kit (placa): $50.800.495 (m²: $1.016.010)
+Precio Casa kit (palafitos): $75.238.760 (m²: $1.504.775)
+Ficha en el sitio: https://woodpecker.com.co/casas-kit/casa-50m2/
+
+FACHADA: FACHADA.jpg  <- https://woodpecker.com.co/wp-content/uploads/WhatsApp-Image-2021-04-23-at-5.01.30-PM-1-1024x760.jpeg
+PLANO: PLANO.png  <- https://woodpecker.com.co/wp-content/uploads/casa50-1.png
+INTERIOR: la empresa no publica una imagen interior identificable de este modelo
+PRESUPUESTO.xlsm: copia del modelo V1 Construmaster.xlsm (mismo formato, macros y 13 capítulos) con la ficha INICIO de esta casa: nombre, ID, ubicación, sistema constructivo, área construida, valor m² y valor total (= área x valor m²). Los capítulos conservan el contenido del modelo como referencia.

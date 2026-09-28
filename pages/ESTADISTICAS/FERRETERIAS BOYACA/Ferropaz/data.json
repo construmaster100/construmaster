@@ -1,0 +1,114 @@
+{
+ "meta": {
+  "etapa": "completo",
+  "Tienda": "Ferropaz",
+  "Grupo": "Ferreterias Boyaca",
+  "Sitio": "https://ferropaz.com/",
+  "Adaptador": "prestashop",
+  "Productos estimados en el sitio": 8,
+  "Piloto (10 %)": 1,
+  "Piloto con precio": 1,
+  "Piloto con foto": 1,
+  "Auditados (5 %)": 1,
+  "Correctos": 1,
+  "Precision": "100.0 %",
+  "Margen (z=1,96)": "± 0.0 %",
+  "Resultado": "APROBADO",
+  "Semilla": 20260927,
+  "Fecha": "26/9/2026, 11:43:27 p. m.",
+  "Productos capturados": 8,
+  "Con precio": 8,
+  "Con foto": 8,
+  "Minutos": 0
+ },
+ "productos": [
+  {
+   "nombre": "Tubo cuadrado 3/4 x 3/4\" x Cal.18 x 6m",
+   "precio": 23000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/1/1-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=1&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Tubo cuadrado 1 x 1\" x 1.1mm Cal.18 x 6m Colmena",
+   "precio": 33000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/4/4-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=2&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Tubo cuadrado 1 1/2 x 1 1/2\" x 1.1mm Cal.18 x 6m Colmena",
+   "precio": 51000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/6/6-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=3&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Tubo rectangular 40 x 20 x 1.1mm Cal.18 x 6m Colmena",
+   "precio": 39000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/8/8-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=4&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Tubo rectangular 50 x 25 x 1.1mm Cal.18 x 6m",
+   "precio": 51000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/9/9-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=5&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Tubo rectangular 4x8 cms Cal.18 x 6m",
+   "precio": 68000,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/1/0/10-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=6&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Tubo rectangular 100 x 40 x 1.1mm Cal.18 x 6m Colmena",
+   "precio": 90300,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/1/1/11-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=7&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  },
+  {
+   "nombre": "Marco Puerta Proyectante c18 1.10mm x 6 metros",
+   "precio": 40500,
+   "categoria": "",
+   "subcategoria": "",
+   "marca": "",
+   "imagen": "https://ferropaz.com/img/p/1/2/12-large_default.jpg",
+   "url": "https://ferropaz.com/index.php?id_product=8&controller=product",
+   "sku": "",
+   "disponibilidad": ""
+  }
+ ]
+}

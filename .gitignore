@@ -1,2 +1,6 @@
 node_modules/
 .claude/
+
+# Modelos 3D pesados de San Esteban (se quedan solo en el equipo)
+pages/Cliente/San Esteban/img/slide secuencial/Modelado/Archivo estruct.dae
+pages/Cliente/San Esteban/img/slide secuencial/Modelado/modelo.ls12

@@ -59,7 +59,28 @@ window.PLANOS_CLIENTE = {
   {
    "carpeta": "ESTRUCTURALES",
    "titulo": "Planos estructurales",
-   "archivos": []
+   "archivos": [
+    {
+     "nombre": "E1-4",
+     "ruta": "pages/Cliente/San Esteban/PLANOS/ESTRUCTURALES/E1-4.pdf",
+     "kb": 7151
+    },
+    {
+     "nombre": "E2-4",
+     "ruta": "pages/Cliente/San Esteban/PLANOS/ESTRUCTURALES/E2-4.pdf",
+     "kb": 821
+    },
+    {
+     "nombre": "E3-4",
+     "ruta": "pages/Cliente/San Esteban/PLANOS/ESTRUCTURALES/E3-4.pdf",
+     "kb": 888
+    },
+    {
+     "nombre": "E4-4",
+     "ruta": "pages/Cliente/San Esteban/PLANOS/ESTRUCTURALES/E4-4.pdf",
+     "kb": 819
+    }
+   ]
   },
   {
    "carpeta": "ELECTRICOS",

@@ -112,6 +112,74 @@
     ir(0);
   }
 
+  // ---- Imagenes dinamicas con etiquetas: puntos sobre una imagen; al tocar uno se muestra su ficha (codigo, cantidad,
+  // datos de la tabla y la imagen del recuadro). Cada obra puede tener varias imagenes (una seccion por cada una).
+  // Datos: <OBRA>/img/Flejes y varillas/etiquetas.js y <OBRA>/Etapas Obra/etiquetas/etiquetas.js
+  function renderEtiquetas() {
+    var cont = $('etiquetas-contenido');
+    var juegos = [].concat((window.ETIQUETAS_OBRA || {})[carpeta] || []).filter(function (d) { return d.etiquetas && d.etiquetas.length; });
+    if (!cont || !juegos.length) return;
+    cont.innerHTML = juegos.map(function () { return '<div></div>'; }).join('');
+    juegos.forEach(function (d, k) { seccionEtiquetas(cont.children[k], d); });
+  }
+  function seccionEtiquetas(cont, d) {
+    var base = RAIZ + d.carpeta, lista = d.etiquetas;
+    var fmt = function (n) { return n.toLocaleString('es-CO'); };
+    // Grupos: los que trae el juego o, si no trae, uno por unidad (flejes, varillas) con su total
+    var grupos = d.grupos || lista.reduce(function (g, t) { if (!g.some(function (x) { return x.id === t.unidad; })) g.push({ id: t.unidad, nombre: t.unidad.replace(/^./, function (c) { return c.toUpperCase(); }), total: true }); return g; }, []);
+    var idGrupo = function (t) { return t.grupo || t.unidad; };
+    var color = function (t) { var n = 0; grupos.forEach(function (g, j) { if (g.id === idGrupo(t)) n = j; }); return 'color-' + (n % 4); };
+    var valor = function (t) { return t.cantidad != null ? fmt(t.cantidad) + (d.grupos ? ' ' + E(t.unidad) : '') : (t.datos && t.datos[0] ? E(t.datos[0][1]) : ''); };
+    var grupo = function (g) {
+      var items = lista.filter(function (t) { return idGrupo(t) === g.id; });
+      var total = items.reduce(function (s, t) { return s + (t.cantidad || 0); }, 0);
+      return '<div class="etiquetas-grupo"><h4>' + E(g.nombre) + (g.total ? ' <span>' + fmt(total) + '</span>' : '') + '</h4><div class="etiquetas-lista">' +
+        lista.map(function (t, i) { return idGrupo(t) !== g.id ? '' : '<button type="button" data-et="' + i + '"><b>' + E(t.codigo) + '</b>' + E(t.nombre) + '<em>' + valor(t) + '</em></button>'; }).join('') + '</div></div>';
+    };
+    cont.innerHTML = '<section class="etiquetas-obra"><h3>' + E(d.titulo) + '</h3>' +
+      '<div class="etiquetas-cuerpo"><div class="etiquetas-imagen"><img src="' + E(base + d.imagen) + '" alt="' + E(d.titulo + ' · ' + obra.nombre) + '">' +
+      lista.map(function (t, i) { return '<button type="button" class="etiqueta-punto ' + color(t) + '" data-et="' + i + '" style="left:' + t.x + '%;top:' + t.y + '%" aria-label="' + E(t.codigo + ' ' + t.nombre) + '">' + E(t.codigo) + '</button>'; }).join('') +
+      '</div><div class="etiquetas-ficha" data-rol="ficha"></div></div>' +
+      grupos.map(grupo).join('') + '</section>';
+    var ficha = cont.querySelector('[data-rol="ficha"]');
+    var actual = 0;
+    function elegir(i) {
+      var t = lista[i];
+      cont.querySelectorAll('[data-et]').forEach(function (b) { b.classList.toggle('activa', Number(b.getAttribute('data-et')) === i); });
+      var filas = (t.cantidad != null ? [['Cantidad', fmt(t.cantidad) + ' ' + t.unidad]] : []).concat(t.etiqueta ? [['Etiqueta constructiva', t.etiqueta]] : [], t.datos || []);
+      ficha.innerHTML = '<span class="etiquetas-codigo ' + color(t) + '">' + E(t.codigo) + '</span>' +
+        '<strong>' + E(t.nombre) + '</strong>' +
+        '<dl>' + filas.map(function (f) { return '<dt>' + E(f[0]) + '</dt><dd>' + E(f[1]) + '</dd>'; }).join('') + '</dl>' +
+        (t.tabla ? '<img src="' + E(base + t.tabla) + '" alt="Tabla ' + E(t.codigo) + '">' : '') +
+        '<p class="etiquetas-nav"><button type="button" data-mover="-1" aria-label="Anterior">‹</button><span>' + (i + 1) + ' / ' + lista.length + '</span><button type="button" data-mover="1" aria-label="Siguiente">›</button></p>';
+      actual = i;
+    }
+    cont.addEventListener('click', function (e) {
+      var m = e.target.closest('[data-mover]'); if (m) return elegir((actual + Number(m.getAttribute('data-mover')) + lista.length) % lista.length);
+      var b = e.target.closest('[data-et]'); if (b) elegir(Number(b.getAttribute('data-et')));
+    });
+    cont.querySelectorAll('.etiqueta-punto').forEach(function (b) { b.addEventListener('mouseenter', function () { elegir(Number(b.getAttribute('data-et'))); }); });
+    elegir(0);
+  }
+
+  // ---- Avance por etapas: fichas que interpretan imagenes de Etapas Obra (imagen completa, descripcion y cantidades).
+  // Datos: <OBRA>/Etapas Obra/fichas.js
+  function renderFichas() {
+    var cont = $('fichas-contenido');
+    var d = (window.FICHAS_OBRA || {})[carpeta];
+    if (!cont || !d || !d.fichas.length) return;
+    var fmt = function (n) { return n.toLocaleString('es-CO'); };
+    cont.innerHTML = '<section class="fichas-obra"><h3>' + E(d.titulo) + '</h3>' + d.fichas.map(function (f) {
+      var src = RAIZ + d.carpeta + f.imagen;
+      return '<article class="ficha-etapa"><a class="ficha-etapa-imagen" href="' + E(src) + '" target="_blank" rel="noopener" title="Ver imagen completa"><img src="' + E(src) + '" alt="' + E(f.titulo) + '" loading="lazy"></a>' +
+        '<div class="ficha-etapa-texto"><span class="ficha-etapa-grupo">' + E(f.etapa) + '</span><h4>' + E(f.titulo) + '</h4><p>' + E(f.descripcion) + '</p>' +
+        (f.cantidades && f.cantidades.length ? '<table class="ficha-etapa-tabla"><thead><tr><th>Código</th><th>Elemento</th><th>Cantidad</th></tr></thead><tbody>' +
+          f.cantidades.map(function (c) { return '<tr><td><b>' + E(c.codigo) + '</b></td><td>' + E(c.nombre) + '</td><td>' + fmt(c.cantidad) + ' ' + E(c.unidad) + '</td></tr>'; }).join('') + '</tbody></table>' : '') +
+        (f.totales && f.totales.length ? '<p class="ficha-etapa-totales">' + f.totales.map(function (t) { return '<span>' + E(t.nombre) + ' <b>' + fmt(t.cantidad) + ' ' + E(t.unidad) + '</b></span>'; }).join('') + '</p>' : '') +
+        (f.nota ? '<p class="ficha-etapa-nota">' + E(f.nota) + '</p>' : '') + '</div></article>';
+    }).join('') + '</section>';
+  }
+
   // ---- Planos: listado por categoria; "Ver" abre el lector de PDF embebido, "Descargar" baja el archivo
   function renderPlanos() {
     var cont = $('planos-contenido');
@@ -190,7 +258,7 @@
   }
 
   // ---- Rutas por hash: #proyecto (inicial), #planos y #programacion
-  var RENDER = { proyecto: renderProyecto, planos: renderPlanos, programacion: renderProgramacion, presupuesto: renderPresupuesto, control: renderControl };
+  var RENDER = { proyecto: function () { renderProyecto(); renderEtiquetas(); renderFichas(); }, planos: renderPlanos, programacion: renderProgramacion, presupuesto: renderPresupuesto, control: renderControl };
   var hechos = {};
   function mostrar() {
     var partes = location.hash.replace('#', '').split('/');

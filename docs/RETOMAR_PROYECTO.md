@@ -410,5 +410,75 @@ Todo está en `index.js` (sin servidor; lo diligenciado se guarda en el navegado
 - **Pendientes del usuario:**
   - número de Nequi;
   - fechas de la programación de San Esteban;
-  - archivos de presupuesto y control, y planos estructurales para la página del cliente;
+  - archivos de presupuesto y control para la página del cliente (los planos estructurales ya están, ver 16.1);
   - servidor para "Crear proyecto" y para subir archivos.
+
+## 16. Página del cliente de San Esteban: etiquetas, materiales y fichas (28–29/09/2026)
+Todo está en `pages/Cliente/index.html` + `cliente.js` (vista **Proyecto**, `#proyecto`). Orden de la vista: carrusel de fotos → imágenes con etiquetas → Materiales de la obra → Avance por etapas. Cada sección se arma con un archivo de datos de la obra; si la obra no lo tiene, la sección no aparece.
+
+### 16.1 Qué se hizo
+- **Planos estructurales** (`San Esteban/PLANOS/ESTRUCTURALES/E1-4 … E4-4.pdf`): no aparecían porque `planos.js` era anterior a los PDF. Se regeneró con `node tools/generar_planos_cliente.js`. E1-4 pesa 7 MB y tarda en abrir en el lector.
+- **Imágenes con etiquetas** (`renderEtiquetas` → `seccionEtiquetas`): puntos con código sobre una imagen; al tocar uno se abre su ficha (cantidad, etiqueta constructiva, datos de la tabla e imagen del recuadro original). Una obra puede tener varias; cada archivo de datos agrega la suya a `window.ETIQUETAS_OBRA['<OBRA>']` (lista).
+  - **Flejes y varillas** — `San Esteban/img/Flejes y varillas/etiquetas.js`. Base: `estructura.jpg`, recorte de `img/slide secuencial/Modelado/qflejes_4 - Photo.jpg` (el render de `imagen completa.png` tiene las flechas pintadas). Tablas: `FC1.png … VV3.png`, `fc.png` (flejes de cubierta, código propio **FCUB**), `VCUB.png`, `VCIM.png`. Totales: **2.516 flejes**, **244 varillas**.
+  - **Cantidades de obra** — `San Esteban/Etapas Obra/etiquetas/etiquetas.js`. Base: `09_EXTERIORES/01_Fachadas/Fachada isometrica.png`. Recuadros: `M Muros.png` (40 muros, 156,25 m² de superficie, 81,48 m al eje), `P Puertas.png` (7, 44,73 m²), `V Ventanas.png` (6, 33,71 m²), `CUB Cubierta.png` (29,29 m²).
+  - Cada punto se ubica con `x`/`y` en % del ancho y alto de la imagen base: para corregir un punto se cambian esos dos números.
+  - Colores por grupo: `color-0` verde, `color-1` dorado, `color-2` azul, `color-3` terracota (`index.css`, bloque "Cliente · imagen dinámica con etiquetas").
+- **Carpeta `Etapas Obra/etiquetas`**: aquí van los recuadros blancos con cantidades de obra. Como no empieza con número, `generar_contenido.js` no la mete en el carrusel.
+- **Materiales de la obra** (`renderMateriales`, `abrirSelectorMaterial`) — `San Esteban/materiales.js`. Suma lo listado en las etiquetas y en la ficha de entrepisos:
+
+  | Grupo | Material | Cantidad | Equivalencias (búsqueda en el inventario) |
+  |---|---|---|---|
+  | Acero de refuerzo | Flejes (estribos) | 2.516 und | fleje, estribo |
+  | Acero de refuerzo | Varillas | 244 und | varilla corrugada, varilla |
+  | Entrepisos | Bloquelón | 320 und | bloquelon |
+  | Entrepisos | Perfil para bloquelón | 34 und | perfil bloquelon, perfil c, perfil |
+  | Mampostería | Ladrillo | 156,25 m² × 13 = 2.032 | ladrillo, bloque |
+  | Puertas y ventanas | Puertas | 7 und | puerta interior, puerta seguridad, puerta madera, puerta |
+  | Puertas y ventanas | Ventanas | 6 und | ventana aluminio, ventana, vidrio |
+  | Cubierta | Teja | 29,29 m² × 0,7 = 21 | teja fibrocemento, teja |
+
+  - Funciona como el selector de Presupuesto en index (`abrirSelectorProducto`): equivalencias en botones, buscador, resumen para comparar (cantidad de productos, precio mínimo, máximo y promedio) y lista de menor a mayor precio con proveedor y marca. El precio del producto elegido pasa a ser el valor unitario; sin producto, el valor se escribe a mano.
+  - La búsqueda (`buscarInventario`) es la misma lógica que `buscarEnCatalogo` de index.js: todas las palabras del término (si no hay resultados, la primera); primero los que empiezan por la palabra, luego los que tienen precio, de menor a mayor. Excluye la familia "Herramientas y maquinaria".
+  - `factor` = unidades del producto por unidad de obra, editable en la página. **Supuestos por confirmar:** ladrillo 13/m² (bloque No. 5) y teja 0,7/m² (teja No. 6). Si se elige otro producto hay que ajustarlo (p. ej. ladrillo macizo = 50/m²).
+  - El inventario (`assets/datos/inventario.js`, ~30 MB) se carga solo al abrir el selector.
+  - La elección se guarda en el navegador: `localStorage` `construmaster_materiales_<OBRA>`.
+  - Prueba del 29/09/2026 (coincidencias en el inventario): flejes 22, varillas 10, bloquelón 26, perfil 17, ladrillo 133, puertas 951 con "puerta" (traía muebles; por eso "puerta interior" va primero: 23), ventanas 22, tejas 13.
+- **Avance por etapas** (`renderFichas`) — `San Esteban/Etapas Obra/fichas.js`: una ficha por imagen interpretada (imagen completa sin recorte, descripción y cantidades).
+  - Entrepisos en bloquelón (`04_ESTRUCTURA/Bloquelon/Entrepisos.png`): 2 entrepisos × (160 bloquelones + 17 perfiles).
+  - Muros exteriores (`05_MAMPOSTERIA/01_Muros_Exteriores/Muros.png`): con las cantidades de `M Muros.png`.
+
+### 16.2 Clasificación de imágenes en `San Esteban/Etapas Obra` (29/09/2026)
+| Archivo original | Contenido | Quedó en |
+|---|---|---|
+| Captura 162101 | Isométrico posterior con muros y escalera | `05_MAMPOSTERIA/01_Muros_Exteriores/Isometrico posterior.png` |
+| Capturas 162227 y 162321 | Isométricos en corte (muros interiores, escalera) | `05_MAMPOSTERIA/02_Muros_Interiores/Isometrico interior escalera 1 y 2.png` |
+| `DESPIECE/1er, 2do, 3er pisoaxon.png` | Axonometría de cada piso | `05_MAMPOSTERIA/02_Muros_Interiores/Piso 1, 2, 3 axonometria.png` |
+| `corte long.png` | Corte longitudinal | `05_MAMPOSTERIA/Corte longitudinal.png` |
+| Captura 162414 | Puertas y ventanas vistas por dentro | `08_ACABADOS/05_Carpinteria_y_Herreria/Puertas y ventanas interior.png` |
+| Captura 162606 | Fachada frontal | `09_EXTERIORES/01_Fachadas/Fachada frontal.png` |
+| Captura 162808 | Fachada en 3D con cubierta | `09_EXTERIORES/01_Fachadas/Fachada isometrica.png` |
+| Capturas 163210, 163331, 163454, 163659 | Recuadros de cantidades | `etiquetas/M Muros.png`, `P Puertas.png`, `V Ventanas.png`, `CUB Cubierta.png` |
+| Captura 14:35 de Bloquelón | Despiece de bloquelón | renombrada por el usuario a `04_ESTRUCTURA/Bloquelon/Entrepisos.png` |
+
+Tras mover o agregar imágenes: `node tools/generar_contenido.js` (el carrusel quedó con 57 fotos).
+
+### 16.3 Versiones de archivos en `pages/Cliente/index.html`
+Los `<script>` y el CSS llevan `?v=…` para que el navegador no use copias viejas. **Al cambiar un archivo de datos o `cliente.js`, subir su versión** (o recargar con Ctrl + F5). Scripts de la obra que carga la página: `San Esteban/img/Flejes y varillas/etiquetas.js`, `San Esteban/Etapas Obra/etiquetas/etiquetas.js`, `San Esteban/Etapas Obra/fichas.js`, `San Esteban/materiales.js`. Para otra obra hay que agregar sus propios `<script>` (hoy la página solo carga los de San Esteban).
+
+### 16.4 Git en este equipo (29/09/2026)
+- Git 2.55 instalado con `winget install Git.Git` en `%LOCALAPPDATA%\Programs\Git`. Si una terminal dice que no reconoce `git`: cerrar y abrir VS Code, o correr `$env:Path += ";$env:LOCALAPPDATA\Programs\Git\cmd"`.
+- El disco F: viene de otro equipo: se agregó `git config --global --add safe.directory 'F:/Modelo de Presupuesto/Presupuesto de obra'`.
+- Los comandos se corren desde la carpeta principal (`F:\Modelo de Presupuesto\Presupuesto de obra`), no desde `pages\Cliente`.
+- Subir cambios de la página del cliente: `git add pages/Cliente index.css assets/datos/contenido.js assets/contenido/proyectos/san-esteban` → `git commit -m "…"` → `git push`. Sin `index.css`, `contenido.js` y las miniaturas, la versión en GitHub queda sin estilos y sin las fotos nuevas.
+- Envíos a `main`: `16527083` (etiquetas, fichas, planos estructurales e imágenes clasificadas) y `ff129896` (materiales de la obra).
+
+### 16.5 Pendientes y dudas para el usuario
+- Confirmar el tipo de ladrillo y de teja (factores 13/m² y 0,7/m²).
+- "Area of the Wall 10,19" del recuadro de muros: se mostró como "Área del muro 10,19 m²"; confirmar qué es.
+- Cubierta 29,29 m²: parece poco para la planta; revisar en el modelo.
+- Ventanas: el inventario las vende por unidad en tamaños pequeños (60 × 40 cm); las 6 ventanas suman 33,71 m², así que el precio real puede ser mayor.
+- Etiqueta "Fleje Entrepiso 3" repetida en Flejes de cubierta y en FE3 (probable error de la tabla original).
+- Confirmar la interpretación de las fichas: entrepisos sobre el 1.er y 2.º piso; vano de acceso del primer piso.
+- Carpeta vacía `Etapas Obra/DESPIECE`: borrarla a mano.
+- `San Esteban/img/Captura de pantalla 2026-09-29 161201.png` es igual a `04_ESTRUCTURA/completa.png` y sale repetida en la galería.
+- `San Esteban/docs/edicion de tablas e imagenes.pptx` se subió a GitHub; decidir si se deja.

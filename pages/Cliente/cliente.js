@@ -162,6 +162,129 @@
     elegir(0);
   }
 
+  // ---- Materiales de la obra: total de lo listado en las etiquetas; cada material se relaciona con el inventario igual
+  // que en Presupuesto (index): al tocarlo se comparan los productos de sus equivalencias (precio y proveedor) y se elige
+  // uno; su precio pasa a ser el valor unitario. Sin servidor: la eleccion se guarda en este navegador.
+  // Datos: <OBRA>/materiales.js · inventario: assets/datos/inventario.js (se carga solo al abrir el selector, ~30 MB)
+  var MAT_CLAVE = 'construmaster_materiales_' + carpeta;
+  var moneda = function (n) { return '$ ' + Math.round(n || 0).toLocaleString('es-CO'); };
+  var numero = function (n) { return (Math.round((n || 0) * 100) / 100).toLocaleString('es-CO'); };
+  var normalizar = function (s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase(); };
+  function matLeer() { try { return JSON.parse(localStorage.getItem(MAT_CLAVE)) || {}; } catch (e) { return {}; } }
+  function matGuardar(e) { try { localStorage.setItem(MAT_CLAVE, JSON.stringify(e)); } catch (err) { /* sin almacenamiento */ } }
+
+  var INV = null, cargaInv = null;
+  function cargarInventario() {
+    if (INV) return Promise.resolve(INV);
+    if (cargaInv) return cargaInv;
+    cargaInv = new Promise(function (resolver, rechazar) {
+      var s = document.createElement('script'); s.src = RAIZ + 'assets/datos/inventario.js';
+      s.onload = function () {
+        var D = window.INVENTARIO; var fam = D.familias.indexOf('Herramientas y maquinaria');
+        INV = { D: D, productos: D.productos.filter(function (p) { return p[4] !== fam; }).map(function (p) { return { nombre: p[0], precio: p[1], prov: D.proveedores[p[5]] || '', marca: p[9] >= 0 ? D.marcas[p[9]] : '', n: normalizar(p[0]) }; }) };
+        resolver(INV);
+      };
+      s.onerror = function () { cargaInv = null; rechazar(new Error('No se pudo cargar assets/datos/inventario.js')); };
+      document.head.appendChild(s);
+    });
+    return cargaInv;
+  }
+  // Busqueda en el inventario (misma logica que Presupuesto): todas las palabras del termino; si no hay, la primera.
+  // Orden: los que empiezan por la palabra, luego los que tienen precio, de menor a mayor precio
+  var VACIAS = { DE: 1, DEL: 1, LA: 1, EL: 1, LOS: 1, LAS: 1, Y: 1, X: 1, EN: 1, PARA: 1, CON: 1, POR: 1 };
+  function buscarInventario(texto) {
+    var pal = normalizar(texto).split(/[^A-Z0-9]+/).filter(function (w) { return w.length >= 3 && !VACIAS[w]; });
+    if (!pal.length || !INV) return [];
+    var probar = function (ws) { return INV.productos.filter(function (p) { return ws.every(function (w) { return p.n.indexOf(w) !== -1; }); }); };
+    var r = probar(pal); if (!r.length && pal.length > 1) r = probar(pal.slice(0, 1));
+    var ini = function (p) { return p.n.indexOf(pal[0]) === 0 ? 0 : 1; };
+    return r.sort(function (a, b) { return ini(a) - ini(b) || (a.precio ? 0 : 1) - (b.precio ? 0 : 1) || (a.precio || 0) - (b.precio || 0); });
+  }
+
+  function renderMateriales() {
+    var cont = $('materiales-contenido');
+    var d = (window.MATERIALES_OBRA || {})[carpeta];
+    if (!cont || !d || !d.materiales.length) return;
+    var est = matLeer();
+    var linea = function (m) {
+      var s = est[m.id] || {}; var factor = s.factor != null ? s.factor : (m.factor || 1);
+      var compra = m.factor ? Math.ceil(m.cantidad * factor) : m.cantidad; var vu = s.producto ? s.producto.precio : (Number(s.valorU) || 0);
+      return { m: m, s: s, factor: factor, compra: compra, vu: vu, valor: compra * vu };
+    };
+    var lineas = d.materiales.map(linea);
+    var total = lineas.reduce(function (t, l) { return t + l.valor; }, 0);
+    var elegidos = lineas.filter(function (l) { return l.s.producto; }).length;
+    var grupos = []; lineas.forEach(function (l) { if (grupos.indexOf(l.m.grupo) === -1) grupos.push(l.m.grupo); });
+    cont.innerHTML = '<section class="materiales-obra"><div class="materiales-cabecera"><h3>' + E(d.titulo) + '</h3><span class="materiales-total">Total: <b>' + moneda(total) + '</b><small>' + elegidos + ' de ' + lineas.length + ' con producto elegido</small></span></div>' +
+      '<div class="tabla-desplazable"><table class="materiales-tabla"><thead><tr><th>Material</th><th class="num">Cantidad de obra</th><th class="num">Cantidad a comprar</th><th>Producto del catálogo</th><th class="num">Valor unitario</th><th class="num">Valor</th></tr></thead>' +
+      grupos.map(function (g) {
+        var ls = lineas.filter(function (l) { return l.m.grupo === g; });
+        return '<tbody><tr class="materiales-grupo"><th colspan="5">' + E(g) + '</th><th class="num">' + moneda(ls.reduce(function (t, l) { return t + l.valor; }, 0)) + '</th></tr>' + ls.map(function (l) {
+          var m = l.m;
+          return '<tr data-mat="' + E(m.id) + '"><td><strong>' + E(m.nombre) + '</strong>' + (m.detalle ? '<small>' + E(m.detalle) + '</small>' : '') + '</td>' +
+            '<td class="num">' + numero(m.cantidad) + ' ' + E(m.unidad) + '</td>' +
+            '<td class="num">' + (m.factor ? '<label class="materiales-factor"><input type="number" min="0" step="any" value="' + l.factor + '" data-rol="factor" aria-label="' + E(m.unidadCompra) + ' por ' + E(m.unidad) + '"> ' + E(m.unidadCompra) + '/' + E(m.unidad) + '</label><b>' + numero(l.compra) + ' ' + E(m.unidadCompra) + '</b>' + (m.nota ? '<small>' + E(m.nota) + '</small>' : '') : '<b>' + numero(l.compra) + ' ' + E(m.unidad) + '</b>') + '</td>' +
+            '<td><button type="button" class="materiales-producto' + (l.s.producto ? ' elegido' : '') + '" data-rol="elegir">' + (l.s.producto ? E(l.s.producto.nombre) + '<small>' + E(l.s.producto.prov) + '</small>' : 'Comparar y elegir en el catálogo') + '</button></td>' +
+            '<td class="num">' + (l.s.producto ? moneda(l.vu) : '<input type="number" min="0" step="any" value="' + (l.vu || '') + '" placeholder="0" data-rol="valorU" aria-label="Valor unitario de ' + E(m.nombre) + '">') + '</td>' +
+            '<td class="num"><b>' + moneda(l.valor) + '</b></td></tr>';
+        }).join('') + '</tbody>';
+      }).join('') +
+      '<tfoot><tr><th colspan="5">Total de materiales</th><th class="num">' + moneda(total) + '</th></tr></tfoot></table></div>' +
+      '<p class="materiales-pie"><button type="button" class="boton claro" data-rol="reiniciar">Quitar los productos elegidos</button><span>Los productos y precios elegidos se guardan en este navegador.</span></p></section>';
+    cont.querySelectorAll('input[data-rol]').forEach(function (inp) {
+      inp.addEventListener('change', function () {
+        var id = inp.closest('tr').getAttribute('data-mat'); var e = matLeer(); var s = e[id] = e[id] || {};
+        s[inp.getAttribute('data-rol')] = inp.value === '' ? null : Number(inp.value); matGuardar(e); renderMateriales();
+      });
+    });
+    cont.querySelectorAll('[data-rol="elegir"]').forEach(function (b) {
+      b.addEventListener('click', function () { var id = b.closest('tr').getAttribute('data-mat'); abrirSelectorMaterial(d.materiales.filter(function (m) { return m.id === id; })[0]); });
+    });
+    cont.querySelector('[data-rol="reiniciar"]').addEventListener('click', function () {
+      if (!confirm('¿Quitar los productos y valores elegidos para todos los materiales?')) return;
+      matGuardar({}); renderMateriales();
+    });
+  }
+
+  // Selector: terminos equivalentes del material, busqueda libre, resumen de precios (para comparar) y lista para elegir
+  function abrirSelectorMaterial(m) {
+    var capa = document.createElement('div'); capa.className = 'materiales-selector-fondo';
+    capa.innerHTML = '<div class="materiales-selector" role="dialog" aria-modal="true"><header><strong>Elegir producto para: ' + E(m.nombre) + '</strong><button type="button" data-rol="cerrar" aria-label="Cerrar">×</button></header>' +
+      '<p class="materiales-equivalencias">Equivalencias en el inventario: ' + m.equivalencias.map(function (t, i) { return '<button type="button" data-termino="' + E(t) + '"' + (i ? '' : ' class="activo"') + '>' + E(t) + '</button>'; }).join('') + '</p>' +
+      '<input type="search" data-rol="q" value="' + E(m.equivalencias[0]) + '" aria-label="Buscar en el catálogo">' +
+      '<p class="materiales-comparar" data-rol="resumen"></p>' +
+      '<div class="materiales-lista" data-rol="lista"><p class="texto-suave">Cargando inventario de los archivos Excel…</p></div>' +
+      '<footer><button type="button" class="boton claro" data-rol="quitar">Quitar producto (escribir el valor a mano)</button></footer></div>';
+    document.body.appendChild(capa);
+    var q = capa.querySelector('[data-rol="q"]'), lista = capa.querySelector('[data-rol="lista"]'), resumen = capa.querySelector('[data-rol="resumen"]');
+    var resultados = [];
+    var cerrar = function () { capa.remove(); document.removeEventListener('keydown', tecla); };
+    var tecla = function (e) { if (e.key === 'Escape') cerrar(); };
+    document.addEventListener('keydown', tecla);
+    var pintar = function () {
+      var todos = buscarInventario(q.value); var precios = todos.filter(function (p) { return p.precio; }).map(function (p) { return p.precio; });
+      resumen.innerHTML = todos.length ? '<b>' + todos.length.toLocaleString('es-CO') + '</b> productos' + (precios.length ? ' · desde <b>' + moneda(Math.min.apply(null, precios)) + '</b> hasta <b>' + moneda(Math.max.apply(null, precios)) + '</b> · promedio <b>' + moneda(precios.reduce(function (a, b) { return a + b; }, 0) / precios.length) + '</b>' : '') : '';
+      resultados = todos.slice(0, 80);
+      lista.innerHTML = resultados.length ? resultados.map(function (p, i) {
+        return '<button type="button" data-i="' + i + '"><span>' + E(p.nombre) + '<small>' + E(p.prov) + (p.marca ? ' · ' + E(p.marca) : '') + '</small></span><b>' + (p.precio ? moneda(p.precio) : 'Sin precio') + '</b></button>';
+      }).join('') : '<p class="vacio">Sin productos con esas palabras. Prueba otra equivalencia o búsqueda.</p>';
+    };
+    cargarInventario().then(pintar).catch(function (err) { lista.innerHTML = '<p class="vacio">' + E(err.message) + '</p>'; });
+    var t = null; q.addEventListener('input', function () { clearTimeout(t); t = setTimeout(function () { if (INV) pintar(); }, 200); });
+    capa.addEventListener('click', function (e) {
+      if (e.target === capa || e.target.closest('[data-rol="cerrar"]')) return cerrar();
+      var term = e.target.closest('[data-termino]');
+      if (term) { q.value = term.getAttribute('data-termino'); capa.querySelectorAll('[data-termino]').forEach(function (x) { x.classList.toggle('activo', x === term); }); if (INV) pintar(); return; }
+      var est = matLeer(); var s = est[m.id] = est[m.id] || {};
+      if (e.target.closest('[data-rol="quitar"]')) { delete s.producto; matGuardar(est); cerrar(); renderMateriales(); return; }
+      var b = e.target.closest('[data-i]'); if (!b) return;
+      var p = resultados[Number(b.getAttribute('data-i'))];
+      s.producto = { nombre: p.nombre, prov: p.prov, precio: p.precio || 0 };
+      matGuardar(est); cerrar(); renderMateriales();
+    });
+    q.focus();
+  }
+
   // ---- Avance por etapas: fichas que interpretan imagenes de Etapas Obra (imagen completa, descripcion y cantidades).
   // Datos: <OBRA>/Etapas Obra/fichas.js
   function renderFichas() {
@@ -258,7 +381,7 @@
   }
 
   // ---- Rutas por hash: #proyecto (inicial), #planos y #programacion
-  var RENDER = { proyecto: function () { renderProyecto(); renderEtiquetas(); renderFichas(); }, planos: renderPlanos, programacion: renderProgramacion, presupuesto: renderPresupuesto, control: renderControl };
+  var RENDER = { proyecto: function () { renderProyecto(); renderEtiquetas(); renderMateriales(); renderFichas(); }, planos: renderPlanos, programacion: renderProgramacion, presupuesto: renderPresupuesto, control: renderControl };
   var hechos = {};
   function mostrar() {
     var partes = location.hash.replace('#', '').split('/');
